@@ -16,7 +16,7 @@ a { color:var(--accent); }
 .kaart a { display:block; background:var(--card); border:1px solid var(--line); border-radius:14px; overflow:hidden; text-decoration:none; color:var(--fg); height:100%; }
 .kaart img, .placeholder { width:100%; aspect-ratio:4/3; object-fit:cover; display:block; }
 .placeholder { display:grid; place-items:center; font-size:3rem; background:var(--line); }
-.kaart-titel { display:block; padding:10px 12px; font-weight:600; }
+.kaart-titel { display:block; padding:10px 12px; font-weight:600; overflow-wrap:break-word; hyphens:auto; }
 .recept { max-width:700px; margin:0 auto; }
 .recept .hero { width:100%; border-radius:14px; max-height:420px; object-fit:cover; }
 .meta { display:flex; flex-wrap:wrap; gap:8px; color:var(--muted); }

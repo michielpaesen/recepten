@@ -1,0 +1,15 @@
+title: Mijn recepten
+description: Recepten verzameld van Pinterest en Instagram
+baseurl: /recepten
+lang: nl
+
+collections:
+  recepten:
+    output: true
+    permalink: /:collection/:name/
+
+defaults:
+  - scope:
+      type: recepten
+    values:
+      layout: recept

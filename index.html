@@ -1,0 +1,41 @@
+---
+layout: default
+---
+<input id="zoek" type="search" placeholder="Zoek een recept of ingrediënt…" autocomplete="off">
+<div id="tags" class="tags">
+  <button class="tag actief" data-tag="">Alles</button>
+  {% assign alletags = site.recepten | map: 'tags' | uniq | sort %}
+  {% for tag in alletags %}<button class="tag" data-tag="{{ tag }}">{{ tag }}</button>{% endfor %}
+</div>
+<ul class="kaarten">
+  {% assign recepten = site.recepten | sort: 'title' %}
+  {% for r in recepten %}
+  <li class="kaart" data-tags="{{ r.tags | join: '|' }}" data-tekst="{{ r.title | append: ' ' | append: r.content | strip_html | downcase | escape }}">
+    <a href="{{ r.url | relative_url }}">
+      {% if r.afbeelding %}<img src="{{ r.afbeelding }}" alt="" loading="lazy">{% else %}<div class="placeholder">🍽️</div>{% endif %}
+      <span class="kaart-titel">{{ r.title }}</span>
+    </a>
+  </li>
+  {% endfor %}
+</ul>
+<p id="leeg" hidden>Geen recepten gevonden.</p>
+<script>
+  const zoek = document.getElementById('zoek');
+  const knoppen = document.querySelectorAll('#tags .tag');
+  const kaarten = document.querySelectorAll('.kaart');
+  let tag = '';
+  function filter() {
+    const q = zoek.value.toLowerCase().trim();
+    let n = 0;
+    kaarten.forEach(k => {
+      const ok = (!tag || k.dataset.tags.split('|').includes(tag)) && (!q || k.dataset.tekst.includes(q));
+      k.hidden = !ok; if (ok) n++;
+    });
+    document.getElementById('leeg').hidden = n > 0;
+  }
+  zoek.addEventListener('input', filter);
+  knoppen.forEach(b => b.addEventListener('click', () => {
+    knoppen.forEach(x => x.classList.remove('actief'));
+    b.classList.add('actief'); tag = b.dataset.tag; filter();
+  }));
+</script>

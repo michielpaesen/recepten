@@ -1,14 +1,10 @@
 ---
 layout: default
 ---
-<nav id="borden" class="borden" aria-label="Borden">
-  <button class="bord actief" data-bord=""><span class="bord-naam">Alle recepten</span><span class="bord-aantal">{{ site.recepten | size }}</span></button>
-  {% for b in site.borden %}{% assign n = site.recepten | where: 'bord', b.slug | size %}<button class="bord" data-bord="{{ b.slug }}"><span class="bord-naam">{{ b.naam }}</span><span class="bord-aantal">{{ n }}</span></button>
-  {% endfor %}
-</nav>
 <input id="zoek" type="search" placeholder="Zoek een recept of ingrediënt…" autocomplete="off">
 <div id="tags" class="tags">
-  <button class="tag actief" data-tag="">Alles</button>
+  <button class="tag bord actief" data-tag="">Alles</button>
+  {% for b in site.borden %}<button class="tag bord" data-bord="{{ b.slug }}">{{ b.naam }}</button>{% endfor %}
   {% assign alletags = site.recepten | map: 'tags' | uniq | sort %}
   {% for tag in alletags %}<button class="tag" data-tag="{{ tag }}">{{ tag }}</button>{% endfor %}
 </div>
@@ -28,7 +24,6 @@ layout: default
   const zoek = document.getElementById('zoek');
   const knoppen = document.querySelectorAll('#tags .tag');
   const kaarten = document.querySelectorAll('.kaart');
-  const bordknoppen = document.querySelectorAll('#borden .bord');
   let tag = '', bord = '';
   function filter() {
     const q = zoek.value.toLowerCase().trim();
@@ -40,18 +35,14 @@ layout: default
     document.getElementById('leeg').hidden = n > 0;
   }
   zoek.addEventListener('input', filter);
-  knoppen.forEach(b => b.addEventListener('click', () => {
-    knoppen.forEach(x => x.classList.remove('actief'));
-    b.classList.add('actief'); tag = b.dataset.tag; filter();
-  }));
-  function kiesBord(slug) {
-    bord = slug;
-    bordknoppen.forEach(x => x.classList.toggle('actief', x.dataset.bord === slug));
-    filter();
+  function kies(b) {
+    knoppen.forEach(x => x.classList.toggle('actief', x === b));
+    bord = b.dataset.bord || ''; tag = b.dataset.tag || ''; filter();
   }
-  bordknoppen.forEach(b => b.addEventListener('click', () => {
-    kiesBord(b.dataset.bord);
-    history.replaceState(null, '', b.dataset.bord ? '#' + b.dataset.bord : location.pathname);
+  knoppen.forEach(b => b.addEventListener('click', () => {
+    kies(b);
+    history.replaceState(null, '', bord ? '#' + bord : location.pathname);
   }));
-  kiesBord(location.hash.slice(1));
+  const start = document.querySelector('#tags .bord[data-bord="' + location.hash.slice(1) + '"]');
+  if (start) kies(start);
 </script>

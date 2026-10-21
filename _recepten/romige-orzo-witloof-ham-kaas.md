@@ -4,6 +4,7 @@ bron: https://www.hellofresh.be/recipes/romige-orzo-met-witlof-63c7d3aa6ab9cacaa
 afbeelding: https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/HF210719_R63_W35_NL_R3207-1_KB_Main_low-ccd3ef93.jpg
 porties: 2
 tijd: 35 min
+bord: orzogriekse-pasta
 tags: [orzo, ham, hellofresh]
 ---
 

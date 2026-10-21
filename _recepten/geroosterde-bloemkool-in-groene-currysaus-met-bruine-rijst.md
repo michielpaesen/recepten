@@ -4,6 +4,7 @@ bron: https://www.hellofresh.be/recipes/geroosterde-bloemkool-in-groene-currysau
 afbeelding: https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/HF220425_R07_W22_NL_R3527-4_MB_Main_low-dfe40c78.jpg
 porties: 2
 tijd: 35 min
+bord: rijst
 tags: [rijst, vegetarisch]
 ---
 

@@ -4,6 +4,7 @@ bron: https://kookmutsjes.com/recept/poke-bowl-met-kip/
 afbeelding: https://kookmutsjes.com/wp-content/uploads/2022/04/Poke-Bowl-met-Kip-–-Frisse-en-Gezonde-Bowl-Boordevol-Smaak.jpg
 porties: 2
 tijd: 50 min
+bord: poke-bowl
 tags: [poke bowl, kip]
 ---
 

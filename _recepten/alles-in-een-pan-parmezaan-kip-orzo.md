@@ -4,6 +4,7 @@ bron: https://metvijfaantafel.be/recept/alles-in-een-pan-parmezaan-kipfilet/
 afbeelding: https://metvijfaantafel.be/wp-content/uploads/2021/06/DSC_1742-scaled.jpg
 porties: 4
 tijd: 30 min
+bord: orzogriekse-pasta
 tags: [orzo, kip, eenpansgerecht]
 ---
 

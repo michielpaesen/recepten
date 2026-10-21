@@ -4,6 +4,7 @@ bron: https://15gram.be/recepten/witloof-gevuld-met-gehakt
 afbeelding: https://image.15gram.be/uploads/recipes/2737_witloof-gevuld-met-gehakt_1475056513-1920x1280.jpg
 porties: 4
 tijd: 55 min
+bord: ovenschotels
 tags: [ovenschotel, gehakt]
 ---
 

@@ -4,6 +4,7 @@ bron: https://dagelijksekost.vrt.be/gerechten/groentecouscous-met-gegrilde-mergu
 afbeelding: https://cdn.dagelijksekost.tv/recipes/tkSxP9oHnas703Ys2xPN/landscape/1727274463788_1500x1125
 porties: 4
 tijd: 50 min
+bord: couscous
 tags: [couscous, worst]
 ---
 

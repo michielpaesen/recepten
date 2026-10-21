@@ -4,6 +4,7 @@ bron: https://theveganeffect.nl/ratatouille-met-bulgur/
 afbeelding: https://theveganeffect.nl/wp-content/uploads/2019/06/vegan-ratatouille-scaled.jpg
 porties: 2
 tijd: 40 min
+bord: bulgur
 tags: [bulgur, vegetarisch]
 ---
 

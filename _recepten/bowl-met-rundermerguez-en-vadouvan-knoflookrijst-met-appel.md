@@ -4,6 +4,7 @@ bron: https://www.hellofresh.be/recipes/bowl-met-rundermerguez-en-vadouvan-knofl
 afbeelding: https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/HF221117_R25_W01_NL_R6112-1_MB_Main_low-f05d36a7.jpg
 porties: 2
 tijd: 25 min
+bord: rijst
 tags: [rijst, rund]
 ---
 

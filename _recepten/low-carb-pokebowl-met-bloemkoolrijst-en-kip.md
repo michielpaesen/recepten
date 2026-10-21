@@ -4,6 +4,7 @@ bron: https://dekeukenboef.wordpress.com/2018/04/16/low-carb-pokebowl/
 afbeelding: https://dekeukenboef.wordpress.com/wp-content/uploads/2024/01/44f45-pokebowl-met-kip-en-bloemkoolrijst0.jpg
 porties: 2
 tijd: 20 min
+bord: poke-bowl
 tags: [poke bowl, kip]
 ---
 

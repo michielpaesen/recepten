@@ -4,6 +4,7 @@ bron: https://grammyrecipes.com/baked-potato-chicken-and-broccoli-casserole/
 afbeelding: https://grammyrecipes.com/wp-content/uploads/2024/07/recipsp_88738_httpss.mj_.runCNkfggEJ00A_Baked_Potato_Chicken_a_1be07a0a-d8db-421c-b447-6a20ac4788ef_3.png
 porties: 6
 tijd: 45 min
+bord: ovenschotels
 tags: [ovenschotel, kip, gehakt, spek]
 ---
 

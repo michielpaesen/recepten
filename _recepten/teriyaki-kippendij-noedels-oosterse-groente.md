@@ -4,6 +4,7 @@ bron: https://www.hellofresh.nl/recipes/gewokte-noedels-met-kippendijreepjes-in-
 afbeelding: https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/wok-d-emince-de-poulet-teriyaki-et-nouilles-6a388243-b77bda54.jpg
 porties: 2
 tijd: 15 min
+bord: noodles
 tags: [noedels, kip, teriyaki, hellofresh]
 ---
 

@@ -4,6 +4,7 @@ bron: https://www.hellofresh.be/recipes/w42-veggie-15-min-no-protein-rice-670cba
 afbeelding: https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/HF_Y25_R30_W13_NL_Q34200-1_MAIN_4_low-22aee9a0.jpg
 porties: 2
 tijd: 15 min
+bord: poke-bowl
 tags: [poke bowl, vegetarisch]
 ---
 

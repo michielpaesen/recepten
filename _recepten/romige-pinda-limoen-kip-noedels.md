@@ -4,6 +4,7 @@ bron: https://www.delish.com/cooking/recipe-ideas/a46148878/creamy-peanut-lime-c
 afbeelding: https://hips.hearstapps.com/hmg-prod/images/creamy-peanut-lime-chicken-noodles-index-6596d2ab3d472.jpg
 porties: 4
 tijd: 45 min
+bord: noodles
 tags: [noedels, kip, pinda]
 ---
 

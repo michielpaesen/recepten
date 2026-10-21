@@ -4,6 +4,7 @@ bron: https://www.lekkerensimpel.com/ovenschotel-met-krieltjes-spekjes-en-prei/
 afbeelding: https://www.lekkerensimpel.com/wp-content/uploads/2025/04/588A1105-480x270.jpg
 porties: 3
 tijd: 45 min
+bord: ovenschotels
 tags: [ovenschotel, spek]
 ---
 

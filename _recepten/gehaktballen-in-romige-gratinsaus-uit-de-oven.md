@@ -4,6 +4,7 @@ bron: https://godaomas.com/2025/02/09/een-uniek-gehaktrecept/
 afbeelding: https://i.pinimg.com/564x/a8/d8/34/a8d834dafaba9243233dcc0e9ba25397.jpg
 porties: 4
 tijd: 45 min
+bord: ovenschotels
 tags: [ovenschotel, gehakt, rund]
 ---
 

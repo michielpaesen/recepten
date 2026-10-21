@@ -4,6 +4,7 @@ bron: https://natashaskitchen.com/chicken-fried-rice/
 afbeelding: https://natashaskitchen.com/wp-content/uploads/2019/09/Chicken-Fried-Rice-2-480x270.jpg
 porties: 6
 tijd: 30 min
+bord: rijst
 tags: [rijst, vegetarisch]
 ---
 

@@ -4,6 +4,7 @@ bron: https://www.inspiredtaste.net/12689/lemon-and-herb-couscous-salad-recipe/
 afbeelding: https://www.inspiredtaste.net/wp-content/uploads/2017/12/Easy-Couscous-Salad-Recipe-1-1200.jpg
 porties: 8
 tijd: 20 min
+bord: parelcouscous
 tags: [parelcouscous, gehakt]
 ---
 

@@ -4,6 +4,7 @@ bron: https://www.hellofresh.be/recipes/zoete-varkensfiletreepjes-met-parelcousc
 afbeelding: https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/5c766b6fc445fa6ff93ad952-3c79dc09.jpg
 porties: 2
 tijd: 40 min
+bord: parelcouscous
 tags: [parelcouscous, varken]
 ---
 

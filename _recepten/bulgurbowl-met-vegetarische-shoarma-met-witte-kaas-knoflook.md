@@ -4,6 +4,7 @@ bron: https://www.hellofresh.be/recipes/bulgurbowl-met-vegetarische-shoarma-67b4
 afbeelding: https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/HF_Y24_R26_W22_NL_Q22343-1_Main_low-3b956c8d.jpg
 porties: 2
 tijd: 25 min
+bord: bulgur
 tags: [bulgur, vegetarisch]
 ---
 

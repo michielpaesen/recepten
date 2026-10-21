@@ -3,6 +3,7 @@ title: "BBQ-dessert met Côte d'Or"
 bron: https://anneliesbeleeft.be/bbq-dessert-met-cote-dor/
 afbeelding: https://anneliesbeleeft.be/wp-content/uploads/2020/05/bbqdessertcotedor.jpg
 tijd: 10 min
+bord: baking-zoet
 tags: [bakken]
 ---
 

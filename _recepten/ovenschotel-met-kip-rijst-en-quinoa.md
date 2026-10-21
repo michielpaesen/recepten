@@ -4,6 +4,7 @@ bron: https://gezond.be/ovenschotel-met-kip-rijst-quinoa/
 afbeelding: https://gezond.be/wp-content/uploads/ovenschotel-met-kip-rijst-quinoa.jpg
 porties: 4
 tijd: 45 min
+bord: ovenschotels
 tags: [ovenschotel, kip]
 ---
 

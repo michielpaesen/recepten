@@ -4,6 +4,7 @@ bron: https://www.hellofresh.nl/recipes/moroccan-beef-stew-with-bulgur-65c0abb77
 afbeelding: https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/HF_Y24_R52_W32_NL_R22695-1_Main_1_low-c1870984.jpg
 porties: 2
 tijd: 45 min
+bord: couscous
 tags: [couscous, rund]
 ---
 

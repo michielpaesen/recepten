@@ -4,6 +4,7 @@ bron: https://leuklekkerenliefdevolkoken.nl/2016/06/12/aardappel-ovenschotel-met
 afbeelding: https://leuklekkerenliefdevolkoken.nl/wp-content/uploads/2016/05/psa1273.jpg
 porties: 3-4
 tijd: 45 min
+bord: ovenschotels
 tags: [ovenschotel, kip]
 ---
 

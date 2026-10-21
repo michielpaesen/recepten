@@ -4,6 +4,7 @@ bron: https://15gram.be/recepten/romige-ovenschotel-met-kip-en-veel-groentjes
 afbeelding: https://image.15gram.be/uploads/recipes/9987_romige-ovenschotel-met-kip-en-vl-groentjes_1619516464-1920x1280.jpg
 porties: 2
 tijd: 25 min
+bord: ovenschotels
 tags: [ovenschotel, kip]
 ---
 

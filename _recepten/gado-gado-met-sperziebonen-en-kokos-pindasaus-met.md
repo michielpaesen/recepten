@@ -4,6 +4,7 @@ bron: https://www.hellofresh.nl/recipes/gado-gado-met-sperziebonen-en-kokos-pind
 afbeelding: https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/gado-gado-aux-haricots-verts-et-sauce-au-lait-de-coco-et-cacahuetes-a4bf248b-5a099fce.jpg
 porties: 2
 tijd: 25 min
+bord: rijst
 tags: [rijst, vegetarisch]
 ---
 

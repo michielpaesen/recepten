@@ -4,6 +4,7 @@ bron: https://dagelijksekost.vrt.be/gerechten/couscous-met-geroosterde-paprika-e
 afbeelding: https://cdn.dagelijksekost.tv/recipes/8L7OmMc5y7P0b2B9n83E/landscape/1727274573136_1500x1125
 porties: 4
 tijd: 60 min
+bord: couscous
 tags: [couscous, gehakt]
 ---
 

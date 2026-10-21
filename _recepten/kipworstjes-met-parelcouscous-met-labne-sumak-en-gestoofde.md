@@ -4,6 +4,7 @@ bron: https://www.hellofresh.be/recipes/kipworstjes-met-parelcouscous-63c8420178
 afbeelding: https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/HF211208_R03_W03_NL_R4915-remove_peppers__KB_Main_low-c154b9f0.jpg
 porties: 2
 tijd: 25 min
+bord: parelcouscous
 tags: [parelcouscous, kip]
 ---
 

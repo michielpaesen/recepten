@@ -4,6 +4,7 @@ bron: https://www.hellofresh.nl/recipes/romige-spinaziegratin-met-spiegelei-5afe
 afbeelding: https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/5afeecf9ae08b507514660b2-44fa29b8.jpg
 porties: 2
 tijd: 40 min
+bord: ovenschotels
 tags: [ovenschotel, vegetarisch]
 ---
 

@@ -4,6 +4,7 @@ bron: https://myhomemaderecipe.com/recipes/teriyaki-chicken-avocado-stack
 afbeelding: https://myhomemaderecipe.com/assets/images/teriyaki-chicken-avocado-stack-middle-old.webp
 porties: 4
 tijd: 35 min
+bord: rijst
 tags: [rijst, vegetarisch]
 ---
 

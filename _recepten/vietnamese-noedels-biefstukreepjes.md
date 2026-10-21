@@ -4,6 +4,7 @@ bron: https://www.hellofresh.nl/recipes/vietnamese-style-noodle-salad-with-beef-
 afbeelding: https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/HF_Y24_R11_W28_NL_Q22687-1_Main_low-fd1d4a8a.jpg
 porties: 2
 tijd: 20 min
+bord: noodles
 tags: [noedels, rund, salade, hellofresh]
 ---
 

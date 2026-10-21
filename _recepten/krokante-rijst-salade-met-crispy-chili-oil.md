@@ -4,6 +4,7 @@ bron: https://www.leukerecepten.nl/recepten/krokante-rijst-salade/
 afbeelding: https://www.leukerecepten.nl/app/uploads/2025/06/crispy-rijst-salade-v.jpg
 porties: 2
 tijd: 40 min
+bord: rijst
 tags: [rijst, vegetarisch]
 ---
 

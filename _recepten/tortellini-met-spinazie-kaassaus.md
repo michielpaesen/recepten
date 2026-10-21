@@ -4,6 +4,7 @@ bron: https://atsowyenskitchen.wordpress.com/2018/11/11/tortellini-met-een-spina
 afbeelding: https://atsowyenskitchen.wordpress.com/wp-content/uploads/2018/11/img_7257.jpg
 porties: 3-4
 tijd: 20 min
+bord: tortellini
 tags: [tortellini, vegetarisch]
 ---
 

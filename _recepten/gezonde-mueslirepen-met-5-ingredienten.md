@@ -4,6 +4,7 @@ bron: https://minimalistbaker.com/healthy-5-ingredient-granola-bars/
 afbeelding: https://minimalistbaker.com/wp-content/uploads/2013/05/5-Ingredient-Granola-Bars-MinimalistBaker.com_-square.jpg
 porties: 10
 tijd: 15 min
+bord: baking-zoet
 tags: [bakken]
 ---
 

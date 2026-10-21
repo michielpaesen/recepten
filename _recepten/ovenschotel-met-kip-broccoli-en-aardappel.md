@@ -4,6 +4,7 @@ bron: https://thehonoursystem.com/chicken-broccoli-potato-casserole/
 afbeelding: https://thehonoursystem.com/wp-content/uploads/2023/08/chicken-broccoli-potato-casserole-featured-image-480x270.jpg
 porties: 6
 tijd: 80 min
+bord: ovenschotels
 tags: [ovenschotel, vegetarisch]
 ---
 

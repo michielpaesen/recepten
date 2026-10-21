@@ -3,6 +3,7 @@ title: "Parelcouscous met verse munt en vegetarische balletjes"
 bron: https://www.colruyt.be/nl/recept/parelcouscous-met-verse-munt-en-vegetarische-balletjes
 afbeelding: https://i.pinimg.com/564x/0b/de/0a/0bde0a78f17143606fa981be3947d9d7.jpg
 porties: 4
+bord: parelcouscous
 tags: [parelcouscous, vegetarisch]
 ---
 

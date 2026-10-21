@@ -4,6 +4,7 @@ bron: https://www.hellofresh.be/recipes/knoflook-gemberrijst-met-vegetarische-sc
 afbeelding: https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/HF220722_R08_W35_NL_Q3385-5_MB_Main_no_bowl_low-602f2b85.jpg
 porties: 2
 tijd: 25 min
+bord: rijst
 tags: [rijst, vegetarisch]
 ---
 

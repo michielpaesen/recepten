@@ -4,6 +4,7 @@ bron: https://eefsfood.nl/2022/03/09/blauwe-bes-cheesecake-kruimel-bites/
 afbeelding: https://eefjefriedhoff.nl/wp-content/uploads/2022/03/IMG_3303-480x270.jpg
 porties: 9
 tijd: 80 min
+bord: baking-zoet
 tags: [bakken]
 ---
 

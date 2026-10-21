@@ -3,6 +3,7 @@ title: "Pannenkoekbrood met kaneelkruimels"
 bron: https://yogaofcooking.co/delicious-pancake-bread-recipe/
 afbeelding: https://yogaofcooking.co/wp-content/uploads/2019/08/pancake-bread-2.jpg
 tijd: 55 min
+bord: baking-zoet
 tags: [bakken]
 ---
 

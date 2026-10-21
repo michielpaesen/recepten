@@ -4,6 +4,7 @@ bron: https://www.etenmetdanielle.nl/couscous-met-kip-zoete-aardappel-en-witte-k
 afbeelding: https://www.etenmetdanielle.nl/wp-content/uploads/2024/07/IMG_6812-web-480x270.jpg
 porties: 2
 tijd: 35 min
+bord: couscous
 tags: [couscous, kip]
 ---
 

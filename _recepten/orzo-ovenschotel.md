@@ -4,6 +4,7 @@ bron: https://www.leukerecepten.nl/recepten/orzo-ovenschotel/
 afbeelding: https://www.leukerecepten.nl/app/uploads/2023/10/orzo-ovenschotel.jpg
 porties: 4
 tijd: 50 min
+bord: orzogriekse-pasta
 tags: [orzo, vegetarisch, oven]
 ---
 

@@ -13,3 +13,28 @@ defaults:
       type: recepten
     values:
       layout: recept
+
+# Pinterest-borden: slug (zoals in de link) en naam op de knop
+borden:
+  - slug: noodles
+    naam: Noodles
+  - slug: orzogriekse-pasta
+    naam: Orzo & Griekse pasta
+  - slug: ovenschotels
+    naam: Ovenschotels
+  - slug: poke-bowl
+    naam: Poke bowl
+  - slug: couscous
+    naam: Couscous
+  - slug: parelcouscous
+    naam: Parelcouscous
+  - slug: bulgur
+    naam: Bulgur
+  - slug: rijst
+    naam: Rijst
+  - slug: tortellini
+    naam: Tortellini
+  - slug: baking-zoet
+    naam: Baking zoet
+  - slug: desserts
+    naam: Desserts

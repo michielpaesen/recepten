@@ -4,6 +4,7 @@ bron: https://www.myfussyeater.com/frozen-yogurt-bark/
 afbeelding: https://www.myfussyeater.com/wp-content/uploads/2017/05/Frozen-Yogurt-Bark_005-300x199-260x195.jpg
 porties: 8
 tijd: 70 min
+bord: desserts
 tags: [dessert]
 ---
 

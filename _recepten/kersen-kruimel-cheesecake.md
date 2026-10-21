@@ -4,6 +4,7 @@ bron: https://eefsfood.nl/2022/04/28/kersen-kruimel-cheesecake/
 afbeelding: https://eefjefriedhoff.nl/wp-content/uploads/2022/04/Kersen-kruimel-cheesecake-480x270.jpg
 porties: 9
 tijd: 80 min
+bord: baking-zoet
 tags: [bakken]
 ---
 

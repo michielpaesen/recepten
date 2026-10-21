@@ -4,6 +4,7 @@ bron: https://www.okokorecepten.nl/recept/couscous/tabouleh/tabouleh
 afbeelding: https://www.okokorecepten.nl/i/recepten/kookboeken/2011/vrijdag-couscousdag/webp/tabouleh-600.webp
 porties: 6
 tijd: 15 min
+bord: bulgur
 tags: [bulgur, vegetarisch]
 ---
 

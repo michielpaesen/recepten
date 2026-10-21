@@ -4,6 +4,7 @@ bron: https://www.simpele-recepten.nl/recept/marokkaanse-kip-tajine
 afbeelding: https://cdn.simpele-recepten.nl/wp-content/uploads/2022/10/Tajine-met-kip-en-peterselie-recept-480x270.webp
 porties: 4
 tijd: 20 min
+bord: couscous
 tags: [couscous, kip]
 ---
 

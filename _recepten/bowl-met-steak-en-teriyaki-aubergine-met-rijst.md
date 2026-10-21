@@ -4,6 +4,7 @@ bron: https://www.hellofresh.nl/recipes/rice-bowl-with-marinated-steak-65c0a8d66
 afbeelding: https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/HF_Y24_R20_W32_NL_Q22688-1_Main__2low-5fcadca7.jpg
 porties: 2
 tijd: 25 min
+bord: rijst
 tags: [rijst, rund]
 ---
 

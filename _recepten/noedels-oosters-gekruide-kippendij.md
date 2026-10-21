@@ -4,6 +4,7 @@ bron: https://www.hellofresh.be/recipes/bami-met-oosters-gekruide-kippendij-5c9b
 afbeelding: https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/HF200803_R09_W37_NL_Q0021-5_KB_Main_low-d8bf23f3.jpg
 porties: 2
 tijd: 20 min
+bord: noodles
 tags: [noedels, kip, hellofresh]
 ---
 

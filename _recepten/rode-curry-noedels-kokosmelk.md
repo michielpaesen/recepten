@@ -4,6 +4,7 @@ bron: https://www.etenmetdanielle.nl/rode-curry-noedels-met-kokosmelk/
 afbeelding: https://www.etenmetdanielle.nl/wp-content/uploads/2024/04/IMG_6328-web.jpg
 porties: 2
 tijd: 20 min
+bord: noodles
 tags: [noedels, kip, curry]
 ---
 

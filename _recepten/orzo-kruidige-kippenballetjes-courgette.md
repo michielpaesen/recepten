@@ -2,6 +2,7 @@
 title: "Orzo met kruidige kippenballetjes en courgette"
 bron: https://www.libelle-lekker.be/bekijk-recept/92107/orzo-met-kruidige-kippenballetjes-en-courgette-1
 afbeelding: https://i.pinimg.com/736x/c4/21/38/c421382e43493f7e1c475b0a6e3c7b32.jpg
+bord: orzogriekse-pasta
 tags: [orzo, kip, gehakt]
 ---
 

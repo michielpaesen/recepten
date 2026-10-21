@@ -4,6 +4,7 @@ bron: https://www.hellofresh.be/recipes/kipfilethaasjes-in-zoete-saus-met-knoflo
 afbeelding: https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/aiguillettes-de-poulet-en-sauce-sucree-et-riz-a-lail-41298ee2-dcdee9cc.jpg
 porties: 2
 tijd: 30 min
+bord: rijst
 tags: [rijst, kip]
 ---
 

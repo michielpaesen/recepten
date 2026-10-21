@@ -3,6 +3,7 @@ title: "Orzosalade met burrata, pesto en kerstomaatjes"
 bron: https://www.facebook.com/share/17VqL95G6y/
 afbeelding: https://i.pinimg.com/736x/d6/89/52/d68952847f9bf15b9fa49a9a330dd620.jpg
 tijd: 20 min
+bord: orzogriekse-pasta
 tags: [orzo, salade, vegetarisch, burrata]
 ---
 

@@ -4,6 +4,7 @@ bron: https://www.hellofresh.be/recipes/snelle-burritobowl-met-gehaktballen-62c4
 afbeelding: https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/snelle-burrito-bowl-met-gehaktballen-d8c1c9a3-13f26461.jpg
 porties: 2
 tijd: 15 min
+bord: rijst
 tags: [rijst, gehakt]
 ---
 

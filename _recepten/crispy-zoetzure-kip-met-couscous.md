@@ -4,6 +4,7 @@ bron: https://uitdekeukenvanfatima.nl/recipe/zoetzure-kip-met-couscous/
 afbeelding: https://uitdekeukenvanfatima.nl/wp-content/uploads/2020/02/uitdekeukenvanfatima-default.png
 porties: 4
 tijd: 35 min
+bord: couscous
 tags: [couscous, kip]
 ---
 

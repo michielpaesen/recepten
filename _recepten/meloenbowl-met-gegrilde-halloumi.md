@@ -4,6 +4,7 @@ bron: https://www.colruyt.be/nl/recepten/meloenbowl-met-gegrilde-halloumi
 afbeelding: https://fgdjrynm.filerobot.com/recipes/cf64c6066d744235cf6db0c048674c2220a30a928c0a82c4f3203285f7e203bd.jpg?vh=43a974&h=800&w=800&q=60
 porties: 4
 tijd: 30 min
+bord: bulgur
 tags: [bulgur, vegetarisch]
 ---
 

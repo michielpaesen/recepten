@@ -4,6 +4,7 @@ bron: https://www.lekkerensimpel.com/preischotel-met-rookworst/
 afbeelding: https://www.lekkerensimpel.com/wp-content/uploads/2015/05/IMG_1716_zps6fee9328.jpg
 porties: 2
 tijd: 50 min
+bord: ovenschotels
 tags: [ovenschotel, vegetarisch]
 ---
 

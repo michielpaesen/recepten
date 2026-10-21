@@ -4,6 +4,7 @@ bron: https://simoneskitchen.nl/parel-couscous-met-asperges-en-zon-gedroogde-tom
 afbeelding: https://simoneskitchen.nl/wp-content/uploads/2016/04/20160326-3.jpg
 porties: 2
 tijd: 15 min
+bord: parelcouscous
 tags: [parelcouscous, vegetarisch]
 ---
 

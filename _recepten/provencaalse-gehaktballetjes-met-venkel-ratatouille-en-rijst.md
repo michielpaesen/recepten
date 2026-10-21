@@ -4,6 +4,7 @@ bron: https://15gram.be/recepten/provencaalse-gehaktballetjes-met-venkel-ratatou
 afbeelding: https://image.15gram.be/uploads/recipes/9982_provenaalse-gehaktballetjes-met-venkelratatouille-en-rijst_1619441772-1920x1280.jpg
 porties: 2
 tijd: 40 min
+bord: rijst
 tags: [rijst, gehakt]
 ---
 

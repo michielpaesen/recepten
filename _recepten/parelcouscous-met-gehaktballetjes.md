@@ -4,6 +4,7 @@ bron: https://kookmutsjes.com/recept/parelcouscous-met-gehaktballetjes/
 afbeelding: https://kookmutsjes.com/wp-content/uploads/2022/09/Parelcouscous-met-gehaktballetjes-Kookmutsjes.png
 porties: 3
 tijd: 40 min
+bord: parelcouscous
 tags: [parelcouscous, gehakt]
 ---
 

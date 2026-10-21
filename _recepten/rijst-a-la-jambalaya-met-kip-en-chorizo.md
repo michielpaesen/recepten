@@ -4,6 +4,7 @@ bron: https://www.hellofresh.be/recipes/jambalaya-met-kip-en-chorizo-63c7ce95788
 afbeelding: https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/HF_Y24_R53_W20_NL_R4210-2_Main_low-8f000a1b.jpg
 porties: 2
 tijd: 40 min
+bord: rijst
 tags: [rijst, kip, vlees, worst]
 ---
 

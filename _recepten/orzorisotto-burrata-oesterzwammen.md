@@ -4,6 +4,7 @@ bron: https://www.hellofresh.be/recipes/w30-briefing-2-669a78a5f062ed659bdaba19
 afbeelding: https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/HF_Y25_R76_W05_NL_U30125-1_Main__low-15ed9218.jpg
 porties: 2
 tijd: 25 min
+bord: orzogriekse-pasta
 tags: [orzo, vegetarisch, burrata, hellofresh]
 ---
 

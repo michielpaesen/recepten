@@ -4,6 +4,7 @@ bron: https://www.leukerecepten.nl/recepten/chocolade-bananenbrood/
 afbeelding: https://www.leukerecepten.nl/app/uploads/2023/02/chocolade-bananenbrood_v2.jpg
 porties: 12
 tijd: 60 min
+bord: baking-zoet
 tags: [bakken]
 ---
 

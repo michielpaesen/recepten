@@ -4,6 +4,7 @@ bron: https://kokkerellenmetsuus.nl/2019/05/01/zoete-hapjes-no-bake-cheesecake-w
 afbeelding: https://kokkerellenmetsuus.nl/wp-content/uploads/2019/05/C-Witte-chocolade-cheesecake-met-passievrucht-Kokkerellen-met-Suus-scaled.jpg
 porties: 12
 tijd: 4 u 30 min
+bord: baking-zoet
 tags: [bakken]
 ---
 

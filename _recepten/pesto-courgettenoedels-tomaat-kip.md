@@ -4,6 +4,7 @@ bron: https://www.closetcooking.com/pesto-zucchini-noodles-with-roasted/
 afbeelding: https://i.pinimg.com/736x/cc/1f/7a/cc1f7ad4dc9c8c80fbf58ccff4b086fb.jpg
 porties: 4
 tijd: 25 min
+bord: noodles
 tags: [groentenoedels, kip, glutenvrij]
 ---
 

@@ -4,6 +4,7 @@ bron: https://www.francescakookt.nl/tomatensalade-met-parelcouscous-en-halloumi/
 afbeelding: https://www.francescakookt.nl/wp-content/uploads/2022/05/tomatensalade-met-parelcouscous-en-halloumi-1-480x270.jpg
 porties: 4
 tijd: 20 min
+bord: parelcouscous
 tags: [parelcouscous, vegetarisch]
 ---
 

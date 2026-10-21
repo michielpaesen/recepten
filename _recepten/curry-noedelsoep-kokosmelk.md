@@ -4,6 +4,7 @@ bron: https://www.hellofresh.be/recipes/curry-noedelsoep-met-kokosmelk-60112b0b4
 afbeelding: https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/soupe-de-nouilles-au-curry-et-lait-de-coco-f9d9f84b-fb51c0d9.jpg
 porties: 2
 tijd: 20 min
+bord: noodles
 tags: [noedels, soep, vegetarisch, curry, udon, hellofresh]
 ---
 

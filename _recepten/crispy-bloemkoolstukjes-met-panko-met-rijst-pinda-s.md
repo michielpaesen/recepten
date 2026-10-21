@@ -4,6 +4,7 @@ bron: https://www.hellofresh.be/recipes/crispy-sesambloemkoolstukjes-686e7bfefa1
 afbeelding: https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/HF_Y25_R03_W45_NL_Q4608-19_Main_F1_low-c79f406b.jpg
 porties: 2
 tijd: 40 min
+bord: rijst
 tags: [rijst, vegetarisch]
 ---
 

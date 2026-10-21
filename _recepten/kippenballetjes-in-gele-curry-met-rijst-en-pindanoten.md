@@ -4,6 +4,7 @@ bron: https://15gram.be/recepten/kippenballetjes-in-gele-curry-met-rijst-en-pind
 afbeelding: https://image.15gram.be/uploads/recipes/5515_1731514704-1920x1280.jpg
 porties: 2
 tijd: 35 min
+bord: rijst
 tags: [rijst, kip]
 ---
 

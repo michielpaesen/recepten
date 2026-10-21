@@ -4,6 +4,7 @@ bron: https://uitpaulineskeuken.nl/recept/chicken-tonight
 afbeelding: https://uitpaulineskeuken.nl/wp-content/uploads/2026/04/Chicken-tonight-2-480x270.jpg
 porties: 4
 tijd: 30 min
+bord: rijst
 tags: [rijst, kip]
 ---
 

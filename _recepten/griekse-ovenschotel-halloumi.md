@@ -4,6 +4,7 @@ bron: https://www.cookameal.be/make/hoofdgerechten/griekse-ovenschotel/
 afbeelding: https://www.cookameal.be/wp-content/uploads/2019/09/griekszp.jpg
 porties: 4
 tijd: 45 min
+bord: orzogriekse-pasta
 tags: [orzo, vegetarisch, oven, halloumi]
 ---
 

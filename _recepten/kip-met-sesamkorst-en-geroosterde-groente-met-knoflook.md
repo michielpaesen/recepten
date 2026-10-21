@@ -4,6 +4,7 @@ bron: https://www.hellofresh.be/recipes/kip-met-sesamkorst-en-geroosterde-groent
 afbeelding: https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/kip-met-sesamkorst-en-geroosterde-groente-2f06005e-77cfe4c4.jpg
 porties: 2
 tijd: 30 min
+bord: rijst
 tags: [rijst, kip]
 ---
 

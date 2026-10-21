@@ -4,6 +4,7 @@ bron: https://thenandnow.space/wprm_print/baked-potato-chicken-and-broccoli-cass
 afbeelding: https://i.pinimg.com/564x/97/3c/d8/973cd8cefac62d556d6739df3acd0c2e.jpg
 porties: 6
 tijd: 45 min
+bord: ovenschotels
 tags: [ovenschotel, kip]
 ---
 

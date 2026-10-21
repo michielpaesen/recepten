@@ -4,6 +4,7 @@ bron: https://www.hellofresh.be/recipes/geroosterde-groenten-met-kokosrijst-63b5
 afbeelding: https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/legumes-rotis-et-riz-au-lait-de-coco-93d21e7f-5416bd6d.jpg
 porties: 2
 tijd: 35 min
+bord: rijst
 tags: [rijst, vegetarisch]
 ---
 

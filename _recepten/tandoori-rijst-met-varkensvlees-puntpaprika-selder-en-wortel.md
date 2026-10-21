@@ -4,6 +4,7 @@ bron: https://15gram.be/recepten/tandoori-rijst-met-varkensvlees-puntpaprika-sel
 afbeelding: https://image.15gram.be/uploads/recipes/5310_1715929377-1920x1280.jpg
 porties: 2
 tijd: 35 min
+bord: rijst
 tags: [rijst, varken]
 ---
 

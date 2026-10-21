@@ -4,6 +4,7 @@ bron: https://www.solo.be/nl/recipes/kip-met-griekse-pasta-237500
 afbeelding: https://www.solo.be/nl/-/media/Project/Upfield/Brands/Solo/Solo-be/Assets/Recipes/sync-images/bf1840c0-b820-43ef-8dbd-dced04a0c5e8.jpg?rev=61ec28ae604f4c9e93c792ea1e40aee4
 porties: 4
 tijd: 30 min
+bord: orzogriekse-pasta
 tags: [orzo, kip]
 ---
 

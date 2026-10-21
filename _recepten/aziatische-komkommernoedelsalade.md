@@ -4,6 +4,7 @@ bron: https://avocadopesto.com/asian-noodle-salad/
 afbeelding: https://avocadopesto.com/wp-content/uploads/2016/10/Asian-Cucumber-Noodle-Salad-GF-Recipe-1.jpg
 porties: 4
 tijd: 25 min
+bord: noodles
 tags: [noedels, vegan, salade, glutenvrij]
 ---
 

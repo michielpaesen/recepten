@@ -4,6 +4,7 @@ bron: https://www.leukerecepten.nl/recepten/aubergine-curry/
 afbeelding: https://www.leukerecepten.nl/app/uploads/2024/03/aubergine-curry-v.jpg
 porties: 3
 tijd: 50 min
+bord: rijst
 tags: [rijst, vegetarisch]
 ---
 

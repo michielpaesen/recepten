@@ -4,6 +4,7 @@ bron: https://www.slimmingeats.com/blog/mexican-chicken-and-rice
 afbeelding: https://www.slimmingeats.com/blog/wp-content/uploads/2010/01/mexican-chicken-rice-bake-featured-735x735.jpg
 porties: 4
 tijd: 65 min
+bord: rijst
 tags: [rijst, vegetarisch]
 ---
 

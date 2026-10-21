@@ -4,6 +4,7 @@ bron: https://www.leukerecepten.nl/recepten/turkse-bulgursalade-kisir/
 afbeelding: https://www.leukerecepten.nl/app/uploads/2021/08/Bulger-salade_v.jpg
 porties: 4
 tijd: 85 min
+bord: bulgur
 tags: [bulgur, vegetarisch]
 ---
 

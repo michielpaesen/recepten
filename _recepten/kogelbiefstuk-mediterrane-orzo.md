@@ -4,6 +4,7 @@ bron: https://www.hellofresh.nl/recipes/kogelbiefstuk-met-mediterrane-orzo-608ab
 afbeelding: https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/rumsteak-et-orzo-a-la-mediterraneenne-b134b9c2-e644c033.jpg
 porties: 2
 tijd: 30 min
+bord: orzogriekse-pasta
 tags: [orzo, rund, feta, hellofresh]
 ---
 

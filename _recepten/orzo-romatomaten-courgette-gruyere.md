@@ -4,6 +4,7 @@ bron: https://www.hellofresh.nl/recipes/orzo-met-mini-romatomaten-uit-de-oven-5a
 afbeelding: https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/5a9d008730006c48cb351fe2-2cb902bf.jpg
 porties: 2
 tijd: 30 min
+bord: orzogriekse-pasta
 tags: [orzo, vegetarisch, oven, hellofresh]
 ---
 

@@ -4,6 +4,7 @@ bron: https://www.hellofresh.be/recipes/noedels-met-kipgehakt-in-aziatische-saus
 afbeelding: https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/HF_Y24_R27_W28_NL_Q602618202-4_Main__2low-441ccc74.jpg
 porties: 2
 tijd: 25 min
+bord: noodles
 tags: [noedels, kip, hellofresh]
 ---
 

@@ -4,6 +4,7 @@ bron: https://15gram.be/recepten/lasagne-van-courgetterolletjes
 afbeelding: https://image.15gram.be/uploads/recipes/7882_lasagne-van-courgetterolletjes_1500388322-1920x1280.jpg
 porties: 2
 tijd: 45 min
+bord: ovenschotels
 tags: [ovenschotel, vegetarisch]
 ---
 

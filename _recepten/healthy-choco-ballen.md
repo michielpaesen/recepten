@@ -4,6 +4,7 @@ bron: https://chickslovefood.com/recept/healthy-choco-ballen-winactie/
 afbeelding: https://chickslovefood.com/app/uploads/2015/01/healthychocoballen.jpg
 porties: 15
 tijd: 25 min
+bord: baking-zoet
 tags: [bakken]
 ---
 

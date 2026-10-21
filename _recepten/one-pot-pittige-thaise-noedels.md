@@ -4,6 +4,7 @@ bron: https://domesticsuperhero.com/one-pot-spicy-thai-noodles/
 afbeelding: https://domesticsuperhero.com/wp-content/uploads/2015/05/Spicy-Thai-Noodles.jpg
 porties: 6
 tijd: 25 min
+bord: noodles
 tags: [noedels, vegetarisch, one pot]
 ---
 

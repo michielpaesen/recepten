@@ -4,6 +4,7 @@ bron: https://thecookspyjamas.com/sweet-potato-and-feta-tart/
 afbeelding: https://thecookspyjamas.com/wp-content/uploads/Sweet-Potato-and-Feta-Tart-3-480x270.jpg
 porties: 4
 tijd: 85 min
+bord: ovenschotels
 tags: [ovenschotel, vegetarisch]
 ---
 

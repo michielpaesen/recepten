@@ -4,6 +4,7 @@ bron: https://www.hellofresh.ca/recipes/tahini-hoisin-pork-noodles-635f9df81badd
 afbeelding: https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/tahini-hoisin-pork-noodles-6d148bce.jpg
 porties: 2
 tijd: 25 min
+bord: noodles
 tags: [noedels, varken, hellofresh]
 ---
 

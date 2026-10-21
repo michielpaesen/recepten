@@ -4,6 +4,7 @@ bron: https://tastyrcp.com/burrata-ovenschotel-kip-basilicumsaus-recept/
 afbeelding: https://tastyrcp.com/wp-content/uploads/2025/12/591209107_122185662050451617_7756360297366788576_n.webp
 porties: 4
 tijd: 105 min
+bord: ovenschotels
 tags: [ovenschotel, kip]
 ---
 

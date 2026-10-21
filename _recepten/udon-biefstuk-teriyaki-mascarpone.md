@@ -4,6 +4,7 @@ bron: https://www.hellofresh.be/recipes/udon-noedels-met-biefstukreepjes-in-teri
 afbeelding: https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/HF_Y23_R23_W46_NL_Q18254-1_Main_low-71fddc48.jpg
 porties: 2
 tijd: 15 min
+bord: noodles
 tags: [noedels, rund, udon, hellofresh]
 ---
 

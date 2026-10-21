@@ -4,6 +4,7 @@ bron: https://www.hellofresh.be/recipes/vegetarische-curry-met-geroosterde-bloem
 afbeelding: https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/HF_Y24_R62_W40_NL_Q5316-6_Main_low-d41ff6ed.jpg
 porties: 2
 tijd: 25 min
+bord: rijst
 tags: [rijst, vegetarisch]
 ---
 

@@ -4,6 +4,7 @@ bron: https://www.feelgoodbyfood.nl/couscous-falafel-bowl-met-hummus/
 afbeelding: https://www.feelgoodbyfood.nl/wp-content/uploads/2019/04/IMG_7851.jpg
 porties: 2-3
 tijd: 25 min
+bord: couscous
 tags: [couscous, vegetarisch]
 ---
 

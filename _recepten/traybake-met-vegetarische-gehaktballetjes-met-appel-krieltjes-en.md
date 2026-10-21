@@ -4,6 +4,7 @@ bron: https://www.hellofresh.be/recipes/traybake-met-vegetarische-gehaktballetje
 afbeelding: https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/HF_Y23_R16_W38_NL_R16770-1_Main_low-f311be72.jpg
 porties: 2
 tijd: 35 min
+bord: ovenschotels
 tags: [ovenschotel, vegetarisch]
 ---
 

@@ -4,6 +4,7 @@ bron: https://www.francescakookt.nl/salade-van-parelcouscous-met-aubergine-en-pa
 afbeelding: https://www.francescakookt.nl/wp-content/uploads/2022/05/parelcouscous-met-aubergine-en-paprika-1.jpg
 porties: 2
 tijd: 30 min
+bord: parelcouscous
 tags: [parelcouscous, worst, lam]
 ---
 

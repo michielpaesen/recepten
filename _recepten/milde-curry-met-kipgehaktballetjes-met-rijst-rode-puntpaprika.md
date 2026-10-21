@@ -4,6 +4,7 @@ bron: https://www.hellofresh.be/recipes/milde-curry-met-kipgehaktballetjes-650d6
 afbeelding: https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/HF_Y24_R63_W29_NL_R3914-9_Main_low-d27e79fc.jpg
 porties: 2
 tijd: 40 min
+bord: rijst
 tags: [rijst, kip]
 ---
 

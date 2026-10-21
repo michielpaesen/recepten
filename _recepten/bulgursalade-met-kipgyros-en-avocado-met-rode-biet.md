@@ -4,6 +4,7 @@ bron: https://www.hellofresh.nl/recipes/bulgursalade-met-kipgyros-en-avocado-621
 afbeelding: https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/62178410f059981e0f59a1d8-72c4e35c-ab20081e.jpg
 porties: 2
 tijd: 30 min
+bord: bulgur
 tags: [bulgur, kip]
 ---
 

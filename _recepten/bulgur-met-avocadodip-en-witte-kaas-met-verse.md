@@ -4,6 +4,7 @@ bron: https://www.hellofresh.be/recipes/bulgur-met-avocado-komkommer-en-cranberr
 afbeelding: https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/HF_Y23_R18_W33_NL_R2601-12_Main_low-3ba764ea.jpg
 porties: 2
 tijd: 35 min
+bord: bulgur
 tags: [bulgur, vegetarisch]
 ---
 

@@ -4,6 +4,7 @@ bron: https://www.leukerecepten.nl/recepten/dubai-rocky-road-met-pistache/
 afbeelding: https://www.leukerecepten.nl/app/uploads/2025/07/rocky-road-dubai-v.jpg
 porties: 16
 tijd: 80 min
+bord: baking-zoet
 tags: [bakken]
 ---
 

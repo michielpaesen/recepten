@@ -4,6 +4,7 @@ bron: https://www.sofiedumont.be/pages/recept-ballekes-tomatensaus-pasta-spinazi
 afbeelding: https://www.sofiedumont.be/cdn/shop/files/p3a7252b-scaled.jpg?v=1741704570
 porties: 4
 tijd: 60 min
+bord: ovenschotels
 tags: [ovenschotel, rund, varken]
 ---
 

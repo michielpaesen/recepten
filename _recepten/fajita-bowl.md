@@ -4,6 +4,7 @@ bron: https://www.leukerecepten.nl/recepten/fajita-bowl/
 afbeelding: https://www.leukerecepten.nl/app/uploads/2026/08/fajita-bowl-v.jpg
 porties: 4
 tijd: 30 min
+bord: poke-bowl
 tags: [poke bowl, kip]
 ---
 

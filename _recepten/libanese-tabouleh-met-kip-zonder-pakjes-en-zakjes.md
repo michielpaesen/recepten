@@ -4,6 +4,7 @@ bron: https://www.smakelijck.nl/recepten/zonder-pakjes-en-zakjes/libanese-taboul
 afbeelding: https://i.pinimg.com/564x/2c/5a/d3/2c5ad3f59342c278fb54bb892b57c4c6.jpg
 porties: 2-3
 tijd: 30 min
+bord: couscous
 tags: [couscous, kip]
 ---
 

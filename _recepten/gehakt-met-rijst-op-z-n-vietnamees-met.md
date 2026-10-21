@@ -4,6 +4,7 @@ bron: https://www.hellofresh.be/recipes/vietnamese-stijl-gehakt-met-rijst-65b238
 afbeelding: https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/HF_Y24_R54_W10_NL_R6235-5_MAIN_low-8edf0655.jpg
 porties: 2
 tijd: 25 min
+bord: rijst
 tags: [rijst, gehakt, varken]
 ---
 

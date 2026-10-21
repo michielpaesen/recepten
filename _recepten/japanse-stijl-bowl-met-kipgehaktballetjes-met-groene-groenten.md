@@ -4,6 +4,7 @@ bron: https://www.hellofresh.be/recipes/japanse-stijl-bowl-met-kipgehaktballetje
 afbeelding: https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/HF220518_R1035_W27_CA_RC155116-1_KB_Main_low-8b00911c.jpg
 porties: 2
 tijd: 30 min
+bord: rijst
 tags: [rijst, kip]
 ---
 

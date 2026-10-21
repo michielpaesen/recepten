@@ -3,6 +3,7 @@ title: "Gezonde yoghurtcake met blauwe bessen"
 bron: https://chickslovefood.com/recept/gezonde-yoghurtcake-met-blauwe-bessen/
 afbeelding: https://chickslovefood.com/app/uploads/2015/11/SPELT-YOGHURTCAKE-MET-BLAUWE-BESSEN1.jpg
 tijd: 75 min
+bord: baking-zoet
 tags: [bakken]
 ---
 

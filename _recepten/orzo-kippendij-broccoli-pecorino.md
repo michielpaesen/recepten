@@ -3,6 +3,7 @@ title: "Orzo met kippendij, broccoli, pecorino en pijnboompitten"
 bron: https://pietashapjes.blogspot.com/2018/06/orzo-met-kippendij-broccoli-pecorino-en.html
 afbeelding: https://i.pinimg.com/736x/01/04/ef/0104efcc198d6fb99f06c230b3f6f293.jpg
 porties: 4
+bord: orzogriekse-pasta
 tags: [orzo, kip]
 ---
 

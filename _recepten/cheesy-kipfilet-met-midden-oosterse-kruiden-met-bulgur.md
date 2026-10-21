@@ -4,6 +4,7 @@ bron: https://www.hellofresh.be/recipes/kipfilet-uit-de-oven-met-tomaat-en-papri
 afbeelding: https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/HF_Y25_R63_W03_NL_R1735-3_Main_low-3489e800.jpg
 porties: 2
 tijd: 30 min
+bord: bulgur
 tags: [bulgur, kip]
 ---
 

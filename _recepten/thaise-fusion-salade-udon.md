@@ -4,6 +4,7 @@ bron: https://www.hellofresh.be/recipes/thaise-fusion-salade-met-vegetarische-ru
 afbeelding: https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/thaise-salade-met-vegetarische-runderpuntjes-1fbafd58-842584cd.jpg
 porties: 2
 tijd: 20 min
+bord: noodles
 tags: [noedels, vegetarisch, salade, udon, hellofresh]
 ---
 

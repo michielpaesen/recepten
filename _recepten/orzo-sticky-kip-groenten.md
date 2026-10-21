@@ -4,6 +4,7 @@ bron: https://kookmutsjes.com/recept/orzo-met-sticky-kip-en-groenten/
 afbeelding: https://kookmutsjes.com/wp-content/uploads/2024/04/Kip-met-orzo-en-groenten-Kookmutsjes-copyright.jpg
 porties: 3
 tijd: 50 min
+bord: orzogriekse-pasta
 tags: [orzo, kip]
 ---
 

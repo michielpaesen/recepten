@@ -4,6 +4,7 @@ bron: https://uitpaulineskeuken.nl/recept/stir-fry-noodles
 afbeelding: https://uitpaulineskeuken.nl/wp-content/uploads/2026/04/Stir-fry-noodles-2.jpg
 porties: 4
 tijd: 20 min
+bord: noodles
 tags: [noedels, rund]
 ---
 

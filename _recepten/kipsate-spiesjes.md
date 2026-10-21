@@ -2,6 +2,7 @@
 title: "Kipsaté-spiesjes"
 bron: https://moribyan.com/chicken-satay-spring-roll-bowls/
 afbeelding: https://moribyan.com/wp-content/uploads/2022/04/chicken-satay-4-scaled-1.jpg
+bord: rijst
 tags: [rijst, vegetarisch]
 ---
 

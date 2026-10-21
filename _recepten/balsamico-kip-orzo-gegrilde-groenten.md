@@ -4,6 +4,7 @@ bron: https://www.shaykeerecipes.com/balsamic-chicken-orzo-grilled-veggies/
 afbeelding: https://www.shaykeerecipes.com/wp-content/uploads/2026/03/balsamic-chicken-orzo-grilled-veggies.jpg
 porties: 4
 tijd: 35 min
+bord: orzogriekse-pasta
 tags: [orzo, kip, feta]
 ---
 

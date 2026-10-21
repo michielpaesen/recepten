@@ -4,6 +4,7 @@ bron: https://emmaduckworthbakes.com/biscoff-blondies/
 afbeelding: https://emmaduckworthbakes.com/wp-content/uploads/2022/03/Easy-Lotus-biscoff-white-chocolate-blondies-480x270.jpg
 porties: 16
 tijd: 50 min
+bord: baking-zoet
 tags: [bakken]
 ---
 

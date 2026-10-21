@@ -4,6 +4,7 @@ bron: https://www.colruyt.be/fr/recettes/croquettes-de-halloumi-et-salade-de-bou
 afbeelding: https://fgdjrynm.filerobot.com/recipes/1fc47552bbd12e780db9a0a13bb8b4e7fd8ef9b4763599bec9ddb70cbc5d5ce7.jpg?vh=514617&h=800&w=800&q=60
 porties: 4
 tijd: 20 min
+bord: bulgur
 tags: [bulgur, vegetarisch]
 ---
 

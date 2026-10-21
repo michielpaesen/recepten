@@ -4,6 +4,7 @@ bron: https://www.hellofresh.be/recipes/orzo-met-spinazie-cherrytomaten-en-grana
 afbeelding: https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/orzo-met-spinazie-cherrytomaten-en-grana-padano-8b4567.jpg
 porties: 2
 tijd: 20 min
+bord: orzogriekse-pasta
 tags: [orzo, vegetarisch, hellofresh]
 ---
 

@@ -4,6 +4,7 @@ bron: https://nl.pinterest.com/pin/475200198201232655/
 afbeelding: https://i.pinimg.com/564x/e0/aa/ac/e0aaacb59c02c13b018b437289f3053f.jpg
 porties: 4
 tijd: 25 min
+bord: tortellini
 tags: [tortellini, kip, gehakt]
 ---
 

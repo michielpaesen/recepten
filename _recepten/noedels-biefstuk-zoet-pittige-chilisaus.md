@@ -4,6 +4,7 @@ bron: https://www.hellofresh.be/recipes/noedels-met-biefstukreepjes-in-zoet-pitt
 afbeelding: https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/5f4fade2dbe49666a74dd76b-c9984b6c-b020ddda.jpg
 porties: 2
 tijd: 15 min
+bord: noodles
 tags: [noedels, rund, hellofresh]
 ---
 

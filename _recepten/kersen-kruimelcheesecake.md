@@ -4,6 +4,7 @@ bron: https://eefsfood.nl/wpzoom_rcb_print/20978/?servings=9&amp;reusable-block-
 afbeelding: https://i.pinimg.com/564x/75/7e/6b/757e6b49670a22d46dfb4048081895f6.jpg
 porties: 9
 tijd: 80 min
+bord: baking-zoet
 tags: [bakken]
 ---
 

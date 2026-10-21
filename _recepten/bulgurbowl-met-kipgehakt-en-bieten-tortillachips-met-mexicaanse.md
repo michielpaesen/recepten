@@ -4,6 +4,7 @@ bron: https://www.hellofresh.be/recipes/bulgurbowl-met-kipgehakt-en-tacostukjes-
 afbeelding: https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/HF_Y23_R13_W32_BNL_Q5718-7_Main_low-eb35eb0f.jpg
 porties: 2
 tijd: 15 min
+bord: bulgur
 tags: [bulgur, kip]
 ---
 

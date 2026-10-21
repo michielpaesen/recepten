@@ -4,6 +4,7 @@ bron: https://simplewhisk.com/lemon-crumb-bars/
 afbeelding: https://simplewhisk.com/wp-content/uploads/2025/02/Lemon-Crumb-Bars4-1-480x270.png
 porties: 12
 tijd: 285 min
+bord: baking-zoet
 tags: [bakken]
 ---
 

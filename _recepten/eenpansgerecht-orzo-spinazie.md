@@ -4,6 +4,7 @@ bron: https://www.lekkerensimpel.com/eenpansgerecht-met-orzo/
 afbeelding: https://www.lekkerensimpel.com/wp-content/uploads/2019/03/IMG_8293.jpg.webp
 porties: 2
 tijd: 25 min
+bord: orzogriekse-pasta
 tags: [orzo, vegetarisch, eenpansgerecht]
 ---
 

@@ -4,6 +4,7 @@ bron: https://www.leukerecepten.nl/recepten/bokkenpootjestaart/
 afbeelding: https://www.leukerecepten.nl/app/uploads/2017/09/bokkenpootjesstaart-v.png
 porties: 10
 tijd: 275 min
+bord: baking-zoet
 tags: [bakken]
 ---
 

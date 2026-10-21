@@ -4,6 +4,7 @@ bron: https://www.lekkerensimpel.com/gevulde-pastaschelpen/
 afbeelding: https://www.lekkerensimpel.com/wp-content/uploads/2015/08/IMG_2323.jpg
 porties: 2
 tijd: 55 min
+bord: ovenschotels
 tags: [ovenschotel, ham]
 ---
 

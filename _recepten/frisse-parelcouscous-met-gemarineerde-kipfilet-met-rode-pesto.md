@@ -4,6 +4,7 @@ bron: https://www.hellofresh.be/recipes/frisse-parelcouscous-met-kipfilet-63c7d5
 afbeelding: https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/HF_Y25_R34_W13_NL_Q2516-3_MAIN_5_low-480d68bd.jpg
 porties: 2
 tijd: 25 min
+bord: parelcouscous
 tags: [parelcouscous, kip]
 ---
 

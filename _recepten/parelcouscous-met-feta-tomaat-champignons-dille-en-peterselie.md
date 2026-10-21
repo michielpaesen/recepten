@@ -4,6 +4,7 @@ bron: https://jennyalvares.com/parelcouscous-met-feta/
 afbeelding: https://jennyalvares.com/wp-content/uploads/2019/06/parelcouscous.jpg
 porties: 4
 tijd: 30 min
+bord: parelcouscous
 tags: [parelcouscous, vegetarisch]
 ---
 

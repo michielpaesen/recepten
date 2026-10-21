@@ -4,6 +4,7 @@ bron: https://gewoonwateenstudentjesavondseet.nl/recepten/couscous-pompoen.html
 afbeelding: https://gewoonwateenstudentjesavondseet.nl/wp-content/uploads/2022/02/staand_pompoen-480x270.jpg
 porties: 2
 tijd: 35 min
+bord: parelcouscous
 tags: [parelcouscous, vegetarisch]
 ---
 

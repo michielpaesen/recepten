@@ -4,6 +4,7 @@ bron: https://pinchofyum.com/street-cart-fries
 afbeelding: https://pinchofyum.com/tachyon/Loaded-Mediterranean-Street-Fries-Recipe.jpg
 porties: 4
 tijd: 30 min
+bord: ovenschotels
 tags: [ovenschotel, vegetarisch]
 ---
 

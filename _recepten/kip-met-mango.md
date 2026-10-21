@@ -4,6 +4,7 @@ bron: https://www.leukerecepten.nl/recepten/kip-met-mango-2/
 afbeelding: https://www.leukerecepten.nl/app/uploads/2024/01/kip-mango-v.jpg
 porties: 2
 tijd: 30 min
+bord: rijst
 tags: [rijst, kip]
 ---
 

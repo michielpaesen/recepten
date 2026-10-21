@@ -4,6 +4,7 @@ bron: https://www.lekkerensimpel.com/tortellini-ovenschotel-met-kip/
 afbeelding: https://www.lekkerensimpel.com/wp-content/uploads/2020/12/IMG_7284-1.jpg
 porties: 3
 tijd: 40 min
+bord: tortellini
 tags: [tortellini, kip, ham]
 ---
 

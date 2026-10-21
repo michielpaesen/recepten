@@ -4,6 +4,7 @@ bron: https://bestdessertrecipe.com/frozen-yogurt-granola-cups-with-berries-a-re
 afbeelding: https://bestdessertrecipe.com/wp-content/uploads/2024/06/snep1-480x270.png
 porties: 12
 tijd: 15 min
+bord: desserts
 tags: [dessert]
 ---
 

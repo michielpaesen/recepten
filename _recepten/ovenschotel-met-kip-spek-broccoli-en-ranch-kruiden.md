@@ -4,6 +4,7 @@ bron: https://joyfilledeats.com/bacon-ranch-chicken-casserole/
 afbeelding: https://joyfilledeats.com/wp-content/uploads/2020/01/chicken-bacon-ranch-casserole-1-24-480x270.jpg
 porties: 8
 tijd: 40 min
+bord: ovenschotels
 tags: [ovenschotel, vegetarisch]
 ---
 

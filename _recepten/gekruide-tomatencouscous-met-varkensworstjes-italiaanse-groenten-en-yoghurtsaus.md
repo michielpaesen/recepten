@@ -4,6 +4,7 @@ bron: https://www.hellofresh.be/recipes/gekruide-tomatencouscous-met-varkenswors
 afbeelding: https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/semoule-aux-legumes-et-saucisses-de-porc-b5e80a9a-4dfc235c.jpg
 porties: 2
 tijd: 15 min
+bord: couscous
 tags: [couscous, rund, varken]
 ---
 

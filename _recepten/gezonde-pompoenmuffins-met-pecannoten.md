@@ -4,6 +4,7 @@ bron: https://chickslovefood.com/recept/gezonde-pompoenmuffins-met-pecannoten/
 afbeelding: https://chickslovefood.com/app/uploads/2016/10/PECAN-POMPOEN-MUFFINS.jpg
 porties: 14
 tijd: 45 min
+bord: baking-zoet
 tags: [bakken]
 ---
 

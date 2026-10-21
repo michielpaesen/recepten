@@ -4,6 +4,7 @@ bron: https://15gram.be/recepten/ovenschotel-met-worst-en-mozzarella
 afbeelding: https://image.15gram.be/uploads/recipes/6811_gehaktschotel-met-worst-en-mozzarella_1481122689-1920x1280.jpg
 porties: 2
 tijd: 45 min
+bord: ovenschotels
 tags: [ovenschotel, worst]
 ---
 

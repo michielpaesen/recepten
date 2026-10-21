@@ -4,6 +4,7 @@ bron: https://www.hellofresh.be/recipes/w48-calorie-smart-and-super-quick-15-min
 afbeelding: https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/HF_Y25_R30_W26_NL_Q36160-1_MAIN_9_low-2fc93d01.jpg
 porties: 2
 tijd: 15 min
+bord: parelcouscous
 tags: [parelcouscous, vegetarisch]
 ---
 

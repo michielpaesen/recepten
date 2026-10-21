@@ -4,6 +4,7 @@ bron: https://chickslovefood.com/recept/healthy-baking-haver-ontbijtkoek/
 afbeelding: https://chickslovefood.com/app/uploads/2015/03/healthyontbijtkoek5.jpg
 porties: 1
 tijd: 70 min
+bord: baking-zoet
 tags: [bakken]
 ---
 

@@ -4,6 +4,7 @@ bron: https://www.hellofresh.be/recipes/crispy-bang-bang-bloemkool-met-knoflookr
 afbeelding: https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/HF220628_R04_W32_SE_V12343792-24_MB_Main_remove_the_spring_onion_low-d2d230c9.jpg
 porties: 2
 tijd: 35 min
+bord: rijst
 tags: [rijst, vegetarisch]
 ---
 

@@ -4,6 +4,7 @@ bron: https://www.colruyt.be/nl/recepten/gevulde-zoete-paprika-met-merguez-en-ai
 afbeelding: https://fgdjrynm.filerobot.com/recipes/ad5c18ac3cd7c3a4f0498aba183008f0efb110d0e3f1e9be172757f1af44683a.jpg?vh=5b4e9c&h=800&w=800&q=60
 porties: 4
 tijd: 25 min
+bord: orzogriekse-pasta
 tags: [orzo, worst, oven]
 ---
 

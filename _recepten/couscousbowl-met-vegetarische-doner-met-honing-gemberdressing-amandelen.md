@@ -4,6 +4,7 @@ bron: https://www.hellofresh.be/recipes/3-6687efa965ae7b0dd9112446
 afbeelding: https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/HF_Y24_R15_W48_NL_Q29426-1_Main_low-8c74d03f.jpg
 porties: 2
 tijd: 15 min
+bord: couscous
 tags: [couscous, vegetarisch]
 ---
 

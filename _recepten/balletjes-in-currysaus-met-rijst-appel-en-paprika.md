@@ -4,6 +4,7 @@ bron: https://15gram.be/recepten/balletjes-in-currysaus-met-rijst-appel-en-papri
 afbeelding: https://image.15gram.be/uploads/recipes/4876_1682070997-1920x1280.jpg
 porties: 2
 tijd: 30 min
+bord: rijst
 tags: [rijst, gehakt, rund, varken]
 ---
 

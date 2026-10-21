@@ -4,6 +4,7 @@ bron: https://www.hellofresh.be/recipes/parelcouscous-met-geroosterde-paprika-en
 afbeelding: https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/couscous-perle-au-poivron-roti-et-fromage-grec-022fb26d-686fa6e3.jpg
 porties: 2
 tijd: 40 min
+bord: parelcouscous
 tags: [parelcouscous, vegetarisch]
 ---
 

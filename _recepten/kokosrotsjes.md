@@ -4,6 +4,7 @@ bron: https://njam.tv/recepten/kokosrotsjes
 afbeelding: https://images.njam.tv/full/c/d30451/media/eefef1c2b2c0b251b4d70edc8c33f4eb--o--png.webp
 porties: 30
 tijd: 20 min
+bord: desserts
 tags: [dessert]
 ---
 

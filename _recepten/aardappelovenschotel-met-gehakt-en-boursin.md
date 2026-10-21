@@ -4,6 +4,7 @@ bron: https://leuklekkerenliefdevolkoken.nl/2015/10/24/aardappel-ovenschotel-met
 afbeelding: https://leuklekkerenliefdevolkoken.nl/wp-content/uploads/2015/10/dscn12161.jpg?w=660
 porties: 4
 tijd: 45 min
+bord: ovenschotels
 tags: [ovenschotel, gehakt]
 ---
 

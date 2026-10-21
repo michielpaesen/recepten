@@ -4,6 +4,7 @@ bron: https://recipesen.com/ground-beef-casserole-with-potatoes-recipe/
 afbeelding: https://recipesen.com/wp-content/uploads/2024/09/Ground-Beef-Casserole-With-Potatoes-Recipe.png
 porties: 6
 tijd: 75 min
+bord: ovenschotels
 tags: [ovenschotel, vegetarisch]
 ---
 

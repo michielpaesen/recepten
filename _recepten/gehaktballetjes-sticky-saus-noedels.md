@@ -4,6 +4,7 @@ bron: https://www.hellofresh.be/recipes/gehaktballetjes-in-sticky-saus-met-noede
 afbeelding: https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/HF211115_R21_W52_NL_Q4701-1_MB_Main_4_meatballs_low-93f25f03.jpg
 porties: 2
 tijd: 25 min
+bord: noodles
 tags: [noedels, gehakt, hellofresh]
 ---
 

@@ -4,6 +4,7 @@ bron: https://thebestblogrecipes.com/twix-cookies/
 afbeelding: https://thebestblogrecipes.com/wp-content/uploads/2025/02/Twix-Cookies-Recipe-Card-480x270.jpg
 porties: 33
 tijd: 32 min
+bord: baking-zoet
 tags: [bakken]
 ---
 

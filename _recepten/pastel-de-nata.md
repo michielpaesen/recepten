@@ -4,6 +4,7 @@ bron: https://www.leukerecepten.nl/recepten/pastel-de-nata-recept/
 afbeelding: https://www.leukerecepten.nl/app/uploads/2026/03/pastel-de-nata-v.jpg
 porties: 12
 tijd: 40 min
+bord: baking-zoet
 tags: [bakken]
 ---
 

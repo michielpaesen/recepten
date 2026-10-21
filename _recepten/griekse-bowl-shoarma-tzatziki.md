@@ -4,6 +4,7 @@ bron: https://15gram.be/recepten/griekse-bowl-met-gyros-en-tzatziki
 afbeelding: https://image.15gram.be/uploads/recipes/8497_griekse-bowl-met-gyros-en-tzatziki_1534768146-1920x1280.jpg
 porties: 2
 tijd: 20 min
+bord: orzogriekse-pasta
 tags: [orzo, kalkoen, bowl]
 ---
 

@@ -4,6 +4,7 @@ bron: https://www.hellofresh.be/recipes/quick-and-calorie-smart-and-vegan-use-ei
 afbeelding: https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/HF_Y24_R31_W13_NL_Q20320-1_MAIN_low-719de60d.jpg
 porties: 2
 tijd: 15 min
+bord: noodles
 tags: [noedels, vegan, pinda, hellofresh]
 ---
 

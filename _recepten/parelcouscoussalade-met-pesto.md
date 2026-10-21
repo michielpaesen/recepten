@@ -4,6 +4,7 @@ bron: https://ohmyfoodness.nl/parelcouscoussalade-met-pesto/?ssp_iabi=1677582227
 afbeelding: https://ohmyfoodness.nl/wp-content/uploads/2021/08/parelcouscoussalade_met_pesto-feat-480x270.jpg
 porties: 4
 tijd: 50 min
+bord: parelcouscous
 tags: [parelcouscous, vegetarisch]
 ---
 

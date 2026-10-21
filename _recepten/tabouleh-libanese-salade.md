@@ -2,6 +2,7 @@
 title: "Tabouleh (Libanese salade)"
 bron: https://kookmutsjes.com/recept/tabouleh-libanese-salade/
 afbeelding: https://kookmutsjes.com/wp-content/uploads/2018/04/Tabouleh-Kookmutsjes.png
+bord: bulgur
 tags: [bulgur, vegetarisch]
 ---
 

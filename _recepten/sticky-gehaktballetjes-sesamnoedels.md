@@ -4,6 +4,7 @@ bron: https://www.hellofresh.be/recipes/sticky-gehaktballetjes-op-zn-aziatisch-6
 afbeelding: https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/HF_Y24_R32_W01_NL_Q5348-8_edit_meatballs_Main__5low-aacdd603.jpg
 porties: 2
 tijd: 15 min
+bord: noodles
 tags: [noedels, gehakt, hellofresh]
 ---
 

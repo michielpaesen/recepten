@@ -4,6 +4,7 @@ bron: https://www.kokerellen.be/parelcouscous-aubergine/
 afbeelding: https://www.kokerellen.be/wp-content/uploads/2020/04/Parelcouscous-met-aubergine-1-2-480x270.jpg
 porties: 4
 tijd: 50 min
+bord: parelcouscous
 tags: [parelcouscous, kip]
 ---
 

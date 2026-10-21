@@ -4,6 +4,7 @@ bron: https://www.easydailyfood.com/makkelijke-broccoli-ovenschotel/
 afbeelding: https://www.easydailyfood.com/wp-content/uploads/2017/08/makkelijke-broccoli-ovenschotel-1-scaled.jpg
 porties: 2-3
 tijd: 30 min
+bord: ovenschotels
 tags: [ovenschotel, vegetarisch]
 ---
 

@@ -4,6 +4,7 @@ bron: https://15gram.be/recepten/marokkaanse-gehaktballen-met-rijst-granaatappel
 afbeelding: https://image.15gram.be/uploads/recipes/5271_1713191485-1920x1280.jpg
 porties: 2
 tijd: 40 min
+bord: rijst
 tags: [rijst, kip]
 ---
 

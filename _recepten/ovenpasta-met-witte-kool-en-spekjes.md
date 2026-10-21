@@ -4,6 +4,7 @@ bron: https://15gram.be/recepten/ovenpasta-met-wittekool-en-spekjes
 afbeelding: https://image.15gram.be/uploads/recipes/7619_ovenpasta-met-wittekool-en-spekjes_1515405003-1920x1280.jpg
 porties: 4
 tijd: 25 min
+bord: ovenschotels
 tags: [ovenschotel, spek]
 ---
 

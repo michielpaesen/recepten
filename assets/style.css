@@ -8,6 +8,15 @@ main { max-width:960px; margin:0 auto; padding:16px; }
 a { color:var(--accent); }
 .site-header { border-bottom:1px solid var(--line); padding:14px 16px; }
 .site-title { font-weight:700; font-size:1.3rem; text-decoration:none; color:var(--fg); }
+.borden { display:grid; grid-template-columns:repeat(auto-fill, minmax(150px, 1fr)); gap:10px; margin:4px 0 18px; }
+.bord { display:flex; flex-direction:column; align-items:flex-start; gap:2px; padding:14px 16px; border:1px solid var(--line); border-radius:14px; background:var(--card); color:var(--fg); font:inherit; text-align:left; cursor:pointer; min-height:72px; }
+.bord:hover { border-color:var(--accent); }
+.bord-naam { font-weight:700; font-size:1.05rem; line-height:1.25; }
+.bord-aantal { color:var(--muted); font-size:.85rem; }
+.bord-aantal::after { content:" recepten"; }
+.bord.actief { background:var(--accent); border-color:var(--accent); color:#fff; }
+.bord.actief .bord-aantal { color:#fff; opacity:.85; }
+@media (max-width:480px) { .borden { grid-template-columns:1fr 1fr; } }
 #zoek { width:100%; padding:12px 14px; font-size:1rem; border:1px solid var(--line); border-radius:10px; background:var(--card); color:var(--fg); }
 .tags { display:flex; flex-wrap:wrap; gap:6px; margin:12px 0 20px; }
 .tag { border:1px solid var(--line); background:var(--card); color:var(--muted); border-radius:999px; padding:3px 12px; font-size:.85rem; cursor:pointer; }

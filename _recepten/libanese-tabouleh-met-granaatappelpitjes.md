@@ -4,6 +4,7 @@ bron: https://www.feelgoodbyfood.nl/libanese-tabouleh-granaatappel/
 afbeelding: https://www.feelgoodbyfood.nl/wp-content/uploads/2016/01/IMG_8814.jpg
 porties: 3-4
 tijd: 20 min
+bord: bulgur
 tags: [bulgur, vegetarisch]
 ---
 

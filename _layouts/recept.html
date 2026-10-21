@@ -13,5 +13,5 @@ layout: default
   {% if page.bron %}
   <p class="bron">Bron: <a href="{{ page.bron }}" target="_blank" rel="noopener">{% if page.bron contains 'pinterest' %}Pinterest{% elsif page.bron contains 'instagram' %}Instagram{% else %}origineel recept{% endif %} ↗</a></p>
   {% endif %}
-  <p><a href="{{ '/' | relative_url }}">← Alle recepten</a></p>
+  <p>{% assign b = site.borden | where: 'slug', page.bord | first %}{% if b %}<a href="{{ '/' | relative_url }}#{{ b.slug }}">← {{ b.naam }}</a> · {% endif %}<a href="{{ '/' | relative_url }}">Alle recepten</a></p>
 </article>

@@ -4,6 +4,7 @@ bron: https://www.hellofresh.be/recipes/kipgyros-met-kruidige-bulgur-6568a23002b
 afbeelding: https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/HF221117_R20_W03_NL_R4935-4_MB_Main_low-61b3489e.jpg
 porties: 2
 tijd: 35 min
+bord: bulgur
 tags: [bulgur, kip]
 ---
 

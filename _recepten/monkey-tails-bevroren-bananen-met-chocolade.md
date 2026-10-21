@@ -4,6 +4,7 @@ bron: https://simplerootswellness.com/monkey-tails-frozen-banana-dessert/
 afbeelding: https://simplerootswellness.com/wp-content/uploads/2015/06/monkey-tails-71.jpg
 porties: 6
 tijd: 15 min + 2 uur vriezer
+bord: desserts
 tags: [dessert]
 ---
 

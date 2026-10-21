@@ -2,6 +2,7 @@
 title: "One pot romige knoflooknoedels"
 bron: https://www.favfamilyrecipes.com/one-pot-creamy-garlic-noodles.html
 afbeelding: https://i.pinimg.com/736x/ba/ee/d2/baeed2e3fb1cdbf8573ef849adfc7afe.jpg
+bord: noodles
 tags: [noedels, kip, one pot]
 ---
 

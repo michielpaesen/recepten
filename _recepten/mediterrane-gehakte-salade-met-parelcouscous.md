@@ -4,6 +4,7 @@ bron: https://thecafesucrefarine.com/mediterranean-chopped-salad/
 afbeelding: https://thecafesucrefarine.com/wp-content/uploads/2014/07/Mediterranean-Chopped-Salad-480x270.jpg
 porties: 4
 tijd: 40 min
+bord: parelcouscous
 tags: [parelcouscous, vegetarisch]
 ---
 

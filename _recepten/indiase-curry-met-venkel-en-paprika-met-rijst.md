@@ -4,6 +4,7 @@ bron: https://www.hellofresh.be/recipes/indiase-curry-met-venkel-en-paprika-648c
 afbeelding: https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/HF_Y23_R12_W39_NL_R16621743-15_MAIN__3low-40728899.jpg
 porties: 2
 tijd: 35 min
+bord: rijst
 tags: [rijst, vegetarisch]
 ---
 

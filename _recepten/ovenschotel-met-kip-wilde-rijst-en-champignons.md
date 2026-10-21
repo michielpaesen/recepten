@@ -4,6 +4,7 @@ bron: https://carlsbadcravings.com/chicken-and-wild-rice-casserole/
 afbeelding: https://carlsbadcravings.com/wp-content/uploads/2023/04/Chicken-and-Wild-Rice-Casserole-13-480x270.jpg
 porties: 8
 tijd: 80 min
+bord: ovenschotels
 tags: [ovenschotel, vegetarisch]
 ---
 

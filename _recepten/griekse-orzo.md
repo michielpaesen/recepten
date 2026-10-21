@@ -4,6 +4,7 @@ bron: https://www.leukerecepten.nl/recepten/griekse-orzo/
 afbeelding: https://www.leukerecepten.nl/app/uploads/2026/06/griekse-orzo.jpg
 porties: 4
 tijd: 35 min
+bord: orzogriekse-pasta
 tags: [orzo, vegan, eenpansgerecht]
 ---
 

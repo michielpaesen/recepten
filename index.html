@@ -1,6 +1,11 @@
 ---
 layout: default
 ---
+<nav id="borden" class="borden" aria-label="Borden">
+  <button class="bord actief" data-bord=""><span class="bord-naam">Alle recepten</span><span class="bord-aantal">{{ site.recepten | size }}</span></button>
+  {% for b in site.borden %}{% assign n = site.recepten | where: 'bord', b.slug | size %}<button class="bord" data-bord="{{ b.slug }}"><span class="bord-naam">{{ b.naam }}</span><span class="bord-aantal">{{ n }}</span></button>
+  {% endfor %}
+</nav>
 <input id="zoek" type="search" placeholder="Zoek een recept of ingrediënt…" autocomplete="off">
 <div id="tags" class="tags">
   <button class="tag actief" data-tag="">Alles</button>
@@ -10,7 +15,7 @@ layout: default
 <ul class="kaarten">
   {% assign recepten = site.recepten | sort: 'title' %}
   {% for r in recepten %}
-  <li class="kaart" data-tags="{{ r.tags | join: '|' }}" data-tekst="{{ r.title | append: ' ' | append: r.content | strip_html | downcase | escape }}">
+  <li class="kaart" data-bord="{{ r.bord }}" data-tags="{{ r.tags | join: '|' }}" data-tekst="{{ r.title | append: ' ' | append: r.content | strip_html | downcase | escape }}">
     <a href="{{ r.url | relative_url }}">
       {% if r.afbeelding %}<img src="{{ r.afbeelding }}" alt="" loading="lazy">{% else %}<div class="placeholder">🍽️</div>{% endif %}
       <span class="kaart-titel">{{ r.title }}</span>
@@ -23,12 +28,13 @@ layout: default
   const zoek = document.getElementById('zoek');
   const knoppen = document.querySelectorAll('#tags .tag');
   const kaarten = document.querySelectorAll('.kaart');
-  let tag = '';
+  const bordknoppen = document.querySelectorAll('#borden .bord');
+  let tag = '', bord = '';
   function filter() {
     const q = zoek.value.toLowerCase().trim();
     let n = 0;
     kaarten.forEach(k => {
-      const ok = (!tag || k.dataset.tags.split('|').includes(tag)) && (!q || k.dataset.tekst.includes(q));
+      const ok = (!bord || k.dataset.bord === bord) && (!tag || k.dataset.tags.split('|').includes(tag)) && (!q || k.dataset.tekst.includes(q));
       k.hidden = !ok; if (ok) n++;
     });
     document.getElementById('leeg').hidden = n > 0;
@@ -38,4 +44,14 @@ layout: default
     knoppen.forEach(x => x.classList.remove('actief'));
     b.classList.add('actief'); tag = b.dataset.tag; filter();
   }));
+  function kiesBord(slug) {
+    bord = slug;
+    bordknoppen.forEach(x => x.classList.toggle('actief', x.dataset.bord === slug));
+    filter();
+  }
+  bordknoppen.forEach(b => b.addEventListener('click', () => {
+    kiesBord(b.dataset.bord);
+    history.replaceState(null, '', b.dataset.bord ? '#' + b.dataset.bord : location.pathname);
+  }));
+  kiesBord(location.hash.slice(1));
 </script>

@@ -4,6 +4,7 @@ bron: https://www.hellofresh.be/recipes/bulgur-op-zn-italiaans-met-kipgehaktball
 afbeelding: https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/HF221027_R16_W49_NL_Q5847-1_KB_Main_Low-0d0149b4.jpg
 porties: 2
 tijd: 25 min
+bord: bulgur
 tags: [bulgur, kip]
 ---
 

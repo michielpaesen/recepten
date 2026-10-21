@@ -4,6 +4,7 @@ bron: https://www.plantbased.be/savory/parelcouscous-salade/
 afbeelding: https://i.pinimg.com/564x/02/73/94/027394c8f41ea8e554b5636c3b754fc1.jpg
 porties: 4
 tijd: 30 min
+bord: parelcouscous
 tags: [parelcouscous, vegetarisch]
 ---
 

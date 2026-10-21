@@ -4,6 +4,7 @@ bron: https://lotoftaste.com/parelcouscous-met-feta-en-kikkererwten/
 afbeelding: https://lotoftaste.com/wp-content/uploads/2019/02/image-5.jpg
 porties: 4
 tijd: 50 min
+bord: parelcouscous
 tags: [parelcouscous, vegetarisch]
 ---
 

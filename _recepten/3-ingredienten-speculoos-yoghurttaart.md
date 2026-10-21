@@ -4,6 +4,7 @@ bron: https://www.facebook.com/share/1AsY5sfCrY/
 afbeelding: https://i.pinimg.com/564x/ef/20/c8/ef20c8ea835cf6b4eb94067925f0a09b.jpg
 porties: 6-8
 tijd: 10 min + 4 uur opstijven
+bord: baking-zoet
 tags: [bakken]
 ---
 

@@ -4,6 +4,7 @@ bron: https://www.etenmetdanielle.nl/fajita-chicken-bowl/
 afbeelding: https://www.etenmetdanielle.nl/wp-content/uploads/2026/02/IMG_9883-web-480x270.jpg
 porties: 2
 tijd: 30 min
+bord: rijst
 tags: [rijst, kip]
 ---
 

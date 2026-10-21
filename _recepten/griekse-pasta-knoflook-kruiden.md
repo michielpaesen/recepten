@@ -2,6 +2,7 @@
 title: "Griekse pasta (kritharaki) met knoflook, amandelen en kruiden"
 bron: https://onno-indekeuken.blogspot.com/2013/06/griekse-pasta-met-knoflook-en-kruiden.html
 afbeelding: https://i.pinimg.com/736x/15/4e/6d/154e6d0e051dce3bf2bbef39d8412f2d.jpg
+bord: orzogriekse-pasta
 tags: [orzo, vegan, bijgerecht]
 ---
 

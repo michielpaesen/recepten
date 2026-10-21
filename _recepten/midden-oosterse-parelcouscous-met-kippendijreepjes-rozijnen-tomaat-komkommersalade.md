@@ -4,6 +4,7 @@ bron: https://www.hellofresh.be/recipes/midden-oosterse-parelcouscous-met-kippen
 afbeelding: https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/603f83e7c3859b40bb63bfb7-aa934800-ebd412db.jpg
 porties: 2
 tijd: 40 min
+bord: parelcouscous
 tags: [parelcouscous, kip]
 ---
 

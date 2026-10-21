@@ -4,6 +4,7 @@ bron: https://15gram.be/recepten/gyros-met-couscous-paprika-courgette-en-peterse
 afbeelding: https://image.15gram.be/uploads/recipes/5357_1719321500-1920x1280.jpg
 porties: 2
 tijd: 30 min
+bord: couscous
 tags: [couscous, varken, vlees]
 ---
 

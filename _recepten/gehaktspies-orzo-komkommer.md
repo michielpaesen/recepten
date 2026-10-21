@@ -4,6 +4,7 @@ bron: https://15gram.be/recepten/gehaktspies-met-orzo-komkommer-rucola-en-tomate
 afbeelding: https://image.15gram.be/uploads/recipes/4969_1689786720-1920x1280.jpg
 porties: 2
 tijd: 35 min
+bord: orzogriekse-pasta
 tags: [orzo, gehakt, salade]
 ---
 

@@ -4,6 +4,7 @@ bron: https://reciperunner.com/greek-meatballs-and-orzo-skillet/
 afbeelding: https://reciperunner.com/wp-content/uploads/2020/07/Greek-Meatballs-Orzo-Skillet-Photo.jpg
 porties: 4
 tijd: 40 min
+bord: orzogriekse-pasta
 tags: [orzo, kip, gehakt, eenpansgerecht, feta]
 ---
 

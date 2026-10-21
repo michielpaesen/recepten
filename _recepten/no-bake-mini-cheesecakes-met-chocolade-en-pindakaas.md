@@ -4,6 +4,7 @@ bron: https://sweetspicykitchen.com/no-bake-chocolate-peanut-butter-mini-cheesec
 afbeelding: https://sweetspicykitchen.com/wp-content/uploads/2017/01/IMG_2976-480x270.jpg
 porties: 14
 tijd: 30 min
+bord: baking-zoet
 tags: [bakken]
 ---
 

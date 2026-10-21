@@ -4,6 +4,7 @@ bron: https://15gram.be/recepten/kip-in-paprika-tomatensaus-met-couscous
 afbeelding: https://image.15gram.be/uploads/recipes/4940_1715928044-1920x1280.jpg
 porties: 2
 tijd: 30 min
+bord: couscous
 tags: [couscous, kip]
 ---
 

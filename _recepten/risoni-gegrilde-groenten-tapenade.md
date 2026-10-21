@@ -4,6 +4,7 @@ bron: https://www.colruyt.be/nl/recepten/risoni-met-gegrilde-groenten-en-tomaten
 afbeelding: https://fgdjrynm.filerobot.com/recipes/dbb39232eea9a06ee599d2413ddccccb191df2cd3840fab69af839ccb2e57a1a.jpg?vh=6f78ee&h=800&w=800&q=60
 porties: 4
 tijd: 25 min
+bord: orzogriekse-pasta
 tags: [orzo, vegetarisch, salade]
 ---
 

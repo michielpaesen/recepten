@@ -4,6 +4,7 @@ bron: https://herhealth.nl/recept-gezonde-twix-repen/
 afbeelding: https://herhealth.nl/wp-content/uploads/2015/07/IMG_9975-2-e1446205928734.jpg
 porties: ca. 8
 tijd: 45 min + 1 uur vriezer
+bord: desserts
 tags: [dessert]
 ---
 

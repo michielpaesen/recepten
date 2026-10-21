@@ -4,6 +4,7 @@ bron: https://www.hellofresh.be/recipes/ravioli-met-broccolini-doperwten-en-pist
 afbeelding: https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/HF_Y25_R72_W50_NL_P6776-1_Main__17low-62873ae0.jpg
 porties: 2
 tijd: 25 min
+bord: tortellini
 tags: [tortellini, vegetarisch]
 ---
 

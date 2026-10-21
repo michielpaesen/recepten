@@ -4,6 +4,7 @@ bron: https://eatertainment.nl/recept/kruidenrijst-met-geroosterde-ovengroenten
 afbeelding: https://cdn.eatertainment.nl/content/uploads/2023/08/Kruidenrijst-met-geroosterde-ovengroenten_JEB7443-Low_res.jpg
 porties: 2
 tijd: 40 min
+bord: rijst
 tags: [rijst, vegetarisch]
 ---
 

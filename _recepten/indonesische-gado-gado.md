@@ -4,6 +4,7 @@ bron: https://www.leukerecepten.nl/recepten/indonesische-gado-gado/
 afbeelding: https://www.leukerecepten.nl/app/uploads/2022/05/gado-gado-recept-v.jpg
 porties: 4
 tijd: 35 min
+bord: rijst
 tags: [rijst, vegetarisch]
 ---
 

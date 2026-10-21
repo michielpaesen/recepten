@@ -4,6 +4,7 @@ bron: https://bakeitpaleo.com/healthy-twix-cookie-cups/
 afbeelding: https://bakeitpaleo.com/wp-content/uploads/2024/06/square-twix.jpg
 porties: 13
 tijd: 20 min
+bord: desserts
 tags: [dessert, vegetarisch]
 ---
 

@@ -4,6 +4,7 @@ bron: https://easyculi.com/recept/orzo-burrata-tomaat-paprika/
 afbeelding: https://easyculi.com/wp-content/uploads/2025/02/Orzo-burrata-tomaat-paprika--768x1152.jpg
 porties: 2
 tijd: 20 min
+bord: orzogriekse-pasta
 tags: [orzo, vegetarisch, burrata]
 ---
 

@@ -11,8 +11,7 @@ layout: default
   {% for s in g.borden %}{% assign b = site.borden | where: 'slug', s | first %}<button class="tag sub" data-bord="{{ s }}">{{ b.naam }}</button>{% endfor %}
 </div>
 {% endfor %}<div id="tags" class="tags">
-  {% assign alletags = site.recepten | map: 'tags' | uniq | sort %}
-  {% for tag in alletags %}<button class="tag" data-tag="{{ tag }}">{{ tag }}</button>{% endfor %}
+  {% for f in site.filters %}<button class="tag" data-tag="{{ f.tags | join: '|' }}">{{ f.naam }}</button>{% endfor %}
 </div>
 <ul class="kaarten">
   {% assign recepten = site.recepten | sort: 'title' %}
@@ -40,7 +39,7 @@ layout: default
     const q = zoek.value.toLowerCase().trim();
     let n = 0;
     kaarten.forEach(k => {
-      const ok = (!enkelFav || fav.has(k.dataset.id)) && (!borden || borden.includes(k.dataset.bord)) && (!tag || k.dataset.tags.split('|').includes(tag)) && (!q || k.dataset.tekst.includes(q));
+      const ok = (!enkelFav || fav.has(k.dataset.id)) && (!borden || borden.includes(k.dataset.bord)) && (!tag || k.dataset.tags.split('|').some(t => tag.includes(t))) && (!q || k.dataset.tekst.includes(q));
       k.hidden = !ok; if (ok) n++;
     });
     document.getElementById('leeg').hidden = n > 0 || (enkelFav && !fav.size);
@@ -73,7 +72,7 @@ layout: default
   tagknoppen.forEach(t => t.addEventListener('click', () => {
     const al = t.classList.contains('actief');
     tagknoppen.forEach(x => x.classList.toggle('actief', x === t && !al));
-    tag = al ? '' : t.dataset.tag; filter();
+    tag = al ? '' : t.dataset.tag.split('|'); filter();
   }));
   // aantallen op de knoppen
   const per = {};

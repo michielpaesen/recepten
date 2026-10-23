@@ -183,3 +183,20 @@ groepen:
   - slug: zoet
     naam: "Zoet"
     borden: [baking-zoet, desserts]
+
+# Kleine filterknoppen onder de groepen: naam en de tags die erbij horen
+filters:
+  - naam: vegetarisch
+    tags: [vegetarisch, vegan]
+  - naam: kip
+    tags: [kip, kalkoen]
+  - naam: gehakt
+    tags: [gehakt]
+  - naam: rund
+    tags: [rund]
+  - naam: varken & spek
+    tags: [varken, spek, ham, worst]
+  - naam: vis
+    tags: [vis]
+  - naam: ovenschotel
+    tags: [ovenschotel, oven]

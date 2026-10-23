@@ -1,7 +1,7 @@
 ---
 title: "Pastaschotel met broccoli en pancetta"
 bron: https://www.donnahay.com.au/recipes/broccoli-and-pancetta-pasta-bake
-afbeelding: http://donnahay.com.auhttps://cdn.donnahaycdn.com.au/images/content-images/Pasta_Bake.jpg
+afbeelding: https://i.pinimg.com/564x/21/6d/5e/216d5e7b454c8bb5731872b73c2c398c.jpg
 bord: penne
 tags: [spek]
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Pittige kipsaté met komkommersalade"
 bron: https://www.donnahay.com.au/recipes/dinner/spicy-chicken-satay-skewers
-afbeelding: http://donnahay.com.auhttps://cdn.donnahaycdn.com.au/images/content-images/Satay_skewers.jpg
+afbeelding: https://i.pinimg.com/564x/ee/ad/9c/eead9ccf9f2dce9205e2c32acaa603d7.jpg
 bord: vlees
 tags: [kip, gehakt]
 ---

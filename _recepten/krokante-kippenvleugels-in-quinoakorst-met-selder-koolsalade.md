@@ -1,7 +1,7 @@
 ---
 title: "Krokante kippenvleugels in quinoakorst met selder-koolsalade"
 bron: https://www.donnahay.com.au/recipes/dinner/crispy-quinoa-chicken-wings-with-celery-and-cabbage-slaw
-afbeelding: http://donnahay.com.auhttps://cdn.donnahaycdn.com.au/images/content-images/crispy_quinoa_chicken_wings_with_celery_cabbage_slaw.jpg
+afbeelding: https://i.pinimg.com/564x/f0/bd/54/f0bd540cbd2d711c3c76597db578ab85.jpg
 bord: vlees
 tags: [kip]
 ---

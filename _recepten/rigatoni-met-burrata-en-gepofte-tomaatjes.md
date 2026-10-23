@@ -1,7 +1,7 @@
 ---
 title: "Rigatoni met burrata en gepofte tomaatjes"
 bron: https://www.healthymoodsf.com/recipebox/rigatoni-with-burrata-and-burst-tomatoes
-afbeelding: http://static1.squarespace.com/static/5f585745da3ee360738be6f9/5f585746da3ee360738be758/6137bab2833e8f712a7cebba/1647974028124/IMG_3277.JPG?format=1500w
+afbeelding: https://i.pinimg.com/564x/20/5d/05/205d058431d1d7e31669eb81fa71e4a9.jpg
 bord: rigatoni
 tags: [vegetarisch]
 ---

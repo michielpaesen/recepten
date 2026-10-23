@@ -1,7 +1,7 @@
 ---
 title: "Pastaschotel met kip en prosciutto"
 bron: https://www.donnahay.com.au/recipes/trending/chicken-and-prosciutto-pasta-bake
-afbeelding: http://donnahay.com.auhttps://cdn.donnahaycdn.com.au/images/content-images/chicken_and_prociutto_pasta_bake.jpg
+afbeelding: https://i.pinimg.com/564x/54/e0/39/54e039efa9706ad5ea7a11c380af5242.jpg
 bord: rigatoni
 tags: [kip, gehakt]
 ---

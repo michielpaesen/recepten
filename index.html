@@ -2,9 +2,14 @@
 layout: default
 ---
 <input id="zoek" type="search" placeholder="Zoek een recept of ingrediënt…" autocomplete="off">
-<div id="tags" class="tags">
-  <button class="tag bord actief" data-tag="">Alles</button>
-  {% for b in site.borden %}<button class="tag bord" data-bord="{{ b.slug }}">{{ b.naam }}</button>{% endfor %}
+<div id="groepen" class="tags">
+  <button class="tag bord actief" data-groep="">Alles</button>
+  {% for g in site.groepen %}<button class="tag bord" data-groep="{{ g.slug }}" data-borden="{{ g.borden | join: '|' }}">{{ g.naam }}</button>{% endfor %}
+</div>
+{% for g in site.groepen %}<div class="tags subrij" data-groep="{{ g.slug }}" hidden>
+  {% for s in g.borden %}{% assign b = site.borden | where: 'slug', s | first %}<button class="tag sub" data-bord="{{ s }}">{{ b.naam }}</button>{% endfor %}
+</div>
+{% endfor %}<div id="tags" class="tags">
   {% assign alletags = site.recepten | map: 'tags' | uniq | sort %}
   {% for tag in alletags %}<button class="tag" data-tag="{{ tag }}">{{ tag }}</button>{% endfor %}
 </div>
@@ -22,27 +27,55 @@ layout: default
 <p id="leeg" hidden>Geen recepten gevonden.</p>
 <script>
   const zoek = document.getElementById('zoek');
-  const knoppen = document.querySelectorAll('#tags .tag');
+  const groepknoppen = document.querySelectorAll('#groepen .tag');
+  const subrijen = document.querySelectorAll('.subrij');
+  const subknoppen = document.querySelectorAll('.subrij .tag');
+  const tagknoppen = document.querySelectorAll('#tags .tag');
   const kaarten = document.querySelectorAll('.kaart');
-  let tag = '', bord = '';
+  let borden = null, tag = '';
   function filter() {
     const q = zoek.value.toLowerCase().trim();
     let n = 0;
     kaarten.forEach(k => {
-      const ok = (!bord || k.dataset.bord === bord) && (!tag || k.dataset.tags.split('|').includes(tag)) && (!q || k.dataset.tekst.includes(q));
+      const ok = (!borden || borden.includes(k.dataset.bord)) && (!tag || k.dataset.tags.split('|').includes(tag)) && (!q || k.dataset.tekst.includes(q));
       k.hidden = !ok; if (ok) n++;
     });
     document.getElementById('leeg').hidden = n > 0;
   }
   zoek.addEventListener('input', filter);
-  function kies(b) {
-    knoppen.forEach(x => x.classList.toggle('actief', x === b));
-    bord = b.dataset.bord || ''; tag = b.dataset.tag || ''; filter();
+  function kiesGroep(g) {
+    groepknoppen.forEach(x => x.classList.toggle('actief', x === g));
+    subknoppen.forEach(x => x.classList.remove('actief'));
+    subrijen.forEach(r => r.hidden = !g.dataset.groep || r.dataset.groep !== g.dataset.groep);
+    borden = g.dataset.groep ? g.dataset.borden.split('|') : null;
+    if (!g.dataset.groep) { tag = ''; tagknoppen.forEach(x => x.classList.remove('actief')); }
+    filter();
   }
-  knoppen.forEach(b => b.addEventListener('click', () => {
-    kies(b);
-    history.replaceState(null, '', bord ? '#' + bord : location.pathname);
+  function kiesBord(b) {
+    const al = b.classList.contains('actief');
+    subknoppen.forEach(x => x.classList.toggle('actief', x === b && !al));
+    const g = document.querySelector('#groepen .tag[data-groep="' + b.parentElement.dataset.groep + '"]');
+    borden = al ? g.dataset.borden.split('|') : [b.dataset.bord];
+    filter();
+  }
+  function hash() {
+    const b = document.querySelector('.subrij .tag.actief');
+    const g = document.querySelector('#groepen .tag.actief');
+    history.replaceState(null, '', b ? '#' + b.dataset.bord : (g && g.dataset.groep ? '#groep-' + g.dataset.groep : location.pathname));
+  }
+  groepknoppen.forEach(g => g.addEventListener('click', () => { kiesGroep(g); hash(); }));
+  subknoppen.forEach(b => b.addEventListener('click', () => { kiesBord(b); hash(); }));
+  tagknoppen.forEach(t => t.addEventListener('click', () => {
+    const al = t.classList.contains('actief');
+    tagknoppen.forEach(x => x.classList.toggle('actief', x === t && !al));
+    tag = al ? '' : t.dataset.tag; filter();
   }));
-  const start = document.querySelector('#tags .bord[data-bord="' + location.hash.slice(1) + '"]');
-  if (start) kies(start);
+  const h = decodeURIComponent(location.hash.slice(1));
+  if (h.startsWith('groep-')) {
+    const g = document.querySelector('#groepen .tag[data-groep="' + h.slice(6) + '"]');
+    if (g) kiesGroep(g);
+  } else if (h) {
+    const b = document.querySelector('.subrij .tag[data-bord="' + h + '"]');
+    if (b) { kiesGroep(document.querySelector('#groepen .tag[data-groep="' + b.parentElement.dataset.groep + '"]')); kiesBord(b); }
+  }
 </script>

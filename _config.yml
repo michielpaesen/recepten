@@ -156,3 +156,30 @@ borden:
     naam: "Pita"
   - slug: ontbijt
     naam: "Ontbijt"
+
+# Groepen van borden: de knoppen in de filterrij; een groep toont daaronder zijn borden
+groepen:
+  - slug: pasta
+    naam: "Pasta"
+    borden: [noodles, orzogriekse-pasta, tortellini, linguine, tagliatelle, rigatoni, lasagne, fusilli, ravioli, farfalle, macaroni, pasta, fettucine, spaghetti, penne, conchiglie, cooking-pastaschelpen, canneloni, pasta-ovenschotel, gnocchi]
+  - slug: rijst-granen
+    naam: "Rijst & granen"
+    borden: [rijst, risotto, couscous, parelcouscous, bulgur, quinoa, ebly]
+  - slug: salades
+    naam: "Salades"
+    borden: [salade, salade-vegetarische, couscous-salade, quinoa-salade, ebly-salade, poke-bowl]
+  - slug: hoofdgerechten
+    naam: "Vlees, groenten & ovenschotels"
+    borden: [vlees, gehakt, groenten, aardappelen, frieten, halloumi, gevulde-paprikas, one-pan, ovenschotels, bbq, plaattaart]
+  - slug: brood-pizza
+    naam: "Brood, wraps & pizza"
+    borden: [brood, naan, pita, wraps, paninis, burgers, hamburgers, hotdogs, pizza, tortizza, flammkuchen]
+  - slug: wereld
+    naam: "Mexicaans & wereld"
+    borden: [mexicaans, tacos, enchiladas, quesadila, nachos, empanada, falafel, afghaanse-gerechten]
+  - slug: hapjes-lunch
+    naam: "Hapjes, lunch & ontbijt"
+    borden: [starters, baking-hartig, lunches, ontbijt, smoothies]
+  - slug: zoet
+    naam: "Zoet"
+    borden: [baking-zoet, desserts]

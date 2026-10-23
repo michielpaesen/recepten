@@ -2,6 +2,7 @@
 layout: default
 ---
 <article class="recept">
+  <p id="isweg" class="melding" hidden>Dit recept is verwijderd en staat niet meer in de lijst. <button class="tag" id="terugzet">↩ Terugzetten</button></p>
   {% if page.afbeelding %}<img class="hero" src="{{ page.afbeelding }}" alt="{{ page.title }}">{% endif %}
   <div class="titelrij"><h1>{{ page.title }}</h1><button class="hart groot" data-id="{{ page.url }}" aria-label="Favoriet">♡</button></div>
   <p class="meta">
@@ -18,6 +19,7 @@ layout: default
   {% if page.bron %}
   <p class="bron">Bron: <a href="{{ page.bron }}" target="_blank" rel="noopener">{% if page.bron contains 'pinterest' %}Pinterest{% elsif page.bron contains 'instagram' %}Instagram{% else %}origineel recept{% endif %} ↗</a></p>
   {% endif %}
+  <p><button class="knop licht" id="verwijder">🗑️ Verwijder dit recept</button></p>
   <p>{% assign b = site.borden | where: 'slug', page.bord | first %}{% if b %}<a href="{{ '/' | relative_url }}#{{ b.slug }}">← {{ b.naam }}</a> · {% endif %}<a href="{{ '/' | relative_url }}">Alle recepten</a></p>
 </article>
 <script>
@@ -25,6 +27,11 @@ layout: default
     const h = document.querySelector('.hart');
     h.addEventListener('click', () => Fav.toggle(h.dataset.id));
     Fav.onChange(() => { const aan = Fav.has(h.dataset.id); h.textContent = aan ? '♥' : '♡'; h.classList.toggle('aan', aan); });
+    // verwijderen = verbergen voor iedereen, terug te zetten via de startpagina of hier
+    const weg = document.getElementById('verwijder');
+    weg.addEventListener('click', () => { if (confirm('Dit recept verwijderen? Het verdwijnt uit de lijst en uit de random picker. Je kan het later terugzetten.')) { weg.disabled = true; Weg.toggle(h.dataset.id, true).finally(() => location.href = '{{ '/' | relative_url }}'); } });
+    document.getElementById('terugzet').addEventListener('click', () => Weg.toggle(h.dataset.id, false));
+    Weg.onChange(() => { const w = Weg.has(h.dataset.id); document.getElementById('isweg').hidden = !w; weg.hidden = w; });
     // weekmenu: deze en volgende week
     const DAGEN = ['Maandag', 'Dinsdag', 'Woensdag', 'Donderdag', 'Vrijdag', 'Zaterdag', 'Zondag'];
     const sel = document.getElementById('wmdag'), ok = document.getElementById('wmok'), id = h.dataset.id;

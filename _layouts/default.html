@@ -7,13 +7,16 @@
   <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
   <script>window.FIREBASE_CONFIG = {{ site.firebase | jsonify }};</script>
   <script src="{{ '/assets/db.js' | relative_url }}"></script>
-  <script src="{{ '/assets/fav.js' | relative_url }}"></script>
+  <script src="{{ '/assets/lijst.js' | relative_url }}"></script>
   <script src="{{ '/assets/week.js' | relative_url }}"></script>
 </head>
 <body>
   <header class="site-header">
     <a href="{{ '/' | relative_url }}" class="site-title">🍳 {{ site.title }}</a>
-    <a href="{{ '/weekmenu/' | relative_url }}" class="nav-link">📅 Weekmenu</a>
+    <nav class="nav">
+      <a href="{{ '/in-huis/' | relative_url }}" class="nav-link">🥕 In huis</a>
+      <a href="{{ '/weekmenu/' | relative_url }}" class="nav-link">📅 Weekmenu</a>
+    </nav>
   </header>
   <main>
     {{ content }}

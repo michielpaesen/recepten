@@ -1,0 +1,67 @@
+---
+layout: default
+title: Wat heb ik in huis?
+permalink: /in-huis/
+---
+<h1>🥕 Wat heb ik in huis?</h1>
+<p class="uitleg">Typ wat je in huis hebt en druk op Enter (of komma). De recepten met de meeste van jouw ingrediënten staan bovenaan.</p>
+<form id="voeg" class="voeg"><input id="ingr" type="search" placeholder="bv. kip, paprika, rijst…" autocomplete="off" enterkeyhint="done"><button class="knop">Voeg toe</button></form>
+<div id="gekozen" class="tags"></div>
+<p id="info" class="uitleg"></p>
+<ul id="resultaten" class="resultaten"></ul>
+<p class="center"><button class="tag" id="meer" hidden>Toon meer</button></p>
+
+<script>
+  const R = [{% for r in site.recepten %}{% assign delen = r.content | split: '<h2' %}{% assign ing = '' %}{% for d in delen %}{% if d contains 'ngrediënten</h2>' %}{% assign ing = d %}{% endif %}{% endfor %}{"u":{{ r.url | jsonify }},"t":{{ r.title | jsonify }},"i":{{ r.afbeelding | jsonify }},"l":[{% assign items = ing | split: '<li>' %}{% for x in items offset:1 %}{{ x | strip_html | strip | jsonify }}{% unless forloop.last %},{% endunless %}{% endfor %}]}{% unless forloop.last %},{% endunless %}{% endfor %}];
+  const BASIS = {{ '' | relative_url | jsonify }};
+  const $ = id => document.getElementById(id);
+  const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+  const norm = s => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+  R.forEach(r => { r.lt = r.l.map(norm); r.tt = norm(r.t); });
+
+  // "tomaten" vindt ook "tomaat", "kip" vindt "kipfilet", "ui" vindt "uien" maar niet "fruit"
+  function zoeker(woord) {
+    let w = norm(woord.trim()).replace(/[^a-z0-9 ]/g, '');
+    if (w.length > 4) w = w.replace(/(en|s)$/, '');
+    if (/aa[a-z]$/.test(w)) w = w.replace(/aa([a-z])$/, 'a$1');
+    if (/oo[a-z]$/.test(w)) w = w.replace(/oo([a-z])$/, 'o$1');
+    const e = w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const re = w.length < 3 ? new RegExp('(^|[^a-z])' + e + '(en|eren|tje|tjes|s)?([^a-z]|$)')
+             : w.length < 5 ? new RegExp('(^|[^a-z])' + e) : new RegExp(e);
+    return s => re.test(s) || (w.length > 3 && s.includes(norm(woord.trim())));
+  }
+
+  let gekozen = [], toon = 40;
+  function zoek() {
+    const z = gekozen.map(zoeker);
+    $('gekozen').innerHTML = gekozen.map((g, i) => '<button class="tag actief" data-i="' + i + '">' + esc(g) + ' ✕</button>').join('');
+    if (!gekozen.length) { $('resultaten').innerHTML = ''; $('info').textContent = ''; $('meer').hidden = true; return; }
+    const res = [];
+    R.forEach(r => {
+      if (Weg.has(r.u)) return;
+      const tekst = r.lt.length ? r.lt : [r.tt];
+      const heb = gekozen.filter((g, k) => tekst.some(z[k]) || z[k](r.tt));
+      if (!heb.length) return;
+      const lijnen = r.lt.filter(l => z.some(f => f(l))).length;
+      res.push({ r, heb, nodig: r.lt.length ? r.lt.length - lijnen : null });
+    });
+    res.sort((a, b) => b.heb.length - a.heb.length || (a.nodig ?? 99) - (b.nodig ?? 99) || a.r.t.localeCompare(b.r.t));
+    $('info').textContent = res.length ? res.length + ' recepten gevonden.' : 'Geen recepten gevonden met deze ingrediënten.';
+    $('resultaten').innerHTML = res.slice(0, toon).map(({ r, heb, nodig }) => '<li><a href="' + BASIS + esc(r.u) + '">'
+      + (r.i ? '<img src="' + esc(r.i) + '" alt="" loading="lazy">' : '<span class="mini">🍽️</span>')
+      + '<span><strong>' + esc(r.t) + '</strong><small>✓ ' + heb.map(esc).join(', ')
+      + (gekozen.length > 1 ? ' (' + heb.length + ' van ' + gekozen.length + ')' : '')
+      + (nodig === null ? ' · enkel link, gezocht op titel' : nodig ? ' · nog ' + nodig + ' andere ingrediënt' + (nodig > 1 ? 'en' : '') : ' · je hebt alles!')
+      + '</small></span></a></li>').join('');
+    $('meer').hidden = res.length <= toon;
+  }
+  $('voeg').addEventListener('submit', e => {
+    e.preventDefault();
+    $('ingr').value.split(',').map(x => x.trim()).filter(x => x && !gekozen.includes(x.toLowerCase())).forEach(x => gekozen.push(x.toLowerCase()));
+    $('ingr').value = ''; toon = 40; zoek();
+  });
+  $('ingr').addEventListener('input', () => { if ($('ingr').value.includes(',')) $('voeg').requestSubmit(); });
+  $('gekozen').addEventListener('click', e => { const b = e.target.closest('button'); if (b) { gekozen.splice(+b.dataset.i, 1); zoek(); } });
+  $('meer').addEventListener('click', () => { toon += 40; zoek(); });
+  Weg.onChange(zoek);
+</script>

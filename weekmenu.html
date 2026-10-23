@@ -73,7 +73,7 @@ permalink: /weekmenu/
     const tags = [...document.querySelectorAll('#pfilters .actief')].flatMap(b => b.dataset.tag.split('|'));
     const recent = new Set();
     for (let n = 0; n <= PAUZE; n++) Week.dagen(Week.plus(week, -n)).forEach(u => u && recent.add(u));
-    return hoofd.filter(r => (!groepen.length || groepen.includes(groepVan[r.b])) && (!tags.length || r.g.some(t => tags.includes(t))) && !recent.has(r.u));
+    return hoofd.filter(r => (!groepen.length || groepen.includes(groepVan[r.b])) && (!tags.length || r.g.some(t => tags.includes(t))) && !recent.has(r.u) && !Weg.has(r.u));
   };
   const trek = (lijst, nodig) => {
     const a = lijst.slice();
@@ -100,7 +100,7 @@ permalink: /weekmenu/
   let kiesDag = 0;
   function toonKeuze() {
     const q = $('kieszoek').value.toLowerCase().trim();
-    const res = R.filter(r => !q || r.t.toLowerCase().includes(q)).sort((a, b) => a.t.localeCompare(b.t)).slice(0, 60);
+    const res = R.filter(r => !Weg.has(r.u) && (!q || r.t.toLowerCase().includes(q))).sort((a, b) => a.t.localeCompare(b.t)).slice(0, 60);
     $('kieslijst').innerHTML = res.map(r => '<li><button data-u="' + esc(r.u) + '">' + (r.i ? '<img src="' + esc(r.i) + '" alt="" loading="lazy">' : '<span class="mini">🍽️</span>') + '<span>' + esc(r.t) + '</span></button></li>').join('') || '<li class="uitleg">Niets gevonden.</li>';
   }
   $('kieszoek').addEventListener('input', toonKeuze);
@@ -154,5 +154,6 @@ permalink: /weekmenu/
   $('nu').addEventListener('click', () => ga(Week.deze()));
   addEventListener('hashchange', () => { week = uitHash(); teken(); toonPool(); });
   Week.onChange(teken);
+  Weg.onChange(toonPool);
   toonPool();
 </script>

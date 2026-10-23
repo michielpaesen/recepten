@@ -203,3 +203,9 @@ filters:
 
 # Gedeelde favorieten (Firebase-webconfig). Leeg = favorieten enkel in de browser.
 firebase:
+  apiKey: "AIzaSyBJfXCfyCB2RNuzviMIDQcEQNXCOUxiZHM"
+  authDomain: "recepten-d1c0a.firebaseapp.com"
+  projectId: "recepten-d1c0a"
+  storageBucket: "recepten-d1c0a.firebasestorage.app"
+  messagingSenderId: "879638841036"
+  appId: "1:879638841036:web:45825b9e5f0203f285a469"

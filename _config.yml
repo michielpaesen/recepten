@@ -38,3 +38,121 @@ borden:
     naam: Baking zoet
   - slug: desserts
     naam: Desserts
+  - slug: linguine
+    naam: "Linguine"
+  - slug: gehakt
+    naam: "Gehakt"
+  - slug: salade-vegetarische
+    naam: "Salade vegetarisch"
+  - slug: tagliatelle
+    naam: "Tagliatelle"
+  - slug: rigatoni
+    naam: "Rigatoni"
+  - slug: lasagne
+    naam: "Lasagne"
+  - slug: naan
+    naam: "Naan"
+  - slug: aardappelen
+    naam: "Aardappelen"
+  - slug: fusilli
+    naam: "Fusilli"
+  - slug: quinoa
+    naam: "Quinoa"
+  - slug: ravioli
+    naam: "Ravioli"
+  - slug: brood
+    naam: "Brood"
+  - slug: flammkuchen
+    naam: "Flammkuchen"
+  - slug: groenten
+    naam: "Groenten"
+  - slug: tacos
+    naam: "Tacos"
+  - slug: wraps
+    naam: "Wraps"
+  - slug: smoothies
+    naam: "Smoothies"
+  - slug: pasta-ovenschotel
+    naam: "Pasta-ovenschotel"
+  - slug: ebly
+    naam: "Ebly"
+  - slug: enchiladas
+    naam: "Enchiladas"
+  - slug: canneloni
+    naam: "Cannelloni"
+  - slug: burgers
+    naam: "Burgers"
+  - slug: farfalle
+    naam: "Farfalle"
+  - slug: hotdogs
+    naam: "Hotdogs"
+  - slug: falafel
+    naam: "Falafel"
+  - slug: baking-hartig
+    naam: "Baking hartig"
+  - slug: frieten
+    naam: "Frieten"
+  - slug: macaroni
+    naam: "Macaroni"
+  - slug: mexicaans
+    naam: "Mexicaans"
+  - slug: halloumi
+    naam: "Halloumi"
+  - slug: empanada
+    naam: "Empanada"
+  - slug: quesadila
+    naam: "Quesadilla"
+  - slug: afghaanse-gerechten
+    naam: "Afghaanse gerechten"
+  - slug: nachos
+    naam: "Nachos"
+  - slug: hamburgers
+    naam: "Hamburgers"
+  - slug: plaattaart
+    naam: "Plaattaart"
+  - slug: pasta
+    naam: "Pasta"
+  - slug: tortizza
+    naam: "Tortizza"
+  - slug: ebly-salade
+    naam: "Ebly-salade"
+  - slug: pizza
+    naam: "Pizza"
+  - slug: bbq
+    naam: "BBQ"
+  - slug: fettucine
+    naam: "Fettuccine"
+  - slug: cooking-pastaschelpen
+    naam: "Pastaschelpen"
+  - slug: starters
+    naam: "Starters"
+  - slug: paninis
+    naam: "Panini’s"
+  - slug: lunches
+    naam: "Lunches"
+  - slug: salade
+    naam: "Salade"
+  - slug: couscous-salade
+    naam: "Couscoussalade"
+  - slug: gevulde-paprikas
+    naam: "Gevulde paprika’s"
+  - slug: gnocchi
+    naam: "Gnocchi"
+  - slug: one-pan
+    naam: "One pan"
+  - slug: risotto
+    naam: "Risotto"
+  - slug: spaghetti
+    naam: "Spaghetti"
+  - slug: conchiglie
+    naam: "Conchiglie"
+  - slug: quinoa-salade
+    naam: "Quinoasalade"
+  - slug: vlees
+    naam: "Vlees"
+  - slug: penne
+    naam: "Penne"
+  - slug: pita
+    naam: "Pita"
+  - slug: ontbijt
+    naam: "Ontbijt"

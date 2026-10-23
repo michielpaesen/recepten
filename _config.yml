@@ -169,16 +169,16 @@ groepen:
     naam: "Salades"
     borden: [salade, salade-vegetarische, couscous-salade, quinoa-salade, ebly-salade, poke-bowl]
   - slug: hoofdgerechten
-    naam: "Vlees, groenten & ovenschotels"
+    naam: "Hoofdgerechten"
     borden: [vlees, gehakt, groenten, aardappelen, frieten, halloumi, gevulde-paprikas, one-pan, ovenschotels, bbq, plaattaart]
   - slug: brood-pizza
-    naam: "Brood, wraps & pizza"
+    naam: "Brood & pizza"
     borden: [brood, naan, pita, wraps, paninis, burgers, hamburgers, hotdogs, pizza, tortizza, flammkuchen]
   - slug: wereld
-    naam: "Mexicaans & wereld"
+    naam: "Wereldkeuken"
     borden: [mexicaans, tacos, enchiladas, quesadila, nachos, empanada, falafel, afghaanse-gerechten]
   - slug: hapjes-lunch
-    naam: "Hapjes, lunch & ontbijt"
+    naam: "Hapjes & lunch"
     borden: [starters, baking-hartig, lunches, ontbijt, smoothies]
   - slug: zoet
     naam: "Zoet"

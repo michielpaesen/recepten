@@ -21,14 +21,9 @@
     }
   };
 
-  const cfg = window.FIREBASE_CONFIG;
-  if (!cfg || !cfg.apiKey) return;
-  const v = '10.12.2';
-  Promise.all([
-    import(`https://www.gstatic.com/firebasejs/${v}/firebase-app.js`),
-    import(`https://www.gstatic.com/firebasejs/${v}/firebase-firestore.js`)
-  ]).then(([app, fs]) => {
-    const db = fs.getFirestore(app.initializeApp(cfg));
+  window.dbKlaar.then(d => {
+    if (!d) return;
+    const { fs, db } = d;
     const ref = fs.doc(db, 'favorieten', 'gedeeld');
     online = {
       zet: (id, aan) => fs.setDoc(ref, { lijst: aan ? fs.arrayUnion(id) : fs.arrayRemove(id) }, { merge: true })
@@ -47,5 +42,5 @@
       lijst.clear(); gedeeld.forEach(id => lijst.add(id));
       bewaarLokaal(); melden();
     }, e => console.warn('Gedeelde favorieten niet bereikbaar', e));
-  }).catch(e => console.warn('Firebase niet geladen', e));
+  });
 })();

@@ -1,0 +1,158 @@
+---
+layout: default
+title: Weekmenu
+permalink: /weekmenu/
+---
+<div id="vorige" class="melding" hidden></div>
+<p id="fout" class="melding fout" hidden>Het weekmenu kon niet online bewaard worden, dus het staat voorlopig enkel op dit toestel.</p>
+
+<div class="weeknav">
+  <button class="tag" id="terug" aria-label="Vorige week">←</button>
+  <h1 id="weektitel">Weekmenu</h1>
+  <button class="tag" id="verder" aria-label="Volgende week">→</button>
+</div>
+<p class="center"><button class="tag" id="nu" hidden>Naar deze week</button></p>
+
+<ol id="dagen" class="dagen"></ol>
+
+<section class="picker">
+  <h2>🎲 Random kiezen</h2>
+  <p class="uitleg">Kiest uit alle hoofdgerechten. Duid labels aan om enkel daaruit te kiezen. Gerechten van de afgelopen 3 weken worden overgeslagen; zelf kiezen kan altijd.</p>
+  <div id="pgroepen" class="tags">
+    {% for g in site.groepen %}{% unless g.slug == 'zoet' or g.slug == 'hapjes-lunch' %}<button class="tag" data-groep="{{ g.slug }}">{{ g.naam }}</button>{% endunless %}{% endfor %}
+  </div>
+  <div id="pfilters" class="tags">
+    {% for f in site.filters %}<button class="tag" data-tag="{{ f.tags | join: '|' }}">{{ f.naam }}</button>{% endfor %}
+  </div>
+  <p class="knoppen">
+    <button class="knop" id="vul">Vul de lege dagen</button>
+    <button class="knop licht" id="alles">Hele week opnieuw</button>
+  </p>
+  <p id="pinfo" class="uitleg"></p>
+</section>
+
+<section>
+  <h2>🏆 Top 20</h2>
+  <ol id="top" class="top"></ol>
+  <p id="geentop" class="uitleg">Nog niets gekozen. Zodra er weekmenu's zijn, zie je hier welke gerechten het vaakst op tafel kwamen.</p>
+</section>
+
+<section>
+  <h2>📜 Vorige weken</h2>
+  <div id="historiek"></div>
+  <p id="geenhist" class="uitleg">Nog geen vorige weken.</p>
+</section>
+
+<dialog id="kies">
+  <form method="dialog" class="kieskop"><strong id="kiestitel">Kies een gerecht</strong><button class="tag" aria-label="Sluiten">✕</button></form>
+  <input id="kieszoek" type="search" placeholder="Zoek een recept…" autocomplete="off">
+  <ul id="kieslijst" class="kieslijst"></ul>
+</dialog>
+
+<script>
+  const R = [{% for r in site.recepten %}{"u":{{ r.url | jsonify }},"t":{{ r.title | jsonify }},"b":{{ r.bord | jsonify }},"g":{{ r.tags | jsonify }},"i":{{ r.afbeelding | jsonify }}}{% unless forloop.last %},{% endunless %}{% endfor %}];
+  const GROEPEN = {{ site.groepen | jsonify }};
+  const BASIS = {{ '' | relative_url | jsonify }};
+  const DAGEN = ['Maandag', 'Dinsdag', 'Woensdag', 'Donderdag', 'Vrijdag', 'Zaterdag', 'Zondag'];
+  const PAUZE = 3; // zoveel weken terug niet meer random kiezen
+
+  const perUrl = {}; R.forEach(r => perUrl[r.u] = r);
+  const groepVan = {}; GROEPEN.forEach(g => g.borden.forEach(b => groepVan[b] = g.slug));
+  const hoofd = R.filter(r => !['zoet', 'hapjes-lunch'].includes(groepVan[r.b]));
+  const $ = id => document.getElementById(id);
+  const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+  const korteDatum = d => d.toLocaleDateString('nl-BE', { day: 'numeric', month: 'short' });
+  const link = u => perUrl[u] ? '<a href="' + BASIS + esc(u) + '">' + esc(perUrl[u].t) + '</a>' : '<span class="weg">(recept verwijderd)</span>';
+
+  let week = Week.deze();
+  const h = location.hash.slice(1);
+  if (/^\d{4}-\d\d-\d\d$/.test(h)) week = Week.sleutel(Week.maandag(Week.datum(h)));
+
+  // ---- random ----
+  const kandidaten = () => {
+    const groepen = [...document.querySelectorAll('#pgroepen .actief')].map(b => b.dataset.groep);
+    const tags = [...document.querySelectorAll('#pfilters .actief')].flatMap(b => b.dataset.tag.split('|'));
+    const recent = new Set();
+    for (let n = 0; n <= PAUZE; n++) Week.dagen(Week.plus(week, -n)).forEach(u => u && recent.add(u));
+    return hoofd.filter(r => (!groepen.length || groepen.includes(groepVan[r.b])) && (!tags.length || r.g.some(t => tags.includes(t))) && !recent.has(r.u));
+  };
+  const trek = (lijst, nodig) => {
+    const a = lijst.slice();
+    for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; }
+    return a.slice(0, nodig).map(r => r.u);
+  };
+  function vul(welke) {
+    const dagen = Week.dagen(week);
+    welke.forEach(i => dagen[i] = null); // de dagen die opnieuw gekozen worden, tellen niet mee als "al op het menu"
+    const vrij = welke;
+    const pool = kandidaten().filter(r => !dagen.includes(r.u));
+    if (!pool.length) { $('pinfo').textContent = 'Geen gerechten gevonden met deze labels die de laatste weken niet al op het menu stonden.'; return; }
+    const gekozen = trek(pool, vrij.length);
+    vrij.forEach((i, n) => dagen[i] = gekozen[n] || null);
+    $('pinfo').textContent = gekozen.length < vrij.length ? 'Er waren maar ' + pool.length + ' gerechten beschikbaar met deze labels.' : '';
+    Week.zet(week, dagen);
+  }
+  document.querySelectorAll('.picker .tags .tag').forEach(b => b.addEventListener('click', () => { b.classList.toggle('actief'); toonPool(); }));
+  const toonPool = () => $('pinfo').textContent = kandidaten().length + ' gerechten om uit te kiezen.';
+  $('vul').addEventListener('click', () => { const d = Week.dagen(week); vul([0, 1, 2, 3, 4, 5, 6].filter(i => !d[i])); });
+  $('alles').addEventListener('click', () => { if (!Week.dagen(week).some(Boolean) || confirm('De hele week opnieuw kiezen? Wat er nu staat, wordt vervangen.')) vul([0, 1, 2, 3, 4, 5, 6]); });
+
+  // ---- zelf kiezen ----
+  let kiesDag = 0;
+  function toonKeuze() {
+    const q = $('kieszoek').value.toLowerCase().trim();
+    const res = R.filter(r => !q || r.t.toLowerCase().includes(q)).sort((a, b) => a.t.localeCompare(b.t)).slice(0, 60);
+    $('kieslijst').innerHTML = res.map(r => '<li><button data-u="' + esc(r.u) + '">' + (r.i ? '<img src="' + esc(r.i) + '" alt="" loading="lazy">' : '<span class="mini">🍽️</span>') + '<span>' + esc(r.t) + '</span></button></li>').join('') || '<li class="uitleg">Niets gevonden.</li>';
+  }
+  $('kieszoek').addEventListener('input', toonKeuze);
+  $('kieslijst').addEventListener('click', e => {
+    const b = e.target.closest('button'); if (!b) return;
+    const d = Week.dagen(week); d[kiesDag] = b.dataset.u; Week.zet(week, d); $('kies').close();
+  });
+
+  // ---- tekenen ----
+  function teken() {
+    const ma = Week.datum(week), dagen = Week.dagen(week), deze = Week.deze();
+    $('weektitel').textContent = (week === deze ? 'Deze week' : week === Week.plus(deze, 1) ? 'Volgende week' : week === Week.plus(deze, -1) ? 'Vorige week' : 'Week') + ' · ' + korteDatum(ma) + ' – ' + korteDatum(Week.plusDagen(ma, 6));
+    $('nu').hidden = week === deze;
+    $('dagen').innerHTML = dagen.map((u, i) => {
+      const r = u && perUrl[u], d = Week.plusDagen(ma, i);
+      return '<li class="dag' + (Week.sleutel(d) === Week.sleutel(new Date()) ? ' vandaag' : '') + '"><div class="dagnaam">' + DAGEN[i] + '<small>' + korteDatum(d) + '</small></div>'
+        + (r ? '<a class="gerecht" href="' + BASIS + esc(u) + '">' + (r.i ? '<img src="' + esc(r.i) + '" alt="" loading="lazy">' : '<span class="mini">🍽️</span>') + '<span>' + esc(r.t) + '</span></a>'
+             : '<span class="gerecht leeg">' + (u ? '(recept verwijderd)' : 'Nog niets gekozen') + '</span>')
+        + '<div class="acties"><button class="tag" data-a="random" data-i="' + i + '" title="Random">🎲</button><button class="tag" data-a="kies" data-i="' + i + '" title="Zelf kiezen">✎</button>'
+        + (u ? '<button class="tag" data-a="leeg" data-i="' + i + '" title="Leegmaken">✕</button>' : '') + '</div></li>';
+    }).join('');
+
+    // vorige week (altijd t.o.v. vandaag)
+    const vw = Week.dagen(Week.plus(deze, -1)).map((u, i) => u && DAGEN[i].slice(0, 2).toLowerCase() + ' ' + link(u)).filter(Boolean);
+    $('vorige').hidden = !vw.length;
+    $('vorige').innerHTML = '<strong>Vorige week aten jullie:</strong> ' + vw.join(' · ');
+    $('fout').hidden = !Week.fout;
+
+    // top 20 en historiek
+    const tel = {};
+    const weken = Object.keys(Week.alle).sort().reverse();
+    weken.filter(k => k <= deze).forEach(k => Week.alle[k].forEach(u => u && (tel[u] = (tel[u] || 0) + 1)));
+    const top = Object.entries(tel).sort((a, b) => b[1] - a[1] || (perUrl[a[0]]?.t || '').localeCompare(perUrl[b[0]]?.t || '')).slice(0, 20);
+    $('top').innerHTML = top.map(([u, n]) => '<li>' + link(u) + ' <span class="aantal">' + n + '×</span></li>').join('');
+    $('geentop').hidden = top.length > 0;
+    const hist = weken.filter(k => k < deze && Week.alle[k].some(Boolean));
+    $('historiek').innerHTML = hist.map(k => '<details><summary>Week van ' + korteDatum(Week.datum(k)) + ' ' + Week.datum(k).getFullYear() + '</summary><ul>'
+      + Week.alle[k].map((u, i) => u ? '<li>' + DAGEN[i] + ': ' + link(u) + '</li>' : '').join('') + '</ul></details>').join('');
+    $('geenhist').hidden = hist.length > 0;
+  }
+  $('dagen').addEventListener('click', e => {
+    const b = e.target.closest('button'); if (!b) return;
+    const i = +b.dataset.i;
+    if (b.dataset.a === 'random') vul([i]);
+    if (b.dataset.a === 'leeg') { const d = Week.dagen(week); d[i] = null; Week.zet(week, d); }
+    if (b.dataset.a === 'kies') { kiesDag = i; $('kiestitel').textContent = 'Kies een gerecht voor ' + DAGEN[i].toLowerCase(); $('kieszoek').value = ''; toonKeuze(); $('kies').showModal(); $('kieszoek').focus(); }
+  });
+  const ga = k => { week = k; history.replaceState(null, '', k === Week.deze() ? location.pathname : '#' + k); teken(); toonPool(); };
+  $('terug').addEventListener('click', () => ga(Week.plus(week, -1)));
+  $('verder').addEventListener('click', () => ga(Week.plus(week, 1)));
+  $('nu').addEventListener('click', () => ga(Week.deze()));
+  Week.onChange(teken);
+  toonPool();
+</script>

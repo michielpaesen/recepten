@@ -34,3 +34,47 @@ a { color:var(--accent); }
 .meta .tag { cursor:default; }
 .recept li { margin-bottom:6px; }
 .bron { margin-top:28px; padding-top:12px; border-top:1px solid var(--line); }
+.site-header { display:flex; align-items:center; justify-content:space-between; gap:12px; }
+.nav-link { font-weight:600; text-decoration:none; white-space:nowrap; }
+/* weekmenu */
+.knop { border:0; background:var(--accent); color:#fff; border-radius:10px; padding:10px 16px; font-size:1rem; font-weight:600; cursor:pointer; }
+.knop.licht { background:var(--card); color:var(--fg); border:1px solid var(--line); }
+.knoppen { display:flex; flex-wrap:wrap; gap:10px; }
+.uitleg { color:var(--muted); font-size:.9rem; }
+.center { text-align:center; margin:0; }
+.melding { background:var(--card); border:1px solid var(--line); border-left:4px solid var(--accent); border-radius:10px; padding:10px 14px; margin-bottom:12px; }
+.melding.fout { border-left-color:#d99a00; }
+.weeknav { display:flex; align-items:center; justify-content:space-between; gap:8px; }
+.weeknav h1 { font-size:1.25rem; text-align:center; margin:8px 0; }
+.weeknav .tag, .acties .tag { font-size:1.1rem; padding:6px 12px; color:var(--fg); }
+.dagen { list-style:none; padding:0; margin:12px 0 28px; display:grid; gap:10px; }
+.dag { display:flex; align-items:center; gap:12px; background:var(--card); border:1px solid var(--line); border-radius:14px; padding:10px 12px; }
+.dag.vandaag { border-color:var(--accent); box-shadow:0 0 0 1px var(--accent); }
+.dagnaam { width:92px; flex:none; font-weight:700; }
+.dagnaam small { display:block; font-weight:400; color:var(--muted); }
+.gerecht { flex:1; min-width:0; display:flex; align-items:center; gap:10px; color:var(--fg); text-decoration:none; font-weight:600; overflow-wrap:break-word; }
+.gerecht img, .mini, .kieslijst img { width:56px; height:56px; flex:none; border-radius:10px; object-fit:cover; }
+.mini { display:grid; place-items:center; background:var(--line); font-size:1.5rem; }
+.gerecht.leeg { color:var(--muted); font-weight:400; font-style:italic; }
+.acties { display:flex; gap:6px; flex:none; }
+@media (max-width:600px) {
+  .dag { flex-wrap:wrap; }
+  .dagnaam { width:auto; display:flex; gap:8px; align-items:baseline; }
+  .acties { margin-left:auto; order:2; }
+  .gerecht { order:3; flex-basis:100%; }
+}
+.picker { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:4px 16px 8px; margin-bottom:24px; }
+.picker h2 { margin-bottom:0; }
+.picker .tags { margin:10px 0; }
+.top li { margin-bottom:4px; }
+.weg { color:var(--muted); font-style:italic; }
+details { border-bottom:1px solid var(--line); padding:8px 0; }
+summary { cursor:pointer; font-weight:600; }
+dialog { width:min(560px, calc(100vw - 32px)); max-height:80vh; border:1px solid var(--line); border-radius:14px; background:var(--bg); color:var(--fg); padding:16px; }
+dialog::backdrop { background:rgba(0,0,0,.4); }
+.kieskop { display:flex; justify-content:space-between; align-items:center; margin-bottom:10px; }
+#kieszoek { width:100%; padding:10px 12px; font-size:1rem; border:1px solid var(--line); border-radius:10px; background:var(--card); color:var(--fg); }
+.kieslijst { list-style:none; padding:0; margin:10px 0 0; }
+.kieslijst button { width:100%; display:flex; align-items:center; gap:10px; text-align:left; background:none; border:0; border-bottom:1px solid var(--line); padding:6px 0; color:var(--fg); font-size:1rem; cursor:pointer; }
+.opmenu { display:flex; flex-wrap:wrap; align-items:center; gap:8px; margin:8px 0 16px; }
+.opmenu select { padding:9px 10px; font-size:1rem; border:1px solid var(--line); border-radius:10px; background:var(--card); color:var(--fg); max-width:100%; }

@@ -18,14 +18,7 @@ layout: default
 <script>
   (() => {
     const h = document.querySelector('.hart');
-    let fav = new Set();
-    try { fav = new Set(JSON.parse(localStorage.getItem('favorieten') || '[]')); } catch (e) {}
-    const toon = () => { const aan = fav.has(h.dataset.id); h.textContent = aan ? '♥' : '♡'; h.classList.toggle('aan', aan); };
-    h.addEventListener('click', () => {
-      fav.has(h.dataset.id) ? fav.delete(h.dataset.id) : fav.add(h.dataset.id);
-      try { localStorage.setItem('favorieten', JSON.stringify([...fav])); } catch (e) {}
-      toon();
-    });
-    toon();
+    h.addEventListener('click', () => Fav.toggle(h.dataset.id));
+    Fav.onChange(() => { const aan = Fav.has(h.dataset.id); h.textContent = aan ? '♥' : '♡'; h.classList.toggle('aan', aan); });
   })();
 </script>

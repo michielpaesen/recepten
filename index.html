@@ -39,11 +39,11 @@ layout: default
     const q = zoek.value.toLowerCase().trim();
     let n = 0;
     kaarten.forEach(k => {
-      const ok = (!enkelFav || fav.has(k.dataset.id)) && (!borden || borden.includes(k.dataset.bord)) && (!tag || k.dataset.tags.split('|').some(t => tag.includes(t))) && (!q || k.dataset.tekst.includes(q));
+      const ok = (!enkelFav || Fav.has(k.dataset.id)) && (!borden || borden.includes(k.dataset.bord)) && (!tag || k.dataset.tags.split('|').some(t => tag.includes(t))) && (!q || k.dataset.tekst.includes(q));
       k.hidden = !ok; if (ok) n++;
     });
-    document.getElementById('leeg').hidden = n > 0 || (enkelFav && !fav.size);
-    document.getElementById('geenfav').hidden = !(enkelFav && !fav.size);
+    document.getElementById('leeg').hidden = n > 0 || (enkelFav && !Fav.size);
+    document.getElementById('geenfav').hidden = !(enkelFav && !Fav.size);
   }
   zoek.addEventListener('input', filter);
   function kiesGroep(g) {
@@ -81,21 +81,15 @@ layout: default
   subknoppen.forEach(b => tel(b, per[b.dataset.bord] || 0));
   groepknoppen.forEach(g => { if (g.dataset.borden) tel(g, g.dataset.borden.split('|').reduce((s, b) => s + (per[b] || 0), 0)); });
   tel(groepknoppen[0], kaarten.length);
-  // favorieten (bewaard in deze browser)
-  let fav = new Set();
-  try { fav = new Set(JSON.parse(localStorage.getItem('favorieten') || '[]')); } catch (e) {}
+  // favorieten (zie assets/fav.js)
   const favTel = document.createElement('span'); favTel.className = 'aantal';
   document.getElementById('favknop').append(' ', favTel);
-  function toonFav() {
-    document.querySelectorAll('.hart').forEach(h => { const aan = fav.has(h.dataset.id); h.textContent = aan ? '♥' : '♡'; h.classList.toggle('aan', aan); });
-    favTel.textContent = fav.size;
-  }
-  document.querySelectorAll('.hart').forEach(h => h.addEventListener('click', () => {
-    fav.has(h.dataset.id) ? fav.delete(h.dataset.id) : fav.add(h.dataset.id);
-    try { localStorage.setItem('favorieten', JSON.stringify([...fav])); } catch (e) {}
-    toonFav(); if (enkelFav) filter();
-  }));
-  toonFav();
+  document.querySelectorAll('.hart').forEach(h => h.addEventListener('click', () => Fav.toggle(h.dataset.id)));
+  Fav.onChange(() => {
+    document.querySelectorAll('.hart').forEach(h => { const aan = Fav.has(h.dataset.id); h.textContent = aan ? '♥' : '♡'; h.classList.toggle('aan', aan); });
+    favTel.textContent = Fav.size;
+    if (enkelFav) filter();
+  });
   const h = decodeURIComponent(location.hash.slice(1));
   if (h === 'favorieten') kiesGroep(document.getElementById('favknop'));
   else if (h.startsWith('groep-')) {

@@ -64,9 +64,8 @@ permalink: /weekmenu/
   const korteDatum = d => d.toLocaleDateString('nl-BE', { day: 'numeric', month: 'short' });
   const link = u => perUrl[u] ? '<a href="' + BASIS + esc(u) + '">' + esc(perUrl[u].t) + '</a>' : '<span class="weg">(recept verwijderd)</span>';
 
-  let week = Week.deze();
-  const h = location.hash.slice(1);
-  if (/^\d{4}-\d\d-\d\d$/.test(h)) week = Week.sleutel(Week.maandag(Week.datum(h)));
+  const uitHash = () => { const h = location.hash.slice(1); return /^\d{4}-\d\d-\d\d$/.test(h) ? Week.sleutel(Week.maandag(Week.datum(h))) : Week.deze(); };
+  let week = uitHash();
 
   // ---- random ----
   const kandidaten = () => {
@@ -118,7 +117,7 @@ permalink: /weekmenu/
     $('dagen').innerHTML = dagen.map((u, i) => {
       const r = u && perUrl[u], d = Week.plusDagen(ma, i);
       return '<li class="dag' + (Week.sleutel(d) === Week.sleutel(new Date()) ? ' vandaag' : '') + '"><div class="dagnaam">' + DAGEN[i] + '<small>' + korteDatum(d) + '</small></div>'
-        + (r ? '<a class="gerecht" href="' + BASIS + esc(u) + '">' + (r.i ? '<img src="' + esc(r.i) + '" alt="" loading="lazy">' : '<span class="mini">🍽️</span>') + '<span>' + esc(r.t) + '</span></a>'
+        + (r ? '<a class="gerecht" href="' + BASIS + esc(u) + '">' + (r.i ? '<img src="' + esc(r.i) + '" alt="">' : '<span class="mini">🍽️</span>') + '<span>' + esc(r.t) + '</span></a>'
              : '<span class="gerecht leeg">' + (u ? '(recept verwijderd)' : 'Nog niets gekozen') + '</span>')
         + '<div class="acties"><button class="tag" data-a="random" data-i="' + i + '" title="Random">🎲</button><button class="tag" data-a="kies" data-i="' + i + '" title="Zelf kiezen">✎</button>'
         + (u ? '<button class="tag" data-a="leeg" data-i="' + i + '" title="Leegmaken">✕</button>' : '') + '</div></li>';
@@ -153,6 +152,7 @@ permalink: /weekmenu/
   $('terug').addEventListener('click', () => ga(Week.plus(week, -1)));
   $('verder').addEventListener('click', () => ga(Week.plus(week, 1)));
   $('nu').addEventListener('click', () => ga(Week.deze()));
+  addEventListener('hashchange', () => { week = uitHash(); teken(); toonPool(); });
   Week.onChange(teken);
   toonPool();
 </script>

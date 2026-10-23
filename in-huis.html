@@ -17,18 +17,20 @@ permalink: /in-huis/
   const $ = id => document.getElementById(id);
   const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
   const norm = s => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
-  R.forEach(r => { r.lt = r.l.map(norm); r.tt = norm(r.t); });
+  // eenvoudige stam: "tomaten" en "tomaat" worden allebei "tomat", "kippen" wordt "kip"
+  const stam = w => {
+    if (w.length > 4) w = w.replace(/(tjes|tje|en|s)$/, '');
+    return w.replace(/([aeiou])\1([^aeiou])$/, '$1$2').replace(/([^aeiou])\1$/, '$1');
+  };
+  const stammen = s => norm(s).split(/[^a-z]+/).filter(Boolean).map(stam);
+  R.forEach(r => { r.lt = r.l.map(stammen); r.tt = stammen(r.t); });
 
-  // "tomaten" vindt ook "tomaat", "kip" vindt "kipfilet", "ui" vindt "uien" maar niet "fruit"
+  // kort woord ("ui") moet een heel woord zijn (of meervoud: "uien"), langer woord ("kip") mag het begin zijn ("kipfilet"),
+  // vanaf 5 letters mag het ook midden in een woord staan ("basmatirijst")
   function zoeker(woord) {
-    let w = norm(woord.trim()).replace(/[^a-z0-9 ]/g, '');
-    if (w.length > 4) w = w.replace(/(en|s)$/, '');
-    if (/aa[a-z]$/.test(w)) w = w.replace(/aa([a-z])$/, 'a$1');
-    if (/oo[a-z]$/.test(w)) w = w.replace(/oo([a-z])$/, 'o$1');
-    const e = w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-    const re = w.length < 3 ? new RegExp('(^|[^a-z])' + e + '(en|eren|tje|tjes|s)?([^a-z]|$)')
-             : w.length < 5 ? new RegExp('(^|[^a-z])' + e) : new RegExp(e);
-    return s => re.test(s) || (w.length > 3 && s.includes(norm(woord.trim())));
+    const q = stammen(woord);
+    const past = (q1, w) => q1.length < 3 ? w.startsWith(q1) && /^(|s|en|er|eren|tje|tjes)$/.test(w.slice(q1.length)) : q1.length < 5 ? w.startsWith(q1) : w.includes(q1);
+    return lijn => q.every(q1 => lijn.some(w => past(q1, w)));
   }
 
   let gekozen = [], toon = 40;

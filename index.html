@@ -4,6 +4,7 @@ layout: default
 <input id="zoek" type="search" placeholder="Zoek een recept of ingrediënt…" autocomplete="off">
 <div id="groepen" class="tags">
   <button class="tag bord actief" data-groep="">Alles</button>
+  <button class="tag bord" id="favknop">♥ Favorieten</button>
   {% for g in site.groepen %}<button class="tag bord" data-groep="{{ g.slug }}" data-borden="{{ g.borden | join: '|' }}">{{ g.naam }}</button>{% endfor %}
 </div>
 {% for g in site.groepen %}<div class="tags subrij" data-groep="{{ g.slug }}" hidden>
@@ -16,15 +17,17 @@ layout: default
 <ul class="kaarten">
   {% assign recepten = site.recepten | sort: 'title' %}
   {% for r in recepten %}
-  <li class="kaart" data-bord="{{ r.bord }}" data-tags="{{ r.tags | join: '|' }}" data-tekst="{{ r.title | append: ' ' | append: r.content | strip_html | downcase | escape }}">
+  <li class="kaart" data-id="{{ r.url }}" data-bord="{{ r.bord }}" data-tags="{{ r.tags | join: '|' }}" data-tekst="{{ r.title | append: ' ' | append: r.content | strip_html | downcase | escape }}">
     <a href="{{ r.url | relative_url }}">
       {% if r.afbeelding %}<img src="{{ r.afbeelding }}" alt="" loading="lazy">{% else %}<div class="placeholder">🍽️</div>{% endif %}
       <span class="kaart-titel">{{ r.title }}</span>
     </a>
+    <button class="hart" data-id="{{ r.url }}" aria-label="Favoriet">♡</button>
   </li>
   {% endfor %}
 </ul>
 <p id="leeg" hidden>Geen recepten gevonden.</p>
+<p id="geenfav" hidden>Je hebt nog geen favorieten. Tik op het hartje bij een recept om het hier te bewaren.</p>
 <script>
   const zoek = document.getElementById('zoek');
   const groepknoppen = document.querySelectorAll('#groepen .tag');
@@ -32,18 +35,20 @@ layout: default
   const subknoppen = document.querySelectorAll('.subrij .tag');
   const tagknoppen = document.querySelectorAll('#tags .tag');
   const kaarten = document.querySelectorAll('.kaart');
-  let borden = null, tag = '';
+  let borden = null, tag = '', enkelFav = false;
   function filter() {
     const q = zoek.value.toLowerCase().trim();
     let n = 0;
     kaarten.forEach(k => {
-      const ok = (!borden || borden.includes(k.dataset.bord)) && (!tag || k.dataset.tags.split('|').includes(tag)) && (!q || k.dataset.tekst.includes(q));
+      const ok = (!enkelFav || fav.has(k.dataset.id)) && (!borden || borden.includes(k.dataset.bord)) && (!tag || k.dataset.tags.split('|').includes(tag)) && (!q || k.dataset.tekst.includes(q));
       k.hidden = !ok; if (ok) n++;
     });
-    document.getElementById('leeg').hidden = n > 0;
+    document.getElementById('leeg').hidden = n > 0 || (enkelFav && !fav.size);
+    document.getElementById('geenfav').hidden = !(enkelFav && !fav.size);
   }
   zoek.addEventListener('input', filter);
   function kiesGroep(g) {
+    enkelFav = g.id === 'favknop';
     groepknoppen.forEach(x => x.classList.toggle('actief', x === g));
     subknoppen.forEach(x => x.classList.remove('actief'));
     subrijen.forEach(r => r.hidden = !g.dataset.groep || r.dataset.groep !== g.dataset.groep);
@@ -61,7 +66,7 @@ layout: default
   function hash() {
     const b = document.querySelector('.subrij .tag.actief');
     const g = document.querySelector('#groepen .tag.actief');
-    history.replaceState(null, '', b ? '#' + b.dataset.bord : (g && g.dataset.groep ? '#groep-' + g.dataset.groep : location.pathname));
+    history.replaceState(null, '', b ? '#' + b.dataset.bord : (g && g.dataset.groep ? '#groep-' + g.dataset.groep : (enkelFav ? '#favorieten' : location.pathname)));
   }
   groepknoppen.forEach(g => g.addEventListener('click', () => { kiesGroep(g); hash(); }));
   subknoppen.forEach(b => b.addEventListener('click', () => { kiesBord(b); hash(); }));
@@ -70,8 +75,31 @@ layout: default
     tagknoppen.forEach(x => x.classList.toggle('actief', x === t && !al));
     tag = al ? '' : t.dataset.tag; filter();
   }));
+  // aantallen op de knoppen
+  const per = {};
+  kaarten.forEach(k => per[k.dataset.bord] = (per[k.dataset.bord] || 0) + 1);
+  const tel = (knop, n) => knop.insertAdjacentHTML('beforeend', ' <span class="aantal">' + n + '</span>');
+  subknoppen.forEach(b => tel(b, per[b.dataset.bord] || 0));
+  groepknoppen.forEach(g => { if (g.dataset.borden) tel(g, g.dataset.borden.split('|').reduce((s, b) => s + (per[b] || 0), 0)); });
+  tel(groepknoppen[0], kaarten.length);
+  // favorieten (bewaard in deze browser)
+  let fav = new Set();
+  try { fav = new Set(JSON.parse(localStorage.getItem('favorieten') || '[]')); } catch (e) {}
+  const favTel = document.createElement('span'); favTel.className = 'aantal';
+  document.getElementById('favknop').append(' ', favTel);
+  function toonFav() {
+    document.querySelectorAll('.hart').forEach(h => { const aan = fav.has(h.dataset.id); h.textContent = aan ? '♥' : '♡'; h.classList.toggle('aan', aan); });
+    favTel.textContent = fav.size;
+  }
+  document.querySelectorAll('.hart').forEach(h => h.addEventListener('click', () => {
+    fav.has(h.dataset.id) ? fav.delete(h.dataset.id) : fav.add(h.dataset.id);
+    try { localStorage.setItem('favorieten', JSON.stringify([...fav])); } catch (e) {}
+    toonFav(); if (enkelFav) filter();
+  }));
+  toonFav();
   const h = decodeURIComponent(location.hash.slice(1));
-  if (h.startsWith('groep-')) {
+  if (h === 'favorieten') kiesGroep(document.getElementById('favknop'));
+  else if (h.startsWith('groep-')) {
     const g = document.querySelector('#groepen .tag[data-groep="' + h.slice(6) + '"]');
     if (g) kiesGroep(g);
   } else if (h) {

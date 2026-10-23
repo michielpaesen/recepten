@@ -3,7 +3,7 @@ layout: default
 ---
 <article class="recept">
   {% if page.afbeelding %}<img class="hero" src="{{ page.afbeelding }}" alt="{{ page.title }}">{% endif %}
-  <h1>{{ page.title }}</h1>
+  <div class="titelrij"><h1>{{ page.title }}</h1><button class="hart groot" data-id="{{ page.url }}" aria-label="Favoriet">♡</button></div>
   <p class="meta">
     {% if page.porties %}<span>👥 {{ page.porties }} porties</span>{% endif %}
     {% if page.tijd %}<span>⏱️ {{ page.tijd }}</span>{% endif %}
@@ -15,3 +15,17 @@ layout: default
   {% endif %}
   <p>{% assign b = site.borden | where: 'slug', page.bord | first %}{% if b %}<a href="{{ '/' | relative_url }}#{{ b.slug }}">← {{ b.naam }}</a> · {% endif %}<a href="{{ '/' | relative_url }}">Alle recepten</a></p>
 </article>
+<script>
+  (() => {
+    const h = document.querySelector('.hart');
+    let fav = new Set();
+    try { fav = new Set(JSON.parse(localStorage.getItem('favorieten') || '[]')); } catch (e) {}
+    const toon = () => { const aan = fav.has(h.dataset.id); h.textContent = aan ? '♥' : '♡'; h.classList.toggle('aan', aan); };
+    h.addEventListener('click', () => {
+      fav.has(h.dataset.id) ? fav.delete(h.dataset.id) : fav.add(h.dataset.id);
+      try { localStorage.setItem('favorieten', JSON.stringify([...fav])); } catch (e) {}
+      toon();
+    });
+    toon();
+  })();
+</script>

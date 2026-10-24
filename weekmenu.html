@@ -14,6 +14,7 @@ permalink: /weekmenu/
 <p class="center"><button class="tag" id="nu" hidden>Naar deze week</button></p>
 
 <ol id="dagen" class="dagen"></ol>
+<p class="center"><a class="knop" id="naarlijst" href="{{ '/boodschappen/' | relative_url }}">🛒 Boodschappenlijst</a></p>
 
 <section class="picker">
   <h2>🎲 Random kiezen</h2>
@@ -114,6 +115,7 @@ permalink: /weekmenu/
     const ma = Week.datum(week), dagen = Week.dagen(week), deze = Week.deze();
     $('weektitel').textContent = (week === deze ? 'Deze week' : week === Week.plus(deze, 1) ? 'Volgende week' : week === Week.plus(deze, -1) ? 'Vorige week' : 'Week') + ' · ' + korteDatum(ma) + ' – ' + korteDatum(Week.plusDagen(ma, 6));
     $('nu').hidden = week === deze;
+    $('naarlijst').href = BASIS + '/boodschappen/' + (week === deze ? '' : '#' + week);
     $('dagen').innerHTML = dagen.map((u, i) => {
       const r = u && perUrl[u], d = Week.plusDagen(ma, i);
       return '<li class="dag' + (Week.sleutel(d) === Week.sleutel(new Date()) ? ' vandaag' : '') + '"><div class="dagnaam">' + DAGEN[i] + '<small>' + korteDatum(d) + '</small></div>'

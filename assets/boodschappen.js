@@ -28,7 +28,7 @@
     'extra vierge zwarte gedroogde gedroogd halve hele ca. ongeveer bevroren diepvries diepvriesverse gekookte gekookt uitgelekte gemengde heel ' +
     'plantaardige plantaardig geroosterde geroosterd ontpitte gepelde gepeld').split(' '));
   const ENKELVOUD = {
-    tomaten: 'tomaat', uien: 'ui', uitjes: 'ui', eieren: 'ei', wortelen: 'wortel', wortels: 'wortel', worteltjes: 'wortel', courgettes: 'courgette',
+    tomaten: 'tomaat', uien: 'ui', uitjes: 'ui', uitje: 'ui', sjalotje: 'sjalot', tomaatje: 'tomaat', eieren: 'ei', wortelen: 'wortel', wortels: 'wortel', worteltjes: 'wortel', courgettes: 'courgette',
     citroenen: 'citroen', limoenen: 'limoen', sjalotten: 'sjalot', sjalotjes: 'sjalot', paprikas: 'paprika', avocados: 'avocado',
     aubergines: 'aubergine', aardappelen: 'aardappel', aardappels: 'aardappel', kipfilets: 'kipfilet', kippendijen: 'kippendij', appels: 'appel',
     komkommers: 'komkommer', preien: 'prei', mangos: 'mango', bananen: 'banaan', peren: 'peer', puntpaprikas: 'puntpaprika',

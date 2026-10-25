@@ -1,0 +1,32 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    match /favorieten/gedeeld {
+      allow read: if true;
+      allow write: if request.resource.data.keys().hasOnly(['lijst'])
+                   && request.resource.data.lijst is list;
+    }
+
+    match /verborgen/gedeeld {
+      allow read: if true;
+      allow write: if request.resource.data.keys().hasOnly(['lijst'])
+                   && request.resource.data.lijst is list;
+    }
+
+    match /weekmenu/{week} {
+      allow read: if true;
+      allow write: if week.matches('^[0-9]{4}-[0-9]{2}-[0-9]{2}$')
+                   && request.resource.data.keys().hasOnly(['dagen'])
+                   && request.resource.data.dagen is list
+                   && request.resource.data.dagen.size() == 7;
+    }
+
+    match /boodschappen/{week} {
+      allow read: if true;
+      allow write: if week.matches('^[0-9]{4}-[0-9]{2}-[0-9]{2}$')
+                   && request.resource.data.keys().hasOnly(['af'])
+                   && request.resource.data.af is list;
+    }
+  }
+}

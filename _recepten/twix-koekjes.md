@@ -1,7 +1,7 @@
 ---
 title: "Twix-koekjes"
 bron: https://thebestblogrecipes.com/twix-cookies/
-afbeelding: https://thebestblogrecipes.com/wp-content/uploads/2025/02/Twix-Cookies-Recipe-Card-480x270.jpg
+afbeelding: https://i.pinimg.com/564x/7a/04/42/7a04428c7693f02aadce59d853187f5e.jpg
 porties: 33
 tijd: 32 min
 bord: baking-zoet

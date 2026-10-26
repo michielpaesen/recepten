@@ -1,0 +1,5 @@
+---
+layout: null
+permalink: /manifest.webmanifest
+---
+{"name":"Mijn recepten","short_name":"Recepten","start_url":"{{ '/' | relative_url }}","display":"standalone","background_color":"#ffffff","theme_color":"#c7503c","icons":[{"src":"{{ '/apple-touch-icon.png' | relative_url }}","sizes":"180x180","type":"image/png"},{"src":"{{ '/icon-512.png' | relative_url }}","sizes":"512x512","type":"image/png"}]}

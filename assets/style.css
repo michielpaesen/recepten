@@ -91,7 +91,7 @@ dialog::backdrop { background:rgba(0,0,0,.4); }
 .resultaten a { display:flex; align-items:center; gap:12px; background:var(--card); border:1px solid var(--line); border-radius:14px; padding:8px 12px; color:var(--fg); text-decoration:none; }
 .resultaten img { width:64px; height:64px; flex:none; border-radius:10px; object-fit:cover; }
 .resultaten small { display:block; color:var(--muted); font-size:.85rem; }
-@media (max-width:420px) { .site-title { font-size:1.1rem; } .nav { gap:10px; } .nav-link { font-size:.9rem; } }
+@media (max-width:420px) { .site-header { flex-wrap:wrap; row-gap:8px; } .site-title { font-size:1.1rem; } .nav { gap:12px; flex-wrap:wrap; } .nav-link { font-size:.9rem; } }
 /* boodschappen */
 .gerechten { margin:8px 0 12px; }
 .gerechten ul { margin:6px 0 0; }

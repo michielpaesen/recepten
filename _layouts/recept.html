@@ -16,6 +16,16 @@ layout: default
     <span id="wmok" class="uitleg"></span>
   </div>
   {{ content }}
+{% assign delen = content | split: '<h2' %}{% assign ing = '' %}{% assign ber = '' %}{% for d in delen %}{% if d contains 'ngrediënten</h2>' %}{% assign ing = d %}{% endif %}{% if d contains 'ereiding</h2>' %}{% assign ber = d %}{% endif %}{% endfor %}
+{% assign ingitems = ing | split: '<li>' %}
+{% if ingitems.size > 1 %}
+{% if page.afbeelding contains '://' %}{% assign foto = page.afbeelding %}{% else %}{% assign foto = page.afbeelding | prepend: 'https://michielpaesen.github.io' %}{% endif %}
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Recipe","name":{{ page.title | jsonify }},"author":{"@type":"Organization","name":"Mijn recepten"},{% if page.afbeelding %}"image":[{{ foto | jsonify }}],{% endif %}{% if page.porties %}"recipeYield":{{ page.porties | append: '' | jsonify }},{% endif %}"recipeIngredient":[{% for x in ingitems offset:1 %}{{ x | strip_html | replace: '&amp;', '&' | strip | jsonify }}{% unless forloop.last %},{% endunless %}{% endfor %}]{% assign beritems = ber | split: '<li>' %}{% if beritems.size > 1 %},"recipeInstructions":[{% for x in beritems offset:1 %}{"@type":"HowToStep","text":{{ x | strip_html | replace: '&amp;', '&' | strip | jsonify }}}{% unless forloop.last %},{% endunless %}{% endfor %}]{% endif %}}
+</script>
+<div class="bringknop" data-bring-import="{{ page.url | prepend: site.baseurl | prepend: 'https://michielpaesen.github.io' }}" data-bring-language="nl" style="display:none"><a href="https://www.getbring.com">Bring! Import</a></div>
+<script async src="https://platform.getbring.com/widgets/import.js"></script>
+{% endif %}
   {% if page.bron %}
   <p class="bron">Bron: <a href="{{ page.bron }}" target="_blank" rel="noopener">{% if page.bron contains 'pinterest' %}Pinterest{% elsif page.bron contains 'instagram' %}Instagram{% else %}origineel recept{% endif %} ↗</a></p>
   {% endif %}

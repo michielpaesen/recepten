@@ -16,6 +16,7 @@ permalink: /boodschappen/
 <div id="lijst"></div>
 <p class="knoppen" id="lijstknoppen" hidden>
   <button class="knop licht" id="kopieer">📋 Kopieer lijst</button>
+  <button class="knop licht" id="bring">🛒 Kopieer voor Bring!</button>
   <button class="knop licht" id="wis">↺ Alles terug aanvinken</button>
 </p>
 <p class="uitleg" id="uitleg" hidden>Hoeveelheden zijn opgeteld en omgerekend (bv. stuks en grammen samen). Tik op een ingrediënt om het af te vinken; dat zien jullie allebei.</p>
@@ -102,6 +103,14 @@ permalink: /boodschappen/
     try {
       if (navigator.share) await navigator.share({ text: tekst }); else { await navigator.clipboard.writeText(tekst); $('kopieer').textContent = '✓ Gekopieerd'; setTimeout(() => $('kopieer').textContent = '📋 Kopieer lijst', 2000); }
     } catch (e) {}
+  });
+  // Bring!: enkel de namen van wat nog niet afgevinkt is, één per regel (zonder voorraadkast), om in Bring! te plakken
+  $('bring').addEventListener('click', async () => {
+    const a = afVan(week);
+    const tekst = lijst.filter(g => !g.categorie.startsWith('Voorraadkast')).flatMap(g => g.items.filter(i => !a.has(i.naam)).map(i => i.naam[0].toUpperCase() + i.naam.slice(1) + (i.hoeveel ? ' ' + i.hoeveel : ''))).join('\n');
+    try { await navigator.clipboard.writeText(tekst); $('bring').textContent = '✓ Gekopieerd, plak in Bring!'; }
+    catch (e) { prompt('Kopieer deze lijst:', tekst); }
+    setTimeout(() => $('bring').textContent = '🛒 Kopieer voor Bring!', 2500);
   });
   const ga = k => { week = k; history.replaceState(null, '', k === Week.deze() ? location.pathname : '#' + k); volg(); teken(); };
   $('terug').addEventListener('click', () => ga(Week.plus(week, -1)));

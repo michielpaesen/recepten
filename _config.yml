@@ -200,6 +200,8 @@ filters:
     tags: [vis]
   - naam: ovenschotel
     tags: [ovenschotel, oven]
+  - naam: toppers
+    tags: [topper]
 
 # Gedeelde favorieten (Firebase-webconfig). Leeg = favorieten enkel in de browser.
 firebase:

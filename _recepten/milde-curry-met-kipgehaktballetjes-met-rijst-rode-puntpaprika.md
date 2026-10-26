@@ -5,7 +5,7 @@ afbeelding: https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hello
 porties: 2
 tijd: 40 min
 bord: rijst
-tags: [rijst, kip]
+tags: [rijst, kip, gehakt, topper]
 ---
 
 ## Ingrediënten

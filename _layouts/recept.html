@@ -31,8 +31,8 @@ layout: default
   <p><button class="knop licht" id="verwijder">🗑️ Verwijder dit recept</button></p>
   <p>{% assign b = site.borden | where: 'slug', page.bord | first %}{% if b %}<a href="{{ '/' | relative_url }}#{{ b.slug }}">← {{ b.naam }}</a> · {% endif %}<a href="{{ '/' | relative_url }}">Alle recepten</a></p>
 </article>
-<script src="{{ '/assets/boodschappen.js' | relative_url }}"></script>
-<script src="{{ '/assets/lijstje.js' | relative_url }}"></script>
+<script src="{{ '/assets/boodschappen.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
+<script src="{{ '/assets/lijstje.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
 <script>
   (() => {
     // ingrediënten van deze pagina → boodschappenlijstje

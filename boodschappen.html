@@ -39,8 +39,8 @@ permalink: /boodschappen/
   </form>
 </dialog>
 
-<script src="{{ '/assets/boodschappen.js' | relative_url }}"></script>
-<script src="{{ '/assets/lijstje.js' | relative_url }}"></script>
+<script src="{{ '/assets/boodschappen.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
+<script src="{{ '/assets/lijstje.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
 <script>
   const $ = id => document.getElementById(id);
   const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));

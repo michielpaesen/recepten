@@ -118,7 +118,8 @@
     const rijen = [];
     recepten.forEach((r, ri) => r.regels.forEach(regel => {
       const delen = B.lees(regel); if (!delen) return;
-      delen.forEach(d => rijen.push({ ri, regel, d, voorraad: B.categorie(d.naam).startsWith('Voorraadkast') }));
+      // "peper en zout" wordt 2 producten: toon dan per product de eigen naam i.p.v. 2x de hele regel
+      delen.forEach(d => rijen.push({ ri, regel: delen.length > 1 ? (d.n !== null ? B.toon(d.naam, { [d.eenheid]: d.n }) + ' ' : '') + d.naam : regel, d, voorraad: B.categorie(d.naam).startsWith('Voorraadkast') }));
     }));
     dlg.innerHTML = '<form method="dialog" class="kieskop"><strong>🛒 Op boodschappenlijstje</strong><button class="tag" value="x" aria-label="Sluiten">✕</button></form>'
       + '<p class="uitleg">Vink uit wat je al in huis hebt. Voorraadkast staat standaard uit.</p>'

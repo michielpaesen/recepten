@@ -108,3 +108,24 @@ dialog::backdrop { background:rgba(0,0,0,.4); }
 .blijst details ul { font-size:.85rem; color:var(--muted); margin:4px 0; padding-left:18px; }
 .blijst li.af .bnaam, .blijst li.af .bhoeveel { text-decoration:line-through; color:var(--muted); font-weight:400; }
 a.knop { display:inline-block; text-decoration:none; margin-bottom:20px; }
+/* boodschappenlijstje */
+.lijstvoeg { display:grid; grid-template-columns:2fr 1fr 1fr auto; gap:8px; margin-bottom:8px; }
+.lijstvoeg input, .bform input, .bform select { min-width:0; padding:11px 12px; font-size:1rem; border:1px solid var(--line); border-radius:10px; background:var(--card); color:var(--fg); }
+@media (max-width:560px) { .lijstvoeg { grid-template-columns:1fr 1fr; } .lijstvoeg #nnaam { grid-column:1 / -1; } .lijstvoeg .knop { grid-column:1 / -1; } }
+.litem { display:flex; align-items:center; gap:12px; transition:opacity .18s; }
+.litem.weg { opacity:.25; }
+.lvink { flex:none; width:24px; height:24px; border:2px solid var(--accent); border-radius:50%; background:none; cursor:pointer; padding:0; color:var(--accent); font-size:.85rem; line-height:1; }
+.ltekst { flex:1; min-width:0; display:flex; flex-wrap:wrap; align-items:baseline; gap:2px 10px; cursor:pointer; }
+.ltekst .bnaam { flex:1 1 auto; }
+.lspec { font-weight:400; color:var(--muted); }
+.lvoor { flex-basis:100%; color:var(--muted); font-size:.8rem; }
+.lbewerk { flex:none; }
+.recent .bnaam, .recent .bhoeveel { color:var(--muted); font-weight:400; text-decoration:line-through; }
+.recent .lvink { border-color:var(--line); color:var(--muted); }
+.kiesregels { max-height:55vh; overflow:auto; }
+.kiesregels h3 { font-size:1rem; margin:14px 0 4px; }
+.kiesregel { display:flex; gap:10px; align-items:flex-start; padding:5px 0; border-bottom:1px solid var(--line); cursor:pointer; }
+.kiesregel input { width:20px; height:20px; flex:none; margin-top:3px; accent-color:var(--accent); }
+.kiesregel.voorraad span { color:var(--muted); }
+.bform label { display:grid; gap:4px; margin-bottom:10px; font-weight:600; }
+.knop:disabled { opacity:.5; cursor:default; }

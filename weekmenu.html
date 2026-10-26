@@ -14,7 +14,7 @@ permalink: /weekmenu/
 <p class="center"><button class="tag" id="nu" hidden>Naar deze week</button></p>
 
 <ol id="dagen" class="dagen"></ol>
-<p class="center"><a class="knop" id="naarlijst" href="{{ '/boodschappen/' | relative_url }}">🛒 Boodschappenlijst</a></p>
+<p class="center"><button class="knop" id="naarlijst">🛒 Hele week op boodschappenlijstje</button> <span id="lijstok" class="uitleg"></span></p>
 
 <section class="picker">
   <h2>🎲 Random kiezen</h2>
@@ -50,8 +50,10 @@ permalink: /weekmenu/
   <ul id="kieslijst" class="kieslijst"></ul>
 </dialog>
 
+<script src="{{ '/assets/boodschappen.js' | relative_url }}"></script>
+<script src="{{ '/assets/lijstje.js' | relative_url }}"></script>
 <script>
-  const R = [{% for r in site.recepten %}{"u":{{ r.url | jsonify }},"t":{{ r.title | jsonify }},"b":{{ r.bord | jsonify }},"g":{{ r.tags | jsonify }},"i":{{ r.afbeelding | jsonify }}}{% unless forloop.last %},{% endunless %}{% endfor %}];
+  const R = [{% for r in site.recepten %}{% assign delen = r.content | split: '<h2' %}{% assign ing = '' %}{% for d in delen %}{% if d contains 'ngrediënten</h2>' %}{% assign ing = d %}{% endif %}{% endfor %}{"u":{{ r.url | jsonify }},"t":{{ r.title | jsonify }},"b":{{ r.bord | jsonify }},"g":{{ r.tags | jsonify }},"i":{{ r.afbeelding | jsonify }},"l":[{% assign items = ing | split: '<li>' %}{% for x in items offset:1 %}{{ x | split: '</li>' | first | strip_html | replace: '&amp;', '&' | strip | jsonify }}{% unless forloop.last %},{% endunless %}{% endfor %}]}{% unless forloop.last %},{% endunless %}{% endfor %}];
   const GROEPEN = {{ site.groepen | jsonify }};
   const BASIS = {{ '' | relative_url | jsonify }};
   const DAGEN = ['Maandag', 'Dinsdag', 'Woensdag', 'Donderdag', 'Vrijdag', 'Zaterdag', 'Zondag'];
@@ -115,13 +117,14 @@ permalink: /weekmenu/
     const ma = Week.datum(week), dagen = Week.dagen(week), deze = Week.deze();
     $('weektitel').textContent = (week === deze ? 'Deze week' : week === Week.plus(deze, 1) ? 'Volgende week' : week === Week.plus(deze, -1) ? 'Vorige week' : 'Week') + ' · ' + korteDatum(ma) + ' – ' + korteDatum(Week.plusDagen(ma, 6));
     $('nu').hidden = week === deze;
-    $('naarlijst').href = BASIS + '/boodschappen/' + (week === deze ? '' : '#' + week);
+    $('naarlijst').disabled = !dagen.some(u => u && perUrl[u] && perUrl[u].l.length);
     $('dagen').innerHTML = dagen.map((u, i) => {
       const r = u && perUrl[u], d = Week.plusDagen(ma, i);
       return '<li class="dag' + (Week.sleutel(d) === Week.sleutel(new Date()) ? ' vandaag' : '') + '"><div class="dagnaam">' + DAGEN[i] + '<small>' + korteDatum(d) + '</small></div>'
         + (r ? '<a class="gerecht" href="' + BASIS + esc(u) + '">' + (r.i ? '<img src="' + esc(r.i) + '" alt="">' : '<span class="mini">🍽️</span>') + '<span>' + esc(r.t) + '</span></a>'
              : '<span class="gerecht leeg">' + (u ? '(recept verwijderd)' : 'Nog niets gekozen') + '</span>')
         + '<div class="acties"><button class="tag" data-a="random" data-i="' + i + '" title="Random">🎲</button><button class="tag" data-a="kies" data-i="' + i + '" title="Zelf kiezen">✎</button>'
+        + (r && r.l.length ? '<button class="tag" data-a="lijst" data-i="' + i + '" title="Op boodschappenlijstje">🛒</button>' : '')
         + (u ? '<button class="tag" data-a="leeg" data-i="' + i + '" title="Leegmaken">✕</button>' : '') + '</div></li>';
     }).join('');
 
@@ -147,8 +150,14 @@ permalink: /weekmenu/
     const b = e.target.closest('button'); if (!b) return;
     const i = +b.dataset.i;
     if (b.dataset.a === 'random') vul([i]);
+    if (b.dataset.a === 'lijst') { const r = perUrl[Week.dagen(week)[i]]; Lijstje.kies([{ titel: r.t, regels: r.l }], gezet); }
     if (b.dataset.a === 'leeg') { const d = Week.dagen(week); d[i] = null; Week.zet(week, d); }
     if (b.dataset.a === 'kies') { kiesDag = i; $('kiestitel').textContent = 'Kies een gerecht voor ' + DAGEN[i].toLowerCase(); $('kieszoek').value = ''; toonKeuze(); $('kies').showModal(); $('kieszoek').focus(); }
+  });
+  const gezet = n => { $('lijstok').innerHTML = n + ' op je lijstje · <a href="' + BASIS + '/boodschappen/">Bekijk</a>'; };
+  $('naarlijst').addEventListener('click', () => {
+    const rs = Week.dagen(week).map(u => u && perUrl[u]).filter(r => r && r.l.length);
+    Lijstje.kies(rs.map(r => ({ titel: r.t, regels: r.l })), gezet);
   });
   const ga = k => { week = k; history.replaceState(null, '', k === Week.deze() ? location.pathname : '#' + k); teken(); toonPool(); };
   $('terug').addEventListener('click', () => ga(Week.plus(week, -1)));

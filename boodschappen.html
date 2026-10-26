@@ -1,121 +1,117 @@
 ---
 layout: default
-title: Boodschappenlijst
+title: Boodschappenlijstje
 permalink: /boodschappen/
 ---
-<div class="weeknav">
-  <button class="tag" id="terug" aria-label="Vorige week">←</button>
-  <h1 id="weektitel">Boodschappen</h1>
-  <button class="tag" id="verder" aria-label="Volgende week">→</button>
-</div>
-<p class="center"><a href="{{ '/weekmenu/' | relative_url }}" id="naarmenu">📅 Naar het weekmenu</a></p>
-<p id="fout" class="melding fout" hidden>Het afvinken kon niet online bewaard worden, dus het staat voorlopig enkel op dit toestel.</p>
-<p id="geen" class="uitleg" hidden>Er staan nog geen gerechten op het weekmenu van deze week.</p>
-<details id="gerechten" class="gerechten"><summary></summary><ul></ul></details>
-<p id="enkellink" class="melding" hidden></p>
+<h1>🛒 Boodschappenlijstje</h1>
+<p id="fout" class="melding fout" hidden>Het lijstje kon niet online bewaard worden, dus wijzigingen staan voorlopig enkel op dit toestel.</p>
+
+<form id="nieuw" class="lijstvoeg" autocomplete="off">
+  <input id="nnaam" list="namen" placeholder="Wat moet er in huis? (bv. boter)" aria-label="Naam" required>
+  <input id="nspec" placeholder="Specificatie (bv. rood)" aria-label="Specificatie">
+  <input id="nhoev" placeholder="Hoeveel (bv. 250 g)" aria-label="Hoeveelheid">
+  <button class="knop">Toevoegen</button>
+</form>
+<datalist id="namen"></datalist>
+
+<p id="leeg" class="uitleg" hidden>Je lijstje is leeg. Voeg hierboven iets toe, of gebruik "🛒 Op boodschappenlijstje" bij een recept of in het weekmenu.</p>
 <div id="lijst"></div>
+
+<section id="recentblok" hidden>
+  <h2>✓ Recent gekocht</h2>
+  <p class="uitleg">Laatst afgevinkt bovenaan. Tik om terug op het lijstje te zetten.</p>
+  <ul id="recent" class="blijst recent"></ul>
+</section>
+
 <p class="knoppen" id="lijstknoppen" hidden>
   <button class="knop licht" id="kopieer">📋 Kopieer lijst</button>
-  <button class="knop licht" id="bring">🛒 Kopieer voor Bring!</button>
-  <button class="knop licht" id="wis">↺ Alles terug aanvinken</button>
 </p>
-<p class="uitleg" id="uitleg" hidden>Hoeveelheden zijn opgeteld en omgerekend (bv. stuks en grammen samen). Tik op een ingrediënt om het af te vinken; dat zien jullie allebei.</p>
+
+<dialog id="bewerk">
+  <form method="dialog" class="kieskop"><strong>Aanpassen</strong><button class="tag" value="x" aria-label="Sluiten">✕</button></form>
+  <form id="bform" class="bform">
+    <label>Naam <input id="bnaam" list="namen" required></label>
+    <label>Specificatie <input id="bspec" placeholder="bv. rood, groen, light…"></label>
+    <label>Hoeveelheid <input id="bhoev" placeholder="bv. 600 g, 2, 1 pot"></label>
+    <label>Categorie <select id="bcat"></select></label>
+    <p class="uitleg" id="bvoor"></p>
+    <p class="knoppen"><button class="knop">Bewaren</button><button class="knop licht" type="button" id="bweg">🗑️ Verwijderen</button></p>
+  </form>
+</dialog>
 
 <script src="{{ '/assets/boodschappen.js' | relative_url }}"></script>
+<script src="{{ '/assets/lijstje.js' | relative_url }}"></script>
 <script>
-  const R = {};
-  {% for r in site.recepten %}{% assign delen = r.content | split: '<h2' %}{% assign ing = '' %}{% for d in delen %}{% if d contains 'ngrediënten</h2>' %}{% assign ing = d %}{% endif %}{% endfor %}R[{{ r.url | jsonify }}] = { t: {{ r.title | jsonify }}, b: {{ r.bron | jsonify }}, l: [{% assign items = ing | split: '<li>' %}{% for x in items offset:1 %}{{ x | split: '</li>' | first | strip_html | replace: '&amp;', '&' | strip | jsonify }}{% unless forloop.last %},{% endunless %}{% endfor %}] };
-  {% endfor %}
-  const BASIS = {{ '' | relative_url | jsonify }};
-  const DAGEN = ['ma', 'di', 'wo', 'do', 'vr', 'za', 'zo'];
   const $ = id => document.getElementById(id);
   const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
-  const korteDatum = d => d.toLocaleDateString('nl-BE', { day: 'numeric', month: 'short' });
-  const uitHash = () => { const h = location.hash.slice(1); return /^\d{4}-\d\d-\d\d$/.test(h) ? Week.sleutel(Week.maandag(Week.datum(h))) : Week.deze(); };
-  let week = uitHash(), lijst = [];
+  const hoofd = s => s ? s[0].toUpperCase() + s.slice(1) : s;
+  const L = window.Lijstje;
+  $('bcat').innerHTML = Boodschappen.VOLGORDE.map(c => '<option>' + esc(c) + '</option>').join('');
 
-  // ---- afvinken: per week een gedeelde lijst ----
-  const LS = 'boodschappen-af';
-  let af = {}; try { af = JSON.parse(localStorage.getItem(LS) || '{}'); } catch (e) {}
-  const afVan = k => new Set(af[k] || []);
-  let online = null, fout = false, luister = null;
-  function zetAf(k, set) {
-    af[k] = [...set]; try { localStorage.setItem(LS, JSON.stringify(af)); } catch (e) {}
-    teken();
-    if (online) online(k, af[k]);
-  }
-  function volg() {
-    window.dbKlaar.then(d => {
-      if (!d) return;
-      const { fs, db } = d;
-      online = (k, lijst) => fs.setDoc(fs.doc(db, 'boodschappen', k), { af: lijst })
-        .then(() => { if (fout) { fout = false; teken(); } })
-        .catch(e => { console.warn('Afvinken niet online bewaard', e); fout = true; teken(); });
-      if (luister) luister();
-      const k = week;
-      luister = fs.onSnapshot(fs.doc(db, 'boodschappen', k), snap => {
-        if (snap.exists() && Array.isArray(snap.data().af)) af[k] = snap.data().af;
-        else if ((af[k] || []).length) online(k, af[k]); // lokaal afgevinkt voor er een online lijst was
-        try { localStorage.setItem(LS, JSON.stringify(af)); } catch (e) {}
-        teken();
-      }, e => { console.warn('Gedeelde boodschappenlijst niet bereikbaar', e); fout = true; teken(); });
-    });
+  function regel(k, it, recent) {
+    const h = L.hoeveel(it);
+    return '<li class="litem" data-k="' + esc(k) + '">'
+      + '<button class="lvink" data-a="' + (recent ? 'terug' : 'af') + '" aria-label="' + (recent ? 'Terug op lijstje' : 'Afvinken') + '">' + (recent ? '↩' : '') + '</button>'
+      + '<span class="ltekst" data-a="' + (recent ? 'terug' : 'af') + '"><span class="bnaam">' + esc(hoofd(it.naam)) + (it.spec ? ' <span class="lspec">' + esc(it.spec) + '</span>' : '') + '</span>'
+      + (h ? '<span class="bhoeveel">' + esc(h) + '</span>' : '')
+      + (!recent && it.voor && it.voor.length ? '<small class="lvoor">voor ' + esc(it.voor.join(', ')) + '</small>' : '') + '</span>'
+      + (recent ? '' : '<button class="tag lbewerk" data-a="bewerk" aria-label="Aanpassen">✎</button>') + '</li>';
   }
 
   function teken() {
-    const ma = Week.datum(week), deze = Week.deze(), dagen = Week.dagen(week);
-    $('weektitel').textContent = (week === deze ? 'Deze week' : week === Week.plus(deze, 1) ? 'Volgende week' : week === Week.plus(deze, -1) ? 'Vorige week' : 'Week') + ' · ' + korteDatum(ma) + ' – ' + korteDatum(Week.plusDagen(ma, 6));
-    $('naarmenu').href = BASIS + '/weekmenu/#' + week;
-    $('fout').hidden = !fout;
-    const gekozen = dagen.map((u, i) => u && R[u] ? { u, dag: DAGEN[i], ...R[u] } : null).filter(Boolean);
-    $('geen').hidden = gekozen.length > 0;
-    $('gerechten').hidden = !gekozen.length;
-    $('gerechten').querySelector('summary').textContent = gekozen.length + ' gerecht' + (gekozen.length > 1 ? 'en' : '') + ' op het menu';
-    $('gerechten').querySelector('ul').innerHTML = gekozen.map(r => '<li>' + r.dag + ': <a href="' + BASIS + esc(r.u) + '">' + esc(r.t) + '</a></li>').join('');
-    const zonder = gekozen.filter(r => !r.l.length);
-    $('enkellink').hidden = !zonder.length;
-    $('enkellink').innerHTML = '<strong>Ingrediënten zie bronlink:</strong> ' + zonder.map(r => '<a href="' + esc(r.b || BASIS + r.u) + '" target="_blank" rel="noopener">' + esc(r.t) + ' ↗</a>').join(' · ');
-
-    lijst = Boodschappen.lijst(gekozen.filter(r => r.l.length).map(r => ({ titel: r.t, regels: r.l })));
-    const a = afVan(week);
-    $('lijst').innerHTML = lijst.map(g => {
-      const items = g.items.slice().sort((x, y) => a.has(x.naam) - a.has(y.naam));
-      const open = items.filter(i => !a.has(i.naam)).length;
-      return '<section class="bgroep"><h2>' + esc(g.categorie) + ' <span class="aantal">' + open + '/' + items.length + '</span></h2>'
-        + (g.categorie.startsWith('Voorraadkast') ? '<p class="uitleg">Heb je waarschijnlijk al in huis.</p>' : '')
-        + '<ul class="blijst">' + items.map(i => '<li class="' + (a.has(i.naam) ? 'af' : '') + '"><label><input type="checkbox" data-n="' + esc(i.naam) + '"' + (a.has(i.naam) ? ' checked' : '') + '>'
-          + '<span class="bnaam">' + esc(i.naam[0].toUpperCase() + i.naam.slice(1)) + '</span><span class="bhoeveel">' + esc(i.hoeveel) + '</span></label>'
-          + '<details><summary>voor ' + esc(i.recepten.join(', ')) + '</summary><ul>' + i.regels.map(x => '<li>' + esc(x) + '</li>').join('') + '</ul></details></li>').join('') + '</ul></section>';
-    }).join('');
-    $('lijstknoppen').hidden = $('uitleg').hidden = !lijst.length;
+    $('fout').hidden = !L.fout;
+    const open = L.open();
+    const groepen = {};
+    open.forEach(([k, it]) => (groepen[L.catVan(it.naam, it)] = groepen[L.catVan(it.naam, it)] || []).push([k, it]));
+    $('lijst').innerHTML = Boodschappen.VOLGORDE.filter(c => groepen[c]).map(c => '<section class="bgroep"><h2>' + esc(c) + ' <span class="aantal">' + groepen[c].length + '</span></h2><ul class="blijst">'
+      + groepen[c].sort((a, b) => a[1].naam.localeCompare(b[1].naam) || a[1].spec.localeCompare(b[1].spec)).map(([k, it]) => regel(k, it, false)).join('') + '</ul></section>').join('');
+    $('leeg').hidden = open.length > 0;
+    const recent = L.recent();
+    $('recentblok').hidden = !recent.length;
+    $('recent').innerHTML = recent.map(([k, it]) => regel(k, it, true)).join('');
+    $('lijstknoppen').hidden = !open.length;
+    $('namen').innerHTML = L.alleNamen().map(n => '<option value="' + esc(hoofd(n)) + '">').join('');
   }
-  $('lijst').addEventListener('change', e => {
-    const c = e.target.closest('input'); if (!c) return;
-    const a = afVan(week); c.checked ? a.add(c.dataset.n) : a.delete(c.dataset.n); zetAf(week, a);
+
+  $('nieuw').addEventListener('submit', e => {
+    e.preventDefault();
+    L.voegToeTekst($('nnaam').value, $('nspec').value, $('nhoev').value);
+    $('nnaam').value = $('nspec').value = $('nhoev').value = '';
+    $('nnaam').focus();
   });
-  $('wis').addEventListener('click', () => { if (confirm('Alle vinkjes van deze week weghalen?')) zetAf(week, new Set()); });
+
+  let bezig = null;
+  document.body.addEventListener('click', e => {
+    const el = e.target.closest('[data-a]'); if (!el) return;
+    const li = el.closest('.litem'); if (!li) return;
+    const k = li.dataset.k, a = el.dataset.a;
+    if (a === 'af') { li.classList.add('weg'); setTimeout(() => L.afvinken(k), 180); }
+    if (a === 'terug') L.terug(k);
+    if (a === 'bewerk') {
+      const it = L.items[k]; if (!it) return;
+      bezig = k;
+      $('bnaam').value = hoofd(it.naam); $('bspec').value = it.spec || ''; $('bhoev').value = L.hoeveel(it); $('bcat').value = L.catVan(it.naam, it);
+      $('bvoor').textContent = it.voor && it.voor.length ? 'Voor: ' + it.voor.join(', ') : '';
+      $('bewerk').showModal();
+    }
+  });
+  $('bform').addEventListener('submit', e => {
+    e.preventDefault();
+    const it = L.items[bezig];
+    const catNu = it ? L.catVan(it.naam, it) : null;
+    L.bewerk(bezig, { naam: $('bnaam').value, spec: $('bspec').value, q: $('bhoev').value === (it ? L.hoeveel(it) : '') && it ? null : $('bhoev').value, cat: $('bcat').value !== catNu ? $('bcat').value : null, behoud: it });
+    $('bewerk').close();
+  });
+  $('bweg').addEventListener('click', () => { L.verwijder(bezig); $('bewerk').close(); });
+
   $('kopieer').addEventListener('click', async () => {
-    const a = afVan(week);
-    const tekst = 'Boodschappen ' + $('weektitel').textContent + '\n' + lijst.filter(g => !g.categorie.startsWith('Voorraadkast')).map(g => {
-      const items = g.items.filter(i => !a.has(i.naam));
-      return items.length ? '\n' + g.categorie + '\n' + items.map(i => '- ' + i.naam + (i.hoeveel ? ': ' + i.hoeveel : '')).join('\n') : '';
-    }).join('') + '\n';
+    const groepen = {};
+    L.open().forEach(([, it]) => (groepen[L.catVan(it.naam, it)] = groepen[L.catVan(it.naam, it)] || []).push(it));
+    const tekst = 'Boodschappenlijstje\n' + Boodschappen.VOLGORDE.filter(c => groepen[c]).map(c => '\n' + c + '\n' + groepen[c].map(it => '- ' + hoofd(it.naam) + (it.spec ? ' (' + it.spec + ')' : '') + (L.hoeveel(it) ? ': ' + L.hoeveel(it) : '')).join('\n')).join('\n') + '\n';
     try {
       if (navigator.share) await navigator.share({ text: tekst }); else { await navigator.clipboard.writeText(tekst); $('kopieer').textContent = '✓ Gekopieerd'; setTimeout(() => $('kopieer').textContent = '📋 Kopieer lijst', 2000); }
     } catch (e) {}
   });
-  // Bring!: enkel de namen van wat nog niet afgevinkt is, één per regel (zonder voorraadkast), om in Bring! te plakken
-  $('bring').addEventListener('click', async () => {
-    const a = afVan(week);
-    const tekst = lijst.filter(g => !g.categorie.startsWith('Voorraadkast')).flatMap(g => g.items.filter(i => !a.has(i.naam)).map(i => i.naam[0].toUpperCase() + i.naam.slice(1) + (i.hoeveel ? ' ' + i.hoeveel : ''))).join('\n');
-    try { await navigator.clipboard.writeText(tekst); $('bring').textContent = '✓ Gekopieerd, plak in Bring!'; }
-    catch (e) { prompt('Kopieer deze lijst:', tekst); }
-    setTimeout(() => $('bring').textContent = '🛒 Kopieer voor Bring!', 2500);
-  });
-  const ga = k => { week = k; history.replaceState(null, '', k === Week.deze() ? location.pathname : '#' + k); volg(); teken(); };
-  $('terug').addEventListener('click', () => ga(Week.plus(week, -1)));
-  $('verder').addEventListener('click', () => ga(Week.plus(week, 1)));
-  addEventListener('hashchange', () => { week = uitHash(); volg(); teken(); });
-  Week.onChange(teken);
-  volg();
+
+  L.onChange(teken);
 </script>

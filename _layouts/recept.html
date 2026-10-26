@@ -15,6 +15,7 @@ layout: default
     <button class="knop" id="wmzet">📅 Zet op weekmenu</button>
     <span id="wmok" class="uitleg"></span>
   </div>
+  <p class="opmenu" id="oplijst" hidden><button class="knop licht" id="naarlijstje">🛒 Op boodschappenlijstje</button> <span id="lijstok" class="uitleg"></span></p>
   {{ content }}
 {% assign delen = content | split: '<h2' %}{% assign ing = '' %}{% assign ber = '' %}{% for d in delen %}{% if d contains 'ngrediënten</h2>' %}{% assign ing = d %}{% endif %}{% if d contains 'ereiding</h2>' %}{% assign ber = d %}{% endif %}{% endfor %}
 {% assign ingitems = ing | split: '<li>' %}
@@ -23,8 +24,6 @@ layout: default
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"Recipe","name":{{ page.title | jsonify }},"author":{"@type":"Organization","name":"Mijn recepten"},{% if page.afbeelding %}"image":[{{ foto | jsonify }}],{% endif %}{% if page.porties %}"recipeYield":{{ page.porties | append: '' | jsonify }},{% endif %}"recipeIngredient":[{% for x in ingitems offset:1 %}{{ x | split: '</li>' | first | strip_html | replace: '&amp;', '&' | strip | jsonify }}{% unless forloop.last %},{% endunless %}{% endfor %}]{% assign beritems = ber | split: '<li>' %}{% if beritems.size > 1 %},"recipeInstructions":[{% for x in beritems offset:1 %}{"@type":"HowToStep","text":{{ x | split: '</li>' | first | strip_html | replace: '&amp;', '&' | strip | jsonify }}}{% unless forloop.last %},{% endunless %}{% endfor %}]{% endif %}}
 </script>
-<div class="bringknop" data-bring-import="{{ page.url | prepend: site.baseurl | prepend: 'https://michielpaesen.github.io' }}" data-bring-language="nl" style="display:none"><a href="https://www.getbring.com">Bring! Import</a></div>
-<script async src="https://platform.getbring.com/widgets/import.js"></script>
 {% endif %}
   {% if page.bron %}
   <p class="bron">Bron: <a href="{{ page.bron }}" target="_blank" rel="noopener">{% if page.bron contains 'pinterest' %}Pinterest{% elsif page.bron contains 'instagram' %}Instagram{% else %}origineel recept{% endif %} ↗</a></p>
@@ -32,7 +31,21 @@ layout: default
   <p><button class="knop licht" id="verwijder">🗑️ Verwijder dit recept</button></p>
   <p>{% assign b = site.borden | where: 'slug', page.bord | first %}{% if b %}<a href="{{ '/' | relative_url }}#{{ b.slug }}">← {{ b.naam }}</a> · {% endif %}<a href="{{ '/' | relative_url }}">Alle recepten</a></p>
 </article>
+<script src="{{ '/assets/boodschappen.js' | relative_url }}"></script>
+<script src="{{ '/assets/lijstje.js' | relative_url }}"></script>
 <script>
+  (() => {
+    // ingrediënten van deze pagina → boodschappenlijstje
+    const kop = [...document.querySelectorAll('.recept h2')].find(h => /ngrediënten/.test(h.textContent));
+    const regels = [];
+    for (let el = kop && kop.nextElementSibling; el && el.tagName !== 'H2'; el = el.nextElementSibling) el.querySelectorAll && (el.tagName === 'LI' ? [el] : el.querySelectorAll('li')).forEach(li => regels.push(li.textContent.trim()));
+    if (regels.length) {
+      document.getElementById('oplijst').hidden = false;
+      document.getElementById('naarlijstje').addEventListener('click', () => Lijstje.kies([{ titel: {{ page.title | jsonify }}, regels }], n => {
+        document.getElementById('lijstok').innerHTML = n + ' op je lijstje · <a href="{{ '/boodschappen/' | relative_url }}">Bekijk</a>';
+      }));
+    }
+  })();
   (() => {
     const h = document.querySelector('.hart');
     h.addEventListener('click', () => Fav.toggle(h.dataset.id));

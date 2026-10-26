@@ -91,13 +91,19 @@
   const CATEGORIE = [
     ['Voorraadkast & kruiden', /^(zout|peper|olie|olijfolie|zonnebloemolie|sesamolie|kokosolie|arachideolie|frituurolie|.*azijn|.*poeder|komijn|kaneel|kurkuma|nootmuskaat|oregano|tijm|rozemarijn|.*kruiden.*|.*kruidenmix|ras el hanout|chilivlokken|cayennepeper|laurier.*|suiker|bruine suiker|poedersuiker|bloem|maizena|bakpoeder|bakingsoda|zuiveringszout|vanille.*|sojasaus|ketjap manis|vissaus|oestersaus|worcestersaus|tabasco|sriracha|.*bouillon|mosterd|dijonmosterd|honing|ketchup|mayonaise|tomatenpuree|sesamzaad|paneermeel|panko|water|gochujang|harissa|sambal.*|teriyakisaus|.*chilisaus|.*saus|ahornsiroop|siroop.*|gist)$/],
     ['Voorraadkast & kruiden', /^(pindakaas|kokosmelk|kokosroom)$/],
+    ['Pasta, rijst & granen', /^(pesto|rode pesto|groene pesto|tapenade|passata|tomatenblokjes|tomatensaus|pastasaus|kikkererwten|linzen)$/],
     ['Groenten & fruit', /(perzik|citroengras|edamame|sugarsnaps|peultjes|olijven|tomaat|tomaten|ui$|sjalot|knoflook|paprika$|courgette|wortel|aardappel|krieltjes|komkommer|aubergine|avocado|citroen|limoen|appel|peer|banaan|prei|mango|venkel|broccoli|bloemkool|peper$|gember|spinazie|sla$|rucola|veldsla|kool|paksoi|champignons|biet|radijs|selder|asperge|bonen$|erwten|mais|maïs|peterselie|basilicum|koriander|munt|bieslook|dille|lente-ui|fruit|bessen|aardbeien|frambozen|blauwe bessen|druiven|ananas|granaatappel|sperzie|pompoen|zoete aardappel|rode biet|groente)/],
     ['Vlees & vis', /(kip|gehakt|spek|ham$|worst|chorizo|salami|rund|biefstuk|steak|varken|kalkoen|\blams?(vlees|kotelet)?\b|zalm|tonijn|garnalen|vis|kabeljauw|pancetta|prosciutto|serrano|bacon|shoarma|gyros|scampi|mosselen|vlees|filet)/],
     ['Zuivel, kaas & eieren', /(^ei$|kaas|parmezaan|mozzarella|burrata|feta|halloumi|ricotta|mascarpone|cheddar|room|yoghurt|melk|boter|crème fraîche|kwark|skyr|zure room|platte kaas)/],
     ['Pasta, rijst & granen', /(pasta|spaghetti|penne|rigatoni|farfalle|fusilli|linguine|tagliatelle|fettuc|macaroni|orzo|lasagne|tortellini|ravioli|gnocchi|noedels|noodles|mie|rijst|couscous|bulgur|quinoa|ebly|havermout|conchiglie|cannelloni)/],
-    ['Brood & deeg', /(brood|wrap|naan|pita|tortilla|bladerdeeg|deeg|ciabatta|baguette|focaccia|pizza)/]
+    ['Brood & deeg', /(brood|wrap|naan|pita|tortilla|bladerdeeg|deeg|ciabatta|baguette|focaccia|pizza|pistolet|croissant|beschuit|toast)/],
+    ['Diepvries', /(diepvries|^ijs$|ijsjes|roomijs|frieten|kroketten|vissticks)/],
+    ['Dranken', /(^cola|frisdrank|^bier|^wijn|^sap$|appelsap|sinaasappelsap|fruitsap|spuitwater|plat water|bruiswater|^koffie|^thee|limonade|siroop)/],
+    ['Snacks & zoet', /(chocolade|choco|chips|koek|snoep|nootjes|noten|cake|wafel|speculoos|confituur|jam)/],
+    ['Huishouden & verzorging', /(wc-papier|toiletpapier|keukenrol|afwas|vaatwas|wasmiddel|wasverzachter|tandpasta|tandenborstel|shampoo|douchegel|zeep|deo|vuilniszak|vuilniszakken|aluminiumfolie|bakpapier|huishoudfolie|batterij|scheermes|maandverband|tampons|luiers|sponsje|schoonmaak|allesreiniger|handzeep)/]
   ];
   const categorie = n => (CATEGORIE.find(([, re]) => re.test(n)) || ['Overige'])[0];
+  const VOLGORDE = ['Groenten & fruit', 'Vlees & vis', 'Zuivel, kaas & eieren', 'Brood & deeg', 'Pasta, rijst & granen', 'Diepvries', 'Dranken', 'Snacks & zoet', 'Voorraadkast & kruiden', 'Huishouden & verzorging', 'Overige'];
 
   // ---- één regel uitlezen ----
   const BREUK = { '½': '.5', '¼': '.25', '¾': '.75', '⅓': '.33', '⅔': '.67' };
@@ -188,10 +194,10 @@
       for (const k of Object.keys(rest)) { if (k === 'vaag') continue; const x = gram(naam, rest[k], k); if (x !== null) { g += x; delete rest[k]; } }
       if (naam === 'knoflook') { const t = Math.ceil(g / 5); delen.push(t + (t > 1 ? ' teentjes' : ' teentje') + (t >= 8 ? ' (± ' + rond(t / 10, 0.5).toString().replace('.', ',') + ' bol)' : '')); }
       else { const s = rond(g / stuk, naam === 'ei' || stuk >= 100 ? 1 : 0.5); delen.push(String(s).replace('.', ',') + ' stuk' + (s > 1 ? 's' : '') + (stuk >= 20 && g >= 50 && (heeft('g') || sommen.g) ? ' (± ' + rond(g, 10) + ' g)' : '')); }
-    } else if (heeft('g') || heeft('blik') || heeft('pot') || heeft('pak') || heeft('zak') || heeft('bol') || (heeft('ml') && heeft('stuk'))) {
-      // gewicht als basis, ml en verpakkingen omrekenen
+    } else if (heeft('g') || (heeft('ml') && heeft('stuk'))) {
+      // gewicht als basis; ml enkel omrekenen als we de dichtheid kennen. Verpakkingen (blik, pot, pak…) blijven apart staan: liever "400 g + 1 pak" dan een verkeerd totaal.
       let g = 0;
-      for (const k of Object.keys(rest)) { if (k === 'vaag') continue; const x = (k === 'ml' && !DICHTHEID[naam] && !heeft('g')) ? null : gram(naam, rest[k], k); if (x !== null) { g += x; delete rest[k]; } }
+      for (const k of Object.keys(rest)) { if (k === 'vaag' || ['blik', 'pot', 'pak', 'zak', 'bol'].includes(k)) continue; const x = (k === 'ml' && !DICHTHEID[naam] && !heeft('g')) ? null : gram(naam, rest[k], k); if (x !== null) { g += x; delete rest[k]; } }
       if (g) delen.push(g >= 1000 ? (Math.round(g / 100) / 10).toString().replace('.', ',') + ' kg' : rond(g, g < 50 ? 5 : 10) + ' g');
     } else if (heeft('ml')) {
       const ml = rest.ml; delete rest.ml;
@@ -225,10 +231,10 @@
       it.hoeveel = toon(it.naam, it.sommen);
       (groepen[categorie(it.naam)] = groepen[categorie(it.naam)] || []).push(it);
     });
-    const volgorde = ['Groenten & fruit', 'Vlees & vis', 'Zuivel, kaas & eieren', 'Pasta, rijst & granen', 'Brood & deeg', 'Overige', 'Voorraadkast & kruiden'];
+    const volgorde = VOLGORDE;
     return volgorde.filter(c => groepen[c]).map(c => ({ categorie: c, items: groepen[c].sort((a, b) => a.naam.localeCompare(b.naam)) }));
   }
 
-  const api = { lees, lijst, toon };
+  const api = { lees, lijst, toon, naamVan, categorie, VOLGORDE };
   if (typeof module !== 'undefined') module.exports = api; else window.Boodschappen = api;
 })();

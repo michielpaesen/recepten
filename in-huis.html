@@ -12,7 +12,7 @@ permalink: /in-huis/
 <p class="center"><button class="tag" id="meer" hidden>Toon meer</button></p>
 
 <script>
-  const R = [{% for r in site.recepten %}{% assign delen = r.content | split: '<h2' %}{% assign ing = '' %}{% for d in delen %}{% if d contains 'ngrediënten</h2>' %}{% assign ing = d %}{% endif %}{% endfor %}{"u":{{ r.url | jsonify }},"t":{{ r.title | jsonify }},"i":{{ r.afbeelding | jsonify }},"l":[{% assign items = ing | split: '<li>' %}{% for x in items offset:1 %}{{ x | strip_html | strip | jsonify }}{% unless forloop.last %},{% endunless %}{% endfor %}]}{% unless forloop.last %},{% endunless %}{% endfor %}];
+  const R = [{% for r in site.recepten %}{% assign delen = r.content | split: '<h2' %}{% assign ing = '' %}{% for d in delen %}{% if d contains 'ngrediënten</h2>' %}{% assign ing = d %}{% endif %}{% endfor %}{"u":{{ r.url | jsonify }},"t":{{ r.title | jsonify }},"i":{{ r.afbeelding | jsonify }},"l":[{% assign items = ing | split: '<li>' %}{% for x in items offset:1 %}{{ x | split: '</li>' | first | strip_html | strip | jsonify }}{% unless forloop.last %},{% endunless %}{% endfor %}]}{% unless forloop.last %},{% endunless %}{% endfor %}];
   const BASIS = {{ '' | relative_url | jsonify }};
   const $ = id => document.getElementById(id);
   const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));

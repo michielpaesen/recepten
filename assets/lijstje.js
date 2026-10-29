@@ -54,7 +54,27 @@
     return online(s => { fn(s, nu); snoei(s.items); });
   }
 
+  // icoon per product (eerste treffer telt), anders per categorie
+  const ICONEN = [
+    [/chili|jalape|spaanse peper/, '🌶️'], [/zout|peper$|kaneel|paprikapoeder|komijn|garam|curry|oregano|nootmuskaat|bouillon/, '🧂'], [/paprika/, '🫑'], [/aubergine/, '🍆'], [/^(rode |witte |sjalot|lente)?ui(en)?$|sjalot|lente-?ui/, '🧅'], [/knoflook/, '🧄'],
+    [/avocado/, '🥑'], [/citroen|limoen/, '🍋'], [/tomaat|tomaten(?!blokjes|saus|puree)/, '🍅'], [/aardappel|krieltje/, '🥔'], [/wortel/, '🥕'],
+    [/komkommer|courgette/, '🥒'], [/broccoli/, '🥦'], [/sla$|spinazie|rucola|kool|andijvie|prei|selder|bladgroen/, '🥬'], [/mais|maïs/, '🌽'],
+    [/champignon|paddenstoel/, '🍄'], [/appel/, '🍎'], [/peer/, '🍐'], [/banaan/, '🍌'], [/aardbei/, '🍓'], [/framboos|bes(sen)?$|bosbes/, '🫐'], [/druif/, '🍇'],
+    [/sinaasappel|mandarijn/, '🍊'], [/ananas/, '🍍'], [/mango/, '🥭'], [/kokos/, '🥥'], [/gember|kurkuma/, '🫚'], [/koriander|peterselie|basilicum|munt|bieslook|dille|tijm|rozemarijn|kruiden/, '🌿'],
+    [/kip|kalkoen/, '🍗'], [/spek|bacon|ham$|pancetta|chorizo|salami/, '🥓'], [/gehakt|rund|steak|biefstuk|varken|lam|worst|vlees/, '🥩'], [/zalm|vis|kabeljauw|tonijn|scampi|garnaal|mosselen/, '🐟'],
+    [/ei(eren)?$/, '🥚'], [/boter/, '🧈'], [/kaas|feta|mozzarella|parmezaan|ricotta|mascarpone/, '🧀'], [/melk|room|yoghurt|kwark|skyr/, '🥛'],
+    [/naan|pita|wrap|tortilla/, '🫓'], [/brood|stokbrood|baguette|toast/, '🍞'], [/croissant/, '🥐'], [/deeg/, '🥧'],
+    [/pasta|spaghetti|penne|linguine|tagliatelle|orzo|macaroni|lasagne|noedel|tortellini|gnocchi/, '🍝'], [/rijst|risotto|couscous|bulgur|quinoa/, '🍚'],
+    [/pesto|saus|passata|tomatenblokjes|tapenade|puree/, '🫙'], [/kikkererwt|linzen|bonen/, '🫘'], [/noot|noten|cashew|amandel|pinda|walnoot/, '🥜'],
+    [/olie|azijn/, '🫒'], [/suiker|honing|siroop/, '🍯'], [/bloem|meel/, '🌾'], [/chocolade|choco/, '🍫'],
+    [/koffie/, '☕'], [/thee/, '🍵'], [/sap|limonade/, '🧃'], [/water|frisdrank|cola/, '🥤'], [/wijn/, '🍷'], [/bier/, '🍺'], [/chips|snack/, '🍿'], [/koek|cake|taart/, '🍪'], [/ijs$|roomijs/, '🍦'],
+    [/wc-papier|toiletpapier|keukenrol|tissue/, '🧻'], [/zeep|shampoo|tandpasta|douche/, '🧴'], [/afwas|spons|schoonmaak|vaatwas|wasmiddel/, '🧽']
+  ];
+  const CAT_ICOON = { 'Groenten & fruit': '🥬', 'Vlees & vis': '🥩', 'Zuivel, kaas & eieren': '🧀', 'Brood & deeg': '🍞', 'Pasta, rijst & granen': '🍝', 'Diepvries': '🧊', 'Dranken': '🥤', 'Snacks & zoet': '🍫', 'Voorraadkast & kruiden': '🧂', 'Huishouden & verzorging': '🧽', 'Overige': '🛒' };
+  const icoon = (naam, cat) => (ICONEN.find(([re]) => re.test(naam)) || [0, CAT_ICOON[cat] || '🛒'])[1];
+
   const api = {
+    icoon,
     get items() { return staat.items; },
     get fout() { return fout; },
     onChange: f => { luisteraars.push(f); f(); },

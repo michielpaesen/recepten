@@ -14,21 +14,22 @@ permalink: /boodschappen/
 </form>
 <datalist id="namen"></datalist>
 
+<p class="uitleg">Tik = afvinken · lang indrukken = aanpassen</p>
 <p id="leeg" class="uitleg" hidden>Je lijstje is leeg. Voeg hierboven iets toe, of gebruik "🛒 Op boodschappenlijstje" bij een recept of in het weekmenu.</p>
 <div id="lijst"></div>
 
 <section id="recentblok" hidden>
   <h2>✓ Recent gekocht</h2>
-  <p class="uitleg">Laatst afgevinkt bovenaan. Tik om terug op het lijstje te zetten.</p>
-  <ul id="recent" class="blijst recent"></ul>
+  <p class="uitleg">Laatst afgevinkt eerst. Tik om terug op het lijstje te zetten.</p>
+  <ul id="recent" class="tegels"></ul>
 </section>
 
 <p class="knoppen" id="lijstknoppen" hidden>
   <button class="knop licht" id="kopieer">📋 Kopieer lijst</button>
 </p>
 
-<dialog id="bewerk">
-  <form method="dialog" class="kieskop"><strong>Aanpassen</strong><button class="tag" value="x" aria-label="Sluiten">✕</button></form>
+<dialog id="bewerk" class="sheet">
+  <form method="dialog" class="kieskop"><strong id="btitel">Aanpassen</strong><button class="tag" value="x" aria-label="Sluiten">✕</button></form>
   <form id="bform" class="bform">
     <label>Naam <input id="bnaam" list="namen" required></label>
     <label>Specificatie <input id="bspec" placeholder="bv. rood, groen, light…"></label>
@@ -48,14 +49,12 @@ permalink: /boodschappen/
   const L = window.Lijstje;
   $('bcat').innerHTML = Boodschappen.VOLGORDE.map(c => '<option>' + esc(c) + '</option>').join('');
 
-  function regel(k, it, recent) {
-    const h = L.hoeveel(it);
-    return '<li class="litem" data-k="' + esc(k) + '">'
-      + '<button class="lvink" data-a="' + (recent ? 'terug' : 'af') + '" aria-label="' + (recent ? 'Terug op lijstje' : 'Afvinken') + '">' + (recent ? '↩' : '') + '</button>'
-      + '<span class="ltekst" data-a="' + (recent ? 'terug' : 'af') + '"><span class="bnaam">' + esc(hoofd(it.naam)) + (it.spec ? ' <span class="lspec">' + esc(it.spec) + '</span>' : '') + '</span>'
-      + (h ? '<span class="bhoeveel">' + esc(h) + '</span>' : '')
-      + (!recent && it.voor && it.voor.length ? '<small class="lvoor">voor ' + esc(it.voor.join(', ')) + '</small>' : '') + '</span>'
-      + (recent ? '' : '<button class="tag lbewerk" data-a="bewerk" aria-label="Aanpassen">✎</button>') + '</li>';
+  function tegel(k, it, recent) {
+    const h = L.hoeveel(it), cat = L.catVan(it.naam, it);
+    return '<li><button class="tegel' + (recent ? ' recent' : '') + '" data-k="' + esc(k) + '" aria-label="' + esc(hoofd(it.naam) + (it.spec ? ' ' + it.spec : '') + (h ? ', ' + h : '')) + (recent ? ' – terug op lijstje' : ' – afvinken') + '">'
+      + '<span class="ticoon" aria-hidden="true">' + L.icoon(it.naam, cat) + '</span>'
+      + '<span class="tnaam">' + esc(hoofd(it.naam)) + '</span>'
+      + (!recent && (it.spec || h) ? '<span class="tsub">' + esc([it.spec, h].filter(Boolean).join(' · ')) + '</span>' : '') + '</button></li>';
   }
 
   function teken() {
@@ -63,12 +62,12 @@ permalink: /boodschappen/
     const open = L.open();
     const groepen = {};
     open.forEach(([k, it]) => (groepen[L.catVan(it.naam, it)] = groepen[L.catVan(it.naam, it)] || []).push([k, it]));
-    $('lijst').innerHTML = Boodschappen.VOLGORDE.filter(c => groepen[c]).map(c => '<section class="bgroep"><h2>' + esc(c) + ' <span class="aantal">' + groepen[c].length + '</span></h2><ul class="blijst">'
-      + groepen[c].sort((a, b) => a[1].naam.localeCompare(b[1].naam) || a[1].spec.localeCompare(b[1].spec)).map(([k, it]) => regel(k, it, false)).join('') + '</ul></section>').join('');
+    $('lijst').innerHTML = Boodschappen.VOLGORDE.filter(c => groepen[c]).map(c => '<section class="bgroep"><h2>' + esc(c) + ' <span class="aantal">' + groepen[c].length + '</span></h2><ul class="tegels">'
+      + groepen[c].sort((a, b) => a[1].naam.localeCompare(b[1].naam) || a[1].spec.localeCompare(b[1].spec)).map(([k, it]) => tegel(k, it, false)).join('') + '</ul></section>').join('');
     $('leeg').hidden = open.length > 0;
     const recent = L.recent();
     $('recentblok').hidden = !recent.length;
-    $('recent').innerHTML = recent.map(([k, it]) => regel(k, it, true)).join('');
+    $('recent').innerHTML = recent.map(([k, it]) => tegel(k, it, true)).join('');
     $('lijstknoppen').hidden = !open.length;
     $('namen').innerHTML = L.alleNamen().map(n => '<option value="' + esc(hoofd(n)) + '">').join('');
   }
@@ -80,20 +79,31 @@ permalink: /boodschappen/
     $('nnaam').focus();
   });
 
-  let bezig = null;
+  // tikken = afvinken (of terugzetten), lang indrukken of rechtsklikken = aanpassen
+  let bezig = null, lang = false, timer = null, start = null;
+  function bewerk(k) {
+    const it = L.items[k]; if (!it || $('bewerk').open) return;
+    bezig = k;
+    $('btitel').textContent = L.icoon(it.naam, L.catVan(it.naam, it)) + ' ' + hoofd(it.naam) + ' aanpassen';
+    $('bnaam').value = hoofd(it.naam); $('bspec').value = it.spec || ''; $('bhoev').value = L.hoeveel(it); $('bcat').value = L.catVan(it.naam, it);
+    $('bvoor').textContent = it.voor && it.voor.length ? 'Voor: ' + it.voor.join(', ') : '';
+    $('bewerk').showModal();
+  }
+  const stop = () => { clearTimeout(timer); timer = null; };
+  document.body.addEventListener('pointerdown', e => {
+    const t = e.target.closest('.tegel'); if (!t || e.button > 0) return;
+    lang = false; start = [e.clientX, e.clientY];
+    timer = setTimeout(() => { lang = true; t.classList.add('druk'); setTimeout(() => t.classList.remove('druk'), 200); bewerk(t.dataset.k); }, 500);
+  });
+  document.body.addEventListener('pointermove', e => { if (timer && start && Math.hypot(e.clientX - start[0], e.clientY - start[1]) > 10) stop(); });
+  ['pointerup', 'pointercancel'].forEach(n => document.body.addEventListener(n, stop));
+  document.body.addEventListener('contextmenu', e => { const t = e.target.closest('.tegel'); if (!t) return; e.preventDefault(); stop(); lang = true; bewerk(t.dataset.k); });
   document.body.addEventListener('click', e => {
-    const el = e.target.closest('[data-a]'); if (!el) return;
-    const li = el.closest('.litem'); if (!li) return;
-    const k = li.dataset.k, a = el.dataset.a;
-    if (a === 'af') { li.classList.add('weg'); setTimeout(() => L.afvinken(k), 180); }
-    if (a === 'terug') L.terug(k);
-    if (a === 'bewerk') {
-      const it = L.items[k]; if (!it) return;
-      bezig = k;
-      $('bnaam').value = hoofd(it.naam); $('bspec').value = it.spec || ''; $('bhoev').value = L.hoeveel(it); $('bcat').value = L.catVan(it.naam, it);
-      $('bvoor').textContent = it.voor && it.voor.length ? 'Voor: ' + it.voor.join(', ') : '';
-      $('bewerk').showModal();
-    }
+    const t = e.target.closest('.tegel'); if (!t) return;
+    if (lang) { lang = false; return; }
+    const k = t.dataset.k;
+    if (t.classList.contains('recent')) L.terug(k);
+    else { t.classList.add('weg'); setTimeout(() => L.afvinken(k), 180); }
   });
   $('bform').addEventListener('submit', e => {
     e.preventDefault();

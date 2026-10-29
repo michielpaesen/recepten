@@ -17,9 +17,12 @@ service cloud.firestore {
     match /weekmenu/{week} {
       allow read: if true;
       allow write: if week.matches('^[0-9]{4}-[0-9]{2}-[0-9]{2}$')
-                   && request.resource.data.keys().hasOnly(['dagen'])
+                   && request.resource.data.keys().hasOnly(['dagen', 'middag'])
                    && request.resource.data.dagen is list
-                   && request.resource.data.dagen.size() == 7;
+                   && request.resource.data.dagen.size() == 7
+                   && (!('middag' in request.resource.data)
+                       || (request.resource.data.middag is list
+                           && request.resource.data.middag.size() == 7));
     }
 
     match /lijstje/gedeeld {

@@ -1,5 +1,5 @@
 ---
-title: "Warme ham-kaasrolletjes uit de oven"
+title: "Hot Ham and Cheese Pinwheels"
 bron: https://www.kevinandamanda.com/ham-roll-ups-pinwheels/
 afbeelding: https://www.kevinandamanda.com/wp-content/uploads/2014/12/Brown-Sugar-Poppyseed-Hot-Ham-Cheese-Party-Rolls-Buns-Roll-Ups-02.jpg
 porties: 12

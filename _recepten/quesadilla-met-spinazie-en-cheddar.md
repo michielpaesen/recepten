@@ -1,5 +1,5 @@
 ---
-title: "Quesadilla met spinazie en cheddar"
+title: "Spinat-Quesadilla mit Cheddar"
 bron: https://www.essen-und-trinken.de/rezepte/59471-rzpt-spinat-quesadilla
 afbeelding: https://image.essen-und-trinken.de/11883624/t/oF/v10/w1440/r1.7778/-/spinat-quesadilla-b5ac06b6e47cb3aceb19c3517f35ecd1-fjt2014070481-jpg--35275-.jpg
 porties: 4

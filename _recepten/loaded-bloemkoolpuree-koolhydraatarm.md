@@ -1,5 +1,5 @@
 ---
-title: "Loaded bloemkoolpuree (koolhydraatarm)"
+title: "Loaded Cauliflower (low carb, keto)"
 bron: https://www.lowcarbmaven.com/loaded-cauliflower-low-carb-keto/
 afbeelding: https://www.lowcarbmaven.com/wp-content/uploads/2016/09/low-carb-loaded-cauliflower-13-480x270.jpg
 porties: 4

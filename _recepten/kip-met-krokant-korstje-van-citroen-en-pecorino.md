@@ -1,5 +1,5 @@
 ---
-title: "Kip met krokant korstje van citroen en pecorino"
+title: "Lemon Pecorino Crusted Chicken"
 bron: https://www.nessyrecipes.com/lemon-pecorino-crusted-chicken/
 afbeelding: https://www.nessyrecipes.com/wp-content/uploads/2025/12/lemon-pecorino-crusted-chicken-featured-480x270.webp
 porties: 4

@@ -1,5 +1,5 @@
 ---
-title: "Quinoasalade met tomaat en kikkererwten"
+title: "Tomato Quinoa Salad"
 bron: https://peasandcrayons.com/tomato-quinoa-salad/
 afbeelding: https://peasandcrayons.com/wp-content/uploads/2018/07/tomato-chickpea-quinoa-salad-recipe-.jpg
 porties: 4

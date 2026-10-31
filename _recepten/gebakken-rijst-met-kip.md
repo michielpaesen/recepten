@@ -1,5 +1,5 @@
 ---
-title: "Gebakken rijst met kip"
+title: "Chicken Fried Rice"
 bron: https://natashaskitchen.com/chicken-fried-rice/
 afbeelding: https://natashaskitchen.com/wp-content/uploads/2019/09/Chicken-Fried-Rice-2-480x270.jpg
 porties: 6

@@ -1,5 +1,5 @@
 ---
-title: "Pasta met worst, broccoliroom en kerstomaatjes"
+title: "Pâtes aux saucisses, crème au brocoli et tomates bonbons"
 bron: https://www.colruyt.be/fr/recettes/pates-aux-saucisses-creme-au-brocoli-et-tomates-bonbons
 afbeelding: https://fgdjrynm.filerobot.com/recipes/15fbf1648c6ad314a6b26718c57fabc17ef753d368ff2dfbe7d0737108bf5a03.jpg?vh=fe1b0a&h=800&w=800&q=60
 porties: 4

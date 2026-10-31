@@ -1,5 +1,5 @@
 ---
-title: "Italiaanse quinoasalade"
+title: "Italian Quinoa Salad"
 bron: https://dashofsanity.com/italian-quinoa-salad-recipe/
 afbeelding: https://dashofsanity.com/wp-content/uploads/2015/06/italian-quinoa-salad-1140-480x270.jpg
 porties: 4

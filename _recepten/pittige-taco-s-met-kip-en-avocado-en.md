@@ -1,5 +1,5 @@
 ---
-title: "Pittige taco's met kip en avocado en romige koriander-limoensaus"
+title: "Chicken and Avocado Tacos with Creamy Cilantro Sauce"
 bron: https://gimmedelicious.com/chicken-and-avocado-taco/
 afbeelding: https://gimmedelicious.com/wp-content/uploads/2018/04/chicken-and-avocado-tacos-3-480x270.jpg
 porties: 4

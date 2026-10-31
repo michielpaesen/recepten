@@ -1,5 +1,5 @@
 ---
-title: "Lasagnerolletjes met pepperoni (pizzastijl)"
+title: "Pepperoni Pizza Lasagna Roll Ups"
 bron: https://www.kindlyunspoken.com/pepperoni-pizza-lasagna-roll-ups/
 afbeelding: https://www.kindlyunspoken.com/wp-content/uploads/2020/07/Easy-Pepperoni-Pizza-Lasagna-Roll-Ups-12-scaled.jpg
 porties: 6

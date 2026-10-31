@@ -1,5 +1,5 @@
 ---
-title: "Pasta met geitenkaas, kip en rozemarijn"
+title: "Goat Cheese Pasta with Chicken & Rosemary"
 bron: https://www.mybakingaddiction.com/mac-and-cheese-roasted-chicken-and-goat-cheese/
 afbeelding: https://www.mybakingaddiction.com/wp-content/uploads/2011/11/goat-cheese-pasta-in-bowl.jpg
 porties: 8

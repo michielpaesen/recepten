@@ -1,5 +1,5 @@
 ---
-title: "Wortelchips uit de oven"
+title: "Baked Carrot Chips"
 bron: https://www.aspicyperspective.com/healthy-baked-carrot-chips/
 afbeelding: https://www.aspicyperspective.com/wp-content/uploads/2017/01/healthy-baked-carrot-chips-11.jpg
 porties: 8

@@ -1,5 +1,5 @@
 ---
-title: "Aziatische komkommernoedelsalade met gember-amandeldressing"
+title: "Asian Cucumber Noodle Salad with Ginger Almond Dressing"
 bron: https://avocadopesto.com/asian-noodle-salad/
 afbeelding: https://avocadopesto.com/wp-content/uploads/2016/10/Asian-Cucumber-Noodle-Salad-GF-Recipe-1.jpg
 porties: 4

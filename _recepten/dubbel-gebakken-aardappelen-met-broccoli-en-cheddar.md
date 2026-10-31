@@ -1,5 +1,5 @@
 ---
-title: "Dubbel gebakken aardappelen met broccoli en cheddar"
+title: "Twice-Baked Potatoes with Broccoli and Cheddar"
 bron: https://bakerbynature.com/broccoli-and-cheddar-twice-baked-potatoes/
 afbeelding: https://bakerbynature.com/wp-content/uploads/2016/01/IMG_3847-5-2-480x270.jpg
 porties: 8

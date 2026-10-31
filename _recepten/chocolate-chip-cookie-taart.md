@@ -1,5 +1,5 @@
 ---
-title: "Chocolate chip cookie-taart"
+title: "Chocolate Chip Cookie Cake"
 bron: https://www.baking-sense.com/2017/01/25/chocolate-chip-cookie-cake/
 afbeelding: https://www.baking-sense.com/wp-content/uploads/2017/01/choc-chip-cookie-cake-11a-480x270.jpg
 porties: 16

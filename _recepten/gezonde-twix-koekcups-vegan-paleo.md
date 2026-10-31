@@ -1,5 +1,5 @@
 ---
-title: "Gezonde Twix-koekcups (vegan, paleo)"
+title: "Healthy Twix Cookie Cups"
 bron: https://bakeitpaleo.com/healthy-twix-cookie-cups/
 afbeelding: https://bakeitpaleo.com/wp-content/uploads/2024/06/square-twix.jpg
 porties: 13

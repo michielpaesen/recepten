@@ -1,5 +1,5 @@
 ---
-title: "Romige spaghetti met champignons en kruiden"
+title: "Creamy Garlic Herb Mushroom Spaghetti"
 bron: https://pinchofyum.com/creamy-garlic-herb-mushroom-spaghetti
 afbeelding: https://pinchofyum.com/tachyon/mushroom-spaghetti-recipe-1.jpg
 porties: 4

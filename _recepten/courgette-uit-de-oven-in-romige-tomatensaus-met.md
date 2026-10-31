@@ -1,5 +1,5 @@
 ---
-title: "Courgette uit de oven in romige tomatensaus met conchiglie en buffelmozzarella"
+title: "Courgette uit de oven in romige tomatensaus"
 bron: https://www.hellofresh.be/recipes/courgette-uit-de-oven-in-romige-tomatensaus-5f73460c630ceb6e783c9a68
 afbeelding: https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/5f773e8af223691f73646ac2-4ef3b417-1a307f26.jpg
 porties: 2

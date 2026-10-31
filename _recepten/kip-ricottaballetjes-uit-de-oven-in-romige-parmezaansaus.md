@@ -1,5 +1,5 @@
 ---
-title: "Kip-ricottaballetjes uit de oven in romige parmezaansaus met spinazie"
+title: "Baked Chicken Ricotta Meatballs with Spinach Alfredo Sauce"
 bron: https://chefjar.com/chicken-ricotta-meatballs/
 afbeelding: https://chefjar.com/wp-content/uploads/2022/03/chicken-ricotta-meatballs-4-480x270.jpg
 porties: 6

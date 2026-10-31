@@ -1,5 +1,5 @@
 ---
-title: "Salade met perzik en burrata"
+title: "Peach Burrata Salad"
 bron: https://justforrecipes.com/irresistible-peach-burrata-salad-for-summer-bliss/
 afbeelding: https://justforrecipes.com/wp-content/uploads/2025/08/image_x1-123.png
 porties: 4

@@ -1,5 +1,5 @@
 ---
-title: "Romige pasta met avocado en spinazie"
+title: "Creamy Avocado Spinach Pasta"
 bron: https://www.jocooks.com/recipes/creamy-avocado-spinach-pasta/
 afbeelding: https://www.jocooks.com/wp-content/uploads/2019/01/avocado-spinach-pasta-1-6-480x270.jpg
 porties: 4

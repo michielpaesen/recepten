@@ -1,5 +1,5 @@
 ---
-title: "BLT-pastasalade"
+title: "BLT Pasta Salad"
 bron: https://life-in-the-lofthouse.com/blt-pasta-salad/
 afbeelding: https://life-in-the-lofthouse.com/wp-content/uploads/2020/06/BLT-Pasta-Salad28-480x270.jpg
 porties: 6

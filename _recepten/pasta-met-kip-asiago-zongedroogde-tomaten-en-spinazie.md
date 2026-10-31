@@ -1,5 +1,5 @@
 ---
-title: "Pasta met kip, Asiago, zongedroogde tomaten en spinazie"
+title: "Asiago Chicken Pasta with Sun-Dried Tomatoes and Spinach"
 bron: https://juliasalbum.com/asiago-chicken-pasta-with-sun-dried-tomatoes-and-spinach/
 afbeelding: https://juliasalbum.com/wp-content/uploads/2016/02/24511044624_bd6265a50e-480x270.jpg
 porties: 4

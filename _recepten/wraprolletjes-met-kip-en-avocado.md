@@ -1,5 +1,5 @@
 ---
-title: "Wraprolletjes met kip en avocado"
+title: "Quick 10 Minute Chicken and Avocado Roll-ups"
 bron: https://gimmedelicious.com/chicken-and-avocado-roll-ups/
 afbeelding: https://gimmedelicious.com/wp-content/uploads/2017/05/chicken-avocado-roll-ups5-480x270.jpg
 porties: 20

@@ -1,5 +1,5 @@
 ---
-title: "Kip met parmezaankorst en spek"
+title: "Parmesan Crusted Chicken with Bacon"
 bron: https://otasteandseeblog.com/parmesan-crusted-chicken-with-bacon/
 afbeelding: https://i.pinimg.com/474x/c5/ac/ba/c5acbaf13b05e5d9a0c1a0416a5ee738.jpg
 bord: vlees

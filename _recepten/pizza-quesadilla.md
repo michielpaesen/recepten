@@ -1,5 +1,5 @@
 ---
-title: "Pizza-quesadilla"
+title: "Pizza Quesadilla"
 bron: https://numstheword.com/pizza-quesadilla/
 afbeelding: https://numstheword.com/wp-content/uploads/2014/05/Quesadilla-Pizza-735x1103.jpg
 porties: 1

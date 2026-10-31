@@ -1,5 +1,5 @@
 ---
-title: "Nutella-muffins"
+title: "Nutella Muffins"
 bron: https://cantstayoutofthekitchen.com/2016/09/26/nutella-muffins/
 afbeelding: https://i.pinimg.com/564x/ad/90/49/ad9049cfdb330ee09ca4d6b726c845d6.jpg
 porties: 8

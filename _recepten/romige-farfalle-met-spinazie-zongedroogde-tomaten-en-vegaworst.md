@@ -1,5 +1,5 @@
 ---
-title: "Romige farfalle met spinazie, zongedroogde tomaten en vegaworst"
+title: "Creamy Farfalle with Spinach & Sun-Dried Tomatoes"
 bron: https://munchmealsbyjanet.com/2021/11/07/creamy-farfalle-with-spinach-and-sun-dried-tomatoes/
 afbeelding: https://munchmealsbyjanet.com/wp-content/uploads/2021/11/IMG_9356-2-480x270.jpg?crop=1
 porties: 4

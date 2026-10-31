@@ -1,5 +1,5 @@
 ---
-title: "Bevroren yoghurtreep met chocolade en banaan"
+title: "Chocolate Banana Frozen Yogurt Bark"
 bron: https://www.myfussyeater.com/chocolate-banana-frozen-yogurt-bark/
 afbeelding: https://www.myfussyeater.com/wp-content/uploads/2016/03/Chocolate-Banana-Frozen-Yogurt-Bark_03.jpg
 porties: 10

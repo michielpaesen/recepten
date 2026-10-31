@@ -1,5 +1,5 @@
 ---
-title: "No-bake mini-Biscoff-cheesecakes"
+title: "No-Bake Mini Biscoff Cheesecakes"
 bron: https://upresume.com/blog/no-bake-mini-biscoff-cheesecakes-recipe/
 afbeelding: https://gekcdn.b-cdn.net/images/123f231c280e44f98df2623ad5b96989.png
 tijd: 4 u 20 min

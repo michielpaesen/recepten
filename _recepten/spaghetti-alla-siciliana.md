@@ -1,5 +1,5 @@
 ---
-title: "Spaghetti alla siciliana"
+title: "Spaghetti alla Siciliana"
 bron: https://vikalinka.com/spaghetti-alla-siciliana/
 afbeelding: https://vikalinka.com/wp-content/uploads/2013/11/Chicken-Sun-Dried-Tomato-Pasta-1-Edit-480x270.jpg
 porties: 4

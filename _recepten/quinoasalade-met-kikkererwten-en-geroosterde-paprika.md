@@ -1,5 +1,5 @@
 ---
-title: "Quinoasalade met kikkererwten en geroosterde paprika"
+title: "Quinoa Salad"
 bron: https://www.cookingclassy.com/quinoa-salad/
 afbeelding: https://www.cookingclassy.com/wp-content/uploads/2020/01/quinoa-salad-16-480x270.jpg
 porties: 5

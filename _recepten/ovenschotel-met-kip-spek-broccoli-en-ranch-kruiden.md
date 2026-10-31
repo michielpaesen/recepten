@@ -1,5 +1,5 @@
 ---
-title: "Ovenschotel met kip, spek, broccoli en ranch-kruiden"
+title: "Chicken Bacon Ranch Casserole"
 bron: https://joyfilledeats.com/bacon-ranch-chicken-casserole/
 afbeelding: https://joyfilledeats.com/wp-content/uploads/2020/01/chicken-bacon-ranch-casserole-1-24-480x270.jpg
 porties: 8

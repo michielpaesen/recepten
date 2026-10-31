@@ -1,5 +1,5 @@
 ---
-title: "Romige kip-marsalapasta uit één pot"
+title: "One-Pot Creamy Chicken Marsala Pasta"
 bron: https://tasty.co/recipe/one-pot-creamy-chicken-marsala-pasta
 afbeelding: https://img.buzzfeed.com/video-api-prod/assets/eff71ec36b99489fbde949ba4e30642a/BFV12215_One-PotCreamyChickenMarsalaPasta-ThumbTextless1080.jpg?resize=1200:*
 porties: 6

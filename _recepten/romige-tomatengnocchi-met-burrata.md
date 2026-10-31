@@ -1,5 +1,5 @@
 ---
-title: "Romige tomatengnocchi met burrata"
+title: "30 Minute Creamy Tomato Gnocchi with Burrata"
 bron: https://dishingouthealth.com/30-minute-creamy-tomato-gnocchi-with-burrata/
 afbeelding: https://dishingouthealth.com/wp-content/uploads/2023/02/CreamyTomatoGnocchi_Square-480x270.jpg
 porties: 6

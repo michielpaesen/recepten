@@ -1,5 +1,5 @@
 ---
-title: "Pasta met lookboterkip en parmezaansaus"
+title: "Garlic Butter Chicken Bites with Creamy Parmesan Pasta"
 bron: https://recipesbyclare.com/recipes/garlic-butter-chicken-bites-creamy-parmesan-pasta
 afbeelding: https://recipesbyclare.com/assets/images/1737387925078-7xu75cap.webp
 porties: 4

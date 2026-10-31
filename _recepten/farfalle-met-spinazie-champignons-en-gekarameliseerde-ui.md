@@ -1,5 +1,5 @@
 ---
-title: "Farfalle met spinazie, champignons en gekarameliseerde ui"
+title: "Farfalle with Spinach, Mushrooms, Caramelized Onions"
 bron: https://juliasalbum.com/farfalle-with-spinach-mushrooms-caramelized-onions/
 afbeelding: https://juliasalbum.com/wp-content/uploads/2019/02/farfalle-with-spinach-mushrooms-caramelized-onions-480x270.jpg
 porties: 4

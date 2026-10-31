@@ -1,5 +1,5 @@
 ---
-title: "Griekse kip met citroen en dille uit de pan"
+title: "Skillet Greek Lemon Dill Chicken"
 bron: https://www.sprinklesandsprouts.com/lemon-dill-chicken/
 afbeelding: https://www.sprinklesandsprouts.com/wp-content/uploads/2019/09/Greek-Lemon-Dill-Chicken-SQ-480x270.jpg
 porties: 4

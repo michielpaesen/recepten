@@ -1,5 +1,5 @@
 ---
-title: "Fettuccine carbonara met pompoen, gebakken salie en gekarameliseerde ui"
+title: "Butternut Squash Carbonara with Fried Sage and Caramelized Onions"
 bron: https://katieatthekitchendoor.com/2014/03/01/butternut-squash-carbonara-with-fried-sage-and-caramelized-onions/
 afbeelding: https://katieatthekitchendoor.com/wp-content/uploads/2014/03/2014-02-24-152-667x1000-2.jpg
 porties: 4

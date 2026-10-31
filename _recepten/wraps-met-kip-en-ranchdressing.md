@@ -1,5 +1,5 @@
 ---
-title: "Wraps met kip en ranchdressing"
+title: "Chicken Ranch Wraps"
 bron: https://gimmedelicious.com/chicken-ranch-wraps/
 afbeelding: https://gimmedelicious.com/wp-content/uploads/2017/03/Ranch-Chicken-Wraps-NEW-5-1-480x270.jpg
 porties: 4

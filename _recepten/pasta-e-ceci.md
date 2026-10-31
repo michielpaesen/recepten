@@ -1,5 +1,5 @@
 ---
-title: "Pasta e ceci"
+title: "Italienische Pasta e ceci"
 bron: https://www.foodboom.de/rezept/pasta-e-ceci
 afbeelding: https://images.foodboom.de/cdn-cgi/image/f=auto,g=auto,fit=cover,w=1200,h=960/zfxb5gqw3blnec6p23ybynievxor
 porties: 2

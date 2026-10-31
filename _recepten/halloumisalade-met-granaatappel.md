@@ -1,5 +1,5 @@
 ---
-title: "Halloumisalade met granaatappel"
+title: "Halloumi Granatapfel Salat"
 bron: https://everydayflavors.de/halloumi-granatapfel-salat-frisch-lecker-und-gesund-geniesen/
 afbeelding: https://everydayflavors.de/wp-content/uploads/2026/01/3-4.webp
 porties: 2

@@ -1,5 +1,5 @@
 ---
-title: "Ovenschotel met kip, wilde rijst en champignons"
+title: "Chicken Wild Rice Casserole"
 bron: https://carlsbadcravings.com/chicken-and-wild-rice-casserole/
 afbeelding: https://carlsbadcravings.com/wp-content/uploads/2023/04/Chicken-and-Wild-Rice-Casserole-13-480x270.jpg
 porties: 8

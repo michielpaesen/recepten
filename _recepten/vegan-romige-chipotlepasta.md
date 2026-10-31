@@ -1,5 +1,5 @@
 ---
-title: "Vegan romige chipotlepasta"
+title: "Vegan Creamy Chipotle Pasta"
 bron: https://dorastable.com/vegan-creamy-chipotle-pasta/
 afbeelding: https://dorastable.com/wp-content/uploads/2016/08/chipotle-pasta-1.jpg
 porties: 2

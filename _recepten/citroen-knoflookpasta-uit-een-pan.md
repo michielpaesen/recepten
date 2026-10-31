@@ -1,5 +1,5 @@
 ---
-title: "Citroen-knoflookpasta uit één pan"
+title: "One-Pan Lemon Garlic Pasta"
 bron: https://spainonafork.com/one-pan-lemon-garlic-pasta-recipe/
 afbeelding: https://i2.wp.com/spainonafork.com/wp-content/uploads/2021/06/image1-34-11.png?fit=750%2C750&ssl=1
 porties: 2

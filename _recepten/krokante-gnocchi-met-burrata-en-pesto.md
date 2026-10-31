@@ -1,5 +1,5 @@
 ---
-title: "Krokante gnocchi met burrata en pesto"
+title: "Crispy Gnocchi with Burrata and Pesto"
 bron: https://www.mob.co.uk/recipes/crispy-gnocchi-with-burrata-and-pesto
 afbeelding: https://mob-cdn.ams3.digitaloceanspaces.com/recipes/849A0891-3.jpg
 porties: 4

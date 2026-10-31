@@ -1,5 +1,5 @@
 ---
-title: "Gezonde mueslirepen met 5 ingrediënten"
+title: "Healthy 5-Ingredient Granola Bars"
 bron: https://minimalistbaker.com/healthy-5-ingredient-granola-bars/
 afbeelding: https://minimalistbaker.com/wp-content/uploads/2013/05/5-Ingredient-Granola-Bars-MinimalistBaker.com_-square.jpg
 porties: 10

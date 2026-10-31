@@ -1,5 +1,5 @@
 ---
-title: "Romige knoflookpasta"
+title: "Creamy Garlic Pasta"
 bron: https://numstheword.com/creamy-garlic-pasta/
 afbeelding: https://numstheword.com/wp-content/uploads/2013/12/pasta-for-janelle-2-29-2-480x270.jpg
 porties: 4

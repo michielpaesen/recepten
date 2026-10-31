@@ -1,5 +1,5 @@
 ---
-title: "Couscoustabouleh met munt"
+title: "Taboulé oriental"
 bron: https://www.panierdesaison.com/2013/08/taboule-semoule-menthe-legumes.html
 afbeelding: https://www.panierdesaison.com/wp-content/uploads/2013/08/recette-taboule-semoule-menthe-400x270.jpg
 porties: 6

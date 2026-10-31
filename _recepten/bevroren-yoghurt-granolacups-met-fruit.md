@@ -1,5 +1,5 @@
 ---
-title: "Bevroren yoghurt-granolacups met fruit"
+title: "Frozen Yogurt Granola Cups with Berries"
 bron: https://bestdessertrecipe.com/frozen-yogurt-granola-cups-with-berries-a-refreshing-and-healthy-treat/
 afbeelding: https://bestdessertrecipe.com/wp-content/uploads/2024/06/snep1-480x270.png
 porties: 12

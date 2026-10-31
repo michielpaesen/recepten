@@ -1,5 +1,5 @@
 ---
-title: "Italiaanse kaasbommetjes"
+title: "Italian Cheese Bombs"
 bron: https://selfproclaimedfoodie.com/italian-cheese-bombs/
 afbeelding: https://selfproclaimedfoodie.com/wp-content/uploads/italian-cheese-bombs-480x270.jpg
 porties: 16

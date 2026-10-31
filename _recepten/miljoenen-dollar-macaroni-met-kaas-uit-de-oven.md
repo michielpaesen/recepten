@@ -1,5 +1,5 @@
 ---
-title: "'Miljoenen-dollar' macaroni met kaas uit de oven"
+title: "Million Dollar Macaroni and Cheese Casserole"
 bron: https://carlsbadcravings.com/million-dollar-macaroni-cheese-casserole-recipe/
 afbeelding: https://carlsbadcravings.com/wp-content/uploads/2016/07/Million-Dollar-Macaroni-and-Cheese-12-480x270.jpg
 porties: 8

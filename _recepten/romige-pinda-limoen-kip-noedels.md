@@ -1,5 +1,5 @@
 ---
-title: "Romige pinda-limoenkip met noedels"
+title: "Creamy Peanut-Lime Chicken with Noodles"
 bron: https://www.delish.com/cooking/recipe-ideas/a46148878/creamy-peanut-lime-chicken-with-noodles-recipe/
 afbeelding: https://hips.hearstapps.com/hmg-prod/images/creamy-peanut-lime-chicken-noodles-index-6596d2ab3d472.jpg
 porties: 4

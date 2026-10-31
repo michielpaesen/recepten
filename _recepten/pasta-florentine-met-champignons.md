@@ -1,5 +1,5 @@
 ---
-title: "Pasta florentine met champignons"
+title: "Mushroom Florentine Pasta"
 bron: https://shewearsmanyhats.com/mushroom-florentine-pasta-recipe/
 afbeelding: https://shewearsmanyhats.com/wp-content/uploads/2014/09/mushroom-florentine-pasta-4-480x270.jpg
 porties: 4

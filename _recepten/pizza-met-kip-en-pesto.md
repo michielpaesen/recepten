@@ -1,5 +1,5 @@
 ---
-title: "Pizza met kip en pesto"
+title: "Chicken Pesto Pizza"
 bron: https://azestybite.com/chicken-pesto-pizza/
 afbeelding: https://azestybite.com/wp-content/uploads/2014/08/chicken-pesto-pizza-2-480x270.jpg
 porties: 4

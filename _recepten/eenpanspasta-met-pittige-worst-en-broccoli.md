@@ -1,5 +1,5 @@
 ---
-title: "Eenpanspasta met pittige worst en broccoli"
+title: "One-Pot Spicy Sausage And Broccoli Pasta"
 bron: https://tasty.co/recipe/one-pot-spicy-sausage-and-broccoli-pasta
 afbeelding: https://img.buzzfeed.com/thumbnailer-prod-us-east-1/video-api/assets/230793.jpg?resize=1200:*
 porties: 4

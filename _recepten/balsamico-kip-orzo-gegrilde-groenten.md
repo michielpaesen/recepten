@@ -1,5 +1,5 @@
 ---
-title: "Balsamicokip met orzo, gegrilde groenten en opgeklopte feta"
+title: "Balsamic Chicken Orzo with Whipped Feta"
 bron: https://www.shaykeerecipes.com/balsamic-chicken-orzo-grilled-veggies/
 afbeelding: https://www.shaykeerecipes.com/wp-content/uploads/2026/03/balsamic-chicken-orzo-grilled-veggies.jpg
 porties: 4

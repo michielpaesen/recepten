@@ -1,5 +1,5 @@
 ---
-title: "Krans van croissantdeeg met brie en spek"
+title: "Bacon Brie Crescent Wreath"
 bron: https://www.delish.com/cooking/recipe-ideas/recipes/a56773/bacon-brie-crescent-wreath-recipe/
 afbeelding: https://hips.hearstapps.com/hmg-prod/images/delish-081821-crescent-wreath-02-jg-copy-1632244499.jpg?crop=0.670xw:1.00xh;0.138xw,0&resize=1200:*
 porties: 6

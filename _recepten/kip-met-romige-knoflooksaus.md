@@ -1,5 +1,5 @@
 ---
-title: "Kip met romige knoflooksaus"
+title: "Chicken with Creamy Garlic Sauce"
 bron: https://bakeatmidnite.com/chicken-with-creamy-garlic-sauce/
 afbeelding: https://bakeatmidnite.com/wp-content/uploads/2016/01/chicken-with-creamy-garlic-sauce-pin.jpg
 porties: 4

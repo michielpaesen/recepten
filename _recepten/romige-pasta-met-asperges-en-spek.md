@@ -1,5 +1,5 @@
 ---
-title: "Romige pasta met asperges en spek"
+title: "Creamy Pasta with Asparagus & Bacon"
 bron: https://thenandnow.space/creamy-pasta-with-asparagus-bacon/?sfnsn=mo
 afbeelding: https://thenandnow.space/wp-content/uploads/2024/04/aspic7_Creamy_Pasta_with_Asparagus__Bacon_b0186953-b113-4d0d-a7bd-e6931f2316c1_png_75-e1724638832908-480x270.jpg
 porties: 2

@@ -1,5 +1,5 @@
 ---
-title: "Frisse parelcouscoussalade met citroen en kruiden"
+title: "Easy Lemon Herb Couscous Salad"
 bron: https://www.inspiredtaste.net/12689/lemon-and-herb-couscous-salad-recipe/
 afbeelding: https://www.inspiredtaste.net/wp-content/uploads/2017/12/Easy-Couscous-Salad-Recipe-1-1200.jpg
 porties: 8

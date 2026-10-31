@@ -1,5 +1,5 @@
 ---
-title: "Slawraps met kip en cashewnoten"
+title: "Cashew Chicken Lettuce Wraps"
 bron: https://aseasyasapplepie.com/cashew-chicken-lettuce-wraps/
 afbeelding: https://aseasyasapplepie.com/wp-content/uploads/2016/08/cashew-chicken-lettuce-wraps-480x270.jpg
 porties: 8

@@ -1,5 +1,5 @@
 ---
-title: "Bevroren proteïne-s'mores"
+title: "Easy High-Protein Frozen S’mores"
 bron: https://healthykitchen.com/easy-high-protein-frozen-smores-no-bake-perfect-for-summer/
 afbeelding: https://healthykitchen.com/wp-content/uploads/2026/06/Blog-image-copy-2-13-480x270.png
 porties: 8

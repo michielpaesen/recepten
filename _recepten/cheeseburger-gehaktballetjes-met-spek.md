@@ -1,5 +1,5 @@
 ---
-title: "Cheeseburger-gehaktballetjes met spek"
+title: "Bacon Cheeseburger Meatballs"
 bron: https://anaffairfromtheheart.com/bacon-cheeseburger-meatballs/
 afbeelding: https://anaffairfromtheheart.com/wp-content/uploads/2015/09/Bacon-Cheeseburger-Meatballs-2.jpg
 porties: 16

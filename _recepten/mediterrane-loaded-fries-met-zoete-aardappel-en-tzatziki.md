@@ -1,5 +1,5 @@
 ---
-title: "Mediterrane loaded fries met zoete aardappel en tzatziki"
+title: "Loaded Mediterranean Street Cart Fries"
 bron: https://pinchofyum.com/street-cart-fries
 afbeelding: https://pinchofyum.com/tachyon/Loaded-Mediterranean-Street-Fries-Recipe.jpg
 porties: 4

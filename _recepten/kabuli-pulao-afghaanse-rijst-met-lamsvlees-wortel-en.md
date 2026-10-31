@@ -1,5 +1,5 @@
 ---
-title: "Kabuli pulao (Afghaanse rijst met lamsvlees, wortel en rozijnen)"
+title: "Kabuli Pulao (Qabili Palau)"
 bron: https://butfirstchai.com/qabili-palau-kabuli-palaw-afghanistan/
 afbeelding: https://butfirstchai.com/wp-content/uploads/2016/01/Qabili-Palau-recipe-480x270.jpg
 porties: 3

@@ -1,5 +1,5 @@
 ---
-title: "Quinoa-ovenschotel met broccoli"
+title: "Broccoli Quinoa Casserole"
 bron: https://www.eatgood4life.com/broccoli-quinoa-casserole/
 afbeelding: https://www.eatgood4life.com/wp-content/uploads/2014/03/broccoli-casserole.jpg
 bord: groenten

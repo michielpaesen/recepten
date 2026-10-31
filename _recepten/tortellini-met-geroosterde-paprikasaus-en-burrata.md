@@ -1,5 +1,5 @@
 ---
-title: "Tortellini met geroosterde-paprikasaus en burrata"
+title: "Tortellini With Roasted Red Pepper Sauce"
 bron: https://dashofmandi.com/tortellini-with-roasted-red-pepper-sauce/
 afbeelding: https://dashofmandi.com/wp-content/uploads/2023/01/tortellini3-1-scaled.jpg
 porties: 3

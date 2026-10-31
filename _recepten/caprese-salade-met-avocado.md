@@ -1,5 +1,5 @@
 ---
-title: "Caprese-salade met avocado"
+title: "Avocado Caprese Salad"
 bron: https://strecipes.com/avocado-caprese-salad/
 afbeelding: https://strecipes.com/wp-content/uploads/2025/05/Avocado-Caprese-Salad_2.webp
 porties: 4

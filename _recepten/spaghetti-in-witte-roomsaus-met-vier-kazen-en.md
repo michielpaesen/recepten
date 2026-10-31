@@ -1,5 +1,5 @@
 ---
-title: "Spaghetti in witte roomsaus met vier kazen en knoflook"
+title: "Four Cheese Garlic White Cream Pasta Sauce"
 bron: https://juliasalbum.com/creamy-four-cheese-garlic-spaghetti-sauce/
 afbeelding: https://juliasalbum.com/wp-content/uploads/2015/06/white-pasta-sauce-480x270.jpg
 porties: 4

@@ -1,5 +1,5 @@
 ---
-title: "Verse mangosalsa"
+title: "Fresh Mango Salsa"
 bron: https://www.spendwithpennies.com/mango-salsa-recipe/
 afbeelding: https://www.spendwithpennies.com/wp-content/uploads/2023/05/1200-Fresh-Mango-Salsa-Recipe-SpendWithPennies-480x270.jpg
 porties: 6

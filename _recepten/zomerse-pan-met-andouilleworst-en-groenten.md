@@ -1,5 +1,5 @@
 ---
-title: "Zomerse pan met andouilleworst en groenten"
+title: "Summer Sausage Skillet with Andouille Sausage"
 bron: https://www.sugarmaplefarmhouse.com/summer-sausage-skillet-with-andouille-sausage/
 afbeelding: https://www.sugarmaplefarmhouse.com/app/uploads/2024-06-10_0008-480x270.jpg
 porties: 4

@@ -1,5 +1,5 @@
 ---
-title: "Kaastortellini met boter, champignons en krokante salie"
+title: "Cheese Tortellini with Butter, Mushrooms, and Crispy Sage"
 bron: https://www.saltandlavender.com/cheese-tortellini-with-butter-mushrooms-and-crispy-sage/
 afbeelding: https://www.saltandlavender.com/wp-content/uploads/2018/10/sage-butter-tortellini-recipe-2-480x270.jpg
 porties: 4

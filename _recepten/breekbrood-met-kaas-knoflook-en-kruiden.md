@@ -1,5 +1,5 @@
 ---
-title: "Breekbrood met kaas, knoflook en kruiden"
+title: "Cheesy Garlic Herb Crack Bread"
 bron: https://handletheheat.com/cheesy-garlic-herb-crack-bread/
 afbeelding: https://handletheheat.com/wp-content/uploads/2015/03/Cheesy-Garlic-Herb-Crack-Bread-Square-480x270.jpg
 porties: 8

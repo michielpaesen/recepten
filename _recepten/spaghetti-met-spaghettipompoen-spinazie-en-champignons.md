@@ -1,5 +1,5 @@
 ---
-title: "Spaghetti met spaghettipompoen, spinazie en champignons"
+title: "Pâtes à la courge spaghetti, aux épinards et aux champignons"
 bron: https://www.colruyt.be/fr/recettes/pates-a-la-courge-spaghetti-aux-epinards-et-aux-champignons
 afbeelding: https://fgdjrynm.filerobot.com/recipes/88753dc08da5212c41634105cfd9c69c61ed3cb0f58099a38f260fe843cd285b.jpg?vh=621d5f&h=800&w=800&q=60
 porties: 4

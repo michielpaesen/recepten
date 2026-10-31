@@ -1,5 +1,5 @@
 ---
-title: "Pasta met zongedroogde tomaten en champignons in knoflook-basilicumsaus"
+title: "Sun Dried Tomato and Mushroom Pasta in a Garlic and Basil Sauce"
 bron: https://juliasalbum.com/sun-dried-tomato-and-mushroom-pasta/
 afbeelding: https://juliasalbum.com/wp-content/uploads/2014/02/sun-dried-tomato-mushroom-pasta-2-480x270.jpg
 porties: 4

@@ -1,5 +1,5 @@
 ---
-title: "Quinoahapjes met broccoli en cheddar"
+title: "Broccoli Cheddar Quinoa Bites"
 bron: https://everydaydishes.com/simple-food-recipes/broccoli-cheddar-quinoa-bites/
 afbeelding: https://everydaydishes.com/wp-content/uploads/2015/02/broccoli-cheddar-quinoa-bites-everydaydishes_com-H-1.jpg
 porties: 30

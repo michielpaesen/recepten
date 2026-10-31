@@ -1,5 +1,5 @@
 ---
-title: "Zoete broccoli-bloemkoolsalade"
+title: "Deliciously Sweet Broccoli Cauliflower Salad"
 bron: https://easypeasypleasy.com/2016/07/06/deliciously-sweet-broccoli-cauliflower-salad/
 afbeelding: https://easypeasypleasy.com/wp-content/uploads/2016/07/This-Broccoli-Cauliflower-Salad-is-so-deliciously-sweet-and-easy-to-make-.jpg
 bord: salade

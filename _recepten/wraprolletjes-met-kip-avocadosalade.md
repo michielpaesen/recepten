@@ -1,5 +1,5 @@
 ---
-title: "Wraprolletjes met kip-avocadosalade"
+title: "Chicken Avocado Salad Roll Ups"
 bron: https://omgchocolatedesserts.com/chicken-avocado-salad-roll-ups/
 afbeelding: https://omgchocolatedesserts.com/wp-content/uploads/2017/01/Chicken-Avocado-Salad-Rollups-featured-new.jpg
 porties: 15

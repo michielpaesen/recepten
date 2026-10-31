@@ -1,5 +1,5 @@
 ---
-title: "Vegetarische gevulde paprika’s met rijst en feta"
+title: "Vegetarisch gefüllte Paprika mit Reis und Feta"
 bron: https://kochlustig.com/vegetarisch-gefuellte-paprika-mit-reis-und-feta/
 afbeelding: https://kochlustig.com/wp-content/uploads/2026/01/kg4yjwcozuqts4udodau-480x270.webp
 porties: 4

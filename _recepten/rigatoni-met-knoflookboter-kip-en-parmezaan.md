@@ -1,5 +1,5 @@
 ---
-title: "Rigatoni met knoflookboter-kip en Parmezaan"
+title: "Garlic Butter Chicken with Rigatoni and Parmesan"
 bron: https://valentinarecipes.com/garlic-butter-chicken-with-rigatoni-and-parmesan/
 afbeelding: https://valentinarecipes.com/wp-content/uploads/2024/12/Garlic-Butter-Chicken-with-Rigatoni-and-Parmesan1.png
 tijd: 35 min

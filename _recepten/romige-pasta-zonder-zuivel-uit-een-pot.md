@@ -1,5 +1,5 @@
 ---
-title: "Romige pasta zonder zuivel uit één pot"
+title: "Creamy Dairy-Free One-Pot Pasta"
 bron: https://tasty.co/recipe/creamy-dairy-free-one-pot-pasta
 afbeelding: https://img.buzzfeed.com/thumbnailer-prod-us-east-1/96a1946030be40fa80ea4d0ebdc8bc20/EasyVeganWeeknightDinnersFBFinalNEW.jpg?resize=1200:*
 porties: 4

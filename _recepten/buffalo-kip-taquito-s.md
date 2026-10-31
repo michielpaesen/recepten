@@ -1,5 +1,5 @@
 ---
-title: "Buffalo-kip-taquito's"
+title: "Buffalo Chicken Taquitos"
 bron: https://easypeasypleasy.com/2017/01/31/buffalo-chicken-taquitos/
 afbeelding: https://easypeasypleasy.com/wp-content/uploads/2017/01/Buffalo-Chicken-Taquitos-for-the-win-The-perfect-handheld-appetizer-for-any-party.-Transform-the-classic-Buffalo-Chicken-Dip-with-this-recipe..jpg
 bord: wraps

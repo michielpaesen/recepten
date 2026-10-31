@@ -1,5 +1,5 @@
 ---
-title: "Mediterrane gehakte salade met parelcouscous"
+title: "Mediterranean Chopped Salad"
 bron: https://thecafesucrefarine.com/mediterranean-chopped-salad/
 afbeelding: https://thecafesucrefarine.com/wp-content/uploads/2014/07/Mediterranean-Chopped-Salad-480x270.jpg
 porties: 4

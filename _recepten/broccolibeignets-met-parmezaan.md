@@ -1,5 +1,5 @@
 ---
-title: "Broccolibeignets met Parmezaan"
+title: "Broccoli Fritters"
 bron: https://thedaringkitchen.com/broccoli-fritters/
 afbeelding: https://static.thedaringkitchen.com/wp-content/uploads/2021/05/Broccoli-fritters-6-480x270.jpg
 porties: 4

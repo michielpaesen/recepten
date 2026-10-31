@@ -1,5 +1,5 @@
 ---
-title: "Kipreepjes met Doritos-korst"
+title: "Easy Doritos Chicken Tenders"
 bron: https://dancingthroughtherain.com/easy-doritos-chicken-tenders/
 afbeelding: https://dancingthroughtherain.com/wp-content/uploads/2017/02/Easy-Doritos-Chicken-Tenders13-735x414.jpg
 porties: 8

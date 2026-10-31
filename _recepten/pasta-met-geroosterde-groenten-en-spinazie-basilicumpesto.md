@@ -1,5 +1,5 @@
 ---
-title: "Pasta met geroosterde groenten en spinazie-basilicumpesto"
+title: "Garlic Roasted Vegetable Pesto Pasta"
 bron: https://www.oliveandmango.com/garlic-roasted-vegetable-pesto-pasta/
 afbeelding: https://i.pinimg.com/564x/09/7f/c5/097fc5f7914e0534e652ae9d5f33de58.jpg
 bord: rigatoni

@@ -1,5 +1,5 @@
 ---
-title: "Kaaswraps met knoflookkip"
+title: "Cheesy Garlic Chicken Wraps"
 bron: https://tastecove.com/cheesy-garlic-chicken-wraps/
 afbeelding: https://tastecove.com/wp-content/uploads/2024/09/munil0506_httpss.mj_.runfJeCjNuJRAw_Ultimate_Chicken__Cheese_W_2c31c2cd-979b-442e-8079-1e3336bca7f6_3.webp
 tijd: 25 min

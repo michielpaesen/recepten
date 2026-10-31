@@ -1,5 +1,5 @@
 ---
-title: "Paprikaringen gevuld met gehaktbrood"
+title: "Mini Meatloaf Pepper Rings"
 bron: https://www.diaryofarecipecollector.com/mini-meatloaf-pepper-rings/
 afbeelding: https://www.diaryofarecipecollector.com/wp-content/uploads/2015/04/IMG_4506a-480x270.jpg
 porties: 1

@@ -1,5 +1,5 @@
 ---
-title: "Broccoli-bloemkoolsalade met spek en kaas"
+title: "Loaded Broccoli Cauliflower Salad (Low Carb)"
 bron: https://myincrediblerecipes.com/loaded-broccoli-cauliflower-salad-low-carb/
 afbeelding: https://myincrediblerecipes.com/wp-content/uploads/2019/06/IMG_3260_picmonkeyed-1-480x270.jpg
 bord: salade

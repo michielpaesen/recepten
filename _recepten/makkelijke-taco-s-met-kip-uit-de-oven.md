@@ -1,5 +1,5 @@
 ---
-title: "Makkelijke taco's met kip uit de oven"
+title: "Easy Rotisserie Chicken Tacos"
 bron: https://www.afamilyfeast.com/easy-rotisserie-chicken-tacos/
 afbeelding: https://www.afamilyfeast.com/wp-content/uploads/2018/09/Easy-Rotisserie-Chicken-Tacos-1.jpg
 porties: 12

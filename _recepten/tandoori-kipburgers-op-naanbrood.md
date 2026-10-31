@@ -1,5 +1,5 @@
 ---
-title: "Tandoori-kipburgers op naanbrood"
+title: "Tandoori Chicken Burgers"
 bron: https://bakedbree.com/tandoori-chicken-burgers
 afbeelding: https://cdn.bakedbree.com/uploads/2010/06/cropped-chicken-tandoori-13web-480x270.jpg
 porties: 4

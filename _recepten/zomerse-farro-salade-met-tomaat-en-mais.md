@@ -1,5 +1,5 @@
 ---
-title: "Zomerse farro-salade met tomaat en maïs"
+title: "Summer Farro Salad"
 bron: https://www.stjulian.com/summer-farro-salad/
 afbeelding: https://www.stjulian.com/wp-content/uploads/2020/08/shutterstock_262957706_0-e1770302325744.jpg
 bord: ebly-salade

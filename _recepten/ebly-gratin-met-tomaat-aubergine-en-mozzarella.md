@@ -1,5 +1,5 @@
 ---
-title: "Ebly-gratin met tomaat, aubergine en mozzarella"
+title: "Gratin d'Ebly aux tomates, aubergines et mozzarella"
 bron: https://cuisine.journaldesfemmes.fr/recette/344791-gratin-d-ebly-aux-tomates-aubergines-et-mozzarella
 afbeelding: https://img-3.journaldesfemmes.fr/NeZNAQtZVpTqLLtuj2nwwosrN3I=/750x500/a6d076e76b2741d6a8e0a2e302ddfedc/ccmcms-jdf/39873536.jpg
 porties: 2

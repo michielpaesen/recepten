@@ -1,5 +1,5 @@
 ---
-title: "Kipspiesjes met korma en kokos"
+title: "Korma And Coconut Chicken Skewers"
 bron: https://www.donnahay.com.au/recipes/dinner/korma-and-coconut-chicken-skewers
 afbeelding: https://i.pinimg.com/564x/87/a3/ec/87a3eccab5dce2a162d7852a321f6180.jpg
 bord: vlees

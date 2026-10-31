@@ -1,5 +1,5 @@
 ---
-title: "Mexicaanse ovenschotel met kip en rijst"
+title: "Mexican Chicken and Rice Bake"
 bron: https://www.slimmingeats.com/blog/mexican-chicken-and-rice
 afbeelding: https://www.slimmingeats.com/blog/wp-content/uploads/2010/01/mexican-chicken-rice-bake-featured-735x735.jpg
 porties: 4

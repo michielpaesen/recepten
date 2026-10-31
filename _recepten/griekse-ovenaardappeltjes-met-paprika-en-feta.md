@@ -1,5 +1,5 @@
 ---
-title: "Griekse ovenaardappeltjes met paprika en feta"
+title: "Greek Roasted Potatoes With Peppers & Feta"
 bron: https://averyrecipes.com/greek-roasted-potatoes-with-peppers-feta/?sfnsn=scwspmo
 afbeelding: https://averyrecipes.com/wp-content/uploads/2025/02/1-1.webp
 porties: 6

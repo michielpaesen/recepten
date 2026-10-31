@@ -1,5 +1,5 @@
 ---
-title: "Lasagne met kip parmigiana"
+title: "Chicken Parm Lasagna"
 bron: https://tasty.co/recipe/chicken-parm-lasagna
 afbeelding: https://img.buzzfeed.com/video-api-prod/assets/0ea70bbbff66482f93f6adec328f0450/BFV14079_ChickenParmLasagna-ThumbTextless1080.jpg?resize=1200:*
 porties: 10

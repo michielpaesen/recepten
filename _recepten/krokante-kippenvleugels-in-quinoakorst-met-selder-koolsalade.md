@@ -1,5 +1,5 @@
 ---
-title: "Krokante kippenvleugels in quinoakorst met selder-koolsalade"
+title: "Crispy Quinoa Chicken Wings With Celery And Cabbage Slaw"
 bron: https://www.donnahay.com.au/recipes/dinner/crispy-quinoa-chicken-wings-with-celery-and-cabbage-slaw
 afbeelding: https://i.pinimg.com/564x/f0/bd/54/f0bd540cbd2d711c3c76597db578ab85.jpg
 bord: vlees

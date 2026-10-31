@@ -1,5 +1,5 @@
 ---
-title: "Karamels uit de magnetron in 10 minuten"
+title: "Ten Minute Microwave Caramels"
 bron: https://letsdishrecipes.com/microwave-caramels/
 afbeelding: https://i.pinimg.com/564x/09/d1/fb/09d1fbd94a8b2277ba7a8c4e7047d5a5.jpg
 porties: 2

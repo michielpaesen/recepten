@@ -1,5 +1,5 @@
 ---
-title: "Pasta diavolo met kip"
+title: "Creamy Chicken Diavolo Pasta"
 bron: https://sumofyum.com/recipe/chicken-diavolo-pasta/
 afbeelding: https://sumofyum.com/wp-content/uploads/2018/01/Chicken-Diavolo-Pasta-12.jpg
 porties: 4

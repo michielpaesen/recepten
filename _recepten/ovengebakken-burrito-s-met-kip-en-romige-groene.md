@@ -1,5 +1,5 @@
 ---
-title: "Ovengebakken burrito's met kip en romige groene-pepersaus"
+title: "Smothered Chicken Burritos"
 bron: https://carlsbadcravings.com/smothered-baked-chicken-burritos-recipe/
 afbeelding: https://carlsbadcravings.com/wp-content/uploads/2015/10/Slow-Cooker-Mexican-Chicken-1-480x270.jpg
 porties: 6

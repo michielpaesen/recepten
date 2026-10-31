@@ -1,5 +1,5 @@
 ---
-title: "Kipsalade met veenbessen op appelschijfjes"
+title: "Cranberry Chicken Salad on Apple Slices"
 bron: https://yummyaddiction.com/cranberry-chicken-salad-on-apple-slices/
 afbeelding: https://yummyaddiction.com/wp-content/uploads/2016/03/cranberry-chicken-salad-on-apple-slices-480x270.jpg
 porties: 4

@@ -1,5 +1,5 @@
 ---
-title: "Kip uit de oven met verse salsa en mozzarella"
+title: "Salsa Fresca Baked Chicken"
 bron: https://www.eatwell101.com/salsa-fresca-chicken-bake-recipe
 afbeelding: https://i.pinimg.com/564x/5a/94/81/5a94813cccad6b18124e73e36a8336f6.jpg
 bord: vlees

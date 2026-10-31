@@ -1,5 +1,5 @@
 ---
-title: "Biscoff-blondies met witte chocolade"
+title: "Easy Lotus Biscoff White Chocolate Blondies"
 bron: https://emmaduckworthbakes.com/biscoff-blondies/
 afbeelding: https://emmaduckworthbakes.com/wp-content/uploads/2022/03/Easy-Lotus-biscoff-white-chocolate-blondies-480x270.jpg
 porties: 16

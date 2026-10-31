@@ -1,5 +1,5 @@
 ---
-title: "Pasta met tomaat en courgette"
+title: "Tomato Zucchini Pasta"
 bron: https://thatovenfeelin.com/tomato-zucchini-pasta/
 afbeelding: https://thatovenfeelin.com/wp-content/uploads/2025/02/Tomato-Zucchini-Pasta-1-480x270.png
 porties: 4

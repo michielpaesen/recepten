@@ -1,5 +1,5 @@
 ---
-title: "Cheesecake bites met chocolade"
+title: "Cheesecake Bites"
 bron: https://cookingpanda.com/blogs/recipes/get-the-recipe-cheesecake-bites
 afbeelding: https://cookingpanda.com/cdn/shop/articles/Cheesecake-Bites_1347d2ac-e40a-4133-9a3f-fb4b7f25f9f1.jpg?v=1636991432
 bord: baking-zoet

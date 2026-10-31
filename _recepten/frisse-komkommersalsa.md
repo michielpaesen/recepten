@@ -1,5 +1,5 @@
 ---
-title: "Frisse komkommersalsa"
+title: "Crisp Cucumber Salsa"
 bron: https://www.tasteofhome.com/recipes/crisp-cucumber-salsa/?trkid=soc-toh-pinterest
 afbeelding: https://www.tasteofhome.com/wp-content/uploads/2024/10/EXPS_TOHD24_43664_KristinaVanni_7-1.jpg
 porties: 2

@@ -1,5 +1,5 @@
 ---
-title: "Kip parmigiana"
+title: "Chicken Parmesan"
 bron: https://www.cookingclassy.com/the-best-chicken-parmesan/
 afbeelding: https://www.cookingclassy.com/wp-content/uploads/2013/02/chicken-parmesan-16-480x270.jpg
 porties: 4

@@ -1,5 +1,5 @@
 ---
-title: "Herfstsalade met parelcouscous en geroosterde pompoen"
+title: "Autumn Pearl Couscous Salad with Roasted Butternut Squash"
 bron: https://www.littlespicejar.com/autumn-pearl-couscous-salad-with-roasted-butternut-squash/
 afbeelding: https://www.littlespicejar.com/wp-content/uploads/2015/10/Autumn-Pearl-Couscous-Salad-6.jpg
 porties: 5

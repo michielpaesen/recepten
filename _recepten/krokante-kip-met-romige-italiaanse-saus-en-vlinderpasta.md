@@ -1,5 +1,5 @@
 ---
-title: "Krokante kip met romige Italiaanse saus en vlinderpasta"
+title: "Crispy Chicken with Italian Sauce and Bowtie Noodles"
 bron: https://jamiecooksitup.net/2014/09/crispy-chicken-with-italian-sauce-and-bowtie-noodles-new-and-improved/
 afbeelding: https://jamiecooksitup.net/wp-content/uploads/2014/09/The-one.jpg
 porties: 6

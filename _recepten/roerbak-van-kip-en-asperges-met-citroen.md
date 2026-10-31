@@ -1,5 +1,5 @@
 ---
-title: "Roerbak van kip en asperges met citroen"
+title: "Chicken and Asparagus Lemon Stir Fry"
 bron: https://www.skinnytaste.com/chicken-and-asparagus-lemon-stir-fry/
 afbeelding: https://www.skinnytaste.com/wp-content/uploads/2014/03/Chicken-and-Asparagus-Lemon-Stir-Fry-5-480x270.jpg
 porties: 4

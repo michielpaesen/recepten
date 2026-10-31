@@ -1,5 +1,5 @@
 ---
-title: "Caprese met perzik en prosciutto"
+title: "Caprese Salad with Peaches and Prosciutto"
 bron: https://witanddelight.com/2020/06/caprese-salad-peaches-prosciutto-recipe/
 afbeelding: https://media.witanddelight.com/content/uploads/2016/07/21204807/WD_BlogPosts_July_GrilledPeaches-5.jpg
 bord: starters

@@ -1,5 +1,5 @@
 ---
-title: "Romige kip Alfredo met champignons en knoflook, met hot honey-aardappeltjes"
+title: "Creamy Mushroom Garlic Chicken Alfredo with Hot Honey Roasted Potatoes"
 bron: https://cookcraze.com/creamy-mushroom-garlic-chicken-alfredo-hot-honey-roasted-potatoes/
 afbeelding: https://cookcraze.com/wp-content/uploads/2025/08/Creamy-Mushroom-Garlic-Chicken-Alfredo-Hot-Honey-Roasted-Potatoes2.jpg
 porties: 4

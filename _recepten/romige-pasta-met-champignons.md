@@ -1,5 +1,5 @@
 ---
-title: "Romige pasta met champignons"
+title: "Creamy Mushroom Pasta"
 bron: https://www.dontgobaconmyheart.co.uk/creamy-mushroom-pasta/
 afbeelding: https://www.dontgobaconmyheart.co.uk/wp-content/uploads/2018/03/creamy-mushroom-pasta-8-480x270.jpg
 porties: 4

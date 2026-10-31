@@ -1,5 +1,5 @@
 ---
-title: "Wortelsterretjes met kaas"
+title: "Carrot Star Bites"
 bron: https://www.healthylittlefoodies.com/carrot-stars-only-4-ingredients/
 afbeelding: https://www.healthylittlefoodies.com/wp-content/uploads/2015/11/carrot-stars-profile-480x270.jpg
 porties: 14

@@ -1,5 +1,5 @@
 ---
-title: "Kipsalade met veenbessen en pecannoten"
+title: "Cranberry Pecan Chicken Salad"
 bron: https://lifecurrentsblog.com/cranberry-pecan-chicken-salad/
 afbeelding: https://lifecurrentsblog.com/wp-content/uploads/2013/07/sq-chicken-salad-480x270.jpg
 porties: 6

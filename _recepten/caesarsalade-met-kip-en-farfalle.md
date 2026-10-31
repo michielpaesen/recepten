@@ -1,5 +1,5 @@
 ---
-title: "Caesarsalade met kip en farfalle"
+title: "Bowtie Chicken Caesar Salad"
 bron: https://www.the-girl-who-ate-everything.com/bowtie-chicken-caesar-salad/
 afbeelding: https://www.the-girl-who-ate-everything.com/wp-content/uploads/2010/04/bowtie-caesar-salad-2-480x270.jpg
 porties: 10

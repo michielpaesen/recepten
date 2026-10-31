@@ -1,5 +1,5 @@
 ---
-title: "Krokante halloumifrietjes"
+title: "Crispy Halloumi Fries"
 bron: https://scrummylane.com/crispy-halloumi-fries/
 afbeelding: https://scrummylane.com/wp-content/uploads/2022/03/halloumi-fries-on-platter-480x270.jpg
 porties: 4

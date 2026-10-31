@@ -1,5 +1,5 @@
 ---
-title: "Rigatoni met burrata en gepofte tomaatjes"
+title: "Rigatoni with Burrata and Burst Tomatoes"
 bron: https://www.healthymoodsf.com/recipebox/rigatoni-with-burrata-and-burst-tomatoes
 afbeelding: https://i.pinimg.com/564x/20/5d/05/205d058431d1d7e31669eb81fa71e4a9.jpg
 bord: rigatoni

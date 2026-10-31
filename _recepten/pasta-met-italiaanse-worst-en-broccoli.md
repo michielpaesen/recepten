@@ -1,5 +1,5 @@
 ---
-title: "Pasta met Italiaanse worst en broccoli"
+title: "Italian Sausage Pasta with Broccoli"
 bron: https://www.simplywhisked.com/farfalle-with-italian-sausage-and-broccoli/
 afbeelding: https://www.simplywhisked.com/wp-content/uploads/2012/08/Broccoli-Sausage-Pasta-2-480x270.jpg
 porties: 6

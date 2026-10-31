@@ -1,5 +1,5 @@
 ---
-title: "Ontbijtkoekjes met havermout en banaan"
+title: "Oatmeal Breakfast Bites"
 bron: https://www.anightowlblog.com/oatmeal-breakfast-bites/
 afbeelding: https://www.anightowlblog.com/wp-content/uploads/2016/07/Oatmeal-Breakfast-Cookies-FEATURE-480x270.png
 porties: 12

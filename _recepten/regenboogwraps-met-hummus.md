@@ -1,5 +1,5 @@
 ---
-title: "Regenboogwraps met hummus"
+title: "Rainbow Hummus Wraps"
 bron: https://tastythin.com/rainbow-hummus-wraps/
 afbeelding: https://tastythin.com/wp-content/uploads/2017/05/rainbow-hummus-wraps-0685.jpg
 porties: 4

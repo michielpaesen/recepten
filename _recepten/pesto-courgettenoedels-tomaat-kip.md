@@ -1,5 +1,5 @@
 ---
-title: "Pesto-courgettenoedels met geroosterde tomaatjes en gegrilde kip"
+title: "Pesto Zucchini Noodles with Roasted Tomatoes and Grilled Chicken"
 bron: https://www.closetcooking.com/pesto-zucchini-noodles-with-roasted/
 afbeelding: https://i.pinimg.com/736x/cc/1f/7a/cc1f7ad4dc9c8c80fbf58ccff4b086fb.jpg
 porties: 4

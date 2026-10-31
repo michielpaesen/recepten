@@ -1,5 +1,5 @@
 ---
-title: "Pasta met zongedroogde tomaten, kip en romige mozzarellasaus"
+title: "Sun-Dried Tomato Pasta with Chicken and Mozzarella"
 bron: https://juliasalbum.com/chicken-mozzarella-pasta-with-sun-dried-tomatoes/
 afbeelding: https://juliasalbum.com/wp-content/uploads/2018/01/sun-dried-tomato-chicken-pasta-with-mozzarella-cream-sauce-480x270.jpg
 porties: 4

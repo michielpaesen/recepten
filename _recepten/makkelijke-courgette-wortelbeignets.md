@@ -1,5 +1,5 @@
 ---
-title: "Makkelijke courgette-wortelbeignets"
+title: "Easy Zucchini And Carrot Fritters"
 bron: https://sweetcaramelsunday.com/zucchini-and-carrot-fritters/
 afbeelding: https://sweetcaramelsunday.com/wp-content/uploads/Zucchini-And-Carrot-Fritters-200-480x270.jpg
 porties: 4

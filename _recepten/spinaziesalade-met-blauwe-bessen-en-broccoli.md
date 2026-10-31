@@ -1,5 +1,5 @@
 ---
-title: "Spinaziesalade met blauwe bessen en broccoli"
+title: "Blueberry Broccoli Spinach Salad with Poppyseed Ranch"
 bron: https://peasandcrayons.com/blueberry-broccoli-spinach-salad/
 afbeelding: https://peasandcrayons.com/wp-content/uploads/2016/08/Blueberry-Broccoli-Spinach-Salad-Poppyseed-Ranch-dressing-recipe-7143.jpg
 porties: 2

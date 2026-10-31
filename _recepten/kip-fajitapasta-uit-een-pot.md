@@ -1,5 +1,5 @@
 ---
-title: "Kip-fajitapasta uit één pot"
+title: "One-Pot Chicken Fajita Pasta"
 bron: https://tasty.co/recipe/one-pot-chicken-fajita-pasta
 afbeelding: https://img.buzzfeed.com/thumbnailer-prod-us-east-1/video-api/assets/128650.jpg?resize=1200:*
 porties: 4

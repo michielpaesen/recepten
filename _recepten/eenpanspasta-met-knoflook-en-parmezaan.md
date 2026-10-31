@@ -1,5 +1,5 @@
 ---
-title: "Eenpanspasta met knoflook en Parmezaan"
+title: "One-Pot Garlic Parmesan Pasta"
 bron: https://tasty.co/recipe/one-pot-garlic-parmesan-pasta
 afbeelding: https://img.buzzfeed.com/thumbnailer-prod-us-east-1/f69a7f4192b94d8395757b365ac6d866/GarlicParmPasta.jpg?resize=1200:*
 porties: 4

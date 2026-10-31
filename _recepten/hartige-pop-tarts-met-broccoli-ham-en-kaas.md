@@ -1,5 +1,5 @@
 ---
-title: "Hartige pop tarts met broccoli, ham en kaas"
+title: "Broccoli, Ham & Cheese Pop Tarts"
 bron: https://www.caciquefoods.com/recipes/broccoli-ham-cheese-pop-tarts/
 afbeelding: https://www.caciquefoods.com/wp-content/uploads/2016/12/Broccoli-Ham-and-Cheese-Pop-Tarts-4-by-Denise-Browning-FromBrazilToYou.Org_-1.jpg
 porties: 5

@@ -1,5 +1,5 @@
 ---
-title: "Sticky honing-knoflookpasta met worst uit één pan"
+title: "Sticky Honey Garlic Sausage Pasta Skillet"
 bron: https://cookingtaste.net/sticky-honey-garlic-sausage-pasta-skillet/
 afbeelding: https://cookingtaste.net/wp-content/uploads/2025/02/u4755791355_httpss.mj_.runa1PdDgN3fr0_amateur_photo_from_reddi_4e20a8a4-e16a-4528-8f94-7a8e9be9458d_3.webp
 porties: 4

@@ -1,5 +1,5 @@
 ---
-title: "Romige penne met kippenworst"
+title: "Creamy Chicken Sausage Pasta with Garlic and Parmesan"
 bron: https://moneymattersmama.com/chicken-sausage-pasta/
 afbeelding: https://moneymattersmama.com/wp-content/uploads/2025/05/4-sausage-480x270.webp
 porties: 4

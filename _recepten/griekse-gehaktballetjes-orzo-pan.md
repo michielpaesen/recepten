@@ -1,5 +1,5 @@
 ---
-title: "Griekse gehaktballetjes met orzo uit één pan"
+title: "Greek Meatballs and Orzo Skillet"
 bron: https://reciperunner.com/greek-meatballs-and-orzo-skillet/
 afbeelding: https://reciperunner.com/wp-content/uploads/2020/07/Greek-Meatballs-Orzo-Skillet-Photo.jpg
 porties: 4

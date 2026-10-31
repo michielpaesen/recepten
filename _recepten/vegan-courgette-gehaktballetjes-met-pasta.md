@@ -1,5 +1,5 @@
 ---
-title: "Vegan courgette-'gehaktballetjes' met pasta"
+title: "Vegan Zucchini 'Meatballs'"
 bron: https://www.makingthymeforhealth.com/vegan-zucchini-meatballs/
 afbeelding: https://i.pinimg.com/564x/5c/20/c3/5c20c337fe248fa592e6a15e0775b4ba.jpg
 porties: 12

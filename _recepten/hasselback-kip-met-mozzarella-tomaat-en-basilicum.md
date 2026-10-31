@@ -1,5 +1,5 @@
 ---
-title: "Hasselback-kip met mozzarella, tomaat en basilicum"
+title: "Hasselback Chicken Stuffed with Mozzarella, Tomato and Basil"
 bron: https://walkingonsunshinerecipes.com/hasselback-chicken-stuffed-with/
 afbeelding: https://walkingonsunshinerecipes.com/wp-content/uploads/2024/04/hasselback-chicken-480x270.jpg
 porties: 2

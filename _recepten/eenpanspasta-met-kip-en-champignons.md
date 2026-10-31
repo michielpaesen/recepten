@@ -1,5 +1,5 @@
 ---
-title: "Eenpanspasta met kip en champignons"
+title: "One-Pot Chicken And Mushroom Pasta"
 bron: https://tasty.co/recipe/one-pot-chicken-and-mushroom-pasta
 afbeelding: https://img.buzzfeed.com/video-api-prod/assets/b10b232738974df18f43119feb35c45d/thumb1.jpg?resize=1200:*
 porties: 4

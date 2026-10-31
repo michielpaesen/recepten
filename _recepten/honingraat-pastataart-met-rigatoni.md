@@ -1,5 +1,5 @@
 ---
-title: "Honingraat-pastataart met rigatoni"
+title: "Honeycomb Pasta Cake"
 bron: https://helloyummy.co/honeycomb-pasta-cake-recipe/
 afbeelding: https://helloyummy.co/wp-content/uploads/2021/04/honeycomb-pasta-cake-recipe17-480x270.jpg
 porties: 8

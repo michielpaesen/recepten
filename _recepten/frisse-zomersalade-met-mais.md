@@ -1,5 +1,5 @@
 ---
-title: "Frisse zomersalade met maïs"
+title: "Summer Corn Salad"
 bron: https://hip2save.com/recipes/summer-corn-salad/
 afbeelding: https://hip2save.com/wp-content/uploads/2022/05/Summer-Corn-Salad-1.jpg
 tijd: 15 min

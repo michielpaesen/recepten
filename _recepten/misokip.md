@@ -1,5 +1,5 @@
 ---
-title: "Misokip"
+title: "Miso Chicken"
 bron: https://www.justonecookbook.com/miso-chicken/
 afbeelding: https://www.justonecookbook.com/wp-content/uploads/2027/06/Miso-Chicken-7609-I-1-480x270.jpg
 porties: 5

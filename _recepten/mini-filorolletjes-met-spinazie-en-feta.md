@@ -1,5 +1,5 @@
 ---
-title: "Mini-filorolletjes met spinazie en feta"
+title: "Spinach feta mini rolls"
 bron: https://chefindisguise.com/2015/06/05/spinach-feta-mini-rolls/
 afbeelding: https://i0.wp.com/chefindisguise.com/wp-content/uploads/2015/06/spinach-rolls.jpg?fit=833%2C1200&ssl=1
 bord: starters

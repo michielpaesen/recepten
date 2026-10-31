@@ -1,5 +1,5 @@
 ---
-title: "Teriyakikip met avocado en rijst in laagjes"
+title: "Teriyaki Chicken Avocado Rice Stack"
 bron: https://myhomemaderecipe.com/recipes/teriyaki-chicken-avocado-stack
 afbeelding: https://myhomemaderecipe.com/assets/images/teriyaki-chicken-avocado-stack-middle-old.webp
 porties: 4

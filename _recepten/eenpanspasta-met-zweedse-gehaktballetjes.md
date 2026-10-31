@@ -1,5 +1,5 @@
 ---
-title: "Eenpanspasta met Zweedse gehaktballetjes"
+title: "One-Pot Swedish Meatball Pasta"
 bron: https://tasty.co/recipe/one-pot-swedish-meatball-pasta
 afbeelding: https://img.buzzfeed.com/thumbnailer-prod-us-east-1/37b0c33cf11a481f8189f6c37422b704/BFV8525_One-Pot_Swedish_Meatball_Pasta-FB1080.jpg?resize=1200:*
 porties: 4

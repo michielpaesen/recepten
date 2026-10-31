@@ -1,5 +1,5 @@
 ---
-title: "Ravioli in romige saus met geroosterde knoflook"
+title: "Garlic Cream Sauce for Ravioli"
 bron: https://www.dontgobaconmyheart.co.uk/garlic-cream-sauce-for-ravioli/
 afbeelding: https://www.dontgobaconmyheart.co.uk/wp-content/uploads/2021/07/garlic-cream-sauce-for-ravioli-480x270.jpg
 porties: 4

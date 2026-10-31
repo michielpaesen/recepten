@@ -1,5 +1,5 @@
 ---
-title: "Pittige kipsaté met komkommersalade"
+title: "Spicy Chicken Satay Skewers"
 bron: https://www.donnahay.com.au/recipes/dinner/spicy-chicken-satay-skewers
 afbeelding: https://i.pinimg.com/564x/ee/ad/9c/eead9ccf9f2dce9205e2c32acaa603d7.jpg
 bord: vlees

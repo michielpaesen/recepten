@@ -1,5 +1,5 @@
 ---
-title: "Slawraps met krokante buffalokip"
+title: "Buffalo Chicken Lettuce Wraps"
 bron: https://www.sugardishme.com/buffalo-chicken-lettuce-wraps/
 afbeelding: https://www.sugardishme.com/wp-content/uploads/2018/10/Buffalo-Chicken-Lettuce-Wrap-2.jpg
 porties: 4

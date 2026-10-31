@@ -1,5 +1,5 @@
 ---
-title: "Panzanella met perzik, burrata en spek"
+title: "Peach Panzanella Salad with Burrata and Bacon"
 bron: https://www.foodiecrush.com/peach-panzanella-salad-burrata-bacon/
 afbeelding: https://www.foodiecrush.com/wp-content/uploads/2018/03/Peach-Panzanella-Salad-with-Burrata-and-Bacon-_-foodiecrush.com-015-300x300-1-300x270.jpg
 porties: 4

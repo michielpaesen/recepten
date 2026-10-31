@@ -1,5 +1,5 @@
 ---
-title: "No-bake mini-cheesecakes met chocolade en pindakaas"
+title: "No Bake Chocolate Peanut Butter Mini Cheesecake"
 bron: https://sweetspicykitchen.com/no-bake-chocolate-peanut-butter-mini-cheesecake/
 afbeelding: https://sweetspicykitchen.com/wp-content/uploads/2017/01/IMG_2976-480x270.jpg
 porties: 14

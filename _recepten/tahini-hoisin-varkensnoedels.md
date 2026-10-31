@@ -1,5 +1,5 @@
 ---
-title: "Tahini-hoisin noedels met varkensgehakt, paksoi en paprika"
+title: "Tahini-Hoisin Pork Noodles"
 bron: https://www.hellofresh.ca/recipes/tahini-hoisin-pork-noodles-635f9df81badd66c3a0aa37e
 afbeelding: https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/tahini-hoisin-pork-noodles-6d148bce.jpg
 porties: 2

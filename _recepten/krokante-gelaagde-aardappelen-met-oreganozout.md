@@ -1,5 +1,5 @@
 ---
-title: "Krokante gelaagde aardappelen met oreganozout"
+title: "Crispy Leaf Potatoes With Oregano Salt"
 bron: https://www.donnahay.com.au/recipes/snacks-and-sides/crispy-leaf-potatoes-with-oregano-salt
 afbeelding: https://i.pinimg.com/564x/69/30/73/693073cc9a59c2754564f53fa062721d.jpg
 bord: baking-hartig

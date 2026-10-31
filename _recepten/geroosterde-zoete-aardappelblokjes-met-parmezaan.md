@@ -1,5 +1,5 @@
 ---
-title: "Geroosterde zoete-aardappelblokjes met Parmezaan"
+title: "Roasted Sweet Potato Cubes"
 bron: https://lilluna.com/baked-parmesan-sweet-potatoes/
 afbeelding: https://lilluna.com/wp-content/uploads/2024/08/roasted-sweet-potato-cubes-resize-8-480x270.jpg
 porties: 6

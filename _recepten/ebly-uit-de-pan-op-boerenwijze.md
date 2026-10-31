@@ -1,5 +1,5 @@
 ---
-title: "Ebly uit de pan op boerenwijze"
+title: "Poêlée d'ebly à la paysanne"
 bron: https://www.cuisineaz.com/recettes/poelee-d-ebly-a-la-paysanne-17478.aspx
 afbeelding: https://img.cuisineaz.com/1000x562/2013/12/20/i2121-photo-de-poelee-d-ebly-a-la-paysanne.jpeg
 porties: 4

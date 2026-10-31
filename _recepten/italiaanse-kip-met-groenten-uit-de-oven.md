@@ -1,5 +1,5 @@
 ---
-title: "Italiaanse kip met groenten uit de oven"
+title: "Baked Italian Chicken and Vegetables"
 bron: https://juliasalbum.com/baked-italian-chicken-and-vegetables/
 afbeelding: https://juliasalbum.com/wp-content/uploads/2019/01/one-pan-baked-Italian-chicken-and-vegetables-3-480x270.jpg
 porties: 4

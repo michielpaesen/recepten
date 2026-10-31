@@ -1,5 +1,5 @@
 ---
-title: "Gegrilde perziken in spek met balsamicoglazuur"
+title: "Bacon Wrapped Grilled Peaches with Balsamic Glaze"
 bron: https://www.foodiecrush.com/bacon-wrapped-grilled-peaches-with-balsamic-glaze/
 afbeelding: https://www.foodiecrush.com/wp-content/uploads/2014/09/Grilled-Peaches-with-Bacon-foodiecrush.com-23-1-480x270.jpg
 bord: baking-hartig

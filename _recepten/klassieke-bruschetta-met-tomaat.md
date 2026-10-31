@@ -1,5 +1,5 @@
 ---
-title: "Klassieke bruschetta met tomaat"
+title: "Perfect Bruschetta"
 bron: https://www.thegarlicdiaries.com/perfect-bruschetta/
 afbeelding: https://i0.wp.com/www.thegarlicdiaries.com/wp-content/uploads/2015/08/IMG_2849.jpg?fit=2592%2C3888&ssl=1
 porties: 7

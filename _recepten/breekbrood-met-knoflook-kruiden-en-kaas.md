@@ -1,5 +1,5 @@
 ---
-title: "Breekbrood met knoflook, kruiden en kaas"
+title: "Garlic Herb and Cheese Pull Apart Bread"
 bron: https://chewtown.com/2014/09/garlic-herb-and-cheese-pull-apart-bread/
 afbeelding: https://chewtown.com/wp-content/uploads/2014/09/Cheese-Herb-and-Garlic-Bread-Hero.jpg
 bord: baking-hartig

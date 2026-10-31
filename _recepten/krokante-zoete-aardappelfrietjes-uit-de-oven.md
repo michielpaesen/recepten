@@ -1,5 +1,5 @@
 ---
-title: "Krokante zoete-aardappelfrietjes uit de oven"
+title: "Crispy Oven Baked Sweet Potato Fries"
 bron: https://nurturemygut.com/crispy-oven-baked-sweet-potato-fries.html/
 afbeelding: https://nurturemygut.com/wp-content/uploads/2017/05/Crispy-Oven-Baked-Sweet-Potato-Fries-580x387.jpg
 porties: 4

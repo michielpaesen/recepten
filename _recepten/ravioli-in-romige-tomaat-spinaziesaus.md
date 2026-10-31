@@ -1,5 +1,5 @@
 ---
-title: "Ravioli in romige tomaat-spinaziesaus"
+title: "Easy Ravioli Sauce"
 bron: https://chefjar.com/ravioli-sauce/
 afbeelding: https://chefjar.com/wp-content/uploads/2022/02/ravioli-sauce-6-480x270.jpg
 porties: 4

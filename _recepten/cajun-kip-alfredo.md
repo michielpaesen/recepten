@@ -1,5 +1,5 @@
 ---
-title: "Cajun-kip alfredo"
+title: "Cajun Chicken Alfredo"
 bron: https://tasty.co/recipe/cajun-chicken-alfredo
 afbeelding: https://img.buzzfeed.com/thumbnailer-prod-us-east-1/d3ae44537ad0426fb01b7f96b5c9c47b/BFV10008_Penne4Ways.jpg?resize=1200:*
 porties: 4

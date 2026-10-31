@@ -1,5 +1,5 @@
 ---
-title: "Cupcakes gevuld met koekjesdeeg"
+title: "Cookie Dough Stuffed Cupcakes"
 bron: https://www.the-girl-who-ate-everything.com/cookie-dough-stuffed-cupcakes/
 afbeelding: https://www.the-girl-who-ate-everything.com/wp-content/uploads/2011/02/cupcakes-source-399x270.jpg
 porties: 18

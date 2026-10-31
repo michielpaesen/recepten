@@ -1,5 +1,5 @@
 ---
-title: "New York-cheesecake"
+title: "New York Style Cheesecake"
 bron: https://sugarapron.com/2015/02/10/new-york-style-cheesecake/
 afbeelding: https://i.pinimg.com/474x/d3/bd/6e/d3bd6e4df58f2f10e2dafce606445137.jpg
 tijd: 150 min

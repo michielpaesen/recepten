@@ -1,5 +1,5 @@
 ---
-title: "Pasta met kip, broccoli en spek"
+title: "Chicken Broccoli Pasta with Bacon"
 bron: https://juliasalbum.com/creamy-broccoli-chicken-and-bacon-pasta-recipe/
 afbeelding: https://juliasalbum.com/wp-content/uploads/2018/02/chicken-broccoli-pasta-with-bacon-2-1-480x270.jpg
 porties: 4

@@ -1,5 +1,5 @@
 ---
-title: "Manicotti uit de oven met Italiaanse worst en kaas"
+title: "Italian Sausage & Cheese Baked Manicotti"
 bron: https://www.southyourmouth.com/2020/03/italian-sausage-cheese-baked-manicotti.html
 afbeelding: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUSa3pEP1JN7N2WRebTiW-B9CnV4SzDbZImTovKWiMZxMMAw32EdnbYYiaT0mR9KVxgIvfmGJyIAjynOq6bEzPveWgT5rJbpDp_V2U1imuTuOPzi8I8nknXZf5QLxPALR_Cf2epDzAWeU/s1600/manicotti+2+pn.jpg
 porties: 6

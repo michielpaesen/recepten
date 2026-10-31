@@ -1,5 +1,5 @@
 ---
-title: "Pasta met kipworst en paprika uit één pan"
+title: "Chicken Sausage And Bell Pepper Pasta"
 bron: https://www.tastingtable.com/1204807/chicken-sausage-and-bell-pepper-pasta-recipe/
 afbeelding: https://www.tastingtable.com/img/gallery/chicken-sausage-and-bell-pepper-pasta-recipe/intro-1676903407.jpg
 porties: 2

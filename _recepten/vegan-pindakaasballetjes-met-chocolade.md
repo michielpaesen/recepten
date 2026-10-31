@@ -1,5 +1,5 @@
 ---
-title: "Vegan pindakaasballetjes met chocolade"
+title: "Vegan Peanut Butter Balls"
 bron: https://namelymarly.com/best-vegan-peanut-butter-balls/
 afbeelding: https://namelymarly.com/wp-content/uploads/2020/12/Chocolate_Peanut_Butter_Balls_02-sq-480x270.jpg
 porties: 50

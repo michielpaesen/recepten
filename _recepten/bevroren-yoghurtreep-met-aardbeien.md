@@ -1,5 +1,5 @@
 ---
-title: "Bevroren yoghurtreep met aardbeien"
+title: "Strawberry Yogurt Bark"
 bron: https://thishealthytable.com/blog/strawberry-yogurt-bark/
 afbeelding: https://thishealthytable.com/wp-content/uploads/2024/04/strawberry-frozen-yogurt-bark.jpg
 porties: 12

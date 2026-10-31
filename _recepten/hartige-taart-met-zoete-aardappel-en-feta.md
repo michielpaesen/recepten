@@ -1,5 +1,5 @@
 ---
-title: "Hartige taart met zoete aardappel en feta"
+title: "Sweet Potato, Feta and Caramelised Onion Tart"
 bron: https://thecookspyjamas.com/sweet-potato-and-feta-tart/
 afbeelding: https://thecookspyjamas.com/wp-content/uploads/Sweet-Potato-and-Feta-Tart-3-480x270.jpg
 porties: 4

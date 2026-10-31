@@ -1,5 +1,5 @@
 ---
-title: "Italiaanse ravioli met spinazie, artisjok, kappertjes en zongedroogde tomaten"
+title: "Italian Ravioli with Spinach, Artichokes, Capers, Sun-Dried Tomatoes"
 bron: https://juliasalbum.com/ravioli-with-spinach-artichokes-capers-sun-dried-tomatoes/
 afbeelding: https://juliasalbum.com/wp-content/uploads/2018/03/italian-ravioli-with-sun-dried-tomatoes-artichokes-capers-and-parmesan-cheese-480x270.jpg
 porties: 4

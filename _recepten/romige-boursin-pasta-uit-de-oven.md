@@ -12,9 +12,9 @@ tags: [vegetarisch, oven, topper]
 
 ## Ingrediënten
 
-- pasta naar keuze (bv. 400 g)
+- pasta naar keuze
 - 1-2 Boursin knoflook-kruiden
-- kerstomaatjes (bv. 400 g)
+- kerstomaatjes
 - roze zout
 - 1-2 el fijngehakte knoflook
 - olijfolie

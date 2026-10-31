@@ -12,7 +12,7 @@ tags: [vegetarisch, noedels]
 
 ## Ingrediënten
 
-- glasnoedels van zoete aardappel (bv. 250 g)
+- glasnoedels van zoete aardappel
 - 1 el olie
 - ½ gele ui, in dunne ringen
 - 1 rode paprika, in reepjes

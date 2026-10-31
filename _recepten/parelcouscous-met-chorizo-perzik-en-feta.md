@@ -11,7 +11,7 @@ tags: [worst, parelcouscous, feta, salade]
 ## Ingrediënten
 
 - 250 g parelcouscous
-- chorizo (bv. 150 g)
+- chorizo
 - 3 perziken
 - 3 puntpaprika's
 - 1,5 blok feta

@@ -12,7 +12,7 @@ tags: [vegetarisch]
 
 ## Ingrediënten
 
-- pasta (bv. 200 g)
+- pasta
 - scheutje olijfolie
 - 3 teentjes knoflook
 - ½ rode ui

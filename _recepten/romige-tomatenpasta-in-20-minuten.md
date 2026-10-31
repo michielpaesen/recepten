@@ -12,9 +12,9 @@ tags: [vegetarisch]
 
 ## Ingrediënten
 
-- pasta (bv. 200 g)
+- pasta
 - 1 ui
-- kerstomaatjes (bv. 250 g)
+- kerstomaatjes
 - ½ paprika
 - oregano en zout
 - 2 tl tomatenpuree

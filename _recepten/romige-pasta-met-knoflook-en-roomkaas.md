@@ -12,7 +12,7 @@ tags: [vegetarisch]
 
 ## Ingrediënten
 
-- pasta (bv. 200 g)
+- pasta
 - olijfolie
 - 4 teentjes knoflook, in blokjes
 - 1 tl chilivlokken

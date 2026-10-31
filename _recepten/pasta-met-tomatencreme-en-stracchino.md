@@ -12,7 +12,7 @@ tags: [vegetarisch]
 
 ## Ingrediënten
 
-- pasta (bv. 320 g)
+- pasta
 - 300 g kerstomaatjes
 - 1 sjalot
 - scheutje extra vierge olijfolie

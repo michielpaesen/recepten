@@ -12,7 +12,7 @@ tags: [vegetarisch, topper]
 
 ## Ingrediënten
 
-- pasta naar keuze (bv. 400 g)
+- pasta naar keuze
 - 4 el olie
 - 2 el boter
 - 2 uien

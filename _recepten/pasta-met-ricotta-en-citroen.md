@@ -12,7 +12,7 @@ tags: [vegetarisch]
 
 ## Ingrediënten
 
-- pasta (bv. 200 g)
+- pasta
 - 250 g ricotta
 - 1 tl chilivlokken
 - peper en zout

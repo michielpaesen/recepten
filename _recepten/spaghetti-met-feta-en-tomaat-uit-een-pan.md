@@ -13,8 +13,8 @@ tags: [vegetarisch, feta, eenpansgerecht]
 ## Ingrediënten
 
 - 120 g spaghetti
-- feta (bv. ½ blok)
-- tomaten (bv. 150 g kerstomaatjes)
+- feta
+- tomaten
 - mozzarella
 - olijfolie
 - ui

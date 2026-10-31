@@ -12,7 +12,7 @@ tags: [vegetarisch, burrata]
 
 ## Ingrediënten
 
-- pasta (bv. 200 g)
+- pasta
 - 150 g kerstomaatjes
 - 2 teentjes knoflook, fijngesneden
 - 1 tl gedroogde chili

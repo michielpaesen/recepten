@@ -7,7 +7,7 @@ bord: brood
 tags: [vegetarisch]
 ---
 
-> De pin bevatte enkel de ingrediënten; de bereiding is kort aangevuld. Vertaald uit het Engels; Amerikaanse maten omgerekend.
+> Vertaald uit het Engels; Amerikaanse maten omgerekend. De pin bevat enkel de ingrediënten, geen bereiding.
 
 ## Ingrediënten
 
@@ -21,7 +21,3 @@ tags: [vegetarisch]
 
 ## Bereiding
 
-1. Snijd het brood in sneden, besprenkel met olijfolie en rooster ze in de oven of een grillpan krokant.
-2. Wrijf de warme sneden in met een gehalveerd teentje knoflook.
-3. Snijd de tomaten in blokjes, hak de rest van de knoflook fijn en meng met olijfolie, zout en kruiden.
-4. Beleg het brood met stukjes burrata en het tomatenmengsel en werk af met basilicum.

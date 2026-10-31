@@ -8,7 +8,7 @@ bord: pasta
 tags: [vegetarisch]
 ---
 
-> Vertaald uit het Frans. In de post staan enkel de ingrediënten; de bereiding is aangevuld.
+> Vertaald uit het Frans. De post bevat enkel de ingrediënten; de bereiding staat alleen in de video (bronlink).
 
 ## Ingrediënten
 
@@ -25,7 +25,3 @@ tags: [vegetarisch]
 
 ## Bereiding
 
-1. Kook de pasta en houd een soeplepel kookwater apart.
-2. Fruit de knoflook kort in boter of olie.
-3. Meng de ricotta met de Parmezaan, chilivlokken, citroensap, citroenrasp, peper en zout.
-4. Schep de pasta met het kookwater door de knoflook en roer het ricottamengsel erdoor tot een romige saus.

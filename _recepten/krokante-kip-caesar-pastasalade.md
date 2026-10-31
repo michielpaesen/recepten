@@ -8,7 +8,7 @@ bord: salade
 tags: [kip, salade]
 ---
 
-> Vertaald uit het Engels. In de post staan enkel de ingrediënten; de bereiding is aangevuld.
+> Vertaald uit het Engels. De post bevat enkel de ingrediënten; de bereiding staat alleen in de video (bronlink).
 
 ## Ingrediënten
 
@@ -50,8 +50,3 @@ tags: [kip, salade]
 
 ## Bereiding
 
-1. Meng de panko met de kruiden. Bestrijk de kip met olie, haal door het pankomengsel en bak 18-20 minuten op 200 °C (of in de airfryer) tot gaar en krokant. Snij in plakjes.
-2. Meng het brood met olie, peper en zout en bak krokant in de oven of pan.
-3. Kook de pasta, spoel koud en laat uitlekken.
-4. Klop de ingrediënten voor de dressing samen.
-5. Meng pasta, sla en dressing. Leg de kip en croutons erop en werk af met Parmezaan en citroensap.

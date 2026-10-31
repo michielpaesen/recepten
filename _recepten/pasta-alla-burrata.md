@@ -8,7 +8,7 @@ bord: spaghetti
 tags: [vegetarisch, burrata, topper]
 ---
 
-> Vertaald uit het Engels. In de post staan enkel de ingrediënten; de bereiding is aangevuld.
+> Vertaald uit het Engels. De post bevat enkel de ingrediënten; de bereiding staat alleen in de video (bronlink).
 
 ## Ingrediënten
 
@@ -22,7 +22,3 @@ tags: [vegetarisch, burrata, topper]
 
 ## Bereiding
 
-1. Kook de spaghetti.
-2. Fruit de knoflook in olijfolie, voeg de kerstomaatjes toe en laat ze zacht worden tot een saus.
-3. Schep de spaghetti door de saus met wat kookwater en Parmezaan. Breng op smaak.
-4. Leg de burrata erop en scheur open bij het serveren.

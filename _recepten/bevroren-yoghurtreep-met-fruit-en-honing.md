@@ -8,7 +8,7 @@ bord: desserts
 tags: [vegetarisch, dessert]
 ---
 
-> Vertaald uit het Engels; Amerikaanse maten omgerekend. De werkwijze is aangevuld.
+> Vertaald uit het Engels; Amerikaanse maten omgerekend. De post bevat enkel de ingrediënten en de vermelding om 1 uur in te vriezen; de rest van de werkwijze staat alleen in de video (bronlink).
 
 ## Ingrediënten
 
@@ -21,6 +21,4 @@ tags: [vegetarisch, dessert]
 
 ## Bereiding
 
-1. Meng de yoghurt met de honing en strijk uit op een bakplaat met bakpapier.
-2. Snij het fruit in stukjes en verdeel erover.
-3. Vries 1 uur in en breek in stukken.
+1. Zet 1 uur in de diepvries.

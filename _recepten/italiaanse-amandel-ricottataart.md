@@ -8,7 +8,7 @@ bord: baking-zoet
 tags: [vegetarisch, bakken, glutenvrij]
 ---
 
-> Vertaald uit het Engels. In de post staan enkel de ingrediënten; de bereiding is aangevuld.
+> Vertaald uit het Engels. De post bevat niet de volledige bereiding; die komt van [cookingwithmanuela.com](https://www.cookingwithmanuela.com/recipe/italian-gluten-free-almond-and-ricotta-cake-recipe/).
 
 ## Ingrediënten
 
@@ -26,9 +26,10 @@ tags: [vegetarisch, bakken, glutenvrij]
 
 ## Bereiding
 
-1. Verwarm de oven voor op 175 °C en bekleed een springvorm van 23 cm met bakpapier.
-2. Klop boter en suiker luchtig. Klop vanille, amandelextract en de eierdooiers één voor één erdoor.
-3. Roer de ricotta en citroenrasp erdoor en spatel het amandelmeel erdoor.
-4. Klop de eiwitten met een snuf zout stijf en spatel in 2-3 keer door het beslag.
-5. Giet in de vorm, bestrooi met amandelschaafsel en bak 40-50 minuten tot goudbruin en net gestold.
-6. Laat afkoelen en bestuif met poedersuiker.
+1. Verwarm de oven voor op 175 °C en vet een springvorm van 20 à 23 cm in of bekleed hem.
+2. Klop de boter en suiker in een grote kom heel glad en romig.
+3. Voeg de eidooiers toe.
+4. Klop de ricotta, de citroenrasp (geen sap) en de extracten erdoor, en daarna de amandelmeel en een snuf zout.
+5. Klop de eiwitten stijf en spatel ze onder het beslag.
+6. Giet het beslag in de vorm, bestrooi royaal met amandelschaafsel en bak tot de bovenkant mooi goudbruin is en de taart grotendeels gezet is. Bak niet te lang, anders wordt de taart droog.
+7. Laat afkoelen op kamertemperatuur, haal uit de vorm en bestuif met poedersuiker.

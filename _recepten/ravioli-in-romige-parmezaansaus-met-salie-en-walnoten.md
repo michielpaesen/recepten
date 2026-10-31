@@ -8,7 +8,7 @@ bord: ravioli
 tags: [vegetarisch, topper]
 ---
 
-> Vertaald uit het Engels. De bereiding is aangevuld; het volledige recept staat op servingdumplings.com.
+> Vertaald uit het Engels. De post bevat niet de volledige bereiding; die komt van [servingdumplings.com](https://www.servingdumplings.com/recipe/ravioli-in-creamy-parmesan-sauce/).
 
 ## Ingrediënten
 
@@ -27,10 +27,11 @@ tags: [vegetarisch, topper]
 
 ## Bereiding
 
-1. Kook de ravioli volgens de verpakking.
-2. Bak de salieblaadjes krokant in de olijfolie en laat uitlekken. Rooster de walnoten kort in dezelfde pan.
-3. Smelt de boter, fruit de knoflook kort en blus met de witte wijn. Laat iets inkoken.
-4. Voeg de room, het citroensap, zout, peper en chilivlokken toe en laat zachtjes indikken. Roer de Parmezaan erdoor.
-5. Schep de ravioli door de saus en werk af met de krokante salie en walnoten.
-
-https://www.servingdumplings.com/recipes/ravioli-in-creamy-parmesan-sauce/
+1. Doe eerst al het voorbereidende werk: hak de knoflook en de walnoten fijn.
+2. Breng een grote pot gezouten water aan de kook.
+3. Verhit de olie in een koekenpan op middelhoog vuur. Rooster de walnoten ongeveer 2 minuten tot ze geuren. Voeg de salie toe en bak ongeveer 1 minuut tot ze krokant is. Leg alles op een bord met keukenpapier.
+4. Zet het vuur laag en smelt de boter. Bak de knoflook ongeveer 1 minuut tot hij zacht is en geurt. Roer het citroensap erdoor, voeg de witte wijn toe en laat 2 minuten sudderen. Breng op smaak met zout en peper.
+5. Giet de room erbij, breng aan de kook en laat 3 minuten zachtjes sudderen.
+6. Kook ondertussen de ravioli ongeveer 3 minuten in het kokende water. Giet af en hou 60 ml kookvocht apart.
+7. Roer de Parmezaanse kaas door de roomsaus en laat 1 minuut sudderen. Schep de ravioli voorzichtig door de saus. Voeg eventueel een scheutje kookvocht toe als de saus te dik is. Proef en breng op smaak met zout.
+8. Serveer met de walnoten, krokante salie, chilivlokken en wat extra zwarte peper.

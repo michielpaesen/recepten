@@ -8,7 +8,7 @@ bord: desserts
 tags: [vegetarisch, dessert]
 ---
 
-> Vertaald uit het Engels; Amerikaanse maten omgerekend. De werkwijze is aangevuld.
+> Vertaald uit het Engels; Amerikaanse maten omgerekend. De post bevat enkel de ingrediënten; de bereiding staat alleen in de video (bronlink).
 
 ## Ingrediënten
 
@@ -25,6 +25,3 @@ tags: [vegetarisch, dessert]
 
 ## Bereiding
 
-1. Prak de banaan en meng met havermout, cacao en ahornsiroop. Druk als bodem in muffinvormpjes.
-2. Verdeel de yoghurt erover.
-3. Werk af met banaan en cacaonibs en vries 1 uur in.

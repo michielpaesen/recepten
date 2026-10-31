@@ -8,7 +8,7 @@ bord: pasta
 tags: [vegetarisch]
 ---
 
-> Vertaald uit het Italiaans. In de post staan enkel de ingrediënten; de bereiding is aangevuld.
+> Vertaald uit het Italiaans. De post bevat enkel de ingrediënten; de bereiding staat alleen in de video (bronlink).
 
 ## Ingrediënten
 
@@ -21,7 +21,3 @@ tags: [vegetarisch]
 
 ## Bereiding
 
-1. Kook de pasta.
-2. Fruit de sjalot in de olijfolie, voeg de tomaatjes toe en laat ze zacht worden.
-3. Mix de tomaten met de stracchino tot een gladde crème en breng op smaak.
-4. Schep de pasta door de saus, eventueel met wat kookwater.

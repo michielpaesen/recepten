@@ -8,7 +8,7 @@ bord: orzogriekse-pasta
 tags: [vegetarisch, orzo, feta, salade]
 ---
 
-> Vertaald uit het Engels; Amerikaanse maten omgerekend. De bereiding is aangevuld; het volledige recept staat op themodernnonna.com.
+> Vertaald uit het Engels; Amerikaanse maten omgerekend. De post bevat niet de volledige bereiding; die komt van [themodernnonna.com](https://themodernnonna.com/lemon-feta-orzo/).
 
 ## Ingrediënten
 
@@ -25,9 +25,10 @@ tags: [vegetarisch, orzo, feta, salade]
 
 ## Bereiding
 
-1. Kook de orzo in gezouten water, giet af en laat iets afkoelen.
-2. Klop olijfolie, citroensap en -rasp, dille, mosterd, zout en peper tot een dressing. Houd een paar lepels apart voor de garnalen.
-3. Meng de orzo met de dressing en verkruimel er feta over.
-4. Bak eventueel de garnalen met de achtergehouden dressing en leg ze erop.
-
-*Lekker met gegrilde kip, kebab of garnalen; kan de avond ervoor gemaakt worden.*
+1. Kook de orzo al dente in goed gezouten water; het water mag zo zout zijn als zeewater, want dit is je enige kans om de orzo op smaak te brengen. Zout het water pas als het kookt, roer en voeg dan de orzo toe.
+2. Maak ondertussen de dressing: roer de olijfolie, het citroensap en de -rasp, de dille, de mosterd, zout en peper goed door elkaar. Maak je garnalen, hou dan een paar eetlepels dressing apart.
+3. Doe de gekookte orzo in een grote kom, giet de dressing erover zolang de orzo nog warm is en roer. Verkruimel er feta naar smaak over en roer opnieuw.
+4. Optioneel, garnalen: dep de ontdooide, gepelde garnalen droog en meng ze met de apart gehouden dressing.
+5. Verhit een pan op middelhoog vuur; de pan moet heet zijn voor je de garnalen erin legt.
+6. Bak de garnalen met wat ruimte ertussen 1 à 2 minuten per kant. Haal ze van het vuur zodra ze roze zijn en krullen.
+7. Schep de garnalen door de orzo.

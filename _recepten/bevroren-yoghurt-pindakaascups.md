@@ -8,7 +8,7 @@ bord: desserts
 tags: [vegetarisch, dessert]
 ---
 
-> Vertaald uit het Engels; Amerikaanse maten omgerekend. De werkwijze is aangevuld.
+> Vertaald uit het Engels; Amerikaanse maten omgerekend. De post bevat enkel de ingrediënten en de vermelding om 1 uur in te vriezen; de rest van de werkwijze staat alleen in de video (bronlink).
 
 ## Ingrediënten
 
@@ -25,7 +25,4 @@ tags: [vegetarisch, dessert]
 
 ## Bereiding
 
-1. Meng de havermout met de helft van de ahornsiroop en druk als bodem in muffinvormpjes.
-2. Meng de yoghurt met de rest van de ahornsiroop.
-3. Verdeel een lepeltje pindakaas, de aardbeien en de yoghurt over de vormpjes.
-4. Werk af met gesmolten chocolade en blauwe bessen en vries 1 uur in.
+1. Zet 1 uur in de diepvries.

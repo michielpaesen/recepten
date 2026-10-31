@@ -8,7 +8,7 @@ bord: rijst
 tags: [vegetarisch, rijst]
 ---
 
-> In de post staan enkel de ingrediënten; de bereiding is aangevuld.
+> De post bevat niet de volledige bereiding; die komt van [leukerecepten.nl](https://www.leukerecepten.nl/recepten/gebakken-kimchi-rijst-met-ei-bokkeumbap/).
 
 ## Ingrediënten
 
@@ -25,8 +25,11 @@ tags: [vegetarisch, rijst]
 
 ## Bereiding
 
-1. Snipper de ui, hak de knoflook en snij de bosui en kimchi.
-2. Fruit de ui en knoflook in sesamolie, voeg de kimchi toe en bak een paar minuten.
-3. Voeg de rijst toe en roerbak tot alles heet en licht krokant is. Breng op smaak met sojasaus, peper en zout.
-4. Bak de eieren als spiegelei.
-5. Serveer de rijst met een ei, bosui en sesamzaad.
+1. Kook de rijst gaar volgens de verpakking (meestal 10 minuten) in water met een snuf zout. Laat afkoelen of spoel af onder de koude kraan.
+2. Laat de kimchi uitlekken en vang het vocht op.
+3. Verhit de sesamolie in een grote pan en voeg de fijngehakte ui en knoflook toe. Snijd de lente-ui in ringetjes en voeg toe; hou wat apart om te garneren.
+4. Bak de uitgelekte kimchi een minuutje mee en voeg een klein scheutje sojasaus toe.
+5. Schep de koude rijst erdoor.
+6. Voeg wat van het kimchivocht toe, net genoeg om het smeuïg te maken zonder dat het papperig wordt. Maak eventueel pittiger met wat chili.
+7. Bak de eieren als spiegelei en bestrooi met een snufje peper en zout.
+8. Schep de kimchirijst op borden met een spiegelei erop en garneer met de rest van de lente-ui en wat sesamzaadjes.

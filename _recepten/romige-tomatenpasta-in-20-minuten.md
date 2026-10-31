@@ -8,7 +8,7 @@ bord: pasta
 tags: [vegetarisch]
 ---
 
-> Vertaald uit het Engels. In de post staan enkel de ingrediënten; de bereiding is aangevuld.
+> Vertaald uit het Engels. De post bevat enkel de ingrediënten; de bereiding staat alleen in de video (bronlink).
 
 ## Ingrediënten
 
@@ -25,8 +25,3 @@ tags: [vegetarisch]
 
 ## Bereiding
 
-1. Kook de pasta en houd 100 ml kookwater apart.
-2. Fruit de ui, voeg de tomaatjes en paprika toe en bak tot de tomaatjes openbarsten.
-3. Roer de tomatenpuree, oregano en zout erdoor en giet de room erbij.
-4. Voeg de Parmezaan en het kookwater toe en laat even indikken.
-5. Schep de pasta erdoor en werk af met basilicum.

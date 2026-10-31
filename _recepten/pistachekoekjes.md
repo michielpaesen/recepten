@@ -8,7 +8,7 @@ bord: baking-zoet
 tags: [vegetarisch, bakken]
 ---
 
-> In de post staan enkel de ingrediënten; de bereiding is aangevuld.
+> De post bevat niet de volledige bereiding; die komt van [leukerecepten.nl](https://www.leukerecepten.nl/recepten/pistache-koekjes/).
 
 ## Ingrediënten
 
@@ -22,9 +22,10 @@ tags: [vegetarisch, bakken]
 
 ## Bereiding
 
-1. Maal ⅓ van de pistachenoten fijn en hak ⅓ grof.
-2. Klop boter en suiker romig, meng het eigeel erdoor en kneed de bloem, het zout en de fijne en grof gehakte pistache erdoor.
-3. Rol het deeg tot een rol, wikkel in folie en laat 30 minuten opstijven in de koelkast.
-4. Verwarm de oven voor op 180 °C, snij 16 plakken en leg op een bakplaat met bakpapier.
-5. Bak 12-15 minuten tot de randjes licht goudbruin zijn.
-6. Laat afkoelen, besprenkel met glazuur en bestrooi met de rest van de pistache.
+1. Mix de boter met de basterdsuiker romig. Mix het eigeel erdoor, en daarna de bloem met een snuf zout tot een egaal deeg. Hak de helft van de pistachenoten fijn en mix door het deeg.
+2. Hak de andere helft grof (hou een beetje apart om te garneren) en schep door het deeg. Wikkel het deeg in folie en leg het minstens een half uur in de koelkast. Verwarm de oven voor op 180 graden.
+3. Draai balletjes ter grootte van een flinke knikker en leg ze met voldoende afstand op een bakplaat, want ze lopen uit (ongeveer 9 per bakplaat).
+4. Bak de koekjes ongeveer 15 minuten en laat ze afkoelen.
+5. Meng 2 eetlepels poedersuiker met een paar druppels water tot een glazuur (of gebruik kant-en-klaar glazuur), drizzel over de koekjes en bestrooi met de rest van de gehakte pistache.
+
+**Tip:** in een afgesloten trommel blijven ze ongeveer 5 dagen goed.

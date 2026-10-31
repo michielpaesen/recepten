@@ -8,7 +8,7 @@ bord: desserts
 tags: [vegetarisch, dessert]
 ---
 
-> Vertaald uit het Engels; Amerikaanse maten omgerekend. De werkwijze is aangevuld.
+> Vertaald uit het Engels; Amerikaanse maten omgerekend. De post bevat enkel de ingrediënten en de vermelding om 1 uur in te vriezen; de rest van de werkwijze staat alleen in de video (bronlink).
 
 ## Ingrediënten
 
@@ -23,6 +23,4 @@ tags: [vegetarisch, dessert]
 
 ## Bereiding
 
-1. Meng havermeel, havermout, cacao en de helft van de honing met wat gesmolten kokosolie en druk als bodem in muffinvormpjes.
-2. Meng de kokosrasp met de yoghurt, de rest van de honing en de rest van de kokosolie en verdeel over de bodems.
-3. Giet er gesmolten chocolade over en vries 1 uur in.
+1. Zet 1 uur in de diepvries.

@@ -8,7 +8,7 @@ bord: starters
 tags: [vegetarisch]
 ---
 
-> In de post staan enkel de ingrediënten; de bereiding is aangevuld.
+> De post bevat niet de volledige bereiding; die komt van [leukerecepten.nl](https://www.leukerecepten.nl/recepten/loempia-maken-in-de-airfryer/).
 
 ## Ingrediënten
 
@@ -26,8 +26,13 @@ tags: [vegetarisch]
 
 ## Bereiding
 
-1. Week de mihoen volgens de verpakking en knip in stukken.
-2. Klop de eieren met de melk, bak er een dunne omelet van en snij in reepjes.
-3. Roerbak de prei, wortel en rode peper kort met de kruiden. Voeg taugé, mihoen, omelet en sojasaus toe en laat afkoelen.
-4. Vul de loempiavellen, vouw de zijkanten in en rol strak op. Bestrijk de rand met water om dicht te kleven.
-5. Bestrijk met olie en bak 10-12 minuten op 190 °C in de airfryer tot knapperig. Serveer met chilisaus.
+1. Maak eerst de omelet: klop de eieren los met een beetje melk, peper en zout en bak een dunne omelet in een beetje olie. Laat afkoelen en snijd in dunne reepjes.
+2. Bereid de mihoen volgens de verpakking, giet af en laat afkoelen.
+3. Snijd de wortel, champignons en rode peper in blokjes en de prei in halve ringen. Bak de wortel, prei, taugé, champignons en rode peper (naar smaak) een paar minuten in een beetje olie in een wok of grote pan.
+4. Voeg sojasaus, gemalen gember, kurkuma, komijn, peper en zout toe, meng goed en bak nog een paar minuten.
+5. Laat het groentemengsel afkoelen voor je de loempia's vouwt.
+6. Leg wat groentemengsel in het midden van een loempiavel met wat mihoen en een paar reepjes omelet. Vouw de zijkanten naar binnen en rol strak op. Bevochtig de randen met wat water om dicht te plakken.
+7. Verwarm de airfryer voor op 200 graden en bak de loempia's (ca. 5 per keer) in ongeveer 10 minuten goudbruin en knapperig. Draai ze halverwege om.
+8. Serveer met chilisaus.
+
+**Tip:** je kan de loempia's ook ongebakken invriezen.

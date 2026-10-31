@@ -8,7 +8,7 @@ bord: pizza
 tags: [vegetarisch]
 ---
 
-> In de post staan enkel de ingrediënten; de bereiding is aangevuld.
+> De post bevat enkel de ingrediënten; de bereiding staat op leukerecepten.nl, maar die pagina is niet meer te vinden.
 
 ## Ingrediënten
 
@@ -24,8 +24,3 @@ tags: [vegetarisch]
 
 ## Bereiding
 
-1. Verwarm de oven volgens de verpakking van de pinsabodem.
-2. Snij de courgette in dunne linten of plakjes, meng met 1 el olijfolie, peper en zout en gril kort.
-3. Meng de ricotta met de citroenrasp, peper en zout.
-4. Bak de bodem af, besmeer met ricotta en beleg met courgette en gehalveerde tomaatjes.
-5. Werk af met rucola, Parmezaan en de rest van de olijfolie.

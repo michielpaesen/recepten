@@ -8,7 +8,7 @@ bord: desserts
 tags: [vegetarisch, dessert]
 ---
 
-> Vertaald uit het Engels. In de post staan enkel de ingrediënten; de bereiding is aangevuld.
+> Vertaald uit het Engels. De post bevat enkel de ingrediënten; de bereiding staat alleen in de video (bronlink).
 
 ## Ingrediënten
 
@@ -31,7 +31,3 @@ tags: [vegetarisch, dessert]
 
 ## Bereiding
 
-1. Meng de koekkruimels met de boter en druk aan in een vierkante vorm van 20 × 20 cm met bakpapier. Zet koud.
-2. Klop de roomkaas met de poedersuiker glad en roer de gesmolten chocolade erdoor. Strijk uit over de bodem.
-3. Verwarm de room, giet over de gehakte chocolade, roer tot een ganache en giet over de vulling.
-4. Leg de stukjes Kinder Bueno erop en laat minstens 4 uur opstijven in de koelkast. Snij in repen.

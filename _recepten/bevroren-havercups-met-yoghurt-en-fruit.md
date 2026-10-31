@@ -8,7 +8,7 @@ bord: desserts
 tags: [vegetarisch, dessert]
 ---
 
-> Vertaald uit het Engels; Amerikaanse maten omgerekend. De werkwijze is aangevuld.
+> Vertaald uit het Engels; Amerikaanse maten omgerekend. De post bevat enkel de ingrediënten en de vermelding om 1 uur in te vriezen; de rest van de werkwijze staat alleen in de video (bronlink).
 
 ## Ingrediënten
 
@@ -21,6 +21,4 @@ tags: [vegetarisch, dessert]
 
 ## Bereiding
 
-1. Meng de havermout met de honing en druk als bodem in muffinvormpjes.
-2. Vul met yoghurt en beleg met het fruit.
-3. Vries 1 uur in.
+1. Zet 1 uur in de diepvries.

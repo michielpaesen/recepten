@@ -8,7 +8,7 @@ bord: rijst
 tags: [kip, rijst, bowl]
 ---
 
-> Vertaald uit het Engels. De post vermeldt enkel ingrediënten en baktijden; de bereiding is aangevuld.
+> Vertaald uit het Engels. De post bevat enkel de ingrediënten en de baktijden van de kip; de rest van de bereiding staat alleen in de video (bronlink).
 
 ## Ingrediënten
 
@@ -43,9 +43,5 @@ tags: [kip, rijst, bowl]
 
 ## Bereiding
 
-1. Meng de kip met yoghurt, gehakte dille, geperste knoflook, paprikapoeder, komijn, citroensap, peper en zout.
-2. Bak de kip 20-25 minuten op 200 °C in de oven of 12-15 minuten in de airfryer; halverwege omdraaien.
-3. Kook de rijst.
-4. Snij de groenten in stukken en bak ze in een pan beetgaar.
-5. Rasp de komkommer, knijp uit en meng met yoghurt, dille en citroensap.
-6. Verdeel rijst, groenten en kip over kommen en serveer met de tzatziki.
+1. Kip in de oven: 20 à 25 minuten op 200 °C, halverwege omdraaien.
+2. Of kip in de airfryer: 12 à 15 minuten op 200 °C, halverwege omdraaien.

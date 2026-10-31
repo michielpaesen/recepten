@@ -8,7 +8,7 @@ bord: orzogriekse-pasta
 tags: [kip, orzo]
 ---
 
-> Vertaald uit het Engels. In de post staan geen hoeveelheden; de bereiding is aangevuld.
+> Vertaald uit het Engels. De post bevat enkel de ingrediënten; de bereiding staat alleen in de video (bronlink).
 
 ## Ingrediënten
 
@@ -28,8 +28,3 @@ tags: [kip, orzo]
 
 ## Bereiding
 
-1. Kruid de kip met peper, zout en paprikapoeder en bak goudbruin. Haal uit de pan.
-2. Fruit de ui en knoflook, voeg paprikapoeder, oregano en tomatenpuree toe en bak kort mee.
-3. Voeg de orzo, zongedroogde tomaten en bouillon toe en laat zacht koken tot de orzo bijna gaar is; regelmatig roeren.
-4. Roer de room en Parmezaan erdoor en leg de kip terug in de pan om op te warmen.
-5. Werk af met basilicum.

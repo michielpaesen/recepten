@@ -22,7 +22,8 @@
     q = String(q || '').trim();
     if (!q) return { sommen: {}, tekst: [] };
     const r = B.lees(q + ' ' + naam);
-    if (r && r.length === 1 && r[0].n !== null && naamVan(r[0].naam) === naam) return { sommen: { [r[0].eenheid]: r[0].n }, tekst: [] };
+    // "10 sneetjes" niet ombouwen tot "10 stuks": stuks enkel bij een kaal getal
+    if (r && r.length === 1 && r[0].n !== null && (r[0].eenheid !== 'stuk' || /^[\d.,½¼¾\/\s]+$/.test(q))) return { sommen: { [r[0].eenheid]: r[0].n }, tekst: [] };
     return { sommen: {}, tekst: [q] };
   }
   const hoeveel = it => [B.toon(it.naam, it.sommen || {}), ...(it.tekst || [])].filter(Boolean).join(' + ');
@@ -83,13 +84,13 @@
     recent: () => Object.entries(staat.items).filter(([, it]) => it.af).sort((a, b) => b[1].af - a[1].af),
     // entries: [{ naam, spec, sommen, tekst, voor }]
     voegToe: entries => wijzig((s, nu) => entries.forEach(e => bij(s.items, e, nu))),
-    voegToeTekst: (naam, spec, q) => { const n = naamVan(naam); if (!n) return Promise.resolve(); return api.voegToe([{ naam: n, spec, ...leesHoeveel(q, n), voor: [] }]); },
+    voegToeTekst: (naam, spec, q) => { const n = schoon(naam); if (!n) return Promise.resolve(); return api.voegToe([{ naam: n, spec, ...leesHoeveel(q, n), voor: [] }]); },
     afvinken: k => wijzig((s, nu) => { if (s.items[k]) s.items[k].af = nu; }),
     terug: k => wijzig(s => { if (s.items[k]) s.items[k].af = null; }),
     verwijder: k => wijzig(s => { delete s.items[k]; }),
     bewerk: (k, { naam, spec, q, cat }) => wijzig((s, nu) => {
       const it = s.items[k]; if (!it) return;
-      const n = naamVan(naam) || it.naam;
+      const n = schoon(naam) || it.naam;
       const nieuw = { ...kopie(it), naam: n, spec: schoon(spec), ...(q === null || q === undefined ? {} : leesHoeveel(q, n)) };
       if (cat) { nieuw.cat = cat; s.cats[n] = cat; }
       delete s.items[k];
@@ -129,8 +130,6 @@
   // ---- venster "Op boodschappenlijstje" (receptpagina, weekmenu) ----
   // recepten: [{ titel, regels: [...] }]
   const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
-  // kruiden en specerijen staan standaard aan; zout, peper en de rest van de voorraadkast (olie, bloem, sauzen…) uit
-  const KRUID = /^(?!bak|eiwit|cacao|choco|kipp?en|groente|runder)(.*poeder|komijn.*|kaneel.*|kurkuma|nootmuskaat|oregano|tijm|rozemarijn|basilicum|peterselie|dille|.*kruiden.*|ras el hanout|chilivlokken|cayennepeper|laurier.*|piment.*|kerrie.*|garam masala|saffraan|karwij.*|venkelzaad|sumak|za.?atar|dukkah|steranijs|kardemom|kruidnagel.*|gerookte paprika|paprika ?poeder|gemberpoeder|salie|bonenkruid|marjolein|dragon|vijfkruiden.*|kerriepoeder)$/;
   api.kies = (recepten, klaar) => {
     let dlg = document.getElementById('lijstkeuze');
     if (!dlg) {
@@ -141,10 +140,10 @@
     recepten.forEach((r, ri) => r.regels.forEach(regel => {
       const delen = B.lees(regel); if (!delen) return;
       // "peper en zout" wordt 2 producten: toon dan per product de eigen naam i.p.v. 2x de hele regel
-      delen.forEach(d => rijen.push({ ri, regel: delen.length > 1 ? (d.n !== null ? B.toon(d.naam, { [d.eenheid]: d.n }) + ' ' : '') + d.naam : regel, d, voorraad: B.categorie(d.naam).startsWith('Voorraadkast') && !KRUID.test(d.naam) }));
+      delen.forEach(d => rijen.push({ ri, regel: delen.length > 1 ? (d.n !== null ? B.toon(d.naam, { [d.eenheid]: d.n }) + ' ' : '') + d.naam : regel, d, voorraad: /^(zout|peper)$/.test(d.naam) }));
     }));
     dlg.innerHTML = '<form method="dialog" class="kieskop"><strong>🛒 Op boodschappenlijstje</strong><button class="tag" value="x" aria-label="Sluiten">✕</button></form>'
-      + '<p class="uitleg">Vink uit wat je al in huis hebt. Kruiden staan aan; zout, peper en de rest van de voorraadkast staan standaard uit.</p>'
+      + '<p class="uitleg">Vink uit wat je al in huis hebt. Zout en peper staan standaard uit.</p>'
       + '<div class="kiesregels">' + recepten.map((r, ri) => {
         const mijn = rijen.map((x, i) => [x, i]).filter(([x]) => x.ri === ri);
         if (!mijn.length) return '';

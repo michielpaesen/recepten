@@ -48,7 +48,7 @@ permalink: /weekmenu/
   <form method="dialog" class="kieskop"><strong id="kiestitel">Kies een gerecht</strong><button class="tag" aria-label="Sluiten">✕</button></form>
   <form id="eigenform" class="eigenform">
     <label for="eigen"><strong>Zelf intypen</strong></label>
-    <div class="voeg"><input id="eigen" placeholder="bv. frieten, uit eten…" autocomplete="off"><button class="knop">Zet erop</button></div>
+    <div class="voeg"><input id="eigen" placeholder="bv. frieten, uit eten…" autocomplete="off"><button class="knop" id="eigenknop">Zet erop</button></div>
     <div id="snel" class="tags"></div>
   </form>
   <p class="knoppen"><button class="knop licht" id="kiesrandom" type="button">🎲 Willekeurig</button><button class="knop licht" id="kiesleeg" type="button">Leegmaken</button><button class="knop licht" id="kiesmiddagweg" type="button">✕ Geen middag</button></p>
@@ -155,7 +155,9 @@ permalink: /weekmenu/
     kiesPlek = p;
     $('kiestitel').textContent = DAGEN[p.i] + ' · ' + p.m;
     $('kiesmiddagweg').hidden = p.m !== 'middag';
-    $('eigen').value = ''; $('kieszoek').value = '';
+    const nu = (p.m === 'avond' ? Week.dagen(week) : Week.middag(week))[p.i];
+    $('eigen').value = Week.isTekst(nu) ? Week.tekst(nu) : ''; $('kieszoek').value = '';
+    $('eigenknop').textContent = Week.isTekst(nu) ? 'Bewaren' : 'Zet erop';
     toonSnel(); toonKeuze(); $('kies').showModal();
   }
 
@@ -171,7 +173,8 @@ permalink: /weekmenu/
       + (r && r.l.length ? '<button class="tag" data-a="lijst" ' + d + ' aria-label="Op boodschappenlijstje">🛒</button>' : '')
       + (!v ? '<button class="tag" data-a="random" ' + d + ' aria-label="Willekeurig kiezen">🎲</button>' : '')
       + '<button class="tag" data-a="kies" ' + d + ' aria-label="Aanpassen">✎</button>'
-      + (m === 'middag' ? '<button class="tag" data-a="middagweg" ' + d + ' aria-label="Middag weghalen">✕</button>' : '') + '</span></div>';
+      + (m === 'middag' ? '<button class="tag" data-a="middagweg" ' + d + ' aria-label="Middag weghalen">✕</button>'
+         : Week.isTekst(v) ? '<button class="tag" data-a="wis" ' + d + ' aria-label="Wissen">✕</button>' : '') + '</span></div>';
   }
   function teken() {
     const ma = Week.datum(week), dagen = Week.dagen(week), middag = Week.middag(week), deze = Week.deze();
@@ -212,6 +215,7 @@ permalink: /weekmenu/
     if (a === 'lijst') { const r = perUrl[waarde()]; Lijstje.kies([{ titel: r.t, regels: r.l }], gezet); }
     if (a === 'kies') openKies(p);
     if (a === 'middagweg') zetPlek(p, null);
+    if (a === 'wis') zetPlek(p, null);
     if (a === 'plusmiddag') zetPlek({ m: 'middag', i: p.i }, '');
   });
   const gezet = n => { $('lijstok').innerHTML = n + ' op je lijstje · <a href="' + BASIS + '/boodschappen/">Bekijk</a>'; };

@@ -11,6 +11,7 @@ layout: default
     {% for tag in page.tags %}<span class="tag">{{ tag }}</span>{% endfor %}
   </p>
   <div class="opmenu">
+    <span class="moment" role="radiogroup" aria-label="Moment"><button type="button" role="radio" aria-checked="false" data-m="middag">☀️ Middag</button><button type="button" role="radio" aria-checked="true" data-m="avond" class="aan">🌙 Avond</button></span>
     <select id="wmdag" aria-label="Dag"></select>
     <button class="knop" id="wmzet">📅 Zet op weekmenu</button>
     <span id="wmok" class="uitleg"></span>
@@ -59,10 +60,17 @@ layout: default
     const DAGEN = ['Maandag', 'Dinsdag', 'Woensdag', 'Donderdag', 'Vrijdag', 'Zaterdag', 'Zondag'];
     const sel = document.getElementById('wmdag'), ok = document.getElementById('wmok'), id = h.dataset.id;
     const vandaag = Week.sleutel(new Date());
-    Week.onChange(() => {
+    let moment = 'avond';
+    const rij = k => moment === 'avond' ? Week.dagen(k) : Week.middag(k);
+    document.querySelectorAll('.moment button').forEach(b => b.addEventListener('click', () => {
+      moment = b.dataset.m;
+      document.querySelectorAll('.moment button').forEach(x => { x.classList.toggle('aan', x === b); x.setAttribute('aria-checked', x === b); });
+      ok.textContent = ''; vulDagen();
+    }));
+    const vulDagen = () => {
       const keuze = sel.value;
       sel.innerHTML = [0, 1].map(n => {
-        const k = Week.plus(Week.deze(), n), dagen = Week.dagen(k);
+        const k = Week.plus(Week.deze(), n), dagen = rij(k);
         return '<optgroup label="' + (n ? 'Volgende week' : 'Deze week') + '">' + DAGEN.map((d, i) => {
           const dt = Week.plusDagen(Week.datum(k), i), s = Week.sleutel(dt);
           if (s < vandaag) return '';
@@ -71,11 +79,12 @@ layout: default
       }).join('');
       if (keuze && sel.querySelector('option[value="' + keuze + '"]')) sel.value = keuze;
       else { const vrij = [...sel.options].find(o => !/\(|✓/.test(o.text)); if (vrij) sel.value = vrij.value; }
-    });
+    };
+    Week.onChange(vulDagen);
     document.getElementById('wmzet').addEventListener('click', () => {
-      const [k, i] = sel.value.split('|'), dagen = Week.dagen(k);
-      dagen[+i] = id; Week.zet(k, dagen);
-      ok.innerHTML = 'Staat erop! <a href="{{ '/weekmenu/' | relative_url }}#' + k + '">Bekijk weekmenu</a>';
+      const [k, i] = sel.value.split('|'), dagen = Week.dagen(k), middag = Week.middag(k);
+      (moment === 'avond' ? dagen : middag)[+i] = id; Week.zet(k, dagen, middag);
+      ok.innerHTML = 'Staat erop' + (moment === 'middag' ? ' als middag' : '') + '! <a href="{{ '/weekmenu/' | relative_url }}#' + k + '">Bekijk weekmenu</a>';
     });
   })();
 </script>

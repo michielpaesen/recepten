@@ -129,6 +129,13 @@
     return n;
   }
 
+  // enkel meervoud → enkelvoud, zonder synoniemen (voor zelf getypte namen)
+  function enkelvoud(s) {
+    const w = String(s || '').toLowerCase().replace(/[’']/g, '').replace(/\s+/g, ' ').trim().split(' ').filter(Boolean).map(x => ENKELVOUD[x] || x);
+    const n = w.join(' ');
+    return ENKELVOUD[n] || n;
+  }
+
   function lees(regel) {
     let s = ' ' + regel.replace(/\*\*/g, '').replace(/[½¼¾⅓⅔]/g, c => BREUK[c]).replace(/(\d)\.(\d)/g, '$1.$2').toLowerCase() + ' ';
     s = s.replace(/(\d) \.(\d)/g, '$1$2').replace(/ \.(\d)/g, ' 0.$1');
@@ -235,6 +242,6 @@
     return volgorde.filter(c => groepen[c]).map(c => ({ categorie: c, items: groepen[c].sort((a, b) => a.naam.localeCompare(b.naam)) }));
   }
 
-  const api = { lees, lijst, toon, naamVan, categorie, VOLGORDE };
+  const api = { lees, lijst, toon, naamVan, enkelvoud, categorie, VOLGORDE };
   if (typeof module !== 'undefined') module.exports = api; else window.Boodschappen = api;
 })();

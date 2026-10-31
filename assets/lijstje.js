@@ -26,7 +26,11 @@
     if (r && r.length === 1 && r[0].n !== null && (r[0].eenheid !== 'stuk' || /^[\d.,½¼¾\/\s]+$/.test(q))) return { sommen: { [r[0].eenheid]: r[0].n }, tekst: [] };
     return { sommen: {}, tekst: [q] };
   }
-  const hoeveel = it => [B.toon(it.naam, it.sommen || {}), ...(it.tekst || [])].filter(Boolean).join(' + ');
+  const hoeveel = it => {
+    const s = { ...(it.sommen || {}) }, l = it.leeg || 0;
+    if (l && (s.stuk || l > 1)) s.stuk = (s.stuk || 0) + l; // één keer zonder aantal: geen getal tonen
+    return [B.toon(it.naam, s), ...(it.tekst || [])].filter(Boolean).join(' + ');
+  };
   const catVan = (naam, it) => (it && it.cat) || staat.cats[naam] || B.categorie(naam);
 
   // één item (nieuw of bijtellen) in een items-object zetten
@@ -34,11 +38,12 @@
     const k = sleutel(e.naam, e.spec);
     const oud = items[k];
     if (!oud || oud.af) {
-      items[k] = { naam: e.naam, spec: schoon(e.spec), sommen: { ...(e.sommen || {}) }, tekst: [...(e.tekst || [])], voor: [...(e.voor || [])], af: null, t: nu };
+      items[k] = { naam: e.naam, spec: schoon(e.spec), sommen: { ...(e.sommen || {}) }, tekst: [...(e.tekst || [])], leeg: e.leeg || 0, voor: [...(e.voor || [])], af: null, t: nu };
       if (oud && oud.cat) items[k].cat = oud.cat;
       return;
     }
     for (const [u, n] of Object.entries(e.sommen || {})) oud.sommen[u] = (oud.sommen[u] || 0) + n;
+    if (e.leeg) oud.leeg = (oud.leeg || 0) + e.leeg;
     (e.tekst || []).forEach(x => oud.tekst.push(x));
     (e.voor || []).forEach(v => { if (!oud.voor.includes(v)) oud.voor.push(v); });
   }
@@ -84,14 +89,15 @@
     recent: () => Object.entries(staat.items).filter(([, it]) => it.af).sort((a, b) => b[1].af - a[1].af),
     // entries: [{ naam, spec, sommen, tekst, voor }]
     voegToe: entries => wijzig((s, nu) => entries.forEach(e => bij(s.items, e, nu))),
-    voegToeTekst: (naam, spec, q) => { const n = schoon(naam); if (!n) return Promise.resolve(); return api.voegToe([{ naam: n, spec, ...leesHoeveel(q, n), voor: [] }]); },
+    // zonder hoeveelheid telt elke keer toevoegen als 1 extra (2x "ui" = 2 stuks)
+    voegToeTekst: (naam, spec, q) => { const n = B.enkelvoud(naam); if (!n) return Promise.resolve(); return api.voegToe([{ naam: n, spec, ...leesHoeveel(q, n), leeg: String(q || '').trim() ? 0 : 1, voor: [] }]); },
     afvinken: k => wijzig((s, nu) => { if (s.items[k]) s.items[k].af = nu; }),
     terug: k => wijzig(s => { if (s.items[k]) s.items[k].af = null; }),
     verwijder: k => wijzig(s => { delete s.items[k]; }),
     bewerk: (k, { naam, spec, q, cat }) => wijzig((s, nu) => {
       const it = s.items[k]; if (!it) return;
-      const n = schoon(naam) || it.naam;
-      const nieuw = { ...kopie(it), naam: n, spec: schoon(spec), ...(q === null || q === undefined ? {} : leesHoeveel(q, n)) };
+      const n = B.enkelvoud(naam) || it.naam;
+      const nieuw = { ...kopie(it), naam: n, spec: schoon(spec), ...(q === null || q === undefined ? {} : { ...leesHoeveel(q, n), leeg: 0 }) };
       if (cat) { nieuw.cat = cat; s.cats[n] = cat; }
       delete s.items[k];
       const k2 = sleutel(n, spec);

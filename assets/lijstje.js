@@ -129,6 +129,8 @@
   // ---- venster "Op boodschappenlijstje" (receptpagina, weekmenu) ----
   // recepten: [{ titel, regels: [...] }]
   const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+  // kruiden en specerijen staan standaard aan; zout, peper en de rest van de voorraadkast (olie, bloem, sauzen…) uit
+  const KRUID = /^(?!bak|eiwit|cacao|choco|kipp?en|groente|runder)(.*poeder|komijn.*|kaneel.*|kurkuma|nootmuskaat|oregano|tijm|rozemarijn|basilicum|peterselie|dille|.*kruiden.*|ras el hanout|chilivlokken|cayennepeper|laurier.*|piment.*|kerrie.*|garam masala|saffraan|karwij.*|venkelzaad|sumak|za.?atar|dukkah|steranijs|kardemom|kruidnagel.*|gerookte paprika|paprika ?poeder|gemberpoeder|salie|bonenkruid|marjolein|dragon|vijfkruiden.*|kerriepoeder)$/;
   api.kies = (recepten, klaar) => {
     let dlg = document.getElementById('lijstkeuze');
     if (!dlg) {
@@ -139,10 +141,10 @@
     recepten.forEach((r, ri) => r.regels.forEach(regel => {
       const delen = B.lees(regel); if (!delen) return;
       // "peper en zout" wordt 2 producten: toon dan per product de eigen naam i.p.v. 2x de hele regel
-      delen.forEach(d => rijen.push({ ri, regel: delen.length > 1 ? (d.n !== null ? B.toon(d.naam, { [d.eenheid]: d.n }) + ' ' : '') + d.naam : regel, d, voorraad: B.categorie(d.naam).startsWith('Voorraadkast') }));
+      delen.forEach(d => rijen.push({ ri, regel: delen.length > 1 ? (d.n !== null ? B.toon(d.naam, { [d.eenheid]: d.n }) + ' ' : '') + d.naam : regel, d, voorraad: B.categorie(d.naam).startsWith('Voorraadkast') && !KRUID.test(d.naam) }));
     }));
     dlg.innerHTML = '<form method="dialog" class="kieskop"><strong>🛒 Op boodschappenlijstje</strong><button class="tag" value="x" aria-label="Sluiten">✕</button></form>'
-      + '<p class="uitleg">Vink uit wat je al in huis hebt. Voorraadkast staat standaard uit.</p>'
+      + '<p class="uitleg">Vink uit wat je al in huis hebt. Kruiden staan aan; zout, peper en de rest van de voorraadkast staan standaard uit.</p>'
       + '<div class="kiesregels">' + recepten.map((r, ri) => {
         const mijn = rijen.map((x, i) => [x, i]).filter(([x]) => x.ri === ri);
         if (!mijn.length) return '';

@@ -32,3 +32,5 @@ tags: [vegetarisch, orzo, feta, salade]
 5. Verhit een pan op middelhoog vuur; de pan moet heet zijn voor je de garnalen erin legt.
 6. Bak de garnalen met wat ruimte ertussen 1 à 2 minuten per kant. Haal ze van het vuur zodra ze roze zijn en krullen.
 7. Schep de garnalen door de orzo.
+
+*Lekker met gegrilde kip, kebab of garnalen; kan de avond ervoor gemaakt worden.*

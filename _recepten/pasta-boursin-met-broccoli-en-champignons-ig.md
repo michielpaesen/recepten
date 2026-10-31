@@ -30,3 +30,5 @@ tags: [vegetarisch]
 5. Schep de voorgekookte broccoli erdoor. Giet de pasta af (vang wat kookvocht op) en voeg een beetje kookvocht toe als de saus smeuïger moet.
 6. Breng op smaak met zout en peper.
 7. Verdeel over de borden en garneer met geraspte Parmezaanse kaas en verse basilicum.
+
+**Tip:** liever mét vlees? Voeg dan wat stukjes kip of spekjes toe bij de champignons, of gebruik een vega variant. Ook lekker met wat krokante walnoten erover.

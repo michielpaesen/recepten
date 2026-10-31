@@ -8,7 +8,7 @@ bord: noodles
 tags: [vegetarisch, soep]
 ---
 
-> In de post staan enkel de ingrediënten; de bereiding is aangevuld.
+> De post bevat niet de volledige bereiding; die komt van [leukerecepten.nl](https://www.leukerecepten.nl/recepten/miso-soep-met-gyozas/).
 
 ## Ingrediënten
 
@@ -26,8 +26,10 @@ tags: [vegetarisch, soep]
 
 ## Bereiding
 
-1. Bak de gyoza's goudbruin in de zonnebloemolie en zet apart.
-2. Bak de knoflook en champignons in de sesamolie.
-3. Voeg het water toe, breng tegen de kook en los de misopasta erin op (niet laten koken).
-4. Voeg de paksoi en eventueel tofu toe en laat 2-3 minuten garen.
-5. Verdeel over kommen met de gyoza's, taugé, sesamzaad en eventueel een ei of gochujang.
+1. Bak de gyoza's in de zonnebloemolie volgens de verpakking.
+2. Fruit in een andere pan de knoflook, de plakjes champignons en de paksoi in stukjes een paar minuten in sesamolie tot ze zacht zijn.
+3. Voeg de misopasta en het water toe en roer goed. Laat even sudderen en roer de helft van de taugé erdoor.
+4. Voeg de gyoza's toe aan de soep als ze klaar zijn. Garneer met sesamzaadjes en eventueel extra taugé en wat gochujang voor een pittige kick.
+5. Voor een maaltijdsoep kan je gebakken tofublokjes of een gekookt eitje toevoegen.
+
+**Tip:** de soep blijft maximaal 2 dagen goed, afgedekt in de koelkast.

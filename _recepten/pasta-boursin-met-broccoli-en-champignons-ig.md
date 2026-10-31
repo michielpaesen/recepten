@@ -8,7 +8,7 @@ bord: pasta
 tags: [vegetarisch]
 ---
 
-> In de post staan enkel de ingrediënten; de bereiding is aangevuld.
+> De post bevat niet de volledige bereiding; die komt van [leukerecepten.nl](https://www.leukerecepten.nl/recepten/pasta-boursin-en-broccoli/).
 
 ## Ingrediënten
 
@@ -23,9 +23,10 @@ tags: [vegetarisch]
 
 ## Bereiding
 
-1. Kook de pasta en voeg de laatste 4 minuten de broccoliroosjes toe.
-2. Snipper de ui, snij de champignons en bak ze goudbruin.
-3. Voeg de Boursin en kookroom toe en roer tot een romige saus.
-4. Schep de pasta en broccoli erdoor en werk af met Parmezaan en basilicum.
-
-*Tip: voeg kip of spekjes toe bij de champignons, of strooi er krokante walnoten over.*
+1. Kook de pasta volgens de verpakking.
+2. Snipper de ui fijn en snijd de champignons in plakjes. Verdeel de broccoli in kleine roosjes en kook ze in circa 5 minuten beetgaar.
+3. Verhit een beetje olie in een pan en fruit de ui glazig. Voeg de champignons toe en bak mee tot ze zacht zijn.
+4. Voeg de Boursin en de kookroom toe en roer alles goed door elkaar.
+5. Schep de voorgekookte broccoli erdoor. Giet de pasta af (vang wat kookvocht op) en voeg een beetje kookvocht toe als de saus smeuïger moet.
+6. Breng op smaak met zout en peper.
+7. Verdeel over de borden en garneer met geraspte Parmezaanse kaas en verse basilicum.

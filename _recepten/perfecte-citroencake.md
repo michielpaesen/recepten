@@ -8,7 +8,7 @@ bord: baking-zoet
 tags: [vegetarisch, bakken]
 ---
 
-> In de post staan enkel de ingrediënten; de bereiding is aangevuld.
+> De post bevat niet de volledige bereiding; die komt van [leukerecepten.nl](https://www.leukerecepten.nl/recepten/citroencake-recept/).
 
 ## Ingrediënten
 
@@ -22,9 +22,10 @@ tags: [vegetarisch, bakken]
 
 ## Bereiding
 
-1. Verwarm de oven voor op 175 °C en vet een cakevorm in.
-2. Mix boter, suiker, vanillesuiker en zout luchtig.
-3. Klop de eieren er één voor één door.
-4. Spatel het bakmeel, de citroenrasp en het sap van 1 citroen erdoor.
-5. Giet in de vorm en bak 55-60 minuten tot een prikker er schoon uitkomt.
-6. Prik er na het bakken gaatjes in en besprenkel met het sap van de tweede citroen (eventueel gemengd met wat suiker).
+1. Verwarm de oven voor op 180 °C en bekleed een cakevorm met bakpapier of vet hem in.
+2. Mix de boter, suiker en het ei romig in een kom.
+3. Voeg het zelfrijzend bakmeel en het zout toe en mix tot een glad beslag.
+4. Rasp de schil van de citroenen en pers het sap uit. Voeg rasp en sap toe aan het beslag en meng goed.
+5. Giet het beslag in de vorm en bak de cake 50 à 60 minuten goudbruin en gaar; een satéprikker moet er droog uitkomen. Laat de cake nog een kwartier in de oven staan met de deur op een kier.
+6. Laat de cake 10 minuten afkoelen in de vorm en stort hem daarna op een rooster om volledig af te koelen.
+7. Bestrooi met wat poedersuiker en garneer eventueel met een partje citroen.

@@ -8,7 +8,7 @@ bord: parelcouscous
 tags: [vegetarisch, parelcouscous, feta]
 ---
 
-> In de post staan enkel de ingrediënten; de bereiding is aangevuld (het volledige recept staat op leukerecepten.nl).
+> De post bevat niet de volledige bereiding; die komt van [leukerecepten.nl](https://www.leukerecepten.nl/recepten/witte-asperges-met-couscous-en-feta/).
 
 ## Ingrediënten
 
@@ -32,8 +32,12 @@ tags: [vegetarisch, parelcouscous, feta]
 
 ## Bereiding
 
-1. Verwarm de oven voor op 200 °C. Meng de ovengroenten met olijfolie, ras el hanout, peper en zout en rooster ongeveer 25 minuten.
-2. Schil de asperges en kook ze 5 minuten voor in water met een scheutje melk. Laat uitlekken en gril ze in een grillpan.
-3. Kook de parelcouscous.
-4. Meng de ingrediënten voor de dressing.
-5. Meng couscous en ovengroenten, leg de asperges erop en werk af met feta, walnoten en de dressing.
+1. Verwarm de oven voor op 200 graden.
+2. Meng de ovengroenten met 1 eetlepel olijfolie, de ras-el-hanout en wat peper en zout. Spreid ze uit op een bakplaat en rooster ongeveer 20 minuten, tot ze gaar en licht gekaramelliseerd zijn.
+3. Schil ondertussen de asperges van net onder het kopje naar beneden en snijd het houterige uiteinde eraf. Kook ze in ruim water met een scheutje melk en een snufje zout in ongeveer 5 minuten beetgaar (afhankelijk van de dikte) en laat goed uitlekken.
+4. Verhit een grillpan op middelhoog vuur, bestrijk de asperges licht met olijfolie en grill ze kort tot ze mooie grillstrepen hebben.
+5. Kook de parelcouscous volgens de verpakking, giet af en meng in een grote kom met de geroosterde groenten.
+6. Meng voor de dressing 2 eetlepels olijfolie, het citroensap, de oregano, de honing en wat peper en zout, en roer de dressing door de couscous.
+7. Verdeel de couscous over de borden, leg de asperges erop, verkruimel de feta erover en strooi de walnoten erover.
+
+**Tip:** de couscoussalade (zonder asperges en feta) blijft 2 dagen goed, afgedekt in de koelkast. De asperges bewaar je apart en warm je vlak voor het serveren kort op of gebruik je koud.

@@ -8,7 +8,7 @@ bord: pasta-ovenschotel
 tags: [vegetarisch, feta, oven, topper]
 ---
 
-> In de post staan enkel de ingrediënten; de bereiding is aangevuld.
+> De post bevat niet de volledige bereiding; die komt van [leukerecepten.nl](https://www.leukerecepten.nl/recepten/pasta-met-gebakken-feta/).
 
 ## Ingrediënten
 
@@ -25,8 +25,12 @@ tags: [vegetarisch, feta, oven, topper]
 
 ## Bereiding
 
-1. Verwarm de oven voor op 200 °C.
-2. Leg de tomaten, puntpaprika in stukjes, rode ui in partjes en de knoflook in een ovenschaal. Leg de feta in het midden.
-3. Besprenkel met olijfolie en bestrooi met chili, oregano en peper. Bak ongeveer 25 minuten.
-4. Kook intussen de pasta.
-5. Plet de feta en groenten tot een saus en schep de pasta erdoor.
+1. Verwarm de oven voor op 200 graden.
+2. Leg de kerstomaten en de puntpaprika in reepjes in een ovenschaal, met de feta in het midden.
+3. Voeg de ui in stukjes en de knoflook in plakjes toe, bestrooi met een snufje chili, oregano en peper en besprenkel alles met olijfolie.
+4. Bak 25 à 30 minuten in de oven, tot de tomaten zacht zijn en de feta lichtbruin en zacht is.
+5. Kook ondertussen de pasta al dente volgens de verpakking. Hou een kopje kookvocht apart voor je afgiet.
+6. Haal de ovenschaal uit de oven als alles gaar is.
+7. Prak de feta en knoflook met een vork tot een romige saus in de schaal.
+8. Meng de pasta voorzichtig met de fetasaus en de groenten. Voeg wat kookvocht toe als de saus te dik is.
+9. Serveer direct, met wat extra oregano en peper naar smaak.

@@ -8,7 +8,7 @@ bord: orzogriekse-pasta
 tags: [vegetarisch, orzo]
 ---
 
-> In de post staan enkel de ingrediënten; de bereiding is aangevuld (het volledige recept staat op leukerecepten.nl).
+> De post bevat niet de volledige bereiding; die komt van [leukerecepten.nl](https://www.leukerecepten.nl/recepten/orzo-met-champignons/).
 
 ## Ingrediënten
 
@@ -22,8 +22,11 @@ tags: [vegetarisch, orzo]
 
 ## Bereiding
 
-1. Kook de orzo volgens de verpakking.
-2. Snipper de ui, hak de knoflook en snij de champignons en tomaatjes.
-3. Fruit de ui en knoflook in wat olie van de tomaatjes en bak de champignons goudbruin.
-4. Voeg de tomaatjes en crème fraîche toe en laat even warm worden.
-5. Schep de orzo erdoor, breng op smaak en werk af met basilicum.
+1. Kook de orzo volgens de verpakking, giet af en zet even apart.
+2. Snipper de ui en hak de knoflook fijn. Verhit een beetje olie in een grote pan en bak de ui en knoflook glazig.
+3. Snijd de champignons in plakjes en bak ze 5 à 7 minuten mee tot ze mooi bruin en gaar zijn. Snijd de gedroogde tomaatjes in kleine stukjes en voeg ze toe met wat verse basilicum.
+4. Voeg de gekookte orzo toe en roer goed door.
+5. Roer de crème fraîche erdoor en laat alles zachtjes warm worden.
+6. Breng op smaak met zout en peper.
+7. Serveer direct, eventueel met wat extra basilicum.
+8. Restjes blijven maximaal 2 dagen goed in een afgesloten bakje in de koelkast.

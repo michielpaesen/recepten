@@ -8,7 +8,7 @@ bord: gehakt
 tags: [rund, gehakt, rijst]
 ---
 
-> In de post staan enkel de ingrediënten; de bereiding is aangevuld (het volledige recept staat op smaakmenutie.nl/kofta).
+> De post bevat niet de volledige bereiding; die komt van [smaakmenutie.nl](https://smaakmenutie.nl/kofta/).
 
 ## Ingrediënten
 
@@ -30,8 +30,11 @@ tags: [rund, gehakt, rijst]
 
 ## Bereiding
 
-1. Meng het gehakt met het ei, paneermeel, de helft van de kruiden, 1 geperste teen knoflook, peper en zout. Vorm langwerpige rolletjes.
-2. Bak de kofta rondom bruin en haal uit de pan.
-3. Fruit de sjalotten en de rest van de knoflook, voeg paprika en courgette in blokjes toe en bak een paar minuten.
-4. Voeg de tomatenblokjes en de rest van de kruiden toe en leg de kofta erin. Laat afgedekt ongeveer 20 minuten zacht garen.
-5. Werk af met peterselie en serveer met rijst, tzatziki en een Griekse salade.
+1. Meng in een kom 300 g rundergehakt grondig met 1 ei, 4 el paneermeel, 1 ragfijn gesneden sjalot, 1 ragfijn gesneden teentje knoflook, 1 tl gemalen komijn, 1 tl gedroogde oregano, 1 tl paprikapoeder, ½ tl nootmuskaat en een flinke snuf zout en peper.
+2. Draai rolletjes of balletjes van ongeveer 20 g.
+3. Bak ze in een flinke scheut olijfolie rondom bruin en gaar. Haal uit de pan en zet even weg.
+4. Snipper ondertussen 1 sjalot en snijd 1 teentje knoflook fijn. Snijd 1 courgette in halve maantjes en 2 paprika's in blokjes.
+5. Fruit de sjalot en knoflook in de pan waarin de balletjes zaten. Voeg courgette en paprika toe en bak al omscheppend een minuut of 5.
+6. Voeg 1 blik tomatenblokjes (400 g) toe met 1 tl komijn, 1 tl paprikapoeder, 1 tl oregano en een klein theelepeltje cayennepeper en kaneel. Meng goed.
+7. Doe de balletjes terug in de pan, voeg eventueel wat water toe zodat ze net onder staan, leg de deksel erop en laat 15 à 20 minuten zachtjes pruttelen.
+8. Haal de deksel eraf en laat nog 10 à 15 minuten indikken. Serveer met witte rijst, eventueel wat peterselie en tzatziki.

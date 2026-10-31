@@ -8,7 +8,7 @@ bord: salade-vegetarische
 tags: [vegetarisch, salade, bijgerecht]
 ---
 
-> In de post staan enkel de ingrediënten; de bereiding is aangevuld.
+> In de post staan enkel de ingrediënten; de bereiding komt van [leukerecepten.nl](https://www.leukerecepten.nl/recepten/bleekselderijsalade-met-appel/).
 
 ## Ingrediënten
 
@@ -25,7 +25,9 @@ tags: [vegetarisch, salade, bijgerecht]
 
 ## Bereiding
 
-1. Snij de bleekselderij in dunne plakjes en de appel in blokjes. Besprenkel de appel met wat citroensap.
-2. Meng yoghurt, mayonaise, mosterd, kerriepoeder, wat citroensap, peper en zout.
-3. Meng alles met de rozijnen en grof gehakte walnoten.
-4. Serveer meteen of bewaar tot 3 dagen afgedekt in de koelkast.
+1. Maak de bleekselderijstengels schoon door ze af te spoelen met water.
+2. Haal ook zoveel mogelijk van de slierten vanaf de bovenkant weg. Zet hiervoor je mesje schuin tegen de bovenkant en trek zo de sliertjes naar onder. Snijd de stengels daarna in dunne plakjes en doe ze in een kom.
+3. Was de kleine appeltjes en verwijder de zaadlijsten. Snijd de appel met schil in dunne reepjes en doe ze ook in de kom.
+4. Mix in een kommetje de yoghurt, mayonaise, mosterd en kerriepoeder. Schep het in de kom en mix het goed met de appel en bleekselderij.
+5. Voeg de rozijnen en walnoten toe en mix nogmaals goed door elkaar.
+6. Breng de salade op smaak met peper, zout en citroenrasp en -sap. Serveer meteen als bijgerecht of bewaar tot 3 dagen, afgedekt, in de koelkast.

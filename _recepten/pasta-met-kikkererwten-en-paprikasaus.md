@@ -8,7 +8,7 @@ bord: fusilli
 tags: [vegetarisch]
 ---
 
-> In de post staan enkel de ingrediënten; de bereiding is aangevuld.
+> De post bevat niet de volledige bereiding; die komt van [leukerecepten.nl](https://www.leukerecepten.nl/recepten/pasta-met-kikkererwten-en-paprikasaus/).
 
 ## Ingrediënten
 
@@ -23,8 +23,10 @@ tags: [vegetarisch]
 
 ## Bereiding
 
-1. Kook de fusilli.
-2. Mix de geroosterde paprika met de knoflook, de helft van de Parmezaan en de kruiden tot een gladde saus.
-3. Warm de saus op met de uitgelekte kikkererwten.
-4. Schep de pasta erdoor en voeg de gehalveerde tomaatjes toe.
-5. Werk af met de rest van de Parmezaan en basilicum.
+1. Kook de pasta gaar volgens de verpakking.
+2. Halveer ondertussen de tomaatjes en laat de kikkererwten uitlekken.
+3. Mix de paprika, knoflook en zout tot een saus (met een blender of staafmixer).
+4. Verwarm de saus in een pan met de tomaatjes en de kikkererwten. Roer de Parmezaanse kaas erdoor en breng op smaak met cayennepeper en zwarte peper.
+5. Serveer de pasta met de saus erover en garneer eventueel met basilicum.
+
+**Tip:** wordt de pasta droog, voeg dan wat kookvocht toe. Hou je niet van pittig, laat de cayennepeper dan weg.

@@ -8,7 +8,7 @@ bord: noodles
 tags: [kip, noedels, pinda]
 ---
 
-> In de post staan enkel de ingrediënten; de bereiding is aangevuld (het volledige recept staat op leukerecepten.nl).
+> De post bevat niet de volledige bereiding; die komt van [leukerecepten.nl](https://www.leukerecepten.nl/recepten/pad-thai-recept/).
 
 ## Ingrediënten
 
@@ -33,9 +33,10 @@ tags: [kip, noedels, pinda]
 
 ## Bereiding
 
-1. Week of kook de rijstnoedels volgens de verpakking.
-2. Meng de ingrediënten voor de saus.
-3. Verhit de olie in een wok, bak de ui en knoflook kort en roerbak de kip in reepjes gaar.
-4. Schuif opzij, breek de eieren in de wok en roer tot ze gestold zijn.
-5. Voeg de noedels en saus toe en schep goed om. Roer de taugé en bosui erdoor.
-6. Serveer met gehakte pinda's en partjes limoen.
+1. Bereid de rijstnoedels volgens de verpakking en zet apart.
+2. Verhit de olie in een grote pan of wok op hoog vuur. Voeg de ui en knoflook toe en bak 2 minuten.
+3. Voeg de kip in reepjes of blokjes toe en bak net gaar. Schuif de kip naar de zijkant van de pan.
+4. Klop de eieren los en bak ze in dezelfde pan tot roerei.
+5. Meng alle ingrediënten voor de saus in een kommetje. Voeg de saus en de noedels toe aan de pan en roer alles goed door.
+6. Voeg de lente-ui, taugé en gehakte pinda's toe en bak kort mee, zodat de groenten nog wat knapperig blijven.
+7. Garneer met extra pinda's en partjes limoen.

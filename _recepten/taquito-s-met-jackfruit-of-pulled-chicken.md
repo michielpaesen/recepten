@@ -8,7 +8,7 @@ bord: tacos
 tags: [vegetarisch]
 ---
 
-> In de post staan enkel de ingrediënten; de bereiding is aangevuld.
+> De post bevat niet de volledige bereiding; die komt van [leukerecepten.nl](https://www.leukerecepten.nl/recepten/taquitos/).
 
 ## Ingrediënten
 
@@ -25,8 +25,9 @@ tags: [vegetarisch]
 
 ## Bereiding
 
-1. Laat de jackfruit uitlekken, trek uit elkaar en bak met de gesnipperde rode ui en knoflookpoeder een paar minuten.
-2. Roer de barbecuesaus, de helft van de yoghurt en de bosui erdoor.
-3. Verdeel de vulling en cheddar over de wraps en rol ze strak op.
-4. Bak de taquito's met de naad naar beneden in olie rondom krokant (of bestrijk met olie en bak in oven of airfryer op 200 °C).
-5. Serveer met de rest van de yoghurt als dip.
+1. Spoel de jackfruit af in een vergiet en trek hem in kleinere stukken. Je kan ook pulled chicken gebruiken.
+2. Meng de jackfruit in een kom met de barbecuesaus, geraspte cheddar, de kruiden en de helft van de Griekse yoghurt.
+3. Snijd de lente-ui en rode ui in stukjes en meng ze erdoor.
+4. Leg wat vulling op een wrap en rol op. Plak de wrap eventueel dicht met een klein beetje yoghurt.
+5. Verhit wat olie in een koekenpan en bak de taquito's goudbruin. Zet het vuur niet te hoog, zodat de cheddar kan smelten.
+6. Gebruik de rest van de yoghurt als dipsaus, eventueel met wat chilisaus. Lekker met rijst.

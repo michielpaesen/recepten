@@ -8,7 +8,7 @@ bord: salade-vegetarische
 tags: [vegetarisch, salade, bbq, bijgerecht]
 ---
 
-> In de post staan enkel de ingrediënten; de bereiding is aangevuld (het volledige recept staat op leukerecepten.nl).
+> De post bevat niet de volledige bereiding; die komt van [leukerecepten.nl](https://www.leukerecepten.nl/recepten/coleslaw/).
 
 ## Ingrediënten
 
@@ -27,8 +27,8 @@ tags: [vegetarisch, salade, bbq, bijgerecht]
 
 ## Bereiding
 
-1. Snij de witte en rode kool in fijne reepjes en meng met de wortel.
+1. Doe de mayonaise, yoghurt, honing, mosterd en peper en zout in een grote schaal. Meng alles goed door elkaar.
 2. Hak de amandelen en peterselie grof.
-3. Roer mayonaise, yoghurt, agavesiroop en mosterd tot een dressing en breng op smaak.
-4. Meng de groenten met de dressing, rozijnen, pitten, amandelen en peterselie.
-5. Laat een paar uur intrekken. Lekker bij de barbecue of op een broodje pulled chicken.
+3. Snijd de kool en wortel heel fijn (julienne); eventueel kun je dit ook kant-en-klaar kopen.
+4. Voeg de kool, wortel, amandelen, rozijnen, pitten en peterselie toe aan de saus en schep alles goed door elkaar.
+5. Breng eventueel nog op smaak met wat extra peper of zout.

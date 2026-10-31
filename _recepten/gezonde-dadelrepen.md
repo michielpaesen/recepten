@@ -8,7 +8,7 @@ bord: baking-zoet
 tags: [vegan, vegetarisch]
 ---
 
-> In de post staan enkel de ingrediënten; de bereiding is aangevuld (het volledige recept staat op leukerecepten.nl).
+> De post bevat niet de volledige bereiding; die komt van [leukerecepten.nl](https://www.leukerecepten.nl/recepten/gezonde-dadelrepen/).
 
 ## Ingrediënten
 
@@ -22,8 +22,10 @@ tags: [vegan, vegetarisch]
 
 ## Bereiding
 
-1. Week de dadels 10 minuten in warm water als ze droog zijn en laat goed uitlekken.
-2. Hak noten en pompoenpitten grof in de keukenmachine en haal de helft eruit.
-3. Mix de dadels, havermout, notenpasta, zout en kruiden met de rest van de noten tot een plakkerige massa. Roer de grof gehakte noten erdoor.
-4. Druk stevig aan in een vorm met bakpapier en zet minstens 1 uur in de koelkast.
-5. Snij in repen en bewaar in de koelkast.
+1. Ontpit de dadels en leg ze 10 minuten in een kom met heet water.
+2. Verwarm de oven voor op 170 °C en bekleed een vierkante bakvorm van 20×20 cm met bakpapier.
+3. Doe de havermout, noten, koek- en speculaaskruiden en een snufje zout in de keukenmachine en mix tot het kruimelig maar niet helemaal fijn is.
+4. Voeg de geweekte dadels, pompoenpitten en notenpasta toe en mix tot de dadels gepureerd zijn. Voeg een scheutje water toe als het te droog is.
+5. Verdeel het mengsel in de bakvorm, leg er een vel bakpapier op en druk stevig aan met een glas of je handen.
+6. Bak 25 minuten. Laat daarna minstens 30 minuten afkoelen voor je ze in repen snijdt.
+7. Snijd in 10 gelijke repen. Ze blijven een week goed in de koelkast, of tot 3 maanden in de diepvries.

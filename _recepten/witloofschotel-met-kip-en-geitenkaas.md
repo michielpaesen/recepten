@@ -8,7 +8,7 @@ bord: ovenschotels
 tags: [kip, ovenschotel]
 ---
 
-> In de post staan enkel de ingrediënten; de bereiding is aangevuld (het volledige recept staat op smaakmenutie.nl).
+> De post bevat niet de volledige bereiding; die komt van [smaakmenutie.nl](https://smaakmenutie.nl/witlof-ovenschotel-kip-geitenkaas/).
 
 ## Ingrediënten
 
@@ -23,8 +23,8 @@ tags: [kip, ovenschotel]
 
 ## Bereiding
 
-1. Verwarm de oven voor op 200 °C.
-2. Halveer het witloof in de lengte en leg met de snijkant omhoog in een ovenschaal met de gehalveerde radijsjes. Besprenkel met olie en bestrooi met suiker of honing.
-3. Kruid de kip met tijm, knoflookpoeder, peper en zout, snij in stukken en verdeel over de schaal.
-4. Bak ongeveer 25 minuten.
-5. Verkruimel de geitenkaas en walnoten erover en bak nog 10 minuten.
+1. Verwarm de (heteluchts)oven voor op 190 graden.
+2. Vet een ovenschaal in met olijfolie en verdeel de witloofblaadjes erin. Bestrooi met 2 el bruine suiker of besprenkel met honing, zodat ze karamelliseren.
+3. Snijd 2 kipfilets in de lengte in gelijke stukken, bestrooi rondom met zout, peper en knoflookpoeder en verdeel ze tussen het witloof.
+4. Voeg een handje radijsjes in schijfjes en 50 g gebroken walnoten toe en verbrokkel 125 g geitenkaas over het geheel.
+5. Bestrooi met 1 tl gedroogde tijm en wat peper, besprenkel met extra olijfolie en zet 20 minuten in de oven, of tot de kip gaar is.

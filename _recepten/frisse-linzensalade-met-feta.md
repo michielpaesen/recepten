@@ -8,7 +8,7 @@ bord: salade-vegetarische
 tags: [vegetarisch, feta, salade]
 ---
 
-> In de post staan enkel de ingrediënten; de bereiding is aangevuld (het volledige recept staat op leukerecepten.nl).
+> De post bevat niet de volledige bereiding; die komt van [leukerecepten.nl](https://www.leukerecepten.nl/recepten/linzensalade/).
 
 ## Ingrediënten
 
@@ -34,7 +34,13 @@ tags: [vegetarisch, feta, salade]
 
 ## Bereiding
 
-1. Spoel de linzen af en laat uitlekken.
-2. Klop de ingrediënten voor de dressing samen (knoflook geperst).
-3. Meng de linzen met de groenten, olijven, walnoten en kruiden.
-4. Schep de dressing erdoor en verkruimel de feta erover. Kan een dag op voorhand gemaakt worden.
+1. Giet de linzen af in een zeef, spoel ze goed af onder koud stromend water en laat ze goed uitlekken. Doe de linzen in een grote kom.
+2. Voeg de paprika, kerstomaten, komkommer en rode ui toe.
+3. Voeg de walnoten en zwarte olijven toe.
+4. Meng ook de peterselie en munt door de salade.
+5. Maak ondertussen de dressing: doe de olijfolie, het citroensap, de dijonmosterd, de geperste knoflook en de oregano in een kleine kom.
+6. Meng alles goed met een lepel of garde en breng op smaak met zout en peper.
+7. Giet de dressing over de salade en meng alles goed zodat alle ingrediënten bedekt zijn.
+8. Verkruimel de feta over de salade en meng voorzichtig door.
+9. Proef en voeg eventueel nog wat zout, peper of citroensap toe.
+10. Serveer direct, of zet de salade nog even in de koelkast zodat de smaken kunnen intrekken.

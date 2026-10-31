@@ -8,7 +8,7 @@ bord: salade
 tags: [vegetarisch, salade, bbq]
 ---
 
-> In de post staan enkel de ingrediënten; de bereiding is aangevuld (het volledige recept staat op leukerecepten.nl).
+> De post bevat niet de volledige bereiding; die komt van [leukerecepten.nl](https://www.leukerecepten.nl/recepten/koude-pastasalade/).
 
 ## Ingrediënten
 
@@ -31,7 +31,9 @@ tags: [vegetarisch, salade, bbq]
 
 ## Bereiding
 
-1. Kook de pasta, spoel koud en laat uitlekken.
-2. Rooster de pijnboompitten in een droge pan.
-3. Meng de ingrediënten voor de dressing.
-4. Meng de pasta met sla, gehalveerde tomaatjes, mozzarella en maïs, schep de dressing erdoor en werk af met pijnboompitten.
+1. Kook de pasta in ruim water met een snuf zout volgens de verpakking. Giet af en spoel goed af onder koud water.
+2. Halveer de kerstomaatjes. Rooster de pijnboompitten kort in een droge pan tot ze goudbruin zijn.
+3. Meng in een kommetje de yoghurt met de geraspte komkommer, fijngehakte paprika, citroensap, olijfolie, bieslook, peper en zout tot een frisse dressing.
+4. Schep de afgekoelde pasta in een grote kom en meng met de dressing. Voeg de tomaatjes, mozzarella en maïs toe en roer goed door.
+5. Voeg als laatste de sla toe en garneer net voor het serveren met de pijnboompitten, zodat ze knapperig blijven.
+6. Bewaar de pastasalade maximaal 2 dagen goed afgesloten in de koelkast en roer hem voor het serveren even door.

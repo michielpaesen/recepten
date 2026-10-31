@@ -8,7 +8,7 @@ bord: gehakt
 tags: [gehakt, varken, rund]
 ---
 
-> In de post staan enkel de ingrediënten; de bereiding is aangevuld (het volledige recept staat op smaakmenutie.nl).
+> De post bevat niet de volledige bereiding; die komt van [smaakmenutie.nl](https://smaakmenutie.nl/zweedse-gehaktballetjes/).
 
 ## Ingrediënten
 
@@ -28,9 +28,10 @@ tags: [gehakt, varken, rund]
 
 ## Bereiding
 
-1. Kook de aardappel gaar en prak fijn. Snipper de ui heel fijn.
-2. Meng het gehakt met de aardappel, ui, ei, paneermeel, piment, knoflookpoeder, peper en zout en draai kleine balletjes.
-3. Bak de balletjes rondom bruin en gaar en haal uit de pan.
-4. Roer de bloem door het bakvet en laat 1 minuut garen. Voeg geleidelijk 300 ml bouillon toe en roer tot een gladde saus.
-5. Roer de room, worcestersaus en mosterd erdoor en laat even indikken.
-6. Doe de balletjes terug in de saus en werk af met peterselie.
+1. Kook 1 grote aardappel en maak er puree van. Snijd een halve ui ragfijn en hak een bosje peterselie fijn.
+2. Meng de puree met 300 g half-om-half gehakt, de peterselie, de ui, 1 ei, 4 à 5 el paneermeel, ½ tl knoflookpoeder, ½ tl pimentpoeder (of nootmuskaat) en een flinke snuf zout en peper. Draai er circa 20 balletjes van.
+3. Bak de balletjes in een flinke klont boter op matig vuur rondom bruin en keer ze geregeld.
+4. Haal de balletjes uit de pan als ze gaar zijn en zet even weg.
+5. Smelt opnieuw een flinke klont boter in de pan en roer er op laag vuur 2 ruime el bloem door.
+6. Voeg 200 ml warm water en een half verkruimeld runderbouillonblokje toe, dan 80 ml kookroom, 1 el worcestershiresaus en 2 à 3 tl scherpe (dijon)mosterd. Meng goed.
+7. Laat de balletjes in de saus op matig vuur warm worden en de saus wat indikken. Serveer met verse peterselie, frietjes en eventueel wat cranberrysaus.

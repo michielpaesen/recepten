@@ -8,7 +8,7 @@ bord: wraps
 tags: [vegetarisch, halloumi]
 ---
 
-> In de post staan enkel de ingrediënten; de bereiding is aangevuld.
+> De post bevat niet de volledige bereiding; die komt van [leukerecepten.nl](https://www.leukerecepten.nl/recepten/halloumi-wraps/).
 
 ## Ingrediënten
 
@@ -28,7 +28,9 @@ tags: [vegetarisch, halloumi]
 
 ## Bereiding
 
-1. Meng de ingrediënten voor de marinade. Snij de halloumi in plakken en marineer.
-2. Bak de halloumi in een hete pan goudbruin en sticky.
-3. Prak de avocado, snij de mango in reepjes en hak de pecannoten grof.
-4. Besmeer de wraps met avocado en yoghurt, beleg met sla, mango en halloumi en strooi de pecannoten erover.
+1. Snijd de halloumi in plakjes van ongeveer een halve centimeter. Meng de honing, harissa en olijfolie in een kom en marineer de halloumi hierin ongeveer 10 minuten.
+2. Verhit een grillpan op middelhoog vuur en grill de halloumi aan beide kanten goudbruin en licht knapperig, ongeveer 2 à 3 minuten per kant.
+3. Prak het vruchtvlees van de avocado's fijn en snijd de mango in kleine blokjes. Hak de pecannoten grof.
+4. Verwarm de miniwraps kort in een droge pan of in de microgolfoven tot ze warm en soepel zijn.
+5. Besmeer elke wrap met avocadopuree. Verdeel de sla, halloumi en mango erover, schep er een beetje yoghurt op en strooi de pecannoten erover.
+6. Vouw de wraps voorzichtig dubbel en serveer direct.

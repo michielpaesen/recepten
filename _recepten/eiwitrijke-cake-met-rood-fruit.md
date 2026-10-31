@@ -8,7 +8,7 @@ bord: baking-zoet
 tags: [vegetarisch, bakken, ontbijt]
 ---
 
-> In de post staan enkel de ingrediënten; de bereiding is aangevuld (het volledige recept staat op leukerecepten.nl).
+> De post bevat niet de volledige bereiding; die komt van [leukerecepten.nl](https://www.leukerecepten.nl/recepten/eiwitrijke-cake-met-rood-fruit/).
 
 ## Ingrediënten
 
@@ -23,8 +23,8 @@ tags: [vegetarisch, bakken, ontbijt]
 
 ## Bereiding
 
-1. Verwarm de oven voor op 180 °C en bekleed een cakevorm met bakpapier.
-2. Mix alle ingrediënten behalve het fruit in een blender of keukenmachine tot een glad beslag.
-3. Giet in de vorm en verdeel het rode fruit erover.
-4. Bak ongeveer 40-45 minuten tot een prikker er schoon uitkomt.
-5. Bewaar in de koelkast; warm een plakje eventueel kort op in de microgolf.
+1. Verwarm de oven voor op 175 graden en bekleed een bakvorm met bakpapier.
+2. Doe de eieren, skyr, melk en vanillearoma in een blender of keukenmachine en mix tot een glad mengsel. Schraap de randen eventueel even schoon.
+3. Voeg het eiwitpoeder, het volkorenmeel en het bakpoeder toe en mix kort tot alles net gemengd is. Meng niet te lang, anders wordt de cake te stevig.
+4. Giet het beslag in de vorm en verdeel het diepvriesfruit hier bevroren over (niet vooraf ontdooien). Bak de cake 30 tot 40 minuten tot hij goudbruin is en een prikker er net schoon uitkomt.
+5. Laat de cake 15 minuten afkoelen in de vorm voor je hem aansnijdt. Snijd in 12 stukken, of in grotere stukken om als ontbijt te eten.

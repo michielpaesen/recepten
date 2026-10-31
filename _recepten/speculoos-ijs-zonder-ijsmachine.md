@@ -8,7 +8,7 @@ bord: desserts
 tags: [vegetarisch, dessert]
 ---
 
-> In de post staan enkel de ingrediënten; de bereiding is aangevuld.
+> De post bevat niet de volledige bereiding; die komt van [leukerecepten.nl](https://www.leukerecepten.nl/recepten/speculoos-ijs-maken-zonder-ijsmachine/).
 
 ## Ingrediënten
 
@@ -19,7 +19,8 @@ tags: [vegetarisch, dessert]
 
 ## Bereiding
 
-1. Klop de slagroom stijf.
-2. Meng de gecondenseerde melk met de speculoospasta en spatel de slagroom erdoor.
-3. Breek de koekjes in stukjes en roer de helft erdoor.
-4. Schep in een diepvriesbak, strooi de rest van de koekjes erover en vries minstens 6 uur in.
+1. Klop de slagroom met de gecondenseerde melk lobbig met een mixer.
+2. Verwarm de speculoospasta kort in de microgolfoven, dan mengt ze makkelijker.
+3. Mix de speculoospasta door het slagroommengsel. Hak de speculooskoekjes fijn tot kruimels en roer het grootste deel door het ijsmengsel; hou een beetje apart om te garneren.
+4. Giet het mengsel in een diepvriesbestendige bak en strooi de rest van de kruimels erover.
+5. Zet het ijs minstens 6 uur in de diepvries om op te stijven, liefst een hele nacht.

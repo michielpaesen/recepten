@@ -8,7 +8,7 @@ bord: salade
 tags: [kip, salade]
 ---
 
-> In de post staan enkel de ingrediënten; de bereiding is aangevuld (het volledige recept staat op smaakmenutie.nl).
+> De post bevat niet de volledige bereiding; die komt van [smaakmenutie.nl](https://smaakmenutie.nl/salade-krokante-kip-yoghurtdressing/).
 
 ## Ingrediënten
 
@@ -26,8 +26,8 @@ tags: [kip, salade]
 
 ## Bereiding
 
-1. Kook de eieren 8 minuten en bak de kipschnitzels volgens de verpakking.
-2. Meng de yoghurt met de geperste knoflook, limoensap, peper en zout tot een dressing.
-3. Snij tomaten, radijsjes, lente-ui, avocado en mineola in stukjes.
-4. Verdeel de sla over borden, beleg met de groenten, mineola, eieren in partjes en de kip in reepjes.
-5. Serveer met de dressing.
+1. Verwarm de oven voor op 200 graden en bak de krokante kipschnitzels in circa 15 minuten bruin.
+2. Kook ondertussen 2 eieren in 7 minuten hard.
+3. Doe de sla in een ruime kom. Snijd de radijsjes in plakjes, halveer de kerstomaten, snijd de lente-ui in ringen, de mineola in stukjes en de avocado in blokjes. Hussel alles door de sla.
+4. Meng 75 ml Griekse yoghurt met 1 geperst teentje knoflook en het sap van ½ limoen. Meng 2/3 van de dressing door de salade.
+5. Snijd de kipschnitzels in reepjes en verdeel ze over de borden met een gehalveerd eitje. Verdeel de rest van de dressing erover.

@@ -8,7 +8,7 @@ bord: burgers
 tags: [kip, gehakt]
 ---
 
-> In de post staan enkel de ingrediënten; de bereiding is aangevuld.
+> De post bevat niet de volledige bereiding; die komt van [leukerecepten.nl](https://www.leukerecepten.nl/recepten/kip-tandoori-burger/).
 
 ## Ingrediënten
 
@@ -34,8 +34,13 @@ tags: [kip, gehakt]
 
 ## Bereiding
 
-1. Meng het kipgehakt met de currypasta, het ei en het paneermeel en vorm 3 burgers.
-2. Bak de burgers in boter of olie gaar.
-3. Snij de mango, rode peper en koriander fijn en meng tot een salsa.
-4. Meng de ingrediënten voor de yoghurtsaus en meng de helft met de kool en wortel tot koolsla.
-5. Bak de naans kort op, beleg met koolsla, burger, mangosalsa, yoghurtsaus en cashewnoten.
+1. Bak de naanbroodjes af in de oven.
+2. Meng het gehakt met de tandoori-currypasta, het ei en het paneermeel. Kneed tot burgers en leg ze afgedekt in de koelkast.
+3. Snijd de mango in kleine blokjes. Hak de rode peper en koriander fijn, meng door de mango en zet de mangosalsa apart.
+4. Maak de yoghurtsaus door de Griekse yoghurt, olijfolie, citroensap, peper en zout te mengen.
+5. Meng in een kom de wortel (julienne) en de witte kool. Giet de yoghurtdressing erover, schep door elkaar en zet in de koelkast.
+6. Verhit een beetje olie of boter in een pan en bak de kipburgers in circa 10 minuten gaar en mooi bruin.
+7. Snijd de naanbroodjes doormidden. Verdeel wat koolsla op de onderste helft en leg de burger erop.
+8. Verdeel de mangosalsa en wat cashewnoten over de burger en leg de bovenste helft van het naanbroodje erop.
+
+**Tip:** je kan ook kant-en-klare koolsla gebruiken.

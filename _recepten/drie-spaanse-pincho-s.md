@@ -8,7 +8,7 @@ bord: starters
 tags: [vegetarisch]
 ---
 
-> In de post staan enkel de ingrediënten; de bereiding is aangevuld.
+> In de post staan enkel de ingrediënten; de bereiding komt van [leukerecepten.nl](https://www.leukerecepten.nl/recepten/pinchos/).
 
 ## Ingrediënten
 
@@ -37,8 +37,10 @@ tags: [vegetarisch]
 
 ## Bereiding
 
-1. Snij de stokbroden in 24 sneetjes, besprenkel met olijfolie en rooster ze krokant in de oven of grillpan.
-2. Pincho 1: besmeer met tapenade, beleg met kaas, olijven en een stukje walnoot.
-3. Pincho 2: gril plakjes courgette. Besmeer het brood met aioli en beleg met courgette, kerstomaatje en artisjok.
-4. Pincho 3: bak de balletjes gaar. Besmeer het brood met hummus en beleg met paprika en een balletje.
-5. Zet vast met een prikker.
+1. Snijd het stokbrood in sneetjes, bestrijk ze lichtjes met olijfolie en bak ze licht krokant in de oven. Je kan vers stokbrood of afbakstokbrood gebruiken.
+2. Snijd de courgette in lange dunne plakken en rooster ze in een grillpan met een klein beetje olie. Bak de gehaktballetjes gaar in een pan. Snijd de kaas in plakjes.
+3. Pincho 1: leg een plakje kaas op een sneetje brood en besmeer met wat olijventapenade. Hak de walnoten fijn en bestrooi de pincho ermee. Prik 2 olijven aan een prikker en steek de broodjes vast.
+4. Pincho 2: besmeer de broodjes met een beetje aioli, leg er gegrilde courgette en een stukje artisjok op en steek vast met een prikker met een half kerstomaatje.
+5. Pincho 3: besmeer de sneetjes met hummus, leg er een stukje gegrilde paprika op en steek vast met een prikker met een gehaktballetje.
+
+**Tip:** dit recept geeft 24 stuks, ongeveer 8 per soort. Je kan de pincho’s tot 2 uur vooraf maken, niet veel langer omdat het brood anders zacht wordt.

@@ -1,5 +1,5 @@
 ---
-title: "Zweedse gehaktballetjes met roomsaus"
+title: "Zweedse gehaktballetjes"
 bron: https://www.instagram.com/p/Cg8zgTbDpRV/
 afbeelding: /recepten/assets/ig/Cg8zgTbDpRV.webp
 porties: 3-4

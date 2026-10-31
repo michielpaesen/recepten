@@ -1,5 +1,5 @@
 ---
-title: "Griekse kofta in tomatensaus"
+title: "Griekse kofta"
 bron: https://www.instagram.com/p/CnUZmA9Dv3C/
 afbeelding: /recepten/assets/ig/CnUZmA9Dv3C.webp
 porties: 2-3

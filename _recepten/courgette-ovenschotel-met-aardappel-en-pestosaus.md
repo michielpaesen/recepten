@@ -1,5 +1,5 @@
 ---
-title: "Courgette-ovenschotel met aardappel en pestosaus"
+title: "Courgette ovenschotel"
 bron: https://www.instagram.com/p/Cts1BIiSN9d/
 afbeelding: /recepten/assets/ig/Cts1BIiSN9d.webp
 bord: ovenschotels

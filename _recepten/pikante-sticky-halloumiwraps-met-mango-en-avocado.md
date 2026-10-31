@@ -1,5 +1,5 @@
 ---
-title: "Pikante sticky halloumiwraps met mango en avocado"
+title: "Pikante en sticky halloumi wraps"
 bron: https://www.instagram.com/p/C9jXLihNMDb/
 afbeelding: /recepten/assets/ig/C9jXLihNMDb.webp
 porties: 2

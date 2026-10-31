@@ -1,5 +1,5 @@
 ---
-title: "Lasagnerolletjes met pesto, ricotta en courgette"
+title: "Lasagne rolletjes met pesto uit de oven"
 bron: https://www.instagram.com/p/CFyhYdPH0BT/
 afbeelding: /recepten/assets/ig/CFyhYdPH0BT.webp
 bord: lasagne

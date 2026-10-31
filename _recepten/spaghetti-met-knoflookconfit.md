@@ -1,5 +1,5 @@
 ---
-title: "Spaghetti met knoflookconfit"
+title: "Garlic Confit Spaghetti"
 bron: https://www.instagram.com/p/C2i4K9qrhky/
 afbeelding: /recepten/assets/ig/C2i4K9qrhky.webp
 bord: spaghetti

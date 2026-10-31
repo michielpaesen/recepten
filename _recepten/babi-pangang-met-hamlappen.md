@@ -1,5 +1,5 @@
 ---
-title: "Babi pangang met hamlappen"
+title: "Babi pangang"
 bron: https://www.instagram.com/p/CczTRy2sRkr/
 afbeelding: /recepten/assets/ig/CczTRy2sRkr.webp
 porties: 4

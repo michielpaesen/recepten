@@ -1,5 +1,5 @@
 ---
-title: "Kip jambalaya met chorizo en paprika"
+title: "Kip jambalaya"
 bron: https://www.instagram.com/p/CnPP_6jjbOk/
 afbeelding: /recepten/assets/ig/CnPP_6jjbOk.webp
 porties: 2-3

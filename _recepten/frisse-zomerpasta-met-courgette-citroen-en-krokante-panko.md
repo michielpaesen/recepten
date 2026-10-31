@@ -1,5 +1,5 @@
 ---
-title: "Frisse zomerpasta met courgette, citroen en krokante panko"
+title: "Frisse zomerse pasta met courgette, citroen en krokante topping"
 bron: https://www.instagram.com/p/Cg2Mn_2DKpt/
 afbeelding: /recepten/assets/ig/Cg2Mn_2DKpt.webp
 porties: 4

@@ -1,5 +1,5 @@
 ---
-title: "Tortellini met broccoli en bechamel uit de oven"
+title: "Lazy Sunday Pasta part 51: Tortellini, broccoli and Béchamel"
 bron: https://www.instagram.com/p/Cv4Cln4qwAL/
 afbeelding: /recepten/assets/ig/Cv4Cln4qwAL.webp
 porties: 4

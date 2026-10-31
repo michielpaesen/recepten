@@ -1,5 +1,5 @@
 ---
-title: "Pasta met kerstomatensaus in 15 minuten"
+title: "15 minute Saucy Cherry Tomato Pasta"
 bron: https://www.instagram.com/p/Ch-IcJ9gq5w/
 afbeelding: /recepten/assets/ig/Ch-IcJ9gq5w.webp
 bord: pasta

@@ -1,5 +1,5 @@
 ---
-title: "Pasta met ricotta en citroen"
+title: "Pasta ricotta"
 bron: https://www.instagram.com/p/Cm-GTduozit/
 afbeelding: /recepten/assets/ig/Cm-GTduozit.webp
 porties: 2

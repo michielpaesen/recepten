@@ -1,5 +1,5 @@
 ---
-title: "Pasta met butternutcrème en burrata"
+title: "Pâtes à la crème de butternut & burrata"
 bron: https://www.instagram.com/p/Cx8R4tCsy5O/
 afbeelding: /recepten/assets/ig/Cx8R4tCsy5O.webp
 porties: 2

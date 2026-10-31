@@ -1,5 +1,5 @@
 ---
-title: "Gepofte zoete aardappels met zure room en maïs"
+title: "Gepofte zoete aardappels met zure room"
 bron: https://www.instagram.com/p/Cg6A5AGLICL/
 afbeelding: /recepten/assets/ig/Cg6A5AGLICL.webp
 porties: 4

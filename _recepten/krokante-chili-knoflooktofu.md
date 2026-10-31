@@ -1,5 +1,5 @@
 ---
-title: "Krokante chili-knoflooktofu"
+title: "Chilli garlic tofu"
 bron: https://www.instagram.com/p/CZzwF3IKJTP/
 afbeelding: /recepten/assets/ig/CZzwF3IKJTP.webp
 porties: 2

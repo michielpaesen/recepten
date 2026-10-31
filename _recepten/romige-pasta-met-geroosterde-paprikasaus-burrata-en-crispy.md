@@ -1,5 +1,5 @@
 ---
-title: "Romige pasta met geroosterde paprikasaus, burrata en crispy chili-olie"
+title: "Romige pasta met geroosterde paprikasaus, burrata & crispy chili olie"
 bron: https://www.instagram.com/p/DPwLZm9iFzr/
 afbeelding: /recepten/assets/ig/DPwLZm9iFzr.webp
 porties: 4

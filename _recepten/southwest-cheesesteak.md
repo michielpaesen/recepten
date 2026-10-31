@@ -1,5 +1,5 @@
 ---
-title: "Southwest-cheesesteak"
+title: "Southwest Cheesesteak"
 bron: https://www.instagram.com/p/C2NXd3lRkLl/
 afbeelding: /recepten/assets/ig/C2NXd3lRkLl.webp
 bord: brood

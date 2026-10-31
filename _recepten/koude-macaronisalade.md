@@ -1,5 +1,5 @@
 ---
-title: "Koude macaronisalade"
+title: "Koude macaroni salade"
 bron: https://www.instagram.com/p/B0FxjyWgWTe/
 afbeelding: /recepten/assets/ig/B0FxjyWgWTe.webp
 bord: macaroni

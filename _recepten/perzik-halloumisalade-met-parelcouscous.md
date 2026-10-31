@@ -1,5 +1,5 @@
 ---
-title: "Perzik-halloumisalade met parelcouscous"
+title: "Perzik halloumi salade"
 bron: https://www.instagram.com/p/DZReKKJqpWa/
 afbeelding: /recepten/assets/ig/DZReKKJqpWa.webp
 porties: 2

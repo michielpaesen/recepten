@@ -1,5 +1,5 @@
 ---
-title: "Kip Siam met cashewnoten"
+title: "Kip Siam"
 bron: https://www.instagram.com/p/ChAFnuIDUdS/
 afbeelding: /recepten/assets/ig/ChAFnuIDUdS.webp
 porties: 2-3

@@ -1,5 +1,5 @@
 ---
-title: "Gezonde orzo uit één pot"
+title: "One-pot healthy orzo"
 bron: https://www.instagram.com/p/CiitM7_pbVi/
 afbeelding: /recepten/assets/ig/CiitM7_pbVi.webp
 porties: 6

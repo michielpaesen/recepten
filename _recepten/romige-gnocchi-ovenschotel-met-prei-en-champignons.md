@@ -1,5 +1,5 @@
 ---
-title: "Romige gnocchi-ovenschotel met prei en champignons"
+title: "Romige gnocchi ovenschotel"
 bron: https://www.instagram.com/p/C0ivU6TNPgT/
 afbeelding: /recepten/assets/ig/C0ivU6TNPgT.webp
 porties: 3

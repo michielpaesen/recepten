@@ -1,5 +1,5 @@
 ---
-title: "Gnocchi-bolognese ovenschotel"
+title: "Gnocchi bolognese ovenschotel"
 bron: https://www.instagram.com/p/CktPqaCjpeP/
 afbeelding: /recepten/assets/ig/CktPqaCjpeP.webp
 porties: 3-4

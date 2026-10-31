@@ -1,5 +1,5 @@
 ---
-title: "Pasta met tomatencrème en stracchino"
+title: "Pasta con Crema di Pomodorini e Stracchino"
 bron: https://www.instagram.com/p/DW8kJvNiHe6/
 afbeelding: /recepten/assets/ig/DW8kJvNiHe6.webp
 porties: 4

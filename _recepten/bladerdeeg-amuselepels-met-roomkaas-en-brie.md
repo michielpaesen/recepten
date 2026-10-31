@@ -1,5 +1,5 @@
 ---
-title: "Bladerdeeg-amuselepels met roomkaas en brie"
+title: "Bladerdeeg amuse lepels"
 bron: https://www.instagram.com/p/C1JaspTtekV/
 afbeelding: /recepten/assets/ig/C1JaspTtekV.webp
 porties: 21 stuks

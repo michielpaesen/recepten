@@ -1,5 +1,5 @@
 ---
-title: "Gnocchi-traybake met pesto en ricotta"
+title: "Gnocchi traybake"
 bron: https://www.instagram.com/p/CgWDUG-DEYG/
 afbeelding: /recepten/assets/ig/CgWDUG-DEYG.webp
 porties: 4

@@ -1,5 +1,5 @@
 ---
-title: "Cajun-alfredo met knoflook en Parmezaan"
+title: "Cajun Garlic Parmesan Alfredo"
 bron: https://www.instagram.com/p/C0j9E0vIxip/
 afbeelding: /recepten/assets/ig/C0j9E0vIxip.webp
 bord: pasta

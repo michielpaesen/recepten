@@ -1,5 +1,5 @@
 ---
-title: "Bevroren yoghurtreep met fruit en honing"
+title: "Gut friendly bark"
 bron: https://www.instagram.com/p/Cx0ZDXES7pD/
 afbeelding: /recepten/assets/ig/Cx0ZDXES7pD.webp
 porties: 6

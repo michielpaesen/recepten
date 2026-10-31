@@ -1,5 +1,5 @@
 ---
-title: "Spaghetti met gekaramelliseerde ui en knoflook"
+title: "Caramelized Onion and Garlic Spaghetti"
 bron: https://www.instagram.com/p/DLQKCZ1Pdmc/
 afbeelding: /recepten/assets/ig/DLQKCZ1Pdmc.webp
 porties: 2-3

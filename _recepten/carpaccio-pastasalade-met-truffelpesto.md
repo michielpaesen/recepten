@@ -1,5 +1,5 @@
 ---
-title: "Carpaccio-pastasalade met truffelpesto"
+title: "Carpaccio pastasalade met truffelpesto"
 bron: https://www.instagram.com/p/DJo28TtsAKL/
 afbeelding: /recepten/assets/ig/DJo28TtsAKL.webp
 porties: 2

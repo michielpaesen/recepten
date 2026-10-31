@@ -1,5 +1,5 @@
 ---
-title: "Mascarpone-toetje met frambozen"
+title: "Mascarpone toetje met frambozen"
 bron: https://www.instagram.com/p/DMmg8tSN_bb/
 afbeelding: /recepten/assets/ig/DMmg8tSN_bb.webp
 bord: desserts

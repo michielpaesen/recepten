@@ -1,5 +1,5 @@
 ---
-title: "Glutenvrij bananenbrood met pindakaas"
+title: "Bananenbrood met pindakaas"
 bron: https://www.instagram.com/p/B8uBv8WgSr5/
 afbeelding: /recepten/assets/ig/B8uBv8WgSr5.webp
 bord: baking-zoet

@@ -1,5 +1,5 @@
 ---
-title: "Salade met krokante kip, avocado en mineola"
+title: "Salade met krokante kip"
 bron: https://www.instagram.com/p/ChSHJs1jLJh/
 afbeelding: /recepten/assets/ig/ChSHJs1jLJh.webp
 porties: 2

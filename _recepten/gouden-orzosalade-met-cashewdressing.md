@@ -1,5 +1,5 @@
 ---
-title: "Gouden orzosalade met cashewdressing"
+title: "Golden Orzo Salad"
 bron: https://www.instagram.com/p/Cp3LBDDAnEC/
 afbeelding: /recepten/assets/ig/Cp3LBDDAnEC.webp
 porties: 3-4

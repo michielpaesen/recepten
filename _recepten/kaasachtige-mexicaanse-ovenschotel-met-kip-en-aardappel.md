@@ -1,5 +1,5 @@
 ---
-title: "Kaasachtige Mexicaanse ovenschotel met kip en aardappel"
+title: "Cheesy Mexican chicken and potato bake"
 bron: https://www.instagram.com/p/Csl8x0zIZsZ/
 afbeelding: /recepten/assets/ig/Csl8x0zIZsZ.webp
 porties: 4

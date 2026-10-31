@@ -1,5 +1,5 @@
 ---
-title: "Gebakken rijst met kimchi"
+title: "Kimchi fried rice"
 bron: https://www.instagram.com/p/C8JQUEvtOPz/
 afbeelding: /recepten/assets/ig/C8JQUEvtOPz.webp
 porties: 4

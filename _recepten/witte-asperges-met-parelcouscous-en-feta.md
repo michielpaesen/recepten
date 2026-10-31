@@ -1,5 +1,5 @@
 ---
-title: "Witte asperges met parelcouscous en feta"
+title: "Witte asperges met couscous en feta"
 bron: https://www.instagram.com/p/DJV1Vb_SXfg/
 afbeelding: /recepten/assets/ig/DJV1Vb_SXfg.webp
 porties: 2

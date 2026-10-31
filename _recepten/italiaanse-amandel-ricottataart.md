@@ -1,5 +1,5 @@
 ---
-title: "Italiaanse amandel-ricottataart"
+title: "Italian Almond and Ricotta Cake"
 bron: https://www.instagram.com/p/C1hfEXdLg3S/
 afbeelding: /recepten/assets/ig/C1hfEXdLg3S.webp
 porties: 10

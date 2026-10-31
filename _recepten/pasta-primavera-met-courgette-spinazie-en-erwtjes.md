@@ -1,5 +1,5 @@
 ---
-title: "Pasta primavera met courgette, spinazie en erwtjes"
+title: "Pasta primavera"
 bron: https://www.instagram.com/p/DawwbStkmew/
 afbeelding: /recepten/assets/ig/DawwbStkmew.webp
 bord: pasta

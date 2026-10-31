@@ -1,5 +1,5 @@
 ---
-title: "Romige pestokip met rijst"
+title: "Creamy pesto chicken"
 bron: https://www.instagram.com/p/Ci2Q-CGPkGV/
 afbeelding: /recepten/assets/ig/Ci2Q-CGPkGV.webp
 porties: 2

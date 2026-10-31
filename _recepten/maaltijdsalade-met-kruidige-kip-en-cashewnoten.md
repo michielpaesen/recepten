@@ -1,5 +1,5 @@
 ---
-title: "Maaltijdsalade met kruidige kip en cashewnoten"
+title: "Maaltijdsalade met kruidige kip"
 bron: https://www.instagram.com/p/CtqRJQOSapM/
 afbeelding: /recepten/assets/ig/CtqRJQOSapM.webp
 bord: salade

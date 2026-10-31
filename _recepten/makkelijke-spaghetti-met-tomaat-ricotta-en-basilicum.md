@@ -1,5 +1,5 @@
 ---
-title: "Makkelijke spaghetti met tomaat, ricotta en basilicum"
+title: "Makkelijke pasta met 6 ingrediënten"
 bron: https://www.instagram.com/p/DLVAd_WICun/
 afbeelding: /recepten/assets/ig/DLVAd_WICun.webp
 porties: 2

@@ -1,5 +1,5 @@
 ---
-title: "Loempia's uit de airfryer"
+title: "Loempia maken in de Airfryer"
 bron: https://www.instagram.com/p/C2g1nrStmCV/
 afbeelding: /recepten/assets/ig/C2g1nrStmCV.webp
 porties: 15 stuks

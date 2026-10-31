@@ -1,5 +1,5 @@
 ---
-title: "Zomerse bruschetta-aperodip"
+title: "Zomerse bruschetta apero dip"
 bron: https://www.instagram.com/p/DZU_gZ9Minf/
 afbeelding: /recepten/assets/ig/DZU_gZ9Minf.webp
 porties: 6-8

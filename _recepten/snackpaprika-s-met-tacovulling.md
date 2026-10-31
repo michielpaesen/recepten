@@ -1,5 +1,5 @@
 ---
-title: "Snackpaprika's met tacovulling"
+title: "Snackpaprika's met taco vulling"
 bron: https://www.instagram.com/p/COD22YhHcex/
 afbeelding: /recepten/assets/ig/COD22YhHcex.webp
 bord: starters

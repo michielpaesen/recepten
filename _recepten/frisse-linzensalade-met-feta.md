@@ -1,5 +1,5 @@
 ---
-title: "Frisse linzensalade met feta"
+title: "Frisse & gezonde linzensalade"
 bron: https://www.instagram.com/p/DZ4Hgf7kggr/
 afbeelding: /recepten/assets/ig/DZ4Hgf7kggr.webp
 porties: 2-3

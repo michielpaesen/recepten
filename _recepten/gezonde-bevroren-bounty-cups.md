@@ -1,5 +1,5 @@
 ---
-title: "Gezonde bevroren Bounty-cups"
+title: "Healthy bounty frozen cups"
 bron: https://www.instagram.com/p/Cxk1uDiSxdz/
 afbeelding: /recepten/assets/ig/Cxk1uDiSxdz.webp
 porties: 8

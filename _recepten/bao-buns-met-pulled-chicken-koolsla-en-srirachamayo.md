@@ -1,5 +1,5 @@
 ---
-title: "Bao buns met pulled chicken, koolsla en srirachamayo"
+title: "Bao buns met pulled chicken, koolsla & srirachamayo"
 bron: https://www.instagram.com/p/DKFP_Jso_9m/
 afbeelding: /recepten/assets/ig/DKFP_Jso_9m.webp
 porties: 6-8 stuks

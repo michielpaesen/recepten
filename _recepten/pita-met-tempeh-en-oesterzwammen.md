@@ -1,5 +1,5 @@
 ---
-title: "Pita met tempeh en oesterzwammen"
+title: "Pita met tempeh & oesterzwammen"
 bron: https://www.instagram.com/p/CaXc5kFDAdv/
 afbeelding: /recepten/assets/ig/CaXc5kFDAdv.webp
 porties: 4

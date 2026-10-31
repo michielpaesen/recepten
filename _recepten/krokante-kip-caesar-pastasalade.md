@@ -1,5 +1,5 @@
 ---
-title: "Krokante kip-caesar-pastasalade"
+title: "Crispy chicken caesar pasta salad"
 bron: https://www.instagram.com/p/DXmAHMNjOM0/
 afbeelding: /recepten/assets/ig/DXmAHMNjOM0.webp
 porties: 2

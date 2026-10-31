@@ -1,5 +1,5 @@
 ---
-title: "Pittige rigatoni met burrata"
+title: "Spicy rigatoni topped with fresh burrata"
 bron: https://www.instagram.com/p/CzxIRfvJjsB/
 afbeelding: /recepten/assets/ig/CzxIRfvJjsB.webp
 porties: 2

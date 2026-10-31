@@ -1,5 +1,5 @@
 ---
-title: "Pasta met pistache-basilicumpesto"
+title: "Lazy Sunday Pasta Part 20"
 bron: https://www.instagram.com/p/Cmlnpl5ped1/
 afbeelding: /recepten/assets/ig/Cmlnpl5ped1.webp
 porties: 2

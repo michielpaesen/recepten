@@ -1,5 +1,5 @@
 ---
-title: "Romige spaghetti met zongedroogde tomaat"
+title: "Sundried Tomato Creamy Spaghetti"
 bron: https://www.instagram.com/p/ChFgWI4DPiI/
 afbeelding: /recepten/assets/ig/ChFgWI4DPiI.webp
 bord: spaghetti

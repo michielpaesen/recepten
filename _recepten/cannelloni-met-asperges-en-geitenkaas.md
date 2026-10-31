@@ -1,5 +1,5 @@
 ---
-title: "Cannelloni met asperges en geitenkaas"
+title: "Cannelloni met asperges"
 bron: https://www.instagram.com/p/B92ICafnphy/
 afbeelding: /recepten/assets/ig/B92ICafnphy.webp
 bord: canneloni

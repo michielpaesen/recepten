@@ -1,5 +1,5 @@
 ---
-title: "Romige tomatenpasta in 20 minuten"
+title: "Creamy tomato pasta"
 bron: https://www.instagram.com/p/CwdVERztgB-/
 afbeelding: /recepten/assets/ig/CwdVERztgB-.webp
 porties: 2

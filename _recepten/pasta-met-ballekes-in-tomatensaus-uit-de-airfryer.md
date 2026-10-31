@@ -1,5 +1,5 @@
 ---
-title: "Pasta met ballekes in tomatensaus uit de airfryer"
+title: "Pasta met ballekes in tomatensaus"
 bron: https://www.instagram.com/p/Cv_-0kyILwC/
 afbeelding: /recepten/assets/ig/Cv_-0kyILwC.webp
 bord: pasta

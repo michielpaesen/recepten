@@ -1,5 +1,5 @@
 ---
-title: "Zoete-aardappelfalafel op Turks brood"
+title: "Zoete aardappel falafel op Turks brood"
 bron: https://www.instagram.com/p/CMRYoTdAMSI/
 afbeelding: /recepten/assets/ig/CMRYoTdAMSI.webp
 bord: falafel

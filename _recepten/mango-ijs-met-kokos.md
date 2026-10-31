@@ -1,5 +1,5 @@
 ---
-title: "Mango-ijs met kokos"
+title: "Mango ijs met kokos"
 bron: https://www.instagram.com/p/CDdcANtAcxD/
 afbeelding: /recepten/assets/ig/CDdcANtAcxD.webp
 bord: desserts

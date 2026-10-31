@@ -1,5 +1,5 @@
 ---
-title: "Bleekselderijsalade met appel en walnoten"
+title: "Bleekselderijsalade met appel"
 bron: https://www.instagram.com/p/C7yEBSES0is/
 afbeelding: /recepten/assets/ig/C7yEBSES0is.webp
 porties: 4

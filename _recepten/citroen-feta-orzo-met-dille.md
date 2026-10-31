@@ -1,5 +1,5 @@
 ---
-title: "Citroen-feta-orzo met dille"
+title: "Lemon feta orzo"
 bron: https://www.instagram.com/p/CsBmOpRAPoY/
 afbeelding: /recepten/assets/ig/CsBmOpRAPoY.webp
 porties: 4

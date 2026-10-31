@@ -1,5 +1,5 @@
 ---
-title: "Romige Boursin-pasta uit de oven"
+title: "Creamy, baked boursin pasta"
 bron: https://www.instagram.com/p/CkQsUhzr60b/
 afbeelding: /recepten/assets/ig/CkQsUhzr60b.webp
 porties: 4

@@ -1,5 +1,5 @@
 ---
-title: "Parelcouscousbowl met gyroskip en tzatziki"
+title: "Parelcouscous bowl met tzatziki"
 bron: https://www.instagram.com/p/DLHG6SXoTUB/
 afbeelding: /recepten/assets/ig/DLHG6SXoTUB.webp
 porties: 1

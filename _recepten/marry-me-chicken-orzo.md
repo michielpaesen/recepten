@@ -1,5 +1,5 @@
 ---
-title: "Marry me chicken orzo"
+title: "Creamy marry me chicken orzo"
 bron: https://www.instagram.com/p/DP6sgK_AniG/
 afbeelding: /recepten/assets/ig/DP6sgK_AniG.webp
 porties: 2-3

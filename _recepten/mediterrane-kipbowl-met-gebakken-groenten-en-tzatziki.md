@@ -1,5 +1,5 @@
 ---
-title: "Mediterrane kipbowl met gebakken groenten en tzatziki"
+title: "30min Mediterranean chicken bowl with pan-fried veggies and a tzatziki sauce"
 bron: https://www.instagram.com/p/DbO7L_UqnES/
 afbeelding: /recepten/assets/ig/DbO7L_UqnES.webp
 porties: 3

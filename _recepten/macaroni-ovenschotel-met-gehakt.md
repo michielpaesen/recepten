@@ -1,5 +1,5 @@
 ---
-title: "Macaroni-ovenschotel met gehakt"
+title: "Macaroni ovenschotel"
 bron: https://www.instagram.com/p/B5W9zTfjn0Y/
 afbeelding: /recepten/assets/ig/B5W9zTfjn0Y.webp
 bord: macaroni

@@ -1,5 +1,5 @@
 ---
-title: "Kip met champignons en cheddar uit de oven"
+title: "Kip met cheddar"
 bron: https://www.instagram.com/p/Ci2q_ZhD3Nv/
 afbeelding: /recepten/assets/ig/Ci2q_ZhD3Nv.webp
 porties: 3

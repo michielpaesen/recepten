@@ -1,5 +1,5 @@
 ---
-title: "Makkelijke groentecurry"
+title: "Makkelijke groente curry"
 bron: https://www.instagram.com/p/B9wJNl1Au11/
 afbeelding: /recepten/assets/ig/B9wJNl1Au11.webp
 bord: groenten

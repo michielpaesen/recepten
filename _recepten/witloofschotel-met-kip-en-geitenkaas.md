@@ -1,5 +1,5 @@
 ---
-title: "Witloofschotel met kip en geitenkaas"
+title: "Witlofschotel met kip en geitenkaas"
 bron: https://www.instagram.com/p/ChCqfm3jiW3/
 afbeelding: /recepten/assets/ig/ChCqfm3jiW3.webp
 porties: 2

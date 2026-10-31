@@ -1,5 +1,5 @@
 ---
-title: "Maaltijdsalade met geroosterde bloemkool en romige avocadodressing"
+title: "Maaltijdsalade met geroosterde bloemkool en romige avocado dressing"
 bron: https://www.instagram.com/p/ChRb_1rjy3m/
 afbeelding: /recepten/assets/ig/ChRb_1rjy3m.webp
 porties: 2

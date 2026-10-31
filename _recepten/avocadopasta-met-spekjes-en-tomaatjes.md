@@ -1,5 +1,5 @@
 ---
-title: "Avocadopasta met spekjes en tomaatjes"
+title: "Avocado pasta"
 bron: https://www.instagram.com/p/Cnd2dz6LvGs/
 afbeelding: /recepten/assets/ig/Cnd2dz6LvGs.webp
 porties: 4

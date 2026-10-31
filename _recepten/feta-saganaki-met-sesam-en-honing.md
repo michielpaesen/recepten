@@ -1,5 +1,5 @@
 ---
-title: "Feta saganaki met sesam en honing"
+title: "Feta saganaki"
 bron: https://www.instagram.com/p/Dbr-4dwuVqm/
 afbeelding: /recepten/assets/ig/Dbr-4dwuVqm.webp
 bord: starters

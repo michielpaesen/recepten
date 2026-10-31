@@ -1,5 +1,5 @@
 ---
-title: "Misosoep met gyoza's"
+title: "Miso soep met gyoza's"
 bron: https://www.instagram.com/p/DBqHe8xSWZ-/
 afbeelding: /recepten/assets/ig/DBqHe8xSWZ-.webp
 porties: 2

@@ -1,5 +1,5 @@
 ---
-title: "Quesadillakrans met spinazie en Boursin"
+title: "Quesadilla krans met spinazie en Boursin"
 bron: https://www.instagram.com/p/CPFkn4cHncD/
 afbeelding: /recepten/assets/ig/CPFkn4cHncD.webp
 bord: starters

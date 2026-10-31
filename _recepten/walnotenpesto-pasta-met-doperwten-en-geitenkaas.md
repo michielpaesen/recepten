@@ -1,5 +1,5 @@
 ---
-title: "Walnotenpesto-pasta met doperwten en geitenkaas"
+title: "Walnoot pesto pasta met doperwten & geitenkaas"
 bron: https://www.instagram.com/p/Ci2kT5DqsTv/
 afbeelding: /recepten/assets/ig/Ci2kT5DqsTv.webp
 porties: 2

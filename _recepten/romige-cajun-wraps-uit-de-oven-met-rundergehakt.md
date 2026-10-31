@@ -1,5 +1,5 @@
 ---
-title: "Romige cajun-wraps uit de oven met rundergehakt"
+title: "Creamy cajun baked wraps"
 bron: https://www.instagram.com/p/C2czq16qAUL/
 afbeelding: /recepten/assets/ig/C2czq16qAUL.webp
 porties: 2

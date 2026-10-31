@@ -1,5 +1,5 @@
 ---
-title: "Pasta met romige brie-saus"
+title: "Lazy Sunday Pasta part 39 - Creamy Cheese sauce"
 bron: https://www.instagram.com/p/CsNqR2eqDMz/
 afbeelding: /recepten/assets/ig/CsNqR2eqDMz.webp
 porties: 2

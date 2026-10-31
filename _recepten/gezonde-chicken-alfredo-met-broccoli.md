@@ -1,5 +1,5 @@
 ---
-title: "Gezonde chicken alfredo met broccoli"
+title: "Gezonde chicken alfredo"
 bron: https://www.instagram.com/p/Co6lMhsjyz1/
 afbeelding: /recepten/assets/ig/Co6lMhsjyz1.webp
 porties: 2

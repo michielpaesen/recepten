@@ -1,5 +1,5 @@
 ---
-title: "Japchae (Koreaanse zoete-aardappelnoedels met groenten)"
+title: "Japchae"
 bron: https://www.instagram.com/p/C2OQGR0JcXa/
 afbeelding: /recepten/assets/ig/C2OQGR0JcXa.webp
 porties: 3-4

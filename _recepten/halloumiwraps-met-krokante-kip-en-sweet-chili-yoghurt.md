@@ -1,5 +1,5 @@
 ---
-title: "Halloumiwraps met krokante kip en sweet chili-yoghurt"
+title: "Halloumi wraps met krokante kip & sweet chili yoghurt"
 bron: https://www.instagram.com/p/CyNdI8lt0DR/
 afbeelding: /recepten/assets/ig/CyNdI8lt0DR.webp
 porties: 4

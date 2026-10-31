@@ -1,5 +1,5 @@
 ---
-title: "Caesarsalade met avocado en zoete aardappel"
+title: "Caesar salade met avocado"
 bron: https://www.instagram.com/p/CgJF8olLBbY/
 afbeelding: /recepten/assets/ig/CgJF8olLBbY.webp
 porties: 2

@@ -1,5 +1,5 @@
 ---
-title: "Tempeh-satéspiesjes"
+title: "Tempeh saté spiesjes"
 bron: https://www.instagram.com/p/CgySprorM7a/
 afbeelding: /recepten/assets/ig/CgySprorM7a.webp
 porties: 4

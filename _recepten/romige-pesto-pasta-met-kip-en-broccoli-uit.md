@@ -1,5 +1,5 @@
 ---
-title: "Romige pesto-pasta met kip en broccoli uit de oven"
+title: "One-Pan Creamy Pesto Chicken & Broccoli Pasta Bake"
 bron: https://www.instagram.com/p/C6ZO_25vp5u/
 afbeelding: /recepten/assets/ig/C6ZO_25vp5u.webp
 porties: 6

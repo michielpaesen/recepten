@@ -1,5 +1,5 @@
 ---
-title: "Mini-quiches met spinazie en feta"
+title: "Mini quiches met spinazie, feta & Italiaanse kruiden"
 bron: https://www.instagram.com/p/Ch0G5cxjKWC/
 afbeelding: /recepten/assets/ig/Ch0G5cxjKWC.webp
 bord: baking-hartig

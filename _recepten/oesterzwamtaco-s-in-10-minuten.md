@@ -1,5 +1,5 @@
 ---
-title: "Oesterzwamtaco's in 10 minuten"
+title: "10 min oesterzwam taco's"
 bron: https://www.instagram.com/p/Cx8P1igKX2S/
 afbeelding: /recepten/assets/ig/Cx8P1igKX2S.webp
 porties: 2

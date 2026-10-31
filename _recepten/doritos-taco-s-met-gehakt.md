@@ -1,5 +1,5 @@
 ---
-title: "Doritos-taco's met gehakt"
+title: "Dorito Tacos"
 bron: https://www.instagram.com/p/CvaSGNTqfSk/
 afbeelding: /recepten/assets/ig/CvaSGNTqfSk.webp
 porties: 4

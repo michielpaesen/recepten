@@ -1,5 +1,5 @@
 ---
-title: "Speculoos-ijs zonder ijsmachine"
+title: "Speculoos ijs"
 bron: https://www.instagram.com/p/C-hM2YJt2nh/
 afbeelding: /recepten/assets/ig/C-hM2YJt2nh.webp
 porties: 8

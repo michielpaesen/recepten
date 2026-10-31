@@ -1,5 +1,5 @@
 ---
-title: "Bevroren yoghurt-pindakaascups"
+title: "Frozen Yogurt Peanut Butter Cups"
 bron: https://www.instagram.com/p/CxF9bEcSFsb/
 afbeelding: /recepten/assets/ig/CxF9bEcSFsb.webp
 porties: 6-8

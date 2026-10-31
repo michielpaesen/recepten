@@ -1,5 +1,5 @@
 ---
-title: "Griekse tomatenrijst (ntomatorizo)"
+title: "Griekse rijst"
 bron: https://www.instagram.com/p/Db44tXmtfkX/
 afbeelding: /recepten/assets/ig/Db44tXmtfkX.webp
 porties: 4

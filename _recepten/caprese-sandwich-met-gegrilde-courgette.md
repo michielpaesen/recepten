@@ -1,5 +1,5 @@
 ---
-title: "Caprese-sandwich met gegrilde courgette"
+title: "Grilled Zucchini Caprese Sandwiches"
 bron: https://www.instagram.com/p/ChZu9KIF_lZ/
 afbeelding: /recepten/assets/ig/ChZu9KIF_lZ.webp
 porties: 1

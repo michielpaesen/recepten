@@ -1,5 +1,5 @@
 ---
-title: "Pinsa met courgette en ricotta"
+title: "Pinsa met courgette"
 bron: https://www.instagram.com/p/CvrA8uNr9lZ/
 afbeelding: /recepten/assets/ig/CvrA8uNr9lZ.webp
 porties: 1-2

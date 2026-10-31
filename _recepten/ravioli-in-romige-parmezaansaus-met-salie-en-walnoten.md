@@ -1,5 +1,5 @@
 ---
-title: "Ravioli in romige Parmezaansaus met salie en walnoten"
+title: "Ravioli in creamy Parmesan sauce"
 bron: https://www.instagram.com/p/C1EUXD3svYH/
 afbeelding: /recepten/assets/ig/C1EUXD3svYH.webp
 porties: 2-3

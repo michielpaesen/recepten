@@ -1,5 +1,5 @@
 ---
-title: "Pastasalade met pesto"
+title: "Pesto pasta salad"
 bron: https://www.instagram.com/p/DZa8tcuoF9F/
 afbeelding: /recepten/assets/ig/DZa8tcuoF9F.webp
 bord: salade

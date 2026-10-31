@@ -1,5 +1,5 @@
 ---
-title: "Gnocchi-ovenschotel met romige paprikasaus en courgette"
+title: "Gnocchi ovenschotel"
 bron: https://www.instagram.com/p/CbMhMk7rzg2/
 afbeelding: /recepten/assets/ig/CbMhMk7rzg2.webp
 bord: gnocchi

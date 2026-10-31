@@ -1,5 +1,5 @@
 ---
-title: "Meloen-burratasalade met parmaham"
+title: "Melonen-Burrata-Salat mit Pršut oder Parmaschinken"
 bron: https://www.instagram.com/p/DaLLVyGNkpT/
 afbeelding: /recepten/assets/ig/DaLLVyGNkpT.webp
 porties: 2

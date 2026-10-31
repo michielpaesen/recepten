@@ -1,5 +1,5 @@
 ---
-title: "Parelcouscous met chorizo, perzik en feta"
+title: "Parelcouscous met chorizo, perzik & feta"
 bron: https://www.instagram.com/p/Db_DTrONFji/
 afbeelding: /recepten/assets/ig/Db_DTrONFji.webp
 porties: 4

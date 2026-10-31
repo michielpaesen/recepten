@@ -1,5 +1,5 @@
 ---
-title: "Boursin-orzo met geroosterde paprika uit één pan"
+title: "Easy one pot Boursin orzo with roasted red peppers"
 bron: https://www.instagram.com/p/C0sF2zcJzV0/
 afbeelding: /recepten/assets/ig/C0sF2zcJzV0.webp
 porties: 3

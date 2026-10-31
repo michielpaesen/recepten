@@ -1,5 +1,5 @@
 ---
-title: "Abrikozen-crumblegebak"
+title: "Abrikozen crumble gebak"
 bron: https://www.instagram.com/p/CCsQYqqj2HX/
 afbeelding: /recepten/assets/ig/CCsQYqqj2HX.webp
 bord: baking-zoet

@@ -1,5 +1,5 @@
 ---
-title: "Gnocchi in tomatensaus met groenten"
+title: "Gnocchi in tomatensaus"
 bron: https://www.instagram.com/p/Cbb9L83DNwK/
 afbeelding: /recepten/assets/ig/Cbb9L83DNwK.webp
 porties: 2

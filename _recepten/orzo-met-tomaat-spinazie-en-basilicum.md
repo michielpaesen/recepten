@@ -1,5 +1,5 @@
 ---
-title: "Orzo met tomaat, spinazie en basilicum"
+title: "Orzo met tomaat, spinazie & basilicum"
 bron: https://www.instagram.com/p/Cg7Flzaj46L/
 afbeelding: /recepten/assets/ig/Cg7Flzaj46L.webp
 bord: orzogriekse-pasta

@@ -1,5 +1,5 @@
 ---
-title: "Hot honey-halloumitaco's"
+title: "Hot honey halloumi tacos"
 bron: https://www.instagram.com/p/C6t64NStKVP/
 afbeelding: /recepten/assets/ig/C6t64NStKVP.webp
 porties: 4

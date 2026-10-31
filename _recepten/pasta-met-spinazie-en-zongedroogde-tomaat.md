@@ -1,5 +1,5 @@
 ---
-title: "Pasta met spinazie en zongedroogde tomaat"
+title: "Super easy spinach and tomato pasta"
 bron: https://www.instagram.com/p/Cixl-f9Dwf8/
 afbeelding: /recepten/assets/ig/Cixl-f9Dwf8.webp
 porties: 2

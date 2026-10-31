@@ -1,5 +1,5 @@
 ---
-title: "Gnocchi met broccoli, walnoten en Parmezaanroom"
+title: "Gnocchis brocolis, noix et crème de parmesan"
 bron: https://www.instagram.com/p/C0Yz9OQMV7n/
 afbeelding: /recepten/assets/ig/C0Yz9OQMV7n.webp
 porties: 4

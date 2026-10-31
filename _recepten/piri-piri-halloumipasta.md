@@ -1,5 +1,5 @@
 ---
-title: "Piri-piri-halloumipasta"
+title: "Piri Piri Halloumi Pasta"
 bron: https://www.instagram.com/p/CkwJRBCooNE/
 afbeelding: /recepten/assets/ig/CkwJRBCooNE.webp
 porties: 4

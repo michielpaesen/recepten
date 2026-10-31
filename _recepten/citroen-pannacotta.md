@@ -1,5 +1,5 @@
 ---
-title: "Citroen-pannacotta"
+title: "Citroen panna cotta"
 bron: https://www.instagram.com/p/DOSzWNIjXx0/
 afbeelding: /recepten/assets/ig/DOSzWNIjXx0.webp
 bord: desserts

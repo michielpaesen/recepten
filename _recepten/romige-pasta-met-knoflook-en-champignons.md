@@ -1,5 +1,5 @@
 ---
-title: "Romige pasta met knoflook en champignons"
+title: "Creamy Garlic Mushroom Pasta"
 bron: https://www.instagram.com/p/C2kvyZ4KIyT/
 afbeelding: /recepten/assets/ig/C2kvyZ4KIyT.webp
 bord: pasta

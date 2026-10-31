@@ -1,5 +1,5 @@
 ---
-title: "Yoghurt-cacaocups met banaan"
+title: "Yogurt Cocoa Cup"
 bron: https://www.instagram.com/p/CyDwRJLy59R/
 afbeelding: /recepten/assets/ig/CyDwRJLy59R.webp
 porties: 4-6

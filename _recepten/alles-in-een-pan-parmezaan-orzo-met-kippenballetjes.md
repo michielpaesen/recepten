@@ -1,5 +1,5 @@
 ---
-title: "Alles-in-één-pan Parmezaan-orzo met kippenballetjes"
+title: "Alles-in-één-pan parmezaan orzo met kippenballetjes"
 bron: https://www.instagram.com/p/ChY2nHhl5P3/
 afbeelding: /recepten/assets/ig/ChY2nHhl5P3.webp
 porties: 4-5

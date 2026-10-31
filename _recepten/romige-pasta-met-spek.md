@@ -1,5 +1,5 @@
 ---
-title: "Romige pasta met spek"
+title: "Creamy bacon pasta"
 bron: https://www.instagram.com/p/Cv-heN7huEc/
 afbeelding: /recepten/assets/ig/Cv-heN7huEc.webp
 bord: pasta

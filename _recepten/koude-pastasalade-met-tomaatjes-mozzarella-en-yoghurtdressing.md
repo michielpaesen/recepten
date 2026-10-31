@@ -1,5 +1,5 @@
 ---
-title: "Koude pastasalade met tomaatjes, mozzarella en yoghurtdressing"
+title: "Koude pastasalade met tomaatjes en frisse yoghurt dressing"
 bron: https://www.instagram.com/p/DME8AX0S57x/
 afbeelding: /recepten/assets/ig/DME8AX0S57x.webp
 porties: 2

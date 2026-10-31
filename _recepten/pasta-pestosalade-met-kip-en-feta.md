@@ -1,5 +1,5 @@
 ---
-title: "Pasta-pestosalade met kip en feta"
+title: "Pesto chicken pasta salad"
 bron: https://www.instagram.com/p/Cf1pTZXq2MR/
 afbeelding: /recepten/assets/ig/Cf1pTZXq2MR.webp
 porties: 2

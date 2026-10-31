@@ -1,5 +1,5 @@
 ---
-title: "Parelcouscoussalade met kip en spinazie-pestodressing"
+title: "Parelcouscoussalade met romige spinazie-pesto dressing en kip"
 bron: https://www.instagram.com/p/DbVZ7yAsEZA/
 afbeelding: /recepten/assets/ig/DbVZ7yAsEZA.webp
 porties: 2

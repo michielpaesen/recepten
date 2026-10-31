@@ -1,5 +1,5 @@
 ---
-title: "Pasta Boursin met broccoli en champignons"
+title: "Pasta Boursin"
 bron: https://www.instagram.com/p/DVfllxVDZNy/
 afbeelding: /recepten/assets/ig/DVfllxVDZNy.webp
 bord: pasta

@@ -1,5 +1,5 @@
 ---
-title: "Gevulde courgette met Mexicaans gehakt"
+title: "Gevulde courgette met kruidig Mexicaans gehakt"
 bron: https://www.instagram.com/p/CAZfFOiIHnq/
 afbeelding: /recepten/assets/ig/CAZfFOiIHnq.webp
 bord: groenten

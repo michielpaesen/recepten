@@ -1,5 +1,5 @@
 ---
-title: "Kip-parmigiana-panini"
+title: "Chicken Parmigiana Panini"
 bron: https://www.instagram.com/p/CiNOJntIvKG/
 afbeelding: /recepten/assets/ig/CiNOJntIvKG.webp
 porties: 1

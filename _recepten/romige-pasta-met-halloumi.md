@@ -1,5 +1,5 @@
 ---
-title: "Romige pasta met halloumi"
+title: "Creamy halloumi pasta"
 bron: https://www.instagram.com/p/C0MG01loUJ4/
 afbeelding: /recepten/assets/ig/C0MG01loUJ4.webp
 porties: 1

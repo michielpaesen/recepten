@@ -1,5 +1,5 @@
 ---
-title: "Orzosalade met pesto"
+title: "Orzo salade met pesto"
 bron: https://www.instagram.com/p/Cf3EYNrr94a/
 afbeelding: /recepten/assets/ig/Cf3EYNrr94a.webp
 porties: 4

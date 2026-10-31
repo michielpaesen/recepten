@@ -1,5 +1,5 @@
 ---
-title: "Bevroren mango-yoghurtclusters"
+title: "Mango Clusters"
 bron: https://www.instagram.com/p/Cyn23rfSrwj/
 afbeelding: /recepten/assets/ig/Cyn23rfSrwj.webp
 porties: 4

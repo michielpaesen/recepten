@@ -1,5 +1,5 @@
 ---
-title: "Snelle raviolisalade"
+title: "Snelle ravioli salade"
 bron: https://www.instagram.com/p/Cg_KnUirw0_/
 afbeelding: /recepten/assets/ig/Cg_KnUirw0_.webp
 porties: 2

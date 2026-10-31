@@ -1,5 +1,5 @@
 ---
-title: "Warme bruschettadip met drie kazen"
+title: "Three-Cheese Tomato Bruschetta Dip"
 bron: https://www.instagram.com/p/DXmxIALiV-h/
 afbeelding: /recepten/assets/ig/DXmxIALiV-h.webp
 porties: 6

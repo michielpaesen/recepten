@@ -1,5 +1,5 @@
 ---
-title: "Alles-in-één-pan orzo met Italiaanse balletjes en geroosterde kerstomaatjes"
+title: "Alles-in-één-pan orzo"
 bron: https://www.instagram.com/p/CiHM6y3taRE/
 afbeelding: /recepten/assets/ig/CiHM6y3taRE.webp
 porties: 4-5

@@ -1,5 +1,5 @@
 ---
-title: "Pad thai met kip (glutenvrij)"
+title: "Chicken pad thai"
 bron: https://www.instagram.com/p/Ck0vAT9tPIH/
 afbeelding: /recepten/assets/ig/Ck0vAT9tPIH.webp
 porties: 3-4

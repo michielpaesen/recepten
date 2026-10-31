@@ -1,5 +1,5 @@
 ---
-title: "BLT-salade"
+title: "BLT Salade"
 bron: https://www.instagram.com/p/ChRJVIiNUCr/
 afbeelding: /recepten/assets/ig/ChRJVIiNUCr.webp
 porties: 4

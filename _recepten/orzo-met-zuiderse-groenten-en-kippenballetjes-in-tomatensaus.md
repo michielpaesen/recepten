@@ -1,5 +1,5 @@
 ---
-title: "Orzo met zuiderse groenten en kippenballetjes in tomatensaus"
+title: "Zuiderse groenten met kippeballetjes - Orzo met tomatensaus"
 bron: https://www.instagram.com/p/Cy-wVCkIdZd/
 afbeelding: /recepten/assets/ig/Cy-wVCkIdZd.webp
 bord: orzogriekse-pasta

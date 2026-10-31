@@ -1,5 +1,5 @@
 ---
-title: "Frisse witloofsalade met appel en ei"
+title: "Frisse witlof salade"
 bron: https://www.instagram.com/p/CipGQhwjblB/
 afbeelding: /recepten/assets/ig/CipGQhwjblB.webp
 porties: 2-3

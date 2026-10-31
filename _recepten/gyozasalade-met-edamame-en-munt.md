@@ -1,5 +1,5 @@
 ---
-title: "Gyozasalade met edamame en munt"
+title: "Gyoza salade"
 bron: https://www.instagram.com/p/DMMouUftZ8g/
 afbeelding: /recepten/assets/ig/DMMouUftZ8g.webp
 bord: salade

@@ -1,5 +1,5 @@
 ---
-title: "Pasta met kip, spekjes, Boursin en cashewnoten"
+title: "Pasta met kipfilet, spekjes, boursin & cashewnoten"
 bron: https://www.instagram.com/p/CZyoYnluWIM/
 afbeelding: /recepten/assets/ig/CZyoYnluWIM.webp
 bord: pasta

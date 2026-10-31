@@ -1,5 +1,5 @@
 ---
-title: "Pasta met aubergine en kerstomaatjes"
+title: "Pasta met aubergine"
 bron: https://www.instagram.com/p/CwwiOYby4Go/
 afbeelding: /recepten/assets/ig/CwwiOYby4Go.webp
 bord: pasta

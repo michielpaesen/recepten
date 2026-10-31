@@ -1,5 +1,5 @@
 ---
-title: "Drie Spaanse pincho's"
+title: "3 x Spaanse pincho's"
 bron: https://www.instagram.com/p/Cs8HaudrVQv/
 afbeelding: /recepten/assets/ig/Cs8HaudrVQv.webp
 porties: 24 stuks

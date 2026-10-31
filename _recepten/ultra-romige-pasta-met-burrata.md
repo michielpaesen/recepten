@@ -1,5 +1,5 @@
 ---
-title: "Ultra romige pasta met burrata"
+title: "Pâtes ultra crémeuses à la burrata"
 bron: https://www.instagram.com/p/CikAxUXAoXg/
 afbeelding: /recepten/assets/ig/CikAxUXAoXg.webp
 porties: 2

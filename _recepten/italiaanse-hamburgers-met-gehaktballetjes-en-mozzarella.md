@@ -1,5 +1,5 @@
 ---
-title: "Italiaanse hamburgers met gehaktballetjes en mozzarella"
+title: "Italiaanse hamburgers"
 bron: https://www.instagram.com/p/Cc9nN5PvkdR/
 afbeelding: /recepten/assets/ig/Cc9nN5PvkdR.webp
 porties: 4

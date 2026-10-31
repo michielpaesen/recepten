@@ -1,5 +1,5 @@
 ---
-title: "Gezonde carrot cake als ontbijt"
+title: "Carrot cake"
 bron: https://www.instagram.com/p/C--ODxhN7Rc/
 afbeelding: /recepten/assets/ig/C--ODxhN7Rc.webp
 porties: 2

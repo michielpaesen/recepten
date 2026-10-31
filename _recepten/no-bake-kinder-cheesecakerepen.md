@@ -1,5 +1,5 @@
 ---
-title: "No-bake Kinder-cheesecakerepen"
+title: "No-bake Kinder cheesecake bars"
 bron: https://www.instagram.com/p/C1uC8m3oWkx/
 afbeelding: /recepten/assets/ig/C1uC8m3oWkx.webp
 porties: 16

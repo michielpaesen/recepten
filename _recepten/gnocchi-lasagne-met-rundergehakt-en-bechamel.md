@@ -1,5 +1,5 @@
 ---
-title: "Gnocchi-lasagne met rundergehakt en bechamel"
+title: "Gnocchi lasagne"
 bron: https://www.instagram.com/p/C0hgIbyIUVP/
 afbeelding: /recepten/assets/ig/C0hgIbyIUVP.webp
 porties: 4

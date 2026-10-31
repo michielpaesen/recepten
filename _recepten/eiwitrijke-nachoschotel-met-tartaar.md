@@ -1,5 +1,5 @@
 ---
-title: "Eiwitrijke nachoschotel met tartaar"
+title: "Eiwitrijke nachoschotel"
 bron: https://www.instagram.com/p/DJo6OqRIQdz/
 afbeelding: /recepten/assets/ig/DJo6OqRIQdz.webp
 porties: 2

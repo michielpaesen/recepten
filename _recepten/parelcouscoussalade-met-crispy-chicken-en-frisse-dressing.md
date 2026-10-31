@@ -1,5 +1,5 @@
 ---
-title: "Parelcouscoussalade met crispy chicken en frisse dressing"
+title: "Parelcouscous salade met crispy chicken en een frisse dressing"
 bron: https://www.instagram.com/p/DJuEBP5iDtl/
 afbeelding: /recepten/assets/ig/DJuEBP5iDtl.webp
 porties: 1

@@ -1,5 +1,5 @@
 ---
-title: "Griekse kikkererwtensalade met tzatzikidressing"
+title: "Greek Inspired Chickpea Salad + Tzatziki Dressing"
 bron: https://www.instagram.com/p/Ct-UI_MpGcA/
 afbeelding: /recepten/assets/ig/Ct-UI_MpGcA.webp
 porties: 4

@@ -1,5 +1,5 @@
 ---
-title: "Italiaanse tosti met pesto en salami"
+title: "Italiaanse tosti met pesto"
 bron: https://www.instagram.com/p/CCXuRgkDZP1/
 afbeelding: /recepten/assets/ig/CCXuRgkDZP1.webp
 bord: paninis

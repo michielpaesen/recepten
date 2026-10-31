@@ -1,5 +1,5 @@
 ---
-title: "Romige kip-orzo uit één pan"
+title: "One pan creamy chicken orzo"
 bron: https://www.instagram.com/p/DJPKdecIzva/
 afbeelding: /recepten/assets/ig/DJPKdecIzva.webp
 porties: 2

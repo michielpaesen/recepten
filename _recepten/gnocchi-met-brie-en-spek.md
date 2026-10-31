@@ -1,5 +1,5 @@
 ---
-title: "Gnocchi met brie en spek"
+title: "Brie and bacon gnocchi"
 bron: https://www.instagram.com/p/C3qIvQEt0dC/
 afbeelding: /recepten/assets/ig/C3qIvQEt0dC.webp
 porties: 2

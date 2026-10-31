@@ -1,5 +1,5 @@
 ---
-title: "Luie zondagpasta (2)"
+title: "Luie zondag pasta"
 bron: https://www.instagram.com/p/Cw4mFk2Ioyy/
 afbeelding: /recepten/assets/ig/Cw4mFk2Ioyy.webp
 bord: pasta

@@ -1,5 +1,5 @@
 ---
-title: "Pokébowl met krokante kip en mango"
+title: "Poké bowl met krokante kip en mango"
 bron: https://www.instagram.com/p/ChRrLdUKVWr/
 afbeelding: /recepten/assets/ig/ChRrLdUKVWr.webp
 bord: poke-bowl

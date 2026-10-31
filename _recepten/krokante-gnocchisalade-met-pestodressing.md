@@ -1,5 +1,5 @@
 ---
-title: "Krokante gnocchisalade met pestodressing"
+title: "Krokante gnocchi salade met pesto dressing"
 bron: https://www.instagram.com/p/DbH-qvhRGQf/
 afbeelding: /recepten/assets/ig/DbH-qvhRGQf.webp
 porties: 2-3

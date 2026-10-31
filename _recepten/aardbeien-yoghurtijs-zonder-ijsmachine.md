@@ -1,5 +1,5 @@
 ---
-title: "Aardbeien-yoghurtijs zonder ijsmachine"
+title: "Zelfgemaakt aardbeien yoghurtijs"
 bron: https://www.instagram.com/p/CDoVHm7nGWC/
 afbeelding: /recepten/assets/ig/CDoVHm7nGWC.webp
 bord: desserts

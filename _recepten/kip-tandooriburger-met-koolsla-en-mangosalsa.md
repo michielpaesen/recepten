@@ -1,5 +1,5 @@
 ---
-title: "Kip-tandooriburger met koolsla en mangosalsa"
+title: "Kip tandoori burger"
 bron: https://www.instagram.com/p/C-HZyeFy0g9/
 afbeelding: /recepten/assets/ig/C-HZyeFy0g9.webp
 porties: 3

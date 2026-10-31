@@ -1,5 +1,5 @@
 ---
-title: "Pasta met romige courgettesaus, krokante serranoham en burrata"
+title: "Pasta met romige courgette saus, crispy serranoham & burrata"
 bron: https://www.instagram.com/p/DMfqZDBMmqX/
 afbeelding: /recepten/assets/ig/DMfqZDBMmqX.webp
 porties: 2

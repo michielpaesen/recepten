@@ -1,5 +1,5 @@
 ---
-title: "Maaltijdsalade met gevulde avocado en parelcouscous"
+title: "Maaltijdsalade met gevulde avocado"
 bron: https://www.instagram.com/p/DYT8YQyj71d/
 afbeelding: /recepten/assets/ig/DYT8YQyj71d.webp
 porties: 2

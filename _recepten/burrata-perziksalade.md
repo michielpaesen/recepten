@@ -1,5 +1,5 @@
 ---
-title: "Burrata-perziksalade"
+title: "Burrata perzik salade"
 bron: https://www.instagram.com/p/Db5-wnxsVZm/
 afbeelding: /recepten/assets/ig/Db5-wnxsVZm.webp
 porties: 2

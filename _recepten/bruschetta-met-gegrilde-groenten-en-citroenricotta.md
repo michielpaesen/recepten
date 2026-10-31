@@ -1,5 +1,5 @@
 ---
-title: "Bruschetta met gegrilde groenten en citroenricotta"
+title: "Bruschetta met gegrilde groenten"
 bron: https://www.instagram.com/p/ChMCk5lLaTW/
 afbeelding: /recepten/assets/ig/ChMCk5lLaTW.webp
 bord: starters

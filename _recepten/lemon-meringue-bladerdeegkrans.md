@@ -1,5 +1,5 @@
 ---
-title: "Lemon-meringue bladerdeegkrans"
+title: "Lemon meringue bladerdeeg krans"
 bron: https://www.instagram.com/p/DWicI6XjWWk/
 afbeelding: /recepten/assets/ig/DWicI6XjWWk.webp
 bord: desserts

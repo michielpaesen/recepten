@@ -1,5 +1,5 @@
 ---
-title: "Bibimbap met shiitake"
+title: "Bibimbap (Koreaanse rijst bowl)"
 bron: https://www.instagram.com/p/CxmnAfiyJGP/
 afbeelding: /recepten/assets/ig/CxmnAfiyJGP.webp
 bord: rijst

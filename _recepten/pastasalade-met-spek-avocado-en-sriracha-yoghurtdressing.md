@@ -1,5 +1,5 @@
 ---
-title: "Pastasalade met spek, avocado en sriracha-yoghurtdressing"
+title: "Balanced & easy pasta salad"
 bron: https://www.instagram.com/p/CiX1G2LKraU/
 afbeelding: /recepten/assets/ig/CiX1G2LKraU.webp
 porties: 2-3

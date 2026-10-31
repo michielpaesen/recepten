@@ -1,5 +1,5 @@
 ---
-title: "Italiaanse rucolasalade"
+title: "Italiaanse rucola salade"
 bron: https://www.instagram.com/p/CgoI7EBDbmT/
 afbeelding: /recepten/assets/ig/CgoI7EBDbmT.webp
 porties: 4

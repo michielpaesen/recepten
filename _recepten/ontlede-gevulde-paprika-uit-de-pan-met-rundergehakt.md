@@ -1,5 +1,5 @@
 ---
-title: "Ontlede gevulde paprika uit de pan met rundergehakt"
+title: "Unstuffed pepper skillet with ground beef"
 bron: https://www.instagram.com/p/Dc__uX1MUX_/
 afbeelding: /recepten/assets/ig/Dc__uX1MUX_.webp
 porties: 4

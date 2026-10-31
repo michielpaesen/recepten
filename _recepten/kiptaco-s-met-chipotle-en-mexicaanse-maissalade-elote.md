@@ -1,5 +1,5 @@
 ---
-title: "Kiptaco's met chipotle en Mexicaanse maïssalade (elote)"
+title: "Elote-inspired chicken tacos"
 bron: https://www.instagram.com/p/Crvlth8OOFA/
 afbeelding: /recepten/assets/ig/Crvlth8OOFA.webp
 porties: 4

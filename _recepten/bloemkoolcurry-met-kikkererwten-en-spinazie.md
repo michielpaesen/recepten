@@ -1,5 +1,5 @@
 ---
-title: "Bloemkoolcurry met kikkererwten en spinazie"
+title: "Bloemkool curry"
 bron: https://www.instagram.com/p/C3W8bPdtDWk/
 afbeelding: /recepten/assets/ig/C3W8bPdtDWk.webp
 porties: 3

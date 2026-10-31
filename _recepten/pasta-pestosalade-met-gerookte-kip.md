@@ -1,5 +1,5 @@
 ---
-title: "Pasta-pestosalade met gerookte kip"
+title: "Pasta pesto salade"
 bron: https://www.instagram.com/p/ChEPx2brHiH/
 afbeelding: /recepten/assets/ig/ChEPx2brHiH.webp
 porties: 4

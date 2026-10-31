@@ -1,5 +1,5 @@
 ---
-title: "Samosa's met zoete aardappel en erwtjes"
+title: "Samosa's"
 bron: https://www.instagram.com/p/C3Zf2Y-L-lo/
 afbeelding: /recepten/assets/ig/C3Zf2Y-L-lo.webp
 bord: starters

@@ -1,5 +1,5 @@
 ---
-title: "Pittige kaasaardappel"
+title: "Würzige Käsekartoffel"
 bron: https://www.instagram.com/p/Cn6hSaVgSg8/
 afbeelding: /recepten/assets/ig/Cn6hSaVgSg8.webp
 bord: aardappelen

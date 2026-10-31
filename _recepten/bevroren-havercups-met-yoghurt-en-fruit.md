@@ -1,5 +1,5 @@
 ---
-title: "Bevroren havercups met yoghurt en fruit"
+title: "Frozen Oats Cup"
 bron: https://www.instagram.com/p/CtWjiyaoTy5/
 afbeelding: /recepten/assets/ig/CtWjiyaoTy5.webp
 porties: 6

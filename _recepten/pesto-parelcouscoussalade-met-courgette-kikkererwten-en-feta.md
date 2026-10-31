@@ -1,5 +1,5 @@
 ---
-title: "Pesto-parelcouscoussalade met courgette, kikkererwten en feta"
+title: "Pesto parelcouscous salade"
 bron: https://www.instagram.com/p/Db51fezsK9R/
 afbeelding: /recepten/assets/ig/Db51fezsK9R.webp
 porties: 4

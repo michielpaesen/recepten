@@ -1,5 +1,5 @@
 ---
-title: "Twix-taart"
+title: "Twix taart"
 bron: https://www.instagram.com/p/B9ADTvsDLC9/
 afbeelding: /recepten/assets/ig/B9ADTvsDLC9.webp
 bord: desserts

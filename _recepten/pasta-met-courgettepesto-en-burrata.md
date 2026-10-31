@@ -1,5 +1,5 @@
 ---
-title: "Pasta met courgettepesto en burrata"
+title: "Pasta met courgette pesto & burrata"
 bron: https://www.instagram.com/p/CtI3YhqIoFo/
 afbeelding: /recepten/assets/ig/CtI3YhqIoFo.webp
 porties: 2

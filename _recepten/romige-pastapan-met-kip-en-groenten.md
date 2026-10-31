@@ -1,5 +1,5 @@
 ---
-title: "Romige pastapan met kip en groenten"
+title: "Kremalı Sebzeli Tavuklu Makarna Tavası"
 bron: https://www.instagram.com/p/DQby5XtiJsm/
 afbeelding: /recepten/assets/ig/DQby5XtiJsm.webp
 porties: 4

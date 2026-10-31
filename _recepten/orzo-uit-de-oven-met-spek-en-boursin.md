@@ -1,5 +1,5 @@
 ---
-title: "Orzo uit de oven met spek en Boursin"
+title: "Baked Bacon & Boursin Orzo"
 bron: https://www.instagram.com/p/CoFtkYMIF3U/
 afbeelding: /recepten/assets/ig/CoFtkYMIF3U.webp
 porties: 2-3

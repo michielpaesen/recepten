@@ -1,5 +1,5 @@
 ---
-title: "Lasagnebagels uit de airfryer"
+title: "Lasagne bagels"
 bron: https://www.instagram.com/p/C6gXQMUoge7/
 afbeelding: /recepten/assets/ig/C6gXQMUoge7.webp
 porties: 2

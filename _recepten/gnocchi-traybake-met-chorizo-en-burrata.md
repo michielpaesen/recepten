@@ -1,5 +1,5 @@
 ---
-title: "Gnocchi-traybake met chorizo en burrata"
+title: "Gnocchi traybake"
 bron: https://www.instagram.com/p/DJhMvoBIEMS/
 afbeelding: /recepten/assets/ig/DJhMvoBIEMS.webp
 porties: 2

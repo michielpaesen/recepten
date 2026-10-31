@@ -1,5 +1,5 @@
 ---
-title: "Ontbijtsandwich met romig ei en cottage cheese"
+title: "Protein-packed breakfast sandwich"
 bron: https://www.instagram.com/p/C2NZP14J9Lq/
 afbeelding: /recepten/assets/ig/C2NZP14J9Lq.webp
 porties: 1

@@ -1,5 +1,5 @@
 ---
-title: "Pasta met butternutcrème, spekjes en burrata"
+title: "Pâtes à la crème de butternut, lardons & burrata"
 bron: https://www.instagram.com/p/Cxa0-ANNRX7/
 afbeelding: /recepten/assets/ig/Cxa0-ANNRX7.webp
 porties: 2

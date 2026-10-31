@@ -1,5 +1,5 @@
 ---
-title: "Thaise kip met cashewnoten"
+title: "Thai cashew chicken"
 bron: https://www.instagram.com/p/DbVH1P7xjqX/
 afbeelding: /recepten/assets/ig/DbVH1P7xjqX.webp
 porties: 4

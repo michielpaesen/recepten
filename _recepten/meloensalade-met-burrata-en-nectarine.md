@@ -1,5 +1,5 @@
 ---
-title: "Meloensalade met burrata en nectarine"
+title: "Meloen salade met burrata & nectarine"
 bron: https://www.instagram.com/p/DaiYGERo3kW/
 afbeelding: /recepten/assets/ig/DaiYGERo3kW.webp
 porties: 2

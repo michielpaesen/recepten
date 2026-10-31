@@ -1,5 +1,5 @@
 ---
-title: "Broodje burrata met truffelsalami"
+title: "Broodje burrata & truffelsalami"
 bron: https://www.instagram.com/p/CYi8PxHDanj/
 afbeelding: /recepten/assets/ig/CYi8PxHDanj.webp
 porties: 2

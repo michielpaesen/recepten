@@ -1,5 +1,5 @@
 ---
-title: "Tostada met gehakt uit de oven"
+title: "Tostada met gehakt"
 bron: https://www.instagram.com/p/CwSHBYYIwQd/
 afbeelding: /recepten/assets/ig/CwSHBYYIwQd.webp
 bord: mexicaans

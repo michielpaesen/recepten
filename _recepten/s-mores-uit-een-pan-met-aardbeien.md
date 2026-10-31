@@ -1,5 +1,5 @@
 ---
-title: "S'mores uit één pan met aardbeien"
+title: "S'mores"
 bron: https://www.instagram.com/p/CO2fc5NFJy0/
 afbeelding: /recepten/assets/ig/CO2fc5NFJy0.webp
 bord: desserts

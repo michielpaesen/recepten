@@ -1,5 +1,5 @@
 ---
-title: "Kikkererwtensalade met deli-dressing"
+title: "Chickpea Salad"
 bron: https://www.instagram.com/p/DY6DL2Mt3Hh/
 afbeelding: /recepten/assets/ig/DY6DL2Mt3Hh.webp
 porties: 4-6

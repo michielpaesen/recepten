@@ -1,5 +1,5 @@
 ---
-title: "Spaghetti met feta en tomaat uit één pan"
+title: "One Pot Spaghetti Pfanne"
 bron: https://www.instagram.com/p/CwlFNI8Lq5i/
 afbeelding: /recepten/assets/ig/CwlFNI8Lq5i.webp
 porties: 1

@@ -1,5 +1,5 @@
 ---
-title: "Vegetarische empanada's"
+title: "Vegetarische empanadas"
 bron: https://www.instagram.com/p/CjcO9tFrf6S/
 afbeelding: /recepten/assets/ig/CjcO9tFrf6S.webp
 porties: 4

@@ -1,5 +1,5 @@
 ---
-title: "Orzo met gehaktballetjes uit één pan"
+title: "Orzo pasta met gehaktballetjes"
 bron: https://www.instagram.com/p/Cj9rfeOjHY9/
 afbeelding: /recepten/assets/ig/Cj9rfeOjHY9.webp
 bord: orzogriekse-pasta

@@ -1,5 +1,5 @@
 ---
-title: "Orzosalade met citroen-pistachepesto, gegrilde courgette en burrata"
+title: "Orzosalade met citroen-pistachepesto, gegrilde courgette & burrata"
 bron: https://www.instagram.com/p/DKkHLgeNoJ9/
 afbeelding: /recepten/assets/ig/DKkHLgeNoJ9.webp
 porties: 3-4

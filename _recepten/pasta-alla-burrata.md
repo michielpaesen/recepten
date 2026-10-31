@@ -1,5 +1,5 @@
 ---
-title: "Pasta alla burrata"
+title: "Pasta Alla Burrata"
 bron: https://www.instagram.com/p/CywR478rUdh/
 afbeelding: /recepten/assets/ig/CywR478rUdh.webp
 porties: 2

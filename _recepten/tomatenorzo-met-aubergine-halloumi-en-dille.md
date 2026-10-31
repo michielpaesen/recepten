@@ -1,5 +1,5 @@
 ---
-title: "Tomatenorzo met aubergine, halloumi en dille"
+title: "Tomatenorzo met aubergine, halloumi & dille"
 bron: https://www.instagram.com/p/Ch6fE_IqfAg/
 afbeelding: /recepten/assets/ig/Ch6fE_IqfAg.webp
 porties: 3-4

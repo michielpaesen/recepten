@@ -1,5 +1,5 @@
 ---
-title: "Rijst met snijbonen en kipsaté"
+title: "Nasi/rijst, snijbonen & kipsaté"
 bron: https://www.instagram.com/p/CZWY2Ejrp5_/
 afbeelding: /recepten/assets/ig/CZWY2Ejrp5_.webp
 porties: 1

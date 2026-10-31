@@ -1,5 +1,5 @@
 ---
-title: "Mediterrane couscoussalade met tomaat"
+title: "Mediterranean Tomato Couscous Salad"
 bron: https://www.instagram.com/p/Dbl5sV4ieug/
 afbeelding: /recepten/assets/ig/Dbl5sV4ieug.webp
 porties: 2-3

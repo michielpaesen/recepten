@@ -1,5 +1,5 @@
 ---
-title: "Krokante gnocchi-carpacciosalade met truffelmayo"
+title: "Krokante gnocchi carpaccio salade"
 bron: https://www.instagram.com/p/DNVuWCxMxwJ/
 afbeelding: /recepten/assets/ig/DNVuWCxMxwJ.webp
 porties: 2

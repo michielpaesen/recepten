@@ -1,5 +1,5 @@
 ---
-title: "Pasta met gebakken feta en puntpaprika"
+title: "Pasta met gebakken feta"
 bron: https://www.instagram.com/p/CzdNLSBtaX7/
 afbeelding: /recepten/assets/ig/CzdNLSBtaX7.webp
 porties: 2

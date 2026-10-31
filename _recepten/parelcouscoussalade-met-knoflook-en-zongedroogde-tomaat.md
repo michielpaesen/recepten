@@ -1,5 +1,5 @@
 ---
-title: "Parelcouscoussalade met knoflook en zongedroogde tomaat"
+title: "Garlic and sundried tomato couscous salad"
 bron: https://www.instagram.com/p/Da-7D7LIwVv/
 afbeelding: /recepten/assets/ig/Da-7D7LIwVv.webp
 porties: 4

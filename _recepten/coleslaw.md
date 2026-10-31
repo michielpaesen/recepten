@@ -1,5 +1,5 @@
 ---
-title: "Coleslaw"
+title: "Coleslaw – frisse Amerikaanse salade"
 bron: https://www.instagram.com/p/DM9lINbShT7/
 afbeelding: /recepten/assets/ig/DM9lINbShT7.webp
 porties: 4

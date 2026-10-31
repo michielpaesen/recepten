@@ -1,5 +1,5 @@
 ---
-title: "Mexicaanse tortillahapjes"
+title: "Mexicaanse tortilla hapjes"
 bron: https://www.instagram.com/p/B8oVQ9bHN40/
 afbeelding: /recepten/assets/ig/B8oVQ9bHN40.webp
 bord: starters

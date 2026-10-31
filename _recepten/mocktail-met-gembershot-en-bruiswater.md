@@ -1,5 +1,5 @@
 ---
-title: "Mocktail met gembershot en bruiswater"
+title: "Mocktail"
 bron: https://www.instagram.com/p/CkdicA3D2Cg/
 afbeelding: /recepten/assets/ig/CkdicA3D2Cg.webp
 porties: 1

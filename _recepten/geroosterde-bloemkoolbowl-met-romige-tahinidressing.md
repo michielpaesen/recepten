@@ -1,5 +1,5 @@
 ---
-title: "Geroosterde bloemkoolbowl met romige tahinidressing"
+title: "Geroosterde bloemkool bowl met romige tahini dressing"
 bron: https://www.instagram.com/p/Cx9uaIKoSYH/
 afbeelding: /recepten/assets/ig/Cx9uaIKoSYH.webp
 porties: 3-4

@@ -1,5 +1,5 @@
 ---
-title: "Pastasalade met kip en honing-mosterddressing"
+title: "Pastasalade met kip & honing-mosterd"
 bron: https://www.instagram.com/p/DZ5VeQlN57p/
 afbeelding: /recepten/assets/ig/DZ5VeQlN57p.webp
 porties: 4

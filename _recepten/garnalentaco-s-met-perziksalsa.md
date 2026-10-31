@@ -1,5 +1,5 @@
 ---
-title: "Garnalentaco's met perziksalsa"
+title: "The best shrimp tacos"
 bron: https://www.instagram.com/p/CiKqWQKj0GI/
 afbeelding: /recepten/assets/ig/CiKqWQKj0GI.webp
 porties: 2

@@ -1,5 +1,5 @@
 ---
-title: "Cottage cheese-taco's met ei en pesto"
+title: "Cottage cheese tacos"
 bron: https://www.instagram.com/p/C9kdqF1N4VP/
 afbeelding: /recepten/assets/ig/C9kdqF1N4VP.webp
 porties: 1

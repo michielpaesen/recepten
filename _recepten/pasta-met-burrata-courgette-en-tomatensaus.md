@@ -1,5 +1,5 @@
 ---
-title: "Pasta met burrata, courgette en tomatensaus"
+title: "Pasta met burrata"
 bron: https://www.instagram.com/p/CgugoPQPFXq/
 afbeelding: /recepten/assets/ig/CgugoPQPFXq.webp
 porties: 2

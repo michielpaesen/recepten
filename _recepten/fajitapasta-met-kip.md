@@ -1,5 +1,5 @@
 ---
-title: "Fajitapasta met kip"
+title: "Fajita pasta"
 bron: https://www.instagram.com/p/CsYEzyeN6Gl/
 afbeelding: /recepten/assets/ig/CsYEzyeN6Gl.webp
 porties: 3-4

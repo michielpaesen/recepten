@@ -1,5 +1,5 @@
 ---
-title: "Romige rigatoni met pomodori-pistachepesto en kip"
+title: "Romige pasta met pomodori pistache pesto"
 bron: https://www.instagram.com/p/DL9LHPVINrD/
 afbeelding: /recepten/assets/ig/DL9LHPVINrD.webp
 porties: 2

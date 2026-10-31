@@ -1,5 +1,5 @@
 ---
-title: "Open lasagne met burrata en tomaat"
+title: "Open lasagne"
 bron: https://www.instagram.com/p/DaLJavXsrGW/
 afbeelding: /recepten/assets/ig/DaLJavXsrGW.webp
 porties: 1

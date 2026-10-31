@@ -1,5 +1,5 @@
 ---
-title: "Vegacurry met aubergine en paprika"
+title: "Vega curry"
 bron: https://www.instagram.com/p/CebFAK0DA8O/
 afbeelding: /recepten/assets/ig/CebFAK0DA8O.webp
 porties: 2

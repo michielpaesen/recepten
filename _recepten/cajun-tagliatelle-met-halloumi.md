@@ -1,5 +1,5 @@
 ---
-title: "Cajun-tagliatelle met halloumi"
+title: "Easy Cajun Halloumi Tagliatelle"
 bron: https://www.instagram.com/p/Cyf6utQoXWK/
 afbeelding: /recepten/assets/ig/Cyf6utQoXWK.webp
 porties: 1

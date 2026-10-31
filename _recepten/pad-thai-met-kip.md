@@ -1,5 +1,5 @@
 ---
-title: "Pad thai met kip"
+title: "Pad thai"
 bron: https://www.instagram.com/p/DXyW_-0NzuM/
 afbeelding: /recepten/assets/ig/DXyW_-0NzuM.webp
 porties: 2

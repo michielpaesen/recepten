@@ -1,5 +1,5 @@
 ---
-title: "Yoghurtbowl met granola en fruit"
+title: "Yoghurt bowl met granola"
 bron: https://www.instagram.com/p/C-9eVZbSO_O/
 afbeelding: /recepten/assets/ig/C-9eVZbSO_O.webp
 porties: 2

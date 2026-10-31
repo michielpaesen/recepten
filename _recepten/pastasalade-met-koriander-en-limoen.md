@@ -1,5 +1,5 @@
 ---
-title: "Pastasalade met koriander en limoen"
+title: "Salade de pâtes à la coriandre et citron vert"
 bron: https://www.instagram.com/p/CjIvKghItzD/
 afbeelding: /recepten/assets/ig/CjIvKghItzD.webp
 porties: 4

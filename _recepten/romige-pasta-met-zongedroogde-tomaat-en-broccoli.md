@@ -1,5 +1,5 @@
 ---
-title: "Romige pasta met zongedroogde tomaat en broccoli"
+title: "Creamy Sun-Dried Tomato & Broccoli Pasta"
 bron: https://www.instagram.com/p/Czy1nWjrvnZ/
 afbeelding: /recepten/assets/ig/Czy1nWjrvnZ.webp
 bord: pasta

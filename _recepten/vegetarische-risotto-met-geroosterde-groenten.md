@@ -1,5 +1,5 @@
 ---
-title: "Vegetarische risotto met geroosterde groenten"
+title: "Vegetarische risotto met groenten"
 bron: https://www.instagram.com/p/CrkewSPMR9j/
 afbeelding: /recepten/assets/ig/CrkewSPMR9j.webp
 porties: 4

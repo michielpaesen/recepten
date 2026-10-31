@@ -1,5 +1,5 @@
 ---
-title: "Taquito's met jackfruit of pulled chicken"
+title: "Taquitos"
 bron: https://www.instagram.com/p/C4e_m7UtJ6F/
 afbeelding: /recepten/assets/ig/C4e_m7UtJ6F.webp
 porties: 8 stuks

@@ -8,7 +8,7 @@ bord: baking-zoet
 tags: [bakken]
 ---
 
-> Recept uit een Facebook-post die halverwege afgebroken was; de laatste stappen zijn kort aangevuld.
+> ⚠️ **Nakijken voor je begint.** De Facebook-post toont zonder aanmelden alleen de drie ingrediënten (speculoos, yoghurt, slagroom) en "Voorbereiding: 10 minuten". De hoeveelheden kon ik niet opnieuw controleren. **Alle bereidingsstappen hieronder zijn door Claude aangevuld en komen niet uit de post.** Volgens reacties onder de post staat op de foto roomkaas in plaats van slagroom.
 
 ## Ingrediënten
 
@@ -18,8 +18,8 @@ tags: [bakken]
 
 ## Bereiding
 
-1. Bekleed de bodem van een springvorm (18-20 cm) met bakpapier. Maal ongeveer twee derde van de speculooskoekjes fijn en houd de rest apart voor de topping.
-2. Druk de gemalen koekjes stevig aan op de bodem van de vorm.
-3. Klop de slagroom lobbig en spatel hem door de yoghurt.
-4. Verdeel de vulling over de bodem en strijk glad. Verkruimel de rest van de koekjes erover.
-5. Laat minstens 4 uur opstijven in de koelkast.
+1. Bekleed de bodem van een springvorm (18-20 cm) met bakpapier. Maal ongeveer twee derde van de speculooskoekjes fijn en houd de rest apart voor de topping. *(aangevuld door Claude)*
+2. Druk de gemalen koekjes stevig aan op de bodem van de vorm. *(aangevuld door Claude)*
+3. Klop de slagroom lobbig en spatel hem door de yoghurt. *(aangevuld door Claude)*
+4. Verdeel de vulling over de bodem en strijk glad. Verkruimel de rest van de koekjes erover. *(aangevuld door Claude)*
+5. Laat minstens 4 uur opstijven in de koelkast. *(aangevuld door Claude)*

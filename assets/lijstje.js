@@ -60,27 +60,50 @@
     return online(s => { fn(s, nu); snoei(s.items); });
   }
 
-  // icoon per product (eerste treffer telt), anders per categorie
+  // icoon per product: alleen een emoji als die het product echt toont, anders null (de tegel toont dan de beginletter)
   const ICONEN = [
-    [/chili|jalape|spaanse peper/, '🌶️'], [/zout|peper$|kaneel|paprikapoeder|komijn|garam|curry|oregano|nootmuskaat|bouillon/, '🧂'], [/paprika/, '🫑'], [/aubergine/, '🍆'], [/^(rode |witte |sjalot|lente)?ui(en)?$|sjalot|lente-?ui/, '🧅'], [/knoflook/, '🧄'],
-    [/avocado/, '🥑'], [/citroen|limoen/, '🍋'], [/tomaat|tomaten(?!blokjes|saus|puree)/, '🍅'], [/aardappel|krieltje/, '🥔'], [/wortel/, '🥕'],
-    [/komkommer|courgette/, '🥒'], [/broccoli/, '🥦'], [/sla$|spinazie|rucola|kool|andijvie|prei|selder|bladgroen/, '🥬'], [/mais|maïs/, '🌽'],
-    [/champignon|paddenstoel/, '🍄'], [/appel/, '🍎'], [/peer/, '🍐'], [/banaan/, '🍌'], [/aardbei/, '🍓'], [/framboos|bes(sen)?$|bosbes/, '🫐'], [/druif/, '🍇'],
-    [/sinaasappel|mandarijn/, '🍊'], [/ananas/, '🍍'], [/mango/, '🥭'], [/kokos/, '🥥'], [/gember|kurkuma/, '🫚'], [/koriander|peterselie|basilicum|munt|bieslook|dille|tijm|rozemarijn|kruiden/, '🌿'],
-    [/kip|kalkoen/, '🍗'], [/spek|bacon|ham$|pancetta|chorizo|salami/, '🥓'], [/gehakt|rund|steak|biefstuk|varken|lam|worst|vlees/, '🥩'], [/zalm|vis|kabeljauw|tonijn|scampi|garnaal|mosselen/, '🐟'],
-    [/ei(eren)?$/, '🥚'], [/boter/, '🧈'], [/kaas|feta|mozzarella|parmezaan|ricotta|mascarpone/, '🧀'], [/melk|room|yoghurt|kwark|skyr/, '🥛'],
-    [/naan|pita|wrap|tortilla/, '🫓'], [/brood|stokbrood|baguette|toast/, '🍞'], [/croissant/, '🥐'], [/deeg/, '🥧'],
-    [/pasta|spaghetti|penne|linguine|tagliatelle|orzo|macaroni|lasagne|noedel|tortellini|gnocchi/, '🍝'], [/rijst|risotto|couscous|bulgur|quinoa/, '🍚'],
-    [/pesto|saus|passata|tomatenblokjes|tapenade|puree/, '🫙'], [/kikkererwt|linzen|bonen/, '🫘'], [/noot|noten|cashew|amandel|pinda|walnoot/, '🥜'],
-    [/olie|azijn/, '🫒'], [/suiker|honing|siroop/, '🍯'], [/bloem|meel/, '🌾'], [/chocolade|choco/, '🍫'],
-    [/koffie/, '☕'], [/thee/, '🍵'], [/sap|limonade/, '🧃'], [/water|frisdrank|cola/, '🥤'], [/wijn/, '🍷'], [/bier/, '🍺'], [/chips|snack/, '🍿'], [/koek|cake|taart/, '🍪'], [/ijs$|roomijs/, '🍦'],
-    [/wc-papier|toiletpapier|keukenrol|tissue/, '🧻'], [/zeep|shampoo|tandpasta|douche/, '🧴'], [/afwas|spons|schoonmaak|vaatwas|wasmiddel/, '🧽']
+    [/^(olijfolie|olijven|olijf|zwarte olijven|groene olijven|kalamata-olijven)$/, '🫒'], [/^(grof |fijn |zee)?zout$/, '🧂'], [/^(kokos|kokosmelk|kokosrasp|kokosroom)$/, '🥥'], [/^(pinda|pindas|pindakaas)$/, '🥜'],
+    [/(^|\s)(kip|kipfilet|kippendij|kippendijfilet|kippengehakt|kipgehakt|kipreepjes|kipfiletreepjes|kippenbout|kipgyros|kipgehaktballetjes|gegrilde kip)$/, '🍗'],
+    [/^(spek|spekblokjes|spekjes|bacon|ontbijtspek|pancetta|gerookt spek)$/, '🥓'],
+    [/(gehakt|rundergehakt|biefstuk|steak|rundvlees|varkenshaas|kogelbiefstuk|biefstukreepjes|gehaktballetjes)$/, '🥩'],
+    [/^(zalm|zalmfilet|kabeljauw|vis|visfilet|tonijn|witvis|pangasius)/, '🐟'], [/garnaal|garnalen|scampi/, '🦐'],
+    [/^(ei|eieren|eidooier|eiwit)$/, '🥚'], [/^(boter|roomboter|ongezouten boter)$/, '🧈'],
+    [/(kaas|kaasvlokken)$|^(parmezaan|mozzarella|feta|cheddar|burrata|ricotta|halloumi|mascarpone|brie|pecorino|gouda|emmentaler|gruyère|provolone|camembert|verkruimelde feta|franse roombrie)/, '🧀'],
+    [/^(halfvolle |volle |magere |half )?melk$/, '🥛'],
+    [/^(aubergine)$/, '🍆'], [/^(avocado)$/, '🥑'], [/^(banaan|bananen)$/, '🍌'], [/^(appel|appels|zure appel|jonagold|elstar)$/, '🍎'],
+    [/^(peer|peren)$/, '🍐'], [/^(citroen)$/, '🍋'], [/^(sinaasappel|mandarijn|clementine|mineola)$/, '🍊'], [/^(mango)$/, '🥭'],
+    [/^(ananas)$/, '🍍'], [/^(aardbei|aardbeien)$/, '🍓'], [/^(blauwe bessen|bosbessen)$/, '🫐'], [/^(druif|druiven)$/, '🍇'],
+    [/^(kers|kersen)$/, '🍒'], [/^(perzik|perziken|nectarine)$/, '🍑'], [/^(meloen|galiameloen|cantaloupe)$/, '🍈'], [/^watermeloen$/, '🍉'], [/^kiwi$/, '🥝'],
+    [/^(tomaat|tomaten|kerstomaat|kerstomaten|cherrytomaten|trostomaat|trostomaten|romatomaat|pruimtomaat|vleestomaat)$/, '🍅'],
+    [/^(wortel|wortels|winterwortel|bospeen|peen)$/, '🥕'], [/^(maïs|mais|maïskolf|maïskolven)$/, '🌽'],
+    [/^(aardappel|aardappelen|krieltjes|kriel)$/, '🥔'], [/^zoete aardappel$/, '🍠'], [/^(broccoli)$/, '🥦'], [/^(komkommer|minikomkommer)$/, '🥒'],
+    [/^(paprika|rode paprika|gele paprika|groene paprika|puntpaprika|zoete puntpaprika)$/, '🫑'],
+    [/^(chili|rode peper|spaanse peper|jalapeño|jalapeno)$/, '🌶️'], [/^(knoflook|knoflookteen|knoflooktenen)$/, '🧄'],
+    [/^(ui|uien|rode ui|witte ui|gele ui|sjalot|sjalotten)$/, '🧅'], [/^gember$/, '🫚'],
+    [/^(champignons?|kastanjechampignons?|paddenstoelen|oesterzwammen|shiitake)$/, '🍄'],
+    [/^(sla|ijsbergsla|romeinse sla|romainesla|botersla|veldsla|rucola|spinazie|paksoi|spitskool|witte kool|rode kool|kool|savooiekool)$/, '🥬'],
+    [/^(erwten|doperwten|edamame|peultjes|sugarsnaps)$/, '🫛'], [/^(kikkererwten|kidneybonen|bruine bonen|witte bonen|zwarte bonen|linzen|sojabonen)$/, '🫘'],
+    [/^(pompoen|butternut|flespompoen|pompoenblokjes)$/, '🎃'],
+    [/^(basilicum|peterselie|bladpeterselie|koriander|munt|dille|bieslook|tijm|rozemarijn|salie|oregano|dragon|salieblaadjes)$/, '🌿'],
+    [/^(brood|broodjes|bruin brood|wit brood|desembrood|turks brood|turks broodje)$/, '🍞'], [/^(stokbrood|baguette|ciabatta|witte ciabatta)$/, '🥖'],
+    [/^croissants?$/, '🥐'], [/^(wrap|wraps|tortilla|tortillas|mini-tortillas|naan|pita|pitabroodje)$/, '🫓'], [/^(pannenkoek|pannenkoeken)$/, '🥞'],
+    [/^(pasta|spaghetti|penne|fusilli|farfalle|linguine|tagliatelle|fettuccine|rigatoni|macaroni|orzo|conchiglie|casarecce|spirelli|lasagnevellen|vlinderpasta|volkoren spaghetti|volkoren penne)$/, '🍝'],
+    [/^(noedels|mienoedels|rijstnoedels|udonnoedels|mie|eiernoedels|ramen)$/, '🍜'],
+    [/^(rijst|basmatirijst|jasmijnrijst|zilvervliesrijst|risottorijst|witte rijst|zilvervlies rijst|bruine snelkookrijst)$/, '🍚'],
+    [/^honing$/, '🍯'], [/(chocolade|chocoladedruppels)$/, '🍫'], [/^(koekjes|speculooskoekjes|speculoos|digestives)$/, '🍪'], [/^(roomijs|ijs|vanille-ijs)$/, '🍨'],
+    [/(^|\s)wijn$|^witte wijn$|^rode wijn$|^droge witte wijn$/, '🍷'], [/^bier$/, '🍺'], [/^koffie$/, '☕'], [/^thee$/, '🍵'],
+    [/^(appelsap|sinaasappelsap|fruitsap|sap)$/, '🧃'], [/^(water|kookwater|bruiswater|spuitwater)$/, '💧'],
+    [/^(wc-papier|toiletpapier|keukenrol|keukenpapier)$/, '🧻'], [/^(zeep|handzeep|afwasmiddel)$/, '🧼'], [/^(spons|sponzen)$/, '🧽'], [/^tandpasta$/, '🪥']
   ];
-  const CAT_ICOON = { 'Groenten & fruit': '🥬', 'Vlees & vis': '🥩', 'Zuivel, kaas & eieren': '🧀', 'Brood & deeg': '🍞', 'Pasta, rijst & granen': '🍝', 'Diepvries': '🧊', 'Dranken': '🥤', 'Snacks & zoet': '🍫', 'Voorraadkast & kruiden': '🧂', 'Huishouden & verzorging': '🧽', 'Overige': '🛒' };
-  const icoon = (naam, cat) => (ICONEN.find(([re]) => re.test(naam)) || [0, CAT_ICOON[cat] || '🛒'])[1];
+  const icoon = naam => {
+    naam = String(naam || '').toLowerCase().trim();
+    const r = ICONEN.find(([re]) => re.test(naam));
+    return r ? r[1] : null;
+  };
+  const letter = naam => (String(naam || '').trim()[0] || '?').toUpperCase();
 
   const api = {
-    icoon,
+    icoon, letter,
     get items() { return staat.items; },
     get fout() { return fout; },
     onChange: f => { luisteraars.push(f); f(); },

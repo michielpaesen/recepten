@@ -152,6 +152,8 @@ a.knop { display:inline-block; text-decoration:none; margin-bottom:20px; }
 .tnaam { font-size:.85rem; font-weight:700; line-height:1.15; text-align:center; overflow-wrap:anywhere; }
 .tsub { font-size:.75rem; line-height:1.1; text-align:center; opacity:.95; overflow-wrap:anywhere; }
 .recent .ticoon { font-size:1.8rem; }
+.ticoon.letter { width:2.3rem; height:2.3rem; border-radius:50%; border:2px solid currentColor; display:grid; place-items:center; font-size:1.2rem; font-weight:700; opacity:.85; }
+.recent .ticoon.letter { width:2rem; height:2rem; font-size:1.05rem; }
 @media (max-width:600px) {
   dialog.sheet { margin:auto 0 0; width:100%; max-width:100%; max-height:90vh; border-radius:18px 18px 0 0; border-bottom:0; }
 }

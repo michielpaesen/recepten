@@ -52,7 +52,8 @@ permalink: /boodschappen/
   function tegel(k, it, recent) {
     const h = L.hoeveel(it), cat = L.catVan(it.naam, it);
     return '<li><button class="tegel' + (recent ? ' recent' : '') + '" data-k="' + esc(k) + '" aria-label="' + esc(hoofd(it.naam) + (it.spec ? ' ' + it.spec : '') + (h ? ', ' + h : '')) + (recent ? ' – terug op lijstje' : ' – afvinken') + '">'
-      + '<span class="ticoon" aria-hidden="true">' + L.icoon(it.naam, cat) + '</span>'
+      + (L.icoon(it.naam) ? '<span class="ticoon" aria-hidden="true">' + L.icoon(it.naam) + '</span>'
+                          : '<span class="ticoon letter" aria-hidden="true">' + L.letter(it.naam) + '</span>')
       + '<span class="tnaam">' + esc(hoofd(it.naam)) + '</span>'
       + (!recent && (it.spec || h) ? '<span class="tsub">' + esc([it.spec, h].filter(Boolean).join(' · ')) + '</span>' : '') + '</button></li>';
   }
@@ -84,7 +85,7 @@ permalink: /boodschappen/
   function bewerk(k) {
     const it = L.items[k]; if (!it || $('bewerk').open) return;
     bezig = k;
-    $('btitel').textContent = L.icoon(it.naam, L.catVan(it.naam, it)) + ' ' + hoofd(it.naam) + ' aanpassen';
+    $('btitel').textContent = (L.icoon(it.naam) ? L.icoon(it.naam) + ' ' : '') + hoofd(it.naam) + ' aanpassen';
     $('bnaam').value = hoofd(it.naam); $('bspec').value = it.spec || ''; $('bhoev').value = L.hoeveel(it); $('bcat').value = L.catVan(it.naam, it);
     $('bvoor').textContent = it.voor && it.voor.length ? 'Voor: ' + it.voor.join(', ') : '';
     $('bewerk').showModal();

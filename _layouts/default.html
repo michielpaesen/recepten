@@ -18,12 +18,31 @@
 <body>
   <header class="site-header">
     <a href="{{ '/' | relative_url }}" class="site-title">🍳 {{ site.title }}</a>
-    <nav class="nav">
-      <a href="{{ '/in-huis/' | relative_url }}" class="nav-link">🥕 In huis</a>
-      <a href="{{ '/weekmenu/' | relative_url }}" class="nav-link">📅 Weekmenu</a>
-      <a href="{{ '/boodschappen/' | relative_url }}" class="nav-link">🛒 <span class="vol">Boodschappenlijstje</span><span class="kort">Lijstje</span></a>
+    <button type="button" class="menuknop" id="menuknop" aria-expanded="false" aria-controls="hoofdmenu">☰ Menu</button>
+    <nav class="hoofdmenu" id="hoofdmenu" aria-label="Menu" hidden>
+      <a href="{{ '/in-huis/' | relative_url }}"><b>🥕</b>In huis</a>
+      <a href="{{ '/weekmenu/' | relative_url }}"><b>📅</b>Weekmenu</a>
+      <a href="{{ '/boodschappen/' | relative_url }}"><b>🛒</b>Boodschappen&shy;lijstje</a>
+      <a href="{{ '/klantenkaarten/' | relative_url }}" class="aldi"><b>💳</b>Aldi-kaart</a>
+      <a href="{{ '/' | relative_url }}#favorieten"><b>❤️</b>Favorieten</a>
+      <a href="{{ '/' | relative_url }}#verwijderd"><b>🗑️</b>Verwijderde recepten</a>
     </nav>
   </header>
+  <script>
+  (() => {
+    const knop = document.getElementById('menuknop'), menu = document.getElementById('hoofdmenu');
+    const zet = open => { menu.hidden = !open; knop.setAttribute('aria-expanded', open); };
+    knop.addEventListener('click', e => { e.stopPropagation(); zet(menu.hidden); });
+    document.addEventListener('click', e => { if (!menu.hidden && !menu.contains(e.target)) zet(false); });
+    document.addEventListener('keydown', e => { if (e.key === 'Escape' && !menu.hidden) { zet(false); knop.focus(); } });
+    // zelfde pagina, ander #: opnieuw laden zodat de startpagina het juiste filter toont
+    menu.addEventListener('click', e => {
+      const a = e.target.closest('a'); if (!a) return;
+      zet(false);
+      if (a.hash && a.pathname === location.pathname) { e.preventDefault(); location.href = a.href; location.reload(); }
+    });
+  })();
+  </script>
   <main>
     {{ content }}
   </main>

@@ -1,0 +1,142 @@
+---
+layout: default
+title: Klantenkaarten
+permalink: /klantenkaarten/
+---
+<h1>💳 Klantenkaarten</h1>
+<p class="uitleg">Je kaarten staan alleen op dit toestel, niet online. Op een andere gsm stel je ze één keer opnieuw in.</p>
+
+<input type="file" id="foto" accept="image/*" class="verborgen">
+<section class="kaart" id="aldi">
+  <button type="button" class="kaarttegel" id="toon" disabled>
+    <b>Aldi</b><span id="kstatus">Nog niet ingesteld</span>
+  </button>
+
+  <div id="instellen" class="kaartuitleg">
+    <strong>Aldi-kaart instellen</strong>
+    <ol>
+      <li>Open de Aldi-app en ga naar je digitale klantenkaart.</li>
+      <li>Neem een screenshot van de QR-code.</li>
+      <li>Kies die screenshot hieronder.</li>
+    </ol>
+    <label class="knop kiesfoto" for="foto">📷 Kies screenshot</label>
+    <p id="melding" class="melding" hidden></p>
+    <p class="uitleg klein">De site leest alleen de code uit de screenshot. De foto zelf wordt niet bewaard.</p>
+  </div>
+
+  <div id="beheer" class="knoppen" hidden>
+    <label class="knop licht" for="foto" id="opnieuw">📷 Andere screenshot kiezen</label>
+    <button type="button" class="knop licht" id="wis">🗑️ Kaart van deze gsm wissen</button>
+  </div>
+</section>
+
+<div class="kassa" id="kassa" hidden role="dialog" aria-modal="true" aria-label="Aldi-kaart">
+  <div class="kassakop"><strong>💳 Aldi</strong><button type="button" id="sluit" aria-label="Sluiten">✕</button></div>
+  <div class="qr" id="qr"></div>
+  <p>Toon dit aan de kassa.<br><span id="wakker">Het scherm blijft aan zolang dit open is.</span></p>
+</div>
+
+<script src="{{ '/assets/vendor/qrcode-generator-2.0.4.js' | relative_url }}"></script>
+<script>
+(() => {
+  const SLEUTEL = 'klantenkaart:aldi';
+  const JSQR = "{{ '/assets/vendor/jsQR-1.4.0.js' | relative_url }}";
+  const $ = id => document.getElementById(id);
+
+  const lees = () => { try { return JSON.parse(localStorage.getItem(SLEUTEL)); } catch (e) { return null; } };
+  const bewaar = k => { try { localStorage.setItem(SLEUTEL, JSON.stringify(k)); return true; } catch (e) { return false; } };
+  const wis = () => { try { localStorage.removeItem(SLEUTEL); } catch (e) {} };
+
+  // QR opnieuw tekenen met exact dezelfde bytes als in de screenshot
+  const svg = bytes => {
+    const q = qrcode(0, 'M');
+    q.addData(bytes, 'Byte'); q.make();
+    return q.createSvgTag({ cellSize: 8, margin: 4, scalable: true });
+  };
+
+  const melding = (tekst, goed) => { const m = $('melding'); m.hidden = false; m.textContent = tekst; m.className = 'melding ' + (goed ? 'goed' : 'fout'); };
+
+  const toonStatus = () => {
+    const k = lees();
+    $('toon').disabled = !k;
+    $('kstatus').textContent = k ? 'Tik om je kaart te tonen' : 'Nog niet ingesteld';
+    $('instellen').hidden = !!k;
+    $('beheer').hidden = !k;
+    $('wis').textContent = '🗑️ Kaart van deze gsm wissen'; $('wis').dataset.zeker = '';
+  };
+
+  // jsQR pas laden als iemand een screenshot kiest
+  let jsqrKlaar;
+  const laadJsQR = () => jsqrKlaar = jsqrKlaar || new Promise((ok, nok) => {
+    const s = document.createElement('script'); s.src = JSQR; s.onload = ok; s.onerror = nok; document.head.appendChild(s);
+  });
+
+  const beeld = file => new Promise((ok, nok) => {
+    const url = URL.createObjectURL(file), img = new Image();
+    img.onload = () => { URL.revokeObjectURL(url); ok(img); };
+    img.onerror = () => { URL.revokeObjectURL(url); nok(new Error('geen afbeelding')); };
+    img.src = url;
+  });
+
+  const zoek = (img, max) => {
+    const schaal = Math.min(1, max / Math.max(img.naturalWidth, img.naturalHeight));
+    const c = document.createElement('canvas');
+    c.width = Math.round(img.naturalWidth * schaal); c.height = Math.round(img.naturalHeight * schaal);
+    const ctx = c.getContext('2d', { willReadFrequently: true });
+    ctx.fillStyle = '#fff'; ctx.fillRect(0, 0, c.width, c.height); ctx.drawImage(img, 0, 0, c.width, c.height);
+    const d = ctx.getImageData(0, 0, c.width, c.height);
+    return jsQR(d.data, d.width, d.height, { inversionAttempts: 'attemptBoth' });
+  };
+
+  $('foto').addEventListener('change', async e => {
+    const file = e.target.files[0]; e.target.value = '';
+    if (!file) return;
+    melding('Code zoeken…', true);
+    try {
+      await laadJsQR();
+      const img = await beeld(file);
+      const r = zoek(img, 2000) || zoek(img, 1000) || zoek(img, 600);
+      if (!r) { melding('Geen QR-code gevonden. Kies een screenshot waarop de code volledig en scherp staat.', false); return; }
+      const bytes = String.fromCharCode.apply(null, r.binaryData);
+      if (!bewaar({ bytes, t: Date.now() })) { melding('Bewaren lukte niet op dit toestel (privévenster?).', false); return; }
+      melding('✅ QR-code gevonden en bewaard op deze gsm.', true);
+      toonStatus(); $('melding').hidden = false;
+    } catch (err) {
+      melding('Dat lukte niet: ' + err.message, false);
+    }
+  });
+
+  // scherm aan houden zolang de kaart open is
+  let slot = null;
+  const houdWakker = async () => {
+    try { if ('wakeLock' in navigator && !$('kassa').hidden) slot = await navigator.wakeLock.request('screen'); }
+    catch (e) { slot = null; }
+    $('wakker').hidden = !slot;
+  };
+  document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') houdWakker(); });
+
+  const open = () => {
+    const k = lees(); if (!k) return;
+    $('qr').innerHTML = svg(k.bytes);
+    $('kassa').hidden = false; document.body.classList.add('kassaopen');
+    houdWakker(); $('sluit').focus();
+  };
+  const dicht = () => {
+    $('kassa').hidden = true; document.body.classList.remove('kassaopen');
+    if (slot) { slot.release().catch(() => {}); slot = null; }
+    $('toon').focus();
+  };
+
+  $('toon').addEventListener('click', open);
+  $('sluit').addEventListener('click', dicht);
+  document.addEventListener('keydown', e => { if (e.key === 'Escape' && !$('kassa').hidden) dicht(); });
+  $('wis').addEventListener('click', () => {
+    const b = $('wis');
+    if (!b.dataset.zeker) { b.dataset.zeker = '1'; b.textContent = 'Tik nog eens om te wissen'; setTimeout(toonStatus, 4000); return; }
+    wis(); $('melding').hidden = true; toonStatus();
+  });
+
+  toonStatus();
+  if (location.hash === '#toon') open();
+})();
+</script>

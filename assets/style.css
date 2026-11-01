@@ -6,7 +6,7 @@
 body { margin:0; background:var(--bg); color:var(--fg); font:17px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
 main { max-width:960px; margin:0 auto; padding:16px; }
 a { color:var(--accent); }
-.site-header { border-bottom:1px solid var(--line); padding:14px 16px; }
+.site-header { border-bottom:1px solid var(--line); padding:12px 16px; position:relative; z-index:20; background:var(--bg); }
 .site-title { font-weight:700; font-size:1.3rem; text-decoration:none; color:var(--fg); }
 #zoek { width:100%; padding:12px 14px; font-size:1rem; border:1px solid var(--line); border-radius:10px; background:var(--card); color:var(--fg); }
 .tags { display:flex; flex-wrap:wrap; align-items:center; gap:8px; margin:12px 0 20px; }
@@ -34,8 +34,7 @@ a { color:var(--accent); }
 .meta .tag { cursor:default; }
 .recept li { margin-bottom:6px; }
 .bron { margin-top:28px; padding-top:12px; border-top:1px solid var(--line); }
-.site-header { display:flex; align-items:center; justify-content:space-between; gap:12px; }
-.nav-link { font-weight:600; text-decoration:none; white-space:nowrap; }
+.site-header { display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:nowrap; }
 /* weekmenu */
 .knop { border:0; background:var(--accent); color:#fff; border-radius:10px; padding:10px 16px; font-size:1rem; font-weight:600; cursor:pointer; }
 .knop.licht { background:var(--card); color:var(--fg); border:1px solid var(--line); }
@@ -78,7 +77,6 @@ dialog::backdrop { background:rgba(0,0,0,.4); }
 .wegmodus .terug { display:block; }
 .wegmodus .kaart img { filter:grayscale(1); opacity:.7; }
 #verwijder { font-size:.9rem; color:var(--muted); }
-.nav { display:flex; gap:14px; }
 /* in huis */
 .voeg { display:flex; gap:8px; }
 .voeg input { flex:1; min-width:0; padding:12px 14px; font-size:1rem; border:1px solid var(--line); border-radius:10px; background:var(--card); color:var(--fg); }
@@ -86,7 +84,7 @@ dialog::backdrop { background:rgba(0,0,0,.4); }
 .resultaten a { display:flex; align-items:center; gap:12px; background:var(--card); border:1px solid var(--line); border-radius:14px; padding:8px 12px; color:var(--fg); text-decoration:none; }
 .resultaten img { width:64px; height:64px; flex:none; border-radius:10px; object-fit:cover; }
 .resultaten small { display:block; color:var(--muted); font-size:.85rem; }
-@media (max-width:600px) { .site-header { flex-wrap:wrap; row-gap:8px; } .site-title { font-size:1.1rem; } .nav { gap:12px; flex-wrap:wrap; } .nav-link { font-size:.9rem; } }
+@media (max-width:600px) { .site-title { font-size:1.15rem; } }
 /* boodschappen */
 .gerechten { margin:8px 0 12px; }
 .gerechten ul { margin:6px 0 0; }
@@ -124,8 +122,6 @@ a.knop { display:inline-block; text-decoration:none; margin-bottom:20px; }
 .kiesregel.voorraad span { color:var(--muted); }
 .bform label { display:grid; gap:4px; margin-bottom:10px; font-weight:600; }
 .knop:disabled { opacity:.5; cursor:default; }
-.nav-link .kort { display:none; }
-@media (max-width:520px) { .nav-link .vol { display:none; } .nav-link .kort { display:inline; } }
 /* weekmenu: middag + avond */
 .dag { flex-direction:column; align-items:stretch; gap:8px; }
 .dag .dagnaam { width:auto; }
@@ -160,3 +156,39 @@ a.knop { display:inline-block; text-decoration:none; margin-bottom:20px; }
 .moment { display:inline-flex; border:1px solid var(--line); border-radius:10px; overflow:hidden; }
 .moment button { border:0; background:var(--card); color:var(--fg); padding:9px 12px; font-size:.95rem; font-weight:600; cursor:pointer; }
 .moment button.aan { background:var(--accent); color:#fff; }
+
+/* hoofdmenu: knop ☰ Menu opent grote tegels onder de kop */
+.menuknop { flex:none; border:1px solid var(--line); background:var(--card); color:var(--fg); border-radius:10px; min-height:44px; padding:0 14px; font:inherit; font-weight:600; cursor:pointer; }
+.menuknop[aria-expanded="true"] { background:var(--accent); color:#fff; border-color:var(--accent); }
+.hoofdmenu { position:absolute; top:100%; right:0; left:0; background:var(--bg); border-bottom:1px solid var(--line); box-shadow:0 12px 24px rgba(0,0,0,.12); padding:12px 16px 16px; display:grid; grid-template-columns:repeat(2, minmax(0,1fr)); gap:10px; }
+.hoofdmenu[hidden] { display:none; }
+.hoofdmenu a { display:flex; flex-direction:column; justify-content:center; align-items:center; gap:4px; min-height:88px; padding:8px; border-radius:14px; background:var(--card); border:1px solid var(--line); color:var(--fg); text-decoration:none; font-weight:600; font-size:.95rem; text-align:center; line-height:1.25; }
+.hoofdmenu a:hover, .hoofdmenu a:focus-visible { border-color:var(--accent); outline:none; }
+.hoofdmenu a b { font-size:1.6rem; font-weight:400; line-height:1; }
+.hoofdmenu a.aldi { background:#00457c; color:#fff; border-color:#00457c; }
+@media (min-width:700px) { .hoofdmenu { left:auto; width:min(560px, 100%); grid-template-columns:repeat(3, minmax(0,1fr)); border:1px solid var(--line); border-top:0; border-radius:0 0 16px 16px; } }
+
+/* klantenkaarten */
+.verborgen { position:absolute; width:1px; height:1px; opacity:0; pointer-events:none; }
+.kaart { display:flex; flex-direction:column; gap:14px; max-width:520px; }
+.kaarttegel { display:flex; flex-direction:column; align-items:flex-start; gap:4px; width:100%; min-height:120px; padding:18px 20px; border:0; border-radius:16px; background:#00457c; color:#fff; font:inherit; text-align:left; cursor:pointer; }
+.kaarttegel b { font-size:1.8rem; line-height:1.1; }
+.kaarttegel span { opacity:.9; }
+.kaarttegel:disabled { cursor:default; opacity:.75; }
+.kaartuitleg { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:16px; display:flex; flex-direction:column; gap:10px; }
+.kaartuitleg[hidden], .knoppen[hidden] { display:none; }
+.kaartuitleg ol { margin:0; padding-left:20px; }
+.kiesfoto, label.knop { display:inline-flex; align-items:center; justify-content:center; min-height:48px; }
+.melding { margin:0; padding:10px 12px; border-radius:10px; }
+.melding.goed { background:#eef7ee; color:#1f4d23; }
+.melding.fout { background:#fbeceb; color:#7a2318; }
+.uitleg.klein { font-size:.85rem; margin:0; }
+.kassa { position:fixed; inset:0; z-index:100; background:#fff; color:#1d1d1d; display:flex; flex-direction:column; align-items:center; gap:18px; padding:20px; overflow:auto; text-align:center; }
+.kassa[hidden] { display:none; }
+.kassakop { align-self:stretch; display:flex; justify-content:space-between; align-items:center; }
+.kassakop strong { font-size:1.4rem; color:#00457c; }
+.kassakop button { width:48px; height:48px; border-radius:999px; border:1px solid #ddd; background:#fff; color:#1d1d1d; font-size:1.2rem; cursor:pointer; }
+.qr { width:min(88vw, 420px); margin-top:4vh; background:#fff; }
+.qr svg { display:block; width:100%; height:auto; }
+.kassa p { margin:0; color:#555; }
+body.kassaopen { overflow:hidden; }

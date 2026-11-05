@@ -92,7 +92,7 @@ permalink: /toevoegen/
     } finally { $('bewaar').disabled = false; $('bewaar').textContent = 'Recept bewaren'; }
   });
   // links: Firestore `links`; status per link staat in _data/links.json (bijgehouden door de GitHub-taak en Claude)
-  const STATUS = {{ site.data.links | default: '{}' | jsonify }};
+  const STATUS = {{ site.data.links | jsonify }} || {};
   const kort = u => u.replace(/^https?:\/\/(www\.)?/, '').replace(/\?.*$/, '');
   const wanneer = d => { if (!d) return ''; const nu = new Date(), dag = 864e5;
     const t = d.toLocaleTimeString('nl-BE', { hour: '2-digit', minute: '2-digit' });

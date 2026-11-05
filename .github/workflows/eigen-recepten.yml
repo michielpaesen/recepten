@@ -1,5 +1,5 @@
 # Zet recepten uit het formulier "Recept toevoegen" (Firestore `eigen`) als bestanden in de repo.
-name: Eigen recepten naar de repo
+name: Formulier en links naar de repo
 on:
   schedule:
     - cron: "7,37 * * * *"   # elk halfuur
@@ -12,13 +12,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Nieuwe recepten ophalen
+      - name: Recepten uit het formulier
+        continue-on-error: true
         run: python3 scripts/eigen_naar_repo.py
+      - name: Geplakte links ophalen (Claude verwerkt ze 's avonds)
+        continue-on-error: true
+        run: python3 scripts/links_ophalen.py
       - name: Bewaren in de repo
         run: |
-          git add _recepten assets/eigen
+          git add -A _recepten assets _wachtlijst _data
           if git diff --cached --quiet; then echo "Niets nieuw"; exit 0; fi
           git config user.name "Recept toevoegen"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "Eigen recepten uit het formulier toegevoegd"
+          git commit -m "Formulier en geplakte links bijgewerkt"
           git push

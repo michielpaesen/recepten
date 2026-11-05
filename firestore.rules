@@ -46,5 +46,15 @@ service cloud.firestore {
                     && request.resource.data.foto is string && request.resource.data.foto.size() <= 700000
                     && request.resource.data.gemaakt == request.time;
     }
+
+    match /links/{id} {
+      allow read: if true;
+      allow update, delete: if false;
+      allow create: if request.resource.data.keys().hasOnly(['url', 'gemaakt'])
+                    && request.resource.data.url is string
+                    && request.resource.data.url.matches('^https?://[^ ]+$')
+                    && request.resource.data.url.size() <= 500
+                    && request.resource.data.gemaakt == request.time;
+    }
   }
 }

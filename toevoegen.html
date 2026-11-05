@@ -1,0 +1,84 @@
+---
+layout: default
+title: Recept toevoegen
+permalink: /toevoegen/
+---
+<div class="toevoegen">
+  <h1>Recept toevoegen</h1>
+  <form id="formulier" novalidate>
+    <div class="veld"><label for="f-titel">Naam van het recept</label><input id="f-titel" required maxlength="150" autocomplete="off"></div>
+    <div class="veld"><span class="veldnaam">Foto</span>
+      <div class="foto">
+        <label class="fotovak" id="fotovak" for="f-foto"><span>Tik om een foto te kiezen</span></label>
+        <input id="f-foto" type="file" accept="image/*" class="verborgen">
+        <p class="hulp">Een foto van je gsm. Hij wordt automatisch verkleind. <button type="button" class="linkknop" id="fotoweg" hidden>Foto weghalen</button></p>
+      </div>
+    </div>
+    <div class="veld"><label for="f-bord">Bord</label>
+      <select id="f-bord" required>
+        <option value="">Kies een bord…</option>
+        {% for g in site.groepen %}<optgroup label="{{ g.naam }}">{% for s in g.borden %}{% assign b = site.borden | where: 'slug', s | first %}<option value="{{ s }}">{{ b.naam }}</option>{% endfor %}</optgroup>{% endfor %}
+      </select>
+    </div>
+    <div class="rij2">
+      <div class="veld"><label for="f-porties">Porties</label><input id="f-porties" inputmode="numeric" maxlength="20"></div>
+      <div class="veld"><label for="f-tijd">Tijd</label><input id="f-tijd" maxlength="40" placeholder="bv. 25 min"></div>
+    </div>
+    <div class="veld"><label for="f-ing">Ingrediënten</label><p class="hulp">Eén ingrediënt per regel, met hoeveelheid ervoor.</p>
+      <textarea id="f-ing" required maxlength="5000" placeholder="300 g penne&#10;200 g spinazie&#10;250 g ricotta"></textarea></div>
+    <div class="veld"><label for="f-ber">Bereiding</label><p class="hulp">Eén stap per regel.</p>
+      <textarea id="f-ber" maxlength="10000"></textarea></div>
+    <div class="veld"><label for="f-bron">Link naar het origineel <span class="hulp">(niet verplicht)</span></label><input id="f-bron" type="url" maxlength="500" placeholder="https://…"></div>
+    <p class="melding fout" id="fout" hidden></p>
+    <button class="knop" type="submit" id="bewaar">Recept bewaren</button>
+  </form>
+  <div id="klaar" hidden>
+    <p class="melding goed">Bewaard. Het recept staat meteen op de site en kan op het boodschappenlijstje. Binnen het uur staat het ook als bestand in de repo.</p>
+    <p><a class="knop" id="bekijk" href="#">Bekijk het recept</a> <button class="knop licht" type="button" id="nogeen">Nog een recept toevoegen</button></p>
+  </div>
+</div>
+<script>
+(() => {
+  const $ = id => document.getElementById(id);
+  let foto = '';
+  // foto verkleinen naar 640×480 (bijsnijden zoals de andere receptfoto's)
+  $('f-foto').addEventListener('change', async () => {
+    const f = $('f-foto').files[0]; if (!f) return;
+    try {
+      const bm = await createImageBitmap(f);
+      const c = document.createElement('canvas'); c.width = 640; c.height = 480;
+      const s = Math.max(640 / bm.width, 480 / bm.height), w = bm.width * s, h = bm.height * s;
+      c.getContext('2d').drawImage(bm, (640 - w) / 2, (480 - h) / 2, w, h);
+      foto = c.toDataURL('image/webp', 0.75);
+      if (!foto.startsWith('data:image/webp')) foto = c.toDataURL('image/jpeg', 0.8);
+      $('fotovak').style.backgroundImage = 'url(' + foto + ')'; $('fotovak').classList.add('gevuld');
+      $('fotoweg').hidden = false;
+    } catch (e) { toonFout('Deze foto kan ik niet openen. Probeer een andere.'); }
+  });
+  $('fotoweg').addEventListener('click', () => { foto = ''; $('f-foto').value = ''; $('fotovak').style.backgroundImage = ''; $('fotovak').classList.remove('gevuld'); $('fotoweg').hidden = true; });
+  const toonFout = t => { $('fout').textContent = t; $('fout').hidden = !t; };
+
+  $('formulier').addEventListener('submit', async e => {
+    e.preventDefault(); toonFout('');
+    const v = id => $(id).value.trim();
+    const rec = { titel: v('f-titel'), bord: v('f-bord'), porties: v('f-porties'), tijd: v('f-tijd'), ingredienten: v('f-ing'), bereiding: v('f-ber'), bron: v('f-bron'), foto };
+    if (!rec.titel) return toonFout('Geef het recept een naam.'), $('f-titel').focus();
+    if (!rec.bord) return toonFout('Kies een bord.'), $('f-bord').focus();
+    if (!rec.ingredienten) return toonFout('Vul minstens één ingrediënt in.'), $('f-ing').focus();
+    if (rec.bron && !/^https?:\/\//.test(rec.bron)) return toonFout('De link moet beginnen met https://'), $('f-bron').focus();
+    $('bewaar').disabled = true; $('bewaar').textContent = 'Bezig met bewaren…';
+    try {
+      const d = await window.dbKlaar;
+      if (!d) throw new Error('geen verbinding');
+      const { fs, db } = d;
+      const ref = await fs.addDoc(fs.collection(db, 'eigen'), { ...rec, gemaakt: fs.serverTimestamp() });
+      $('bekijk').href = '{{ "/eigen/" | relative_url }}#' + ref.id;
+      $('formulier').hidden = true; $('klaar').hidden = false; window.scrollTo(0, 0);
+    } catch (err) {
+      console.warn(err);
+      toonFout('Bewaren lukte niet. Controleer je internetverbinding en probeer opnieuw.');
+    } finally { $('bewaar').disabled = false; $('bewaar').textContent = 'Recept bewaren'; }
+  });
+  $('nogeen').addEventListener('click', () => { $('formulier').reset(); $('fotoweg').click(); $('formulier').hidden = false; $('klaar').hidden = true; window.scrollTo(0, 0); });
+})();
+</script>

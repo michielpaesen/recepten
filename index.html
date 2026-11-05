@@ -36,6 +36,7 @@ layout: default
   const BORDNAAM = Object.fromEntries({{ site.borden | jsonify }}.map(b => [b.slug, b.naam]));
   const $ = id => document.getElementById(id);
   const zoek = $('zoek'), kaarten = [...document.querySelectorAll('.kaart')];
+  const DEFINITIEF = new Set({{ site.recepten | map: 'eigen_id' | compact | jsonify }});
   // weergave: null = startpagina met bordtegels; anders { borden: [...] | null, fav, weg, titel }
   let weergave = null;
 
@@ -85,7 +86,7 @@ layout: default
   // aantallen op de tegels (zonder verwijderde recepten)
   kaarten.forEach(k => k.insertAdjacentHTML('beforeend', '<button class="terug" data-id="' + k.dataset.id + '">↩ Terugzetten</button>'));
   document.querySelectorAll('.terug').forEach(t => t.addEventListener('click', () => Weg.toggle(t.dataset.id, false)));
-  Weg.onChange(() => {
+  function tel() {
     const per = {};
     kaarten.forEach(k => { if (!Weg.has(k.dataset.id)) per[k.dataset.bord] = (per[k.dataset.bord] || 0) + 1; });
     document.querySelectorAll('.aantal[data-bord]').forEach(s => { const n = per[s.dataset.bord] || 0; s.textContent = n + (n === 1 ? ' recept' : ' recepten'); });
@@ -93,7 +94,22 @@ layout: default
     $('wegknop').querySelector('.aantal').textContent = Weg.size;
     if (weergave && weergave.weg && !Weg.size) { history.replaceState(null, '', location.pathname); weergave = null; }
     toon();
-  });
+  }
+  Weg.onChange(tel);
+  // zelf toegevoegde recepten die nog niet als bestand in de repo staan (zie toevoegen.html en eigen.html)
+  window.dbKlaar.then(async d => {
+    if (!d) return;
+    const snap = await d.fs.getDocs(d.fs.collection(d.db, 'eigen'));
+    const esc = s => String(s || '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+    snap.forEach(doc => {
+      const r = doc.data(); if (DEFINITIEF.has(doc.id) || !r.titel) return;
+      const url = '{{ "/eigen/" | relative_url }}#' + doc.id;
+      $('kaarten').insertAdjacentHTML('afterbegin', '<li class="kaart" data-id="' + esc(url) + '" data-bord="' + esc(r.bord) + '" data-tekst="' + esc((r.titel + ' ' + r.ingredienten + ' ' + r.bereiding).toLowerCase()) + '"><a href="' + esc(url) + '">'
+        + (r.foto ? '<img src="' + esc(r.foto) + '" alt="">' : '<div class="placeholder">🍽️</div>') + '<span class="kaart-titel">' + esc(r.titel) + '</span></a></li>');
+      kaarten.unshift($('kaarten').firstElementChild);
+    });
+    tel();
+  }).catch(e => console.warn('Eigen recepten niet geladen', e));
   // favorieten (zie assets/lijst.js)
   document.querySelectorAll('.hart').forEach(h => h.addEventListener('click', () => Fav.toggle(h.dataset.id)));
   Fav.onChange(() => {

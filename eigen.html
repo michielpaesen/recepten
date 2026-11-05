@@ -1,0 +1,56 @@
+---
+layout: default
+title: Eigen recept
+permalink: /eigen/
+---
+{% comment %}Toont een zelf toegevoegd recept dat nog niet als bestand in de repo staat. Staat het er al, dan gaat de pagina door naar het definitieve recept.{% endcomment %}
+<article class="recept" id="eigen">
+  <p id="laden">Recept laden…</p>
+  <p id="nietgevonden" class="melding fout" hidden>Dit recept vind ik niet. <a href="{{ '/' | relative_url }}">Naar alle recepten</a></p>
+  <div id="inhoud" hidden>
+    <img class="hero" id="e-foto" alt="" hidden>
+    <h1 id="e-titel"></h1>
+    <p class="meta"><span id="e-porties" hidden></span><span id="e-tijd" hidden></span><span class="tag">eigen recept</span></p>
+    <p class="melding">Net toegevoegd. Binnen het uur staat dit recept definitief op de site; dan kan je het ook als favoriet bewaren en op het weekmenu zetten.</p>
+    <p class="opmenu"><button class="knop licht" id="naarlijstje">🛒 Op boodschappenlijstje</button> <span id="lijstok" class="uitleg"></span></p>
+    <h2>Ingrediënten</h2>
+    <ul id="e-ing"></ul>
+    <div id="e-berblok"><h2>Bereiding</h2><ol id="e-ber"></ol></div>
+    <p class="bron" id="e-bronblok" hidden>Bron: <a id="e-bron" target="_blank" rel="noopener">origineel recept ↗</a></p>
+    <p><a id="e-bord" href="#"></a> · <a href="{{ '/' | relative_url }}">Alle borden</a></p>
+  </div>
+</article>
+<script src="{{ '/assets/boodschappen.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
+<script src="{{ '/assets/lijstje.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
+<script>
+(async () => {
+  const $ = id => document.getElementById(id);
+  const DEFINITIEF = { {% for r in site.recepten %}{% if r.eigen_id %}{{ r.eigen_id | jsonify }}: {{ r.url | relative_url | jsonify }},{% endif %}{% endfor %} };
+  const BORDNAAM = Object.fromEntries({{ site.borden | jsonify }}.map(b => [b.slug, b.naam]));
+  const id = decodeURIComponent(location.hash.slice(1));
+  if (DEFINITIEF[id]) { location.replace(DEFINITIEF[id]); return; }
+  const regels = s => String(s || '').split('\n').map(x => x.trim()).filter(Boolean);
+  try {
+    const d = await window.dbKlaar; if (!d || !id) throw 0;
+    const snap = await d.fs.getDoc(d.fs.doc(d.db, 'eigen', id));
+    if (!snap.exists()) throw 0;
+    const r = snap.data();
+    document.title = r.titel + ' · {{ site.title }}';
+    $('e-titel').textContent = r.titel;
+    if (r.foto) { $('e-foto').src = r.foto; $('e-foto').hidden = false; }
+    if (r.porties) { $('e-porties').textContent = '👥 ' + r.porties + ' porties'; $('e-porties').hidden = false; }
+    if (r.tijd) { $('e-tijd').textContent = '⏱️ ' + r.tijd; $('e-tijd').hidden = false; }
+    const ing = regels(r.ingredienten), ber = regels(r.bereiding);
+    $('e-ing').replaceChildren(...ing.map(t => Object.assign(document.createElement('li'), { textContent: t })));
+    $('e-ber').replaceChildren(...ber.map(t => Object.assign(document.createElement('li'), { textContent: t })));
+    $('e-berblok').hidden = !ber.length;
+    if (/^https?:\/\//.test(r.bron || '')) { $('e-bron').href = r.bron; $('e-bronblok').hidden = false; }
+    $('e-bord').textContent = '← ' + (BORDNAAM[r.bord] || 'Bord'); $('e-bord').href = '{{ "/" | relative_url }}#' + r.bord;
+    $('naarlijstje').addEventListener('click', () => Lijstje.kies([{ titel: r.titel, regels: ing }], n => {
+      $('lijstok').innerHTML = n + ' op je lijstje · <a href="{{ '/boodschappen/' | relative_url }}">Bekijk</a>';
+    }));
+    $('inhoud').hidden = false;
+  } catch (e) { $('nietgevonden').hidden = false; }
+  $('laden').hidden = true;
+})();
+</script>

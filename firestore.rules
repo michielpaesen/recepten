@@ -31,5 +31,20 @@ service cloud.firestore {
                    && request.resource.data.items is map
                    && request.resource.data.cats is map;
     }
+
+    match /eigen/{id} {
+      allow read: if true;
+      allow update, delete: if false;
+      allow create: if request.resource.data.keys().hasOnly(['titel', 'bord', 'porties', 'tijd', 'ingredienten', 'bereiding', 'bron', 'foto', 'gemaakt'])
+                    && request.resource.data.titel is string && request.resource.data.titel.size() > 0 && request.resource.data.titel.size() <= 150
+                    && request.resource.data.bord is string && request.resource.data.bord.size() <= 60
+                    && request.resource.data.ingredienten is string && request.resource.data.ingredienten.size() > 0 && request.resource.data.ingredienten.size() <= 5000
+                    && request.resource.data.bereiding is string && request.resource.data.bereiding.size() <= 10000
+                    && request.resource.data.porties is string && request.resource.data.porties.size() <= 20
+                    && request.resource.data.tijd is string && request.resource.data.tijd.size() <= 40
+                    && request.resource.data.bron is string && request.resource.data.bron.size() <= 500
+                    && request.resource.data.foto is string && request.resource.data.foto.size() <= 700000
+                    && request.resource.data.gemaakt == request.time;
+    }
   }
 }

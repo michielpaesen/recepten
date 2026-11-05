@@ -212,3 +212,20 @@ body.kassaopen { overflow:hidden; }
 .lijstkop a { font-weight:600; text-decoration:none; }
 .lijstkop h1 { margin:4px 0 0; font-size:1.5rem; }
 #kaarten { margin-top:16px; }
+
+/* recept toevoegen (/toevoegen/) */
+.toevoegen { max-width:640px; margin:0 auto; }
+.toevoegen h1 { margin:8px 0 16px; }
+#formulier { display:flex; flex-direction:column; gap:16px; }
+.veld { display:flex; flex-direction:column; gap:5px; }
+.veld label, .veldnaam { font-weight:600; font-size:.95rem; }
+.veld .hulp { color:var(--muted); font-size:.85rem; margin:0; font-weight:400; }
+.veld input:not([type=file]), .veld select, .veld textarea { font:inherit; font-size:16px; padding:10px 12px; border:1px solid var(--line); border-radius:10px; background:var(--card); color:var(--fg); width:100%; }
+.veld textarea { min-height:150px; resize:vertical; line-height:1.5; }
+.rij2 { display:grid; grid-template-columns:repeat(2, minmax(0,1fr)); gap:12px; }
+.foto { display:flex; align-items:center; gap:14px; }
+.fotovak { width:120px; aspect-ratio:4/3; flex:none; border-radius:10px; border:2px dashed var(--line); display:grid; place-items:center; color:var(--muted); font-size:.8rem; text-align:center; padding:6px; cursor:pointer; background:center/cover no-repeat var(--card); }
+.fotovak.gevuld { border-style:solid; }
+.fotovak.gevuld span { visibility:hidden; }
+.linkknop { border:0; background:none; color:var(--accent); font:inherit; text-decoration:underline; cursor:pointer; padding:0; }
+#klaar .knop { display:inline-block; text-decoration:none; margin:6px 6px 0 0; }

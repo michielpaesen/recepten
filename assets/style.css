@@ -1,4 +1,5 @@
 :root { --bg:#fffaf5; --fg:#2b2622; --muted:#7a6f66; --accent:#c8553d; --card:#fff; --line:#eadfd6; }
+[hidden] { display:none !important; }
 @media (prefers-color-scheme: dark) {
   :root { --bg:#1d1a18; --fg:#f1ebe6; --muted:#a89d94; --accent:#e9785f; --card:#2a2623; --line:#3a3431; }
 }
@@ -170,7 +171,7 @@ a.knop { display:inline-block; text-decoration:none; margin-bottom:20px; }
 
 /* klantenkaarten */
 .verborgen { position:absolute; width:1px; height:1px; opacity:0; pointer-events:none; }
-.kaart { display:flex; flex-direction:column; gap:14px; max-width:520px; }
+.klantkaart { display:flex; flex-direction:column; gap:14px; max-width:520px; }
 .kaarttegel { display:flex; flex-direction:column; align-items:flex-start; gap:4px; width:100%; min-height:120px; padding:18px 20px; border:0; border-radius:16px; background:#00457c; color:#fff; font:inherit; text-align:left; cursor:pointer; }
 .kaarttegel b { font-size:1.8rem; line-height:1.1; }
 .kaarttegel span { opacity:.9; }

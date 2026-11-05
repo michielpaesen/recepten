@@ -88,7 +88,7 @@ permalink: /toevoegen/
       $('formulier').hidden = true; $('klaar').hidden = false; window.scrollTo(0, 0);
     } catch (err) {
       console.warn(err);
-      toonFout('Bewaren lukte niet. Controleer je internetverbinding en probeer opnieuw.');
+      toonFout(err && err.code === 'permission-denied' ? 'Bewaren is nog niet geactiveerd: de Firebase-regels moeten nog gepubliceerd worden.' : 'Bewaren lukte niet. Controleer je internetverbinding en probeer opnieuw.');
     } finally { $('bewaar').disabled = false; $('bewaar').textContent = 'Recept bewaren'; }
   });
   // links: Firestore `links`; status per link staat in _data/links.json (bijgehouden door de GitHub-taak en Claude)
@@ -127,7 +127,7 @@ permalink: /toevoegen/
       const d = await window.dbKlaar; if (!d) throw new Error('geen verbinding');
       await d.fs.addDoc(d.fs.collection(d.db, 'links'), { url, gemaakt: d.fs.serverTimestamp() });
       $('l-url').value = ''; ok.className = 'melding goed'; ok.textContent = 'Op de wachtlijst. Claude zet de recepten elke avond rond 20.40 uur op de site.'; ok.hidden = false;
-    } catch (err) { console.warn(err); ok.className = 'melding fout'; ok.textContent = 'Toevoegen lukte niet. Controleer je internetverbinding en probeer opnieuw.'; ok.hidden = false; }
+    } catch (err) { console.warn(err); ok.className = 'melding fout'; ok.textContent = err && err.code === 'permission-denied' ? 'Toevoegen is nog niet geactiveerd: de Firebase-regels moeten nog gepubliceerd worden.' : 'Toevoegen lukte niet. Controleer je internetverbinding en probeer opnieuw.'; ok.hidden = false; }
     finally { $('l-knop').disabled = false; }
   });
 

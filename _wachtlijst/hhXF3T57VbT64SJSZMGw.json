@@ -1,0 +1,95 @@
+{
+ "soort": "website",
+ "bron": {
+  "url": "https://www.hellofresh.be/recipes/bao-bun-met-sticky-varkenshaas-63186ecfd5dbaf89530813b4",
+  "titel": "Bao bun met sticky varkenshaas",
+  "foto": "https://img.hellofresh.com/hellofresh_s3/image/bao-bun-met-sticky-varkenshaas-a38f7f88-afa4aac4.jpg",
+  "recept": {
+   "@context": "http://schema.org/",
+   "@type": "Recipe",
+   "@id": "https://www.hellofresh.be/recipes/bao-bun-met-sticky-varkenshaas-63186ecfd5dbaf89530813b4#recipe",
+   "name": "Bao bun met sticky varkenshaas met zoetzuur, sugarsnaps en zoete Aziatische saus",
+   "author": "HelloFresh",
+   "image": "https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/bao-bun-met-sticky-varkenshaas-a38f7f88-afa4aac4.jpg",
+   "thumbnailUrl": "https://img.hellofresh.com/f_auto,fl_lossy,h_300,q_auto,w_450/hellofresh_s3/image/bao-bun-met-sticky-varkenshaas-a38f7f88-afa4aac4.jpg",
+   "description": "De bao bun is een smaakvolle Chinese uitvinding om een vaak zoete en kleverige saus makkelijk onderweg op te eten. Streetfoodproof dus!",
+   "datePublished": "2022-09-07T10:13:38.000Z",
+   "totalTime": "PT35M",
+   "nutrition": {
+    "@type": "NutritionInformation",
+    "calories": "917 kcal",
+    "fatContent": "31 g",
+    "saturatedFatContent": "5 g",
+    "carbohydrateContent": "113 g",
+    "sugarContent": "34 g",
+    "proteinContent": "42 g",
+    "fiberContent": "6.7 g",
+    "cholesterolContent": null,
+    "sodiumContent": "4 g",
+    "servingSize": "481"
+   },
+   "recipeInstructions": [
+    {
+     "@type": "HowToStep",
+     "text": "<p>Haal de varkenshaas uit de koelkast om op kamertemperatuur te laten komen. Verwarm de oven voor op 180 graden. Snijd de komkommer in dunne repen zodat ze makkelijk in de broodjes passen. Meng in een grote kom de suiker, 1 1/2 el wittewijnazijn per persoon en een snuf zout. Voeg de spitskool en de komkommer toe, schep om en laat intrekken tot serveren (zie Tip).</p><p>Tip: Vind je de spitskool te grof gesneden om rauw te eten? Snijd deze dan nog iets fijner.</p>"
+    },
+    {
+     "@type": "HowToStep",
+     "text": "<p><span>Rasp de gember fijn. </span>Pers de knoflook of snijd fijn. Snijd de bosui in fijne ringen en bewaar het witte en groene gedeelte apart van elkaar. Meng in een kleine kom de bruine suiker met de sojasaus en sesamolie (zie Tip). Snijd de varkenshaas in dunne plakken en wrijf in met peper en zout. <span>Voeg de bloem toe aan een kom en wentel de plakken erdoorheen</span> zodat alle kanten met een dun laagje bloem bedekt zijn.</p><p>Tip: Houd je van pittig? Voeg dan een beetje sambal of sriracha toe.</p>"
+    },
+    {
+     "@type": "HowToStep",
+     "text": "<p><span>Bak de bao broodjes 4 - 5 minuten in de oven. </span>Verhit ondertussen 1/4 el zonnebloemolie per persoon in een koekenpan op middelhoog vuur. Fruit de helft van de knoflook 1 minuut. Voeg de sugar snaps toe en bak 3 - 4 minuten. Blus af met de helft van de zoete Aziatische saus en breng op smaak met peper en zout.</p>"
+    },
+    {
+     "@type": "HowToStep",
+     "text": "<p>Verhit ondertussen 1 el zonnebloemolie per persoon in een tweede grote koekenpan op middelhoog vuur. Leg, wanneer de pan goed heet is, de varkenshaasplakken erin en bak 1 minuut per kant. Zorg dat er genoeg ruimte is in de pan om de plakken naast elkaar te leggen (zie Tip). <span>Haal de varkenshaas uit de pan en bewaar op een bord. </span>Het vlees hoeft nog niet gaar te zijn.</p><p>Tip:  Als de pan te klein is kun je dit in meerdere keren doen.</p>"
+    },
+    {
+     "@type": "HowToStep",
+     "text": "<p>Voeg de gember, de overige knoflook en het witte gedeelte van de bosui toe aan de pan van het varkensvlees en bak 2 - 3 minuten op middellaag vuur. Voeg daarna de gemengde soja-sesamsaus en 2 el water per persoon toe. Breng aan de kook en voeg de varkenshaasplakken weer toe aan de pan zodra de saus begint te borrelen. Roer regelmatig door tot de saus indikt en aan het vlees begint te plakken.</p>"
+    },
+    {
+     "@type": "HowToStep",
+     "text": "<p><span>Snijd de koriander grof. </span>Vul de bao broodjes met wat van de zoetzure groenten en het varkensvlees. Garneer met het groene gedeelte van de bosui, de koriander en de overige zoete Aziatische saus. Serveer met de sugar snaps en de overige zoetzure groenten. Garneer de groenten met het zwarte sesamzaad.</p>"
+    }
+   ],
+   "recipeIngredient": [
+    "⅔ stuk(s) Komkommer",
+    "100 gram Gesneden spitskool",
+    "100 gram Sugarsnaps",
+    "1 zakje(s) Zoete Aziatische saus",
+    "6 stuk(s) Bao broodje",
+    "2 cm Verse gember",
+    "2 stuk(s) Knoflookteen",
+    "2 stuk(s) Lente-ui",
+    "20 ml Sojasaus",
+    "20 ml Sesamolie",
+    "2 stuk(s) Varkenshaas",
+    "5 gram Verse koriander",
+    "½ zakje(s) Zwart sesamzaad",
+    "2 tl Suiker",
+    "20 gram Bloem",
+    "naar smaak Peper en zout",
+    "3 el Wittewijnazijn",
+    "2.5 el Zonnebloemolie",
+    "2 el Bruine basterdsuiker"
+   ],
+   "recipeYield": 2,
+   "recipeCategory": "Hoofdgerecht",
+   "recipeCuisine": "Aziatisch",
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.4927096106157265",
+    "ratingCount": "2469",
+    "bestRating": "5",
+    "worstRating": "1"
+   },
+   "review": []
+  },
+  "tekst": "Bao bun met sticky varkenshaas Recept | HelloFresh\nSkip to main content\nBao bun met sticky varkenshaasmet zoetzuur, sugarsnaps en zoete Aziatische saus\n4.5(2,5K)\nRecipe Development TeamUpdate op August 21, 2026\nOpslaan\nKrijg tot € 70 korting*\nOpslaan\nKrijg tot € 70 korting*\nCalorieën\n: 917 kcal\nEiwitten\n: 42g eiwitten\nTotaalbedrag\n: 35 minuten\nDifficulty\n: Gemiddeld\nAllergenen:\nSoja•\nTarwe•\nSesamzaad\nDe bao bun is een smaakvolle Chinese uitvinding om een vaak zoete en kleverige saus makkelijk onderweg op te eten. Streetfoodproof dus!\nGemaakt in een fabriek waar eieren, melk, vis, pinda's, sesam, schaaldieren, soja, noten en tarwe worden verwerkt.\nIngrediënten\nHoeveelheden\n123456\n⅓ stuk(s)\nKomkommer\n50 gram\nGesneden spitskool\n50 gram\nSugarsnaps\n½ zakje(s)\nZoete Aziatische saus\n(Bevat: Soja, Tarwe)\n3 stuk(s)\nBao broodje\n1 cm\nVerse gember\n1 stuk(s)\nKnoflookteen\n1 stuk(s)\nLente-ui\n10 ml\nSojasaus\n(Bevat: Soja, Tarwe)\n10 ml\nSesamolie\n(Bevat: Sesamzaad)\n1 stuk(s)\nVarkenshaas\n2.5 gram\nVerse koriander\n¼ zakje(s)\nZwart sesamzaad\n(Bevat: Sesamzaad)\nNiet inbegrepen in jouw box\n1 tl\nSuiker\n10 gram\nBloem\nnaar smaak\nPeper en zout\n1.5 el\nWittewijnazijn\n1.25 el\nZonnebloemolie\n1 el\nBruine basterdsuiker\nVoedingswaarden\nper portieper 100g\nEnergie (kcal)917 kcal\nEnergie (kJ)3835 kJ\nVetten31 g\nwaarvan verzadigd5 g\nKoolhydraten113 g\nwaarvan suikers34 g\nVezels6.7 g\nEiwitten42 g\nZout4 g\nBenodigdheden\n•Grote kom\n•Kom\n•Rasp\n•Kleine kom\n•Koekenpan\n•Bord\nInstructies\n1\nHaal de varkenshaas uit de koelkast om op kamertemperatuur te laten komen. Verwarm de oven voor op 180 graden. Snijd de komkommer in dunne repen zodat ze makkelijk in de broodjes passen. Meng in een grote kom de suiker, 1 1/2 el wittewijnazijn per persoon en een snuf zout. Voeg de spitskool en de komkommer toe, schep om en laat intrekken tot serveren (zie Tip).\nTip: Vind je de spitskool te grof gesneden om rauw te eten? Snijd deze dan nog iets fijner.\n2\nRasp de gember fijn. Pers de knoflook of snijd fijn. Snijd de bosui in fijne ringen en bewaar het witte en groene gedeelte apart van elkaar. Meng in een kleine kom de bruine suiker met de sojasaus en sesamolie (zie Tip). Snijd de varkenshaas in dunne plakken en wrijf in met peper en zout. Voeg de bloem toe aan een kom en wentel de plakken erdoorheen zodat alle kanten met een dun laagje bloem bedekt zijn.\nTip: Houd je van pittig? Voeg dan een beetje sambal of sriracha toe.\n3\nBak de bao broodjes 4 - 5 minuten in de oven. Verhit ondertussen 1/4 el zonnebloemolie per persoon in een koekenpan op middelhoog vuur. Fruit de helft van de knoflook 1 minuut. Voeg de sugar snaps toe en bak 3 - 4 minuten. Blus af met de helft van de zoete Aziatische saus en breng op smaak met peper en zout.\n4\nVerhit ondertussen 1 el zonnebloemolie per persoon in een tweede grote koekenpan op middelhoog vuur. Leg, wanneer de pan goed heet is, de varkenshaasplakken erin en bak 1 minuut per kant. Zorg dat er genoeg ruimte is in de pan om de plakken naast elkaar te leggen (zie Tip). Haal de varkenshaas uit de pan en bewaar op een bord. Het vlees hoeft nog niet gaar te zijn.\nTip: Als de pan te klein is kun je dit in meerdere keren doen.\n5\nVoeg de gember, de overige knoflook en het witte gedeelte van de bosui toe aan de pan van het varkensvlees en bak 2 - 3 minuten op middellaag vuur. Voeg daarna de gemengde soja-sesamsaus en 2 el water per persoon toe. Breng aan de kook en voeg de varkenshaasplakken weer toe aan de pan zodra de saus begint te borrelen. Roer regelmatig door tot de saus indikt en aan het vlees begint te plakken.\n6\nSnijd de koriander grof. Vul de bao broodjes met wat van de zoetzure groenten en het varkensvlees. Garneer met het groene gedeelte van de bosui, de koriander en de overige zoete Aziatische saus. Serveer met de sugar snaps en de overige zoetzure groenten. Garneer de groenten met het zwarte sesamzaad.\nKnoflook Recepten\nKool Recepten\nUi Recepten\nKomkommer Recepten\nMeer heerlijke recepten met vergelijkbare ingrediënten\nKlassieke scampi diabolique in currysausmet gebakken courgette en tomatenketchup\n35 minuten\nPikante curry met kip en rijstmet paprika en verse koriander\n15 minuten\nGerookte-paprikarisotto met gegratineerde geitenkaasmet honing, walnootstukjes en tomaat-basilicumsalsa\n35 minuten\nOrzo met courgette en kerstomatenmet geraspte gruyère en rozemarijn\n35 minuten\nPasta met geroosterde-paprikasaus en geitenkaasmet courgette en vers basilicum\n50 minuten\nVegetarische lasagne met courgette en spinaziemet zelfgemaakte roomsaus \n55 minuten\nRomige spaghetti met broccoli en courgettemet geitenkaas, walnoot en semi-gedroogde tomaten\n25 minuten\nSnelle pasta met kabeljauw in roomsausmet courgette, citroen en munt\n15 minuten\nOvenschotel met gehaktmet wortel, doperwten en aardappelen\n50 minuten\nSpaghetti alla puttanesca met ansjovis en kappertjesmet een frisse salade\n30 minuten\nPenne met zelfgemaakte basilicumcrème en pistachenoten met zachte aubergine en courgette\n25 minuten\nBiefstuk met gebakken witte aspergesmet krieltjes en mosterdroomsaus\n30 minuten\nOrzo op Siciliaanse wijze met kipgehakt en rozijnenmet walnoot, broccoli en pecorino\n25 minuten\nPittige risotto met bleekselderij en courgettemet buffelmozzarella en basilicum\n40 minuten\nPastaschotel met kip uit de ovenin ricottasaus met zomergroenten \n35 minuten\nQuiche met broccoli, cherrytomaten en oude kaasmet tijm en oregano\n50 minuten\nParelcouscoussalade met avocado en fetamet tomaat, limoen en koriander\n20 minuten\nSnelle rijstschotel met kip en groentenmet spekjes en verse krulpeterselie\n25 minuten\nMaaltijdsoep met zoete aardappel en paprikamet een kurkumabroodje en crème fraîche\n35 minuten\nVegetarische spaghetti carbonaramet paddenstoelen en verse krulpeterselie\n20 minuten\nHoogst beoordeelde recepten voor avondeten\nOvenschotel met gehaktmet wortel, doperwten en aardappelen\n50 minuten\nOrzo met spinazie en cherrytomatenmet grana padano en pijnboompitten\n30 minuten\nSnelle linguine met kipgehaktmet spinazie en tomaatjes in rode-pestosaus\n20 minuten\nMaaltijdsoep met zoete aardappel en paprikamet een kurkumabroodje en crème fraîche\n35 minuten\nMexicaanse taco's met kipgehaktmet pittige groene peper en cheddar\n25 minuten\nKipcurry met ananasmet rijst en paprika\n35 minuten\nGevuld bladerdeeg met kipgehakt en broccolimet kruidenroomkaas en een tomatensalade\n35 minuten\nVegetarische lasagne met courgette en spinaziemet zelfgemaakte roomsaus \n55 minuten\nRomige spaghetti met broccoli en courgettemet geitenkaas, walnoot en semi-gedroogde tomaten\n25 minuten\nEnchilada's met kipgehaktmet zure room en frisse salade\n25 minuten\nGerookte-paprikarisotto met gegratineerde geitenkaasmet honing, walnootstukjes en tomaat-basilicumsalsa\n35 minuten\nSnelle pasta met kabeljauw in roomsausmet courgette, citroen en munt\n15 minuten\nPastasalade met groene pesto, tomaten en fetaSmaakvolle ingrediënten zijn samengevoegd in een supersnel gerecht\n20 minuten\nShakshuka met geitenkaas en eiMet krulpeterselie en speltbaguette\n35 minuten\nPenne met zelfgemaakte basilicumcrème en pistachenoten met zachte aubergine en courgette\n25 minuten\nKlassieke scampi diabolique in currysausmet gebakken courgette en tomatenketchup\n35 minuten\nKipfilet in mosterd-roomsausmet gebakken aardappelen, kastanjechampignons en broccoli\n25 minuten\nPasta met geroosterde-paprikasaus en geitenkaasmet courgette en vers basilicum\n50 minuten\nParelcouscoussalade met avocado en fetamet tomaat, limoen en koriander\n20 minuten\nPittige risotto met bleekselderij en courgettemet buffelmozzarella en basilicum\n40 minuten\nOntdek recente recepten\nCrostini met gekonfijte eend, pijnboompitten en Parmigiano Reggianomet cranberry-sjalotten, basilicum, citroen en balsamicocrème\n20 minuten\nEntrecote met rodewijnjus en spruitjes met spekmet pastinaak-aardappelpuree, bieslook en pecannoten\n25 minuten\nGezouten chocolademousse met frisse appelsiensiroopmet pistachenoten en rozemarijnkerstboompjes\n2 uur\nKnolselderijsteaks in kappertjes-roomsausmet feta, broccolini, aardappelpuree en cranberry's\n45 minuten\nZachte pompoensoep met feta en hazelnotenmet ciabatta-croutons, verse kruiden en een vleugje appelsien\n30 minuten\nTofu als extra180 g | 2 porties\nGrootmoeder's mosselen met frietjesmet citroen, prei en verse peterselie\n35 minuten\nTonijn-sushitaco’s met avocado en furikakehaal de foodtrend in huis! \n20 minuten\nSticky buikspek met kruidige noedelsoep met paksoi, limoen en verse kruiden\n25 minuten\nFilet mignon op romige citroenrijstmet aglio e olio, tomaten en courgette\n15 minuten\nVarkenshaaspuntjes in champignonroomsausmet rijst, peterselie en paprika\n25 minuten\nGekonfijte eend met demi-glace van sjalottenmet knoflookpatatjes en appel-komkommersalade\n40 minuten\nRigatoni met gekonfijte eend en geroosterde-tomatensausmet pecorino en Siciliaanse kruiden\n30 minuten\nScampi's in aromatische pompoensoepmet frisse chiliboter, rijstnoedels en koriander\n35 minuten\nPangasiusfilet met zwarte-bonennoedelsmet zoetzure komkommer, lente-ui en paprika\n20 minuten\nDoritos Loaded | met rundergehakt en cheddarmet bio gehakt | zwarte bonen, koriander en limoen\n15 minuten\nSportersfavoriet: XL portie pangasiusfilet met rijst en sperziebonenmet min. 50 g eiwit per persoon\n25 minuten\nFusion-noedels met tandoori-kalkoenmet wokgroenten in ketjapsaus\n15 minuten\nRomige spaghetti met rundergehakt en harissamet biologisch gehakt | spinazie, puntpaprika en peterselie\n15 minuten\nVeggie kipbowl à la Kung Paomet rijst, cashewstukjes en zoetzure komkommer\n15 minuten\nOntdek meer recepten"
+ },
+ "id": "hhXF3T57VbT64SJSZMGw",
+ "url": "https://www.hellofresh.be/recipes/bao-bun-met-sticky-varkenshaas-63186ecfd5dbaf89530813b4",
+ "opgehaald": "2026-11-05T19:45:23+00:00"
+}

@@ -82,7 +82,7 @@ layout: default
   Weg.onChange(() => {
     const per = {};
     kaarten.forEach(k => { if (!Weg.has(k.dataset.id)) per[k.dataset.bord] = (per[k.dataset.bord] || 0) + 1; });
-    document.querySelectorAll('.aantal[data-bord]').forEach(s => s.textContent = per[s.dataset.bord] || 0);
+    document.querySelectorAll('.aantal[data-bord]').forEach(s => { const n = per[s.dataset.bord] || 0; s.textContent = n + (n === 1 ? ' recept' : ' recepten'); });
     document.querySelectorAll('.aantal[data-groep]').forEach(s => s.textContent = GROEPEN.find(g => g.slug === s.dataset.groep).borden.reduce((t, b) => t + (per[b] || 0), 0));
     $('wegknop').querySelector('.aantal').textContent = Weg.size;
     if (weergave && weergave.weg && !Weg.size) { history.replaceState(null, '', location.pathname); weergave = null; }

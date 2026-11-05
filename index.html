@@ -10,8 +10,8 @@ layout: default
   {% for g in site.groepen %}<section class="bgroep-start" data-groep="{{ g.slug }}">
     <h2><a href="#groep-{{ g.slug }}">{{ g.naam }}</a> <span class="aantal" data-groep="{{ g.slug }}"></span></h2>
     <div class="bordtegels">
-      {% for s in g.borden %}{% assign b = site.borden | where: 'slug', s | first %}{% assign br = site.recepten | where: 'bord', s | where_exp: 'r', 'r.afbeelding' | sort: 'title' %}{% assign foto = br | where_exp: 'r', "r.tags contains 'topper'" | first %}{% unless foto %}{% assign foto = br | first %}{% endunless %}
-      <a class="bordtegel{% unless foto %} leeg{% endunless %}" href="#{{ s }}" data-bord="{{ s }}">{% if foto %}<img src="{{ foto.afbeelding }}" alt="" loading="lazy">{% endif %}<span>{{ b.naam }}<small class="aantal" data-bord="{{ s }}"></small></span></a>{% endfor %}
+      {% for s in g.borden %}{% assign b = site.borden | where: 'slug', s | first %}
+      <a class="bordtegel leeg" href="#{{ s }}" data-bord="{{ s }}"><span>{{ b.naam }}<small class="aantal" data-bord="{{ s }}"></small></span></a>{% endfor %}
     </div>
   </section>
   {% endfor %}
@@ -19,7 +19,7 @@ layout: default
 <ul class="kaarten" id="kaarten" hidden>
   {% assign recepten = site.recepten | sort: 'title' %}
   {% for r in recepten %}
-  <li class="kaart" data-id="{{ r.url }}" data-bord="{{ r.bord }}" data-tekst="{{ r.title | append: ' ' | append: r.content | strip_html | downcase | escape }}">
+  <li class="kaart" data-id="{{ r.url }}" data-bord="{{ r.bord }}"{% if r.tags contains 'topper' %} data-topper{% endif %} data-tekst="{{ r.title | append: ' ' | append: r.content | strip_html | downcase | escape }}">
     <a href="{{ r.url | relative_url }}">
       {% if r.afbeelding %}<img src="{{ r.afbeelding }}" alt="" loading="lazy">{% else %}<div class="placeholder">🍽️</div>{% endif %}
       <span class="kaart-titel">{{ r.title }}</span>
@@ -76,6 +76,12 @@ layout: default
   zoek.addEventListener('keydown', e => { if (e.key === 'Enter') zoek.blur(); });
   $('terugnaar').addEventListener('click', e => { e.preventDefault(); zoek.value = ''; history.pushState(null, '', location.pathname); leesHash(); });
 
+  // foto per bord: een topper als die er is, anders het eerste recept (alfabetisch) met een foto
+  const foto = {};
+  kaarten.forEach(k => { const img = k.querySelector('img'); if (!img) return; const b = k.dataset.bord, f = foto[b];
+    if (!f || (!f.top && k.hasAttribute('data-topper'))) foto[b] = { src: img.getAttribute('src'), top: k.hasAttribute('data-topper') }; });
+  document.querySelectorAll('.bordtegel').forEach(t => { const f = foto[t.dataset.bord]; if (!f) return;
+    t.classList.remove('leeg'); t.insertAdjacentHTML('afterbegin', '<img src="' + f.src + '" alt="" loading="lazy">'); });
   // aantallen op de tegels (zonder verwijderde recepten)
   kaarten.forEach(k => k.insertAdjacentHTML('beforeend', '<button class="terug" data-id="' + k.dataset.id + '">↩ Terugzetten</button>'));
   document.querySelectorAll('.terug').forEach(t => t.addEventListener('click', () => Weg.toggle(t.dataset.id, false)));

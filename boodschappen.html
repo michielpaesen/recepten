@@ -52,9 +52,7 @@ permalink: /boodschappen/
   function tegel(k, it, recent) {
     const h = L.hoeveel(it), cat = L.catVan(it.naam, it);
     return '<li><button class="tegel' + (recent ? ' recent' : '') + '" data-k="' + esc(k) + '" aria-label="' + esc(hoofd(it.naam) + (it.spec ? ' ' + it.spec : '') + (h ? ', ' + h : '')) + (recent ? ' – terug op lijstje' : ' – afvinken') + '">'
-      + (L.icoon(it.naam) ? '<span class="ticoon" aria-hidden="true">' + L.icoon(it.naam) + '</span>'
-                          : '<span class="ticoon letter" aria-hidden="true">' + L.letter(it.naam) + '</span>')
-      + '<span class="tnaam">' + esc(hoofd(it.naam)) + '</span>'
+      + '<span class="tnaam">' + hoofd(it.naam).split(/\s+/).filter(Boolean).map(w => '<span>' + esc(w) + '</span>').join('') + '</span>'
       + (!recent && (it.spec || h) ? '<span class="tsub">' + esc([it.spec, h].filter(Boolean).join(' · ')) + '</span>' : '') + '</button></li>';
   }
 
@@ -71,7 +69,21 @@ permalink: /boodschappen/
     $('recent').innerHTML = recent.map(([k, it]) => tegel(k, it, true)).join('');
     $('lijstknoppen').hidden = !open.length;
     $('namen').innerHTML = L.alleNamen().map(n => '<option value="' + esc(hoofd(n)) + '">').join('');
+    pas();
   }
+  // een woord wordt nooit afgebroken: is het te lang voor de tegel, dan wordt dat woord kleiner
+  function pas() {
+    document.querySelectorAll('.tegel').forEach(t => {
+      if (!t.clientWidth) return;
+      const max = t.clientWidth - 12;
+      t.querySelectorAll('.tnaam span').forEach(w => {
+        w.style.fontSize = '';
+        let f = parseFloat(getComputedStyle(w).fontSize);
+        while (w.scrollWidth > max && f > 9) { f -= .5; w.style.fontSize = f + 'px'; }
+      });
+    });
+  }
+  addEventListener('resize', pas);
 
   $('nieuw').addEventListener('submit', e => {
     e.preventDefault();

@@ -146,8 +146,9 @@ a.knop { display:inline-block; text-decoration:none; margin-bottom:20px; }
 .tegel.weg { opacity:.25; transform:scale(.92); }
 .tegel.druk { transform:scale(1.06); box-shadow:0 6px 16px rgba(0,0,0,.3); }
 .ticoon { font-size:2.1rem; line-height:1; }
-.tnaam { font-size:.85rem; font-weight:700; line-height:1.15; text-align:center; overflow-wrap:anywhere; }
-.tsub { font-size:.75rem; line-height:1.1; text-align:center; opacity:.95; overflow-wrap:anywhere; }
+.tnaam { font-size:1rem; font-weight:700; line-height:1.15; text-align:center; display:flex; flex-direction:column; align-items:center; max-width:100%; }
+.tnaam span { white-space:nowrap; display:block; }
+.tsub { font-size:.82rem; line-height:1.1; text-align:center; opacity:.95; overflow-wrap:anywhere; }
 .recent .ticoon { font-size:1.8rem; }
 .ticoon.letter { width:2.3rem; height:2.3rem; border-radius:50%; border:2px solid currentColor; display:grid; place-items:center; font-size:1.2rem; font-weight:700; opacity:.85; }
 .recent .ticoon.letter { width:2rem; height:2rem; font-size:1.05rem; }

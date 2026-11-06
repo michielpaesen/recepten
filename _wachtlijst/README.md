@@ -8,7 +8,7 @@ Werkinstructie voor Claude (geplande taak, elke avond rond 21 uur). Communiceer 
 2. De GitHub Action `.github/workflows/eigen-recepten.yml` (elk halfuur) draait `scripts/links_ophalen.py`:
    - `_wachtlijst/<id>.json` met wat er achter de link zit (zie hieronder),
    - eventueel `_wachtlijst/<id>.jpg|webp|png` (foto, vooral Instagram),
-   - status in `_data/links.json`: `opgehaald`, `mislukt` (+ `reden`), of `klaar` (+ `recept`).
+   - status in `_data/links.json`: `opgehaald`, `browser` (Instagram, zie onder), `mislukt` (+ `reden`), of `klaar` (+ `recept`).
 3. Claude zet elke `opgehaald` link om naar een recept en zet de status op `klaar`.
    De site toont op /toevoegen/ een wachtlijst van alles wat niet `klaar` is.
 
@@ -31,6 +31,19 @@ Werkinstructie voor Claude (geplande taak, elke avond rond 21 uur). Communiceer 
   - Pinterest/website: de URL van `pin.foto` of `bron.foto` mag rechtstreeks in `afbeelding`.
   - Instagram: zet de foto om naar `assets/ig/<code>.webp` (480×360, bijgesneden) en gebruik `afbeelding: /recepten/assets/ig/<code>.webp`.
 - Dubbel (zelfde bron al op de site)? Geen nieuw bestand; zet de status op `klaar` met `recept` naar het bestaande recept.
+
+## Instagram (status `browser`)
+
+Instagram blokkeert GitHub en de cloud (getest 2026-11-05). Daarom draaien er twee geplande taken:
+
+- **20:38 "Receptlinks verwerken"** (cloud): alle links met status `opgehaald`. Laat `browser` staan.
+- **20:52 "Instagram-links verwerken"** (op Michiels computer, ingebouwde browser van de Claude-app): alle links met status `browser`. Staat de computer uit of is de browser niet bereikbaar, dan niets wijzigen; de link blijft op de wachtlijst tot de volgende avond.
+
+Werkwijze in de browser: open een tab op `https://www.instagram.com/`, en lees vanaf die pagina met
+`fetch('/p/<code>/embed/captioned/')` de HTML; de posttekst staat in `<div class="Caption">` (zonder de
+gebruikersnaam-link), de foto in `img.EmbeddedMediaImage`. Lukt de foto niet als bestand, gebruik dan
+`afbeelding` niet en meld het in de samenvatting. Verwijst de post naar een receptsite, haal de bereiding
+daar (Firecrawl). Daarna dezelfde regels als hierboven.
 
 ## Na het verwerken
 

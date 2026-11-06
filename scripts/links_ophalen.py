@@ -5,7 +5,8 @@ Draait in de GitHub Action, die wel overal mag surfen. Claude verwerkt _wachtlij
 recepten (zie _wachtlijst/README.md). Per link:
   _wachtlijst/<id>.json   bron-URL, recept-JSON-LD (als de site dat heeft), paginatekst, foto-URL
   _wachtlijst/<id>.<ext>  de foto (Instagram-fotolinks vervallen, dus meteen bewaren)
-Status per link in _data/links.json: opgehaald | mislukt (+ reden) | klaar (+ recept, gezet door Claude).
+Status per link in _data/links.json: opgehaald | browser (Instagram: Claude haalt het 's avonds via de
+browser op Michiels computer) | mislukt (+ reden) | klaar (+ recept, gezet door Claude).
 """
 import html
 import json
@@ -152,6 +153,8 @@ def instagram(url, doc_id):
     m = re.search(r"instagram\.com/(?:[^/]+/)?(?:p|reel|reels|tv)/([A-Za-z0-9_-]+)", url)
     if not m:
         raise Fout("dit is geen Instagram-post")
+    # Instagram toont GitHub nooit de post (getest 2026-11-05): meteen doorgeven aan de browserverwerking
+    raise ViaBrowser(m.group(1))
     code = m.group(1)
     h, _ = get(f"https://www.instagram.com/p/{code}/embed/captioned/")
     cap = re.search(r'<div class="Caption"[^>]*>(.*?)</div>', h, re.S)
@@ -169,6 +172,10 @@ def instagram(url, doc_id):
 
 class Fout(Exception):
     pass
+
+
+class ViaBrowser(Exception):
+    """Instagram blokkeert GitHub; Claude haalt de post op via de ingebouwde browser."""
 
 
 def haal(url, doc_id):
@@ -191,7 +198,7 @@ def main():
         doc_id = doc["name"].rsplit("/", 1)[1]
         url = doc.get("fields", {}).get("url", {}).get("stringValue", "").strip()
         st = status.get(doc_id, {})
-        if not re.fullmatch(r"[A-Za-z0-9]+", doc_id) or st.get("status") in ("opgehaald", "klaar"):
+        if not re.fullmatch(r"[A-Za-z0-9]+", doc_id) or st.get("status") in ("opgehaald", "klaar", "browser"):
             continue
         if st.get("status") == "mislukt" and st.get("pogingen", 0) >= MAX_POGINGEN:
             continue
@@ -203,6 +210,8 @@ def main():
             data.update({"id": doc_id, "url": url, "opgehaald": nu})
             (WACHT / f"{doc_id}.json").write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
             status[doc_id] = {"url": url, "status": "opgehaald", "opgehaald": nu}
+        except ViaBrowser as e:
+            status[doc_id] = {"url": url, "status": "browser", "code": str(e), "opgehaald": nu}
         except Fout as e:
             status[doc_id] = {"url": url, "status": "mislukt", "reden": str(e), "pogingen": MAX_POGINGEN}
         except Exception as e:  # noqa: BLE001  (netwerk: later opnieuw proberen)

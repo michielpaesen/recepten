@@ -113,7 +113,7 @@ permalink: /toevoegen/
         const li = document.createElement('li'); if (r.st.status === 'mislukt') li.className = 'mis';
         const b = document.createElement('b'); b.textContent = kort(r.url);
         const s = document.createElement('span'); s.className = 'st';
-        s.textContent = r.st.status === 'mislukt' ? 'Lukte niet: ' + (r.st.reden || 'onbekende fout') : 'Wacht op verwerking' + (r.t ? ' · ' + wanneer(r.t) : '');
+        s.textContent = r.st.status === 'mislukt' ? 'Lukte niet: ' + (r.st.reden || 'onbekende fout') : 'Wacht op verwerking' + (r.st.status === 'browser' ? ' (Instagram: lukt alleen als de computer aanstaat)' : '') + (r.t ? ' · ' + wanneer(r.t) : '');
         li.append(b, s); return li; }));
     }, e => console.warn('Wachtlijst niet geladen', e));
   });

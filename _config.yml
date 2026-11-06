@@ -158,6 +158,17 @@ borden:
     naam: "Ontbijt"
 
 # Groepen van borden: de knoppen in de filterrij; een groep toont daaronder zijn borden
+  - slug: pasta-salade
+    naam: "Pasta salade"
+  - slug: soep
+    naam: "Soep"
+  - slug: ice-creams
+    naam: "Ice creams"
+  - slug: yoghurt
+    naam: "Yoghurt"
+  - slug: overnight-oats-chia-pudding
+    naam: "Overnight oats & chiapudding"
+
 groepen:
   - slug: pasta
     naam: "Pasta"
@@ -167,10 +178,10 @@ groepen:
     borden: [rijst, risotto, couscous, parelcouscous, bulgur, quinoa, ebly]
   - slug: salades
     naam: "Salades"
-    borden: [salade, salade-vegetarische, couscous-salade, quinoa-salade, ebly-salade, poke-bowl]
+    borden: [salade, salade-vegetarische, couscous-salade, quinoa-salade, ebly-salade, poke-bowl, pasta-salade]
   - slug: hoofdgerechten
     naam: "Hoofdgerechten"
-    borden: [vlees, gehakt, groenten, aardappelen, frieten, halloumi, gevulde-paprikas, one-pan, ovenschotels, bbq, plaattaart]
+    borden: [vlees, gehakt, groenten, aardappelen, frieten, halloumi, gevulde-paprikas, one-pan, ovenschotels, bbq, plaattaart, soep]
   - slug: brood-pizza
     naam: "Brood & pizza"
     borden: [brood, naan, pita, wraps, paninis, burgers, hamburgers, hotdogs, pizza, tortizza, flammkuchen]
@@ -179,10 +190,10 @@ groepen:
     borden: [mexicaans, tacos, enchiladas, quesadila, nachos, empanada, falafel, afghaanse-gerechten]
   - slug: hapjes-lunch
     naam: "Hapjes & lunch"
-    borden: [starters, baking-hartig, lunches, ontbijt, smoothies]
+    borden: [starters, baking-hartig, lunches, ontbijt, smoothies, yoghurt, overnight-oats-chia-pudding]
   - slug: zoet
     naam: "Zoet"
-    borden: [baking-zoet, desserts]
+    borden: [baking-zoet, desserts, ice-creams]
 
 # Kleine filterknoppen onder de groepen: naam en de tags die erbij horen
 filters:

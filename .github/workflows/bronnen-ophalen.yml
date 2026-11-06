@@ -1,0 +1,21 @@
+# Eenmalig of af en toe: bronsites ophalen voor _import/pins.json (bulkimport van Pinterest-borden).
+name: Bronsites ophalen
+on:
+  workflow_dispatch: {}
+permissions:
+  contents: write
+concurrency: eigen-recepten
+jobs:
+  ophalen:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/bronnen_ophalen.py
+      - run: |
+          git add _import
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name "Recept toevoegen"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Bronsites opgehaald voor de import"
+          git pull --rebase
+          git push

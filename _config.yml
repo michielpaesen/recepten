@@ -213,4 +213,4 @@ firebase:
   appId: "1:879638841036:web:45825b9e5f0203f285a469"
 
 # niet op de site zetten
-exclude: [scripts, README.md]
+exclude: [scripts, README.md, _import]

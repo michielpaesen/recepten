@@ -242,3 +242,16 @@ body.kassaopen { overflow:hidden; }
 .wacht .mis .st { color:#c9463d; }
 .zelf summary { cursor:pointer; font-weight:600; color:var(--accent); padding:10px 0; list-style-position:inside; }
 .zelf[open] summary { margin-bottom:12px; }
+/* recept toevoegen: pdf uploaden */
+.pdfblok { margin:-6px 0 18px; display:flex; flex-direction:column; gap:8px; }
+.pdfblok .hulp { color:var(--muted); font-size:.85rem; margin:0; }
+.ofregel { display:flex; align-items:center; gap:10px; color:var(--muted); font-size:.85rem; }
+.ofregel::before, .ofregel::after { content:""; flex:1; border-top:1px solid var(--line); }
+.pdfkies { display:block; text-align:center; }
+.pdfbestand { display:flex; align-items:center; gap:10px; background:var(--card); border:1px solid var(--line); border-radius:12px; padding:10px 12px; }
+.pdfnaam { flex:1; min-width:0; overflow-wrap:anywhere; font-weight:600; }
+.pdfnaam small { display:block; color:var(--muted); font-weight:400; }
+.pdflabel { flex:none; display:inline-block; font-size:.7rem; font-weight:800; letter-spacing:.05em; color:#fff; background:var(--accent); border-radius:6px; padding:2px 6px; margin-right:6px; vertical-align:2px; }
+.pdfbestand .pdflabel { margin-right:0; }
+.pdfbalk { height:6px; margin-top:8px; background:var(--line); border-radius:99px; overflow:hidden; }
+.pdfbalk i { display:block; height:100%; width:0; background:var(--accent); transition:width .3s; }

@@ -56,5 +56,27 @@ service cloud.firestore {
                     && request.resource.data.url.size() <= 500
                     && request.resource.data.gemaakt == request.time;
     }
+
+    // Geüploade pdf's: eerst de stukjes (pdfdelen/<id>-<nr>, base64), daarna pas pdfs/<id>.
+    match /pdfs/{id} {
+      allow read: if true;
+      allow update, delete: if false;
+      allow create: if request.resource.data.keys().hasOnly(['naam', 'grootte', 'delen', 'gemaakt'])
+                    && request.resource.data.naam is string && request.resource.data.naam.size() > 0 && request.resource.data.naam.size() <= 200
+                    && request.resource.data.grootte is int && request.resource.data.grootte > 0 && request.resource.data.grootte <= 10485760
+                    && request.resource.data.delen is int && request.resource.data.delen >= 1 && request.resource.data.delen <= 20
+                    && request.resource.data.gemaakt == request.time;
+    }
+
+    match /pdfdelen/{id} {
+      allow read: if true;
+      allow update, delete: if false;
+      allow create: if request.resource.data.keys().hasOnly(['pdf', 'nr', 'data', 'gemaakt'])
+                    && request.resource.data.pdf is string && request.resource.data.pdf.matches('^[A-Za-z0-9]{10,40}$')
+                    && request.resource.data.nr is int && request.resource.data.nr >= 0 && request.resource.data.nr < 20
+                    && id == request.resource.data.pdf + '-' + string(request.resource.data.nr)
+                    && request.resource.data.data is string && request.resource.data.data.size() > 0 && request.resource.data.data.size() <= 750000
+                    && request.resource.data.gemaakt == request.time;
+    }
   }
 }

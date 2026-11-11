@@ -10,6 +10,17 @@ permalink: /toevoegen/
       <div class="linkrij"><input id="l-url" type="url" inputmode="url" maxlength="500" autocomplete="off" placeholder="https://…"><button class="knop" type="submit" id="l-knop">Toevoegen</button></div></div>
     <p class="melding" id="l-ok" hidden></p>
   </form>
+  <div class="pdfblok">
+    <div class="ofregel">of</div>
+    <label class="knop licht pdfkies" for="p-bestand" id="p-kies">Kies een pdf</label>
+    <input id="p-bestand" type="file" accept="application/pdf,.pdf" class="verborgen">
+    <p class="hulp">Een recept of een heel boekje (max. 10 MB). Elk recept in de pdf wordt een apart recept.</p>
+    <div id="p-bezig" hidden>
+      <div class="pdfbestand"><span class="pdflabel">PDF</span><span class="pdfnaam"><span id="p-naam"></span><small id="p-info"></small></span></div>
+      <div class="pdfbalk"><i id="p-balk"></i></div>
+    </div>
+    <p class="melding" id="p-ok" hidden></p>
+  </div>
   <section class="wacht" id="wacht" hidden>
     <h2>Wachtlijst <span class="aantal" id="w-aantal"></span></h2>
     <ul id="w-lijst"></ul>
@@ -99,23 +110,31 @@ permalink: /toevoegen/
     if (d.toDateString() === nu.toDateString()) return 'vandaag ' + t;
     if (d.toDateString() === new Date(nu - dag).toDateString()) return 'gisteren';
     return d.toLocaleDateString('nl-BE', { day: 'numeric', month: 'short' }); };
-  let toonLinks = () => {};
+  // wachtlijst = geplakte links (`links`) + geüploade pdf's (`pdfs`)
+  let linkRijen = [], pdfRijen = [];
+  const toonWacht = () => {
+    const rijen = [...linkRijen, ...pdfRijen].sort((a, b) => (b.t || 0) - (a.t || 0));
+    $('wacht').hidden = !rijen.length; $('w-aantal').textContent = rijen.length;
+    $('w-lijst').replaceChildren(...rijen.map(r => {
+      const li = document.createElement('li'); if (r.st.status === 'mislukt') li.className = 'mis';
+      const b = document.createElement('b');
+      if (r.pdf) { const l = document.createElement('span'); l.className = 'pdflabel'; l.textContent = 'PDF'; b.append(l); }
+      b.append(r.tekst);
+      const s = document.createElement('span'); s.className = 'st';
+      s.textContent = r.st.status === 'mislukt' ? 'Lukte niet: ' + (r.st.reden || 'onbekende fout') : 'Wacht op verwerking' + (r.st.status === 'browser' ? ' (Instagram: lukt alleen als de computer aanstaat)' : '') + (r.t ? ' · ' + wanneer(r.t) : '');
+      li.append(b, s); return li; }));
+  };
+  const rijenUit = (snap, maak) => { const rijen = [];
+    snap.forEach(doc => { const st = STATUS[doc.id] || {}; if (st.status === 'klaar') return;
+      rijen.push({ ...maak(doc.data()), t: doc.data().gemaakt && doc.data().gemaakt.toDate(), st }); });
+    return rijen; };
   window.dbKlaar.then(d => {
     if (!d) return;
     const { fs, db } = d;
-    fs.onSnapshot(fs.collection(db, 'links'), snap => {
-      const rijen = [];
-      snap.forEach(doc => { const st = STATUS[doc.id] || {}; if (st.status === 'klaar') return;
-        rijen.push({ url: doc.data().url, t: doc.data().gemaakt && doc.data().gemaakt.toDate(), st }); });
-      rijen.sort((a, b) => (b.t || 0) - (a.t || 0));
-      $('wacht').hidden = !rijen.length; $('w-aantal').textContent = rijen.length;
-      $('w-lijst').replaceChildren(...rijen.map(r => {
-        const li = document.createElement('li'); if (r.st.status === 'mislukt') li.className = 'mis';
-        const b = document.createElement('b'); b.textContent = kort(r.url);
-        const s = document.createElement('span'); s.className = 'st';
-        s.textContent = r.st.status === 'mislukt' ? 'Lukte niet: ' + (r.st.reden || 'onbekende fout') : 'Wacht op verwerking' + (r.st.status === 'browser' ? ' (Instagram: lukt alleen als de computer aanstaat)' : '') + (r.t ? ' · ' + wanneer(r.t) : '');
-        li.append(b, s); return li; }));
-    }, e => console.warn('Wachtlijst niet geladen', e));
+    fs.onSnapshot(fs.collection(db, 'links'), snap => { linkRijen = rijenUit(snap, x => ({ tekst: kort(x.url || '') })); toonWacht(); },
+      e => console.warn('Wachtlijst niet geladen', e));
+    fs.onSnapshot(fs.collection(db, 'pdfs'), snap => { pdfRijen = rijenUit(snap, x => ({ tekst: x.naam || 'pdf', pdf: true })); toonWacht(); },
+      e => console.warn('Pdf-wachtlijst niet geladen', e));
   });
   $('linkform').addEventListener('submit', async e => {
     e.preventDefault();
@@ -129,6 +148,38 @@ permalink: /toevoegen/
       $('l-url').value = ''; ok.className = 'melding goed'; ok.textContent = 'Op de wachtlijst. Claude zet de recepten elke avond rond 20.40 uur op de site.'; ok.hidden = false;
     } catch (err) { console.warn(err); ok.className = 'melding fout'; ok.textContent = err && err.code === 'permission-denied' ? 'Toevoegen is nog niet geactiveerd: de Firebase-regels moeten nog gepubliceerd worden.' : 'Toevoegen lukte niet. Controleer je internetverbinding en probeer opnieuw.'; ok.hidden = false; }
     finally { $('l-knop').disabled = false; }
+  });
+
+  // pdf uploaden: base64 in stukjes naar `pdfdelen/<id>-<nr>`, daarna `pdfs/<id>` (zie firestore.rules en scripts/pdfs_ophalen.py)
+  const MAXPDF = 10 * 1024 * 1024, STUK = 750000;
+  const mb = n => (n / 1048576).toFixed(1).replace('.', ',') + ' MB';
+  const pdfMeld = (t, fout) => { const ok = $('p-ok'); ok.className = 'melding ' + (fout ? 'fout' : 'goed'); ok.textContent = t; ok.hidden = !t; };
+  $('p-bestand').addEventListener('change', async () => {
+    const f = $('p-bestand').files[0]; $('p-bestand').value = ''; pdfMeld('');
+    if (!f) return;
+    if (!/\.pdf$/i.test(f.name) && f.type !== 'application/pdf') return pdfMeld('Dit is geen pdf. Kies een bestand dat eindigt op .pdf.', true);
+    if (f.size > MAXPDF) return pdfMeld('Deze pdf is ' + mb(f.size) + '. Het maximum is 10 MB.', true);
+    $('p-naam').textContent = f.name; $('p-info').textContent = mb(f.size) + ' · uploaden…'; $('p-balk').style.width = '3%';
+    $('p-bezig').hidden = false; $('p-kies').hidden = true;
+    try {
+      const b64 = await new Promise((ja, nee) => { const r = new FileReader();
+        r.onload = () => ja(String(r.result).split(',')[1] || ''); r.onerror = () => nee(r.error); r.readAsDataURL(f); });
+      if (!atob(b64.slice(0, 8)).startsWith('%PDF')) throw Object.assign(new Error('geen pdf'), { code: 'geen-pdf' });
+      const d = await window.dbKlaar; if (!d) throw new Error('geen verbinding');
+      const { fs, db } = d;
+      const id = fs.doc(fs.collection(db, 'pdfs')).id, delen = Math.ceil(b64.length / STUK);
+      for (let i = 0; i < delen; i++) {
+        await fs.setDoc(fs.doc(db, 'pdfdelen', id + '-' + i), { pdf: id, nr: i, data: b64.slice(i * STUK, (i + 1) * STUK), gemaakt: fs.serverTimestamp() });
+        $('p-balk').style.width = Math.round((i + 1) / (delen + 1) * 100) + '%';
+      }
+      await fs.setDoc(fs.doc(db, 'pdfs', id), { naam: f.name.slice(0, 200), grootte: f.size, delen, gemaakt: fs.serverTimestamp() });
+      pdfMeld('Op de wachtlijst. Claude zet de recepten uit de pdf elke avond rond 20.40 uur op de site.');
+    } catch (err) {
+      console.warn(err);
+      pdfMeld(err && err.code === 'geen-pdf' ? 'Dit bestand is geen echte pdf. Kies een ander bestand.'
+        : err && err.code === 'permission-denied' ? 'Pdf\'s uploaden is nog niet geactiveerd: de Firebase-regels moeten nog gepubliceerd worden.'
+        : 'Uploaden lukte niet. Controleer je internetverbinding en probeer opnieuw.', true);
+    } finally { $('p-bezig').hidden = true; $('p-kies').hidden = false; }
   });
 
   $('nogeen').addEventListener('click', () => { $('formulier').reset(); $('fotoweg').click(); $('formulier').hidden = false; $('klaar').hidden = true; $('zelf').open = true; window.scrollTo(0, 0); });
